@@ -1,0 +1,1288 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>מפת התקדמות – קו ירוק</title>
+<style>
+  :root {
+    --bg: #f5f6f1;
+    --surface: #ffffff;
+    --surface-2: #fbfbf8;
+    --text-primary: #0e2841;
+    --text-secondary: #4c5b62;
+    --muted: #8b9198;
+    --border: rgba(14,40,65,0.12);
+    --border-soft: rgba(14,40,65,0.07);
+    --accent: #5c9a34;
+    --accent-strong: #3f7a20;
+    --accent-soft: #e8f1d9;
+    --nodata: #c9c6b9;
+    --shadow: 0 1px 2px rgba(14,40,65,0.06), 0 6px 20px rgba(14,40,65,0.07);
+    --radius: 14px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d1b26;
+      --surface: #142a38;
+      --surface-2: #112330;
+      --text-primary: #eaf1e6;
+      --text-secondary: #b7c2bd;
+      --muted: #8998a0;
+      --border: rgba(234,241,230,0.14);
+      --border-soft: rgba(234,241,230,0.08);
+      --accent: #8fc653;
+      --accent-strong: #a8d66c;
+      --accent-soft: rgba(143,198,83,0.16);
+      --nodata: #3a4048;
+      --shadow: 0 1px 2px rgba(0,0,0,0.25), 0 8px 24px rgba(0,0,0,0.35);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: Calibri, "Segoe UI", Arial, system-ui, sans-serif;
+    background: radial-gradient(1100px 380px at 12% -8%, rgba(92,154,52,0.08), transparent 60%), var(--bg);
+    color: var(--text-primary);
+    padding: 28px;
+  }
+  h1 { font-size: 27px; margin: 0 0 4px; letter-spacing: 0.2px; position: relative; padding-inline-start: 14px; }
+  h1::before {
+    content: "";
+    position: absolute;
+    right: 0; top: 3px; bottom: 5px;
+    width: 5px;
+    border-radius: 3px;
+    background: linear-gradient(180deg, var(--accent-strong), var(--accent));
+  }
+  .subtitle { color: var(--text-secondary); font-size: 14px; margin-bottom: 22px; line-height: 1.5; white-space: nowrap; }
+
+  .toolbar {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 13px 18px;
+    margin-bottom: 22px;
+    flex-wrap: wrap;
+    box-shadow: var(--shadow);
+  }
+  .toolbar label { font-size: 14px; color: var(--text-secondary); font-weight: 600; }
+  .toolbar select {
+    font-family: inherit;
+    font-size: 14px;
+    padding: 7px 12px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--surface-2);
+    color: var(--text-primary);
+  }
+  .toolbar .latest-badge {
+    font-size: 12px;
+    color: var(--accent-strong);
+    background: linear-gradient(135deg, var(--accent-soft), rgba(143,198,83,0.4));
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    animation: pulseGlow 2.4s ease-in-out infinite;
+  }
+  @keyframes pulseGlow {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(63,122,32,0.32); }
+    50% { box-shadow: 0 0 0 6px rgba(63,122,32,0); }
+  }
+  .depot-toggle {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 13px;
+    color: var(--text-secondary);
+    font-weight: 600;
+    margin-inline-start: auto;
+    cursor: pointer;
+    user-select: none;
+  }
+  .depot-toggle input { width: 16px; height: 16px; accent-color: var(--accent-strong); cursor: pointer; }
+
+  .layout {
+    display: grid;
+    grid-template-columns: minmax(0, 2.15fr) minmax(300px, 1fr);
+    gap: 22px;
+    align-items: start;
+  }
+  @media (max-width: 980px) {
+    .layout { grid-template-columns: 1fr; }
+  }
+
+  .summary-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 22px 26px;
+    box-shadow: var(--shadow);
+    margin-bottom: 22px;
+    position: relative;
+  }
+  .summary-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(700px 260px at 8% 15%, var(--accent-soft), transparent 60%);
+    opacity: 0.9;
+    pointer-events: none;
+  }
+  .summary-card h2 { position: relative; z-index: 1; margin: 0 0 16px; font-size: 18px; color: var(--text-primary); font-weight: 700; }
+  .summary-main {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .summary-hero {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .summary-ring { width: 100%; height: 100%; display: block; }
+  .ring-track { fill: none; stroke: var(--border-soft); stroke-width: 12; }
+  .ring-fill {
+    fill: none;
+    stroke: var(--accent-strong);
+    stroke-width: 12;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 1s cubic-bezier(.22,.9,.25,1), stroke .6s ease;
+  }
+  .summary-hero-label {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .summary-pct { font-size: 32px; font-weight: 800; font-variant-numeric: tabular-nums; letter-spacing: -0.5px; }
+
+  .summary-disciplines {
+    flex: 1;
+    min-width: 280px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    z-index: 1;
+  }
+  @media (max-width: 900px) { .summary-disciplines { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 560px) { .summary-disciplines { grid-template-columns: 1fr; } }
+
+  .summary-tile {
+    background: var(--surface-2);
+    border: 1px solid var(--border-soft);
+    border-radius: 10px;
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+    animation: tileIn .45s ease both;
+  }
+  .summary-tile:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(14,40,65,0.12);
+    border-color: var(--accent-soft);
+  }
+  .summary-tile .disc-icon { width: 26px; height: 26px; }
+  .summary-tile .disc-icon svg { width: 15px; height: 15px; }
+  .summary-tile-main { flex: 1; min-width: 0; }
+  .summary-tile-name { font-size: 11.5px; font-weight: 700; color: var(--text-secondary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .summary-tile-row { display: flex; align-items: center; gap: 6px; margin-top: 5px; }
+  .summary-tile-pct { font-size: 13px; font-weight: 800; min-width: 34px; text-align: left; font-variant-numeric: tabular-nums; }
+
+  .summary-junctions {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+    padding-top: 14px;
+    margin-top: 18px;
+    border-top: 1px solid var(--border-soft);
+  }
+  .junction-stat {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--surface-2);
+    border: 1px solid var(--border-soft);
+    border-radius: 10px;
+    padding: 10px 14px;
+    flex: 1;
+    min-width: 220px;
+    transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+    animation: tileIn .45s ease both;
+  }
+  .junction-stat:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(14,40,65,.10); border-color: var(--accent-soft); }
+  .junction-stat .disc-icon { width: 34px; height: 34px; flex-shrink: 0; }
+  .junction-stat .disc-icon svg { width: 19px; height: 19px; }
+  .junction-stat-num { font-size: 22px; font-weight: 800; font-variant-numeric: tabular-nums; line-height: 1; }
+  .junction-stat-label { font-size: 12px; color: var(--text-secondary); font-weight: 700; margin-top: 3px; }
+
+  .map-card, .side-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px;
+    box-shadow: var(--shadow);
+  }
+  .map-card h2, .side-card h2 {
+    font-size: 18px;
+    margin: 0 0 4px;
+    color: var(--text-primary);
+    font-weight: 700;
+  }
+  .card-hint { font-size: 12.5px; color: var(--muted); margin: 0 0 14px; }
+
+  .map-wrap { position: relative; width: 100%; }
+  #routeMap { width: 100%; height: auto; display: block; }
+
+  .lot-marker { cursor: pointer; }
+  .lot-marker[data-clickable="false"] { cursor: default; }
+  .lot-anchor { display: none; }
+  .lot-badge {
+    transform-box: fill-box;
+    transform-origin: center;
+    transition: transform .18s cubic-bezier(.34,1.56,.64,1);
+    animation: badgePop .5s cubic-bezier(.34,1.56,.64,1) both;
+  }
+  .lot-badge:hover { transform: scale(1.12); }
+  .lot-badge circle.ring {
+    stroke: rgba(255,255,255,0.9);
+    stroke-width: 2.2;
+    transition: stroke-width .15s ease;
+  }
+  .lot-badge:hover circle.ring { stroke-width: 3.4; }
+  .lot-badge .code { font-size: 12px; font-weight: 700; font-family: Calibri, "Segoe UI", Arial, sans-serif; }
+  .lot-badge .pct { font-size: 15px; font-weight: 800; font-family: Calibri, "Segoe UI", Arial, sans-serif; }
+  .lot-badge.nodata circle.ring { fill: url(#nodataHatch); stroke: var(--muted); }
+  .lot-badge.nodata .code, .lot-badge.nodata .pct { fill: var(--text-secondary); }
+  @keyframes badgePop {
+    from { opacity: 0; transform: scale(0.4); }
+    to { opacity: 1; transform: scale(1); }
+  }
+  @keyframes tileIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .legend {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12.5px;
+    color: var(--text-secondary);
+    flex-wrap: wrap;
+  }
+  .legend .ramp {
+    flex: 1;
+    min-width: 120px;
+    height: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #2a5414, #488022, #6ea831, #91c440, #b2d678, #d6e7af, #eef4e0);
+  }
+  .legend .nodata-swatch {
+    width: 14px; height: 14px; border-radius: 3px;
+    background: repeating-linear-gradient(45deg, var(--nodata), var(--nodata) 3px, var(--surface) 3px, var(--surface) 6px);
+    border: 1px solid var(--border);
+    display: inline-block;
+    vertical-align: middle;
+    margin-inline-end: 4px;
+  }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: right; padding: 8px 5px; border-bottom: 1px solid var(--border-soft); }
+  th { color: var(--muted); font-weight: 700; font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.3px; }
+  td.num { font-variant-numeric: tabular-nums; }
+  tbody tr { transition: background-color .15s ease; }
+  tbody tr:hover { background-color: var(--accent-soft); }
+  .bar-cell { display: flex; align-items: center; gap: 7px; }
+  .bar-track { flex: 1; height: 8px; background: var(--border-soft); border-radius: 4px; overflow: hidden; }
+  .bar-fill { height: 100%; border-radius: 4px; transition: width .7s cubic-bezier(.22,.9,.25,1), background-color .4s ease; }
+  .pct-label { min-width: 36px; text-align: left; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .row-lot { font-weight: 700; }
+  .detail-btn {
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--accent-strong);
+    background: var(--accent-soft);
+    border: none;
+    border-radius: 6px;
+    padding: 4px 9px;
+    cursor: pointer;
+  }
+  .detail-btn { transition: transform .12s ease, filter .12s ease; }
+  .detail-btn:hover { filter: brightness(0.95); transform: translateY(-1px); }
+  .detail-btn:disabled { opacity: 0.4; cursor: default; }
+  .detail-btn:disabled:hover { transform: none; }
+
+  .note {
+    font-size: 11.5px;
+    color: var(--muted);
+    margin-top: 14px;
+    line-height: 1.6;
+  }
+
+  /* breakdown panel */
+  .backdrop {
+    position: fixed; inset: 0;
+    background: rgba(14,24,32,0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+    padding: 20px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .25s ease;
+  }
+  .backdrop.show { opacity: 1; pointer-events: auto; }
+  .panel {
+    background: var(--surface);
+    border-radius: 16px;
+    width: 100%;
+    max-width: 560px;
+    max-height: 86vh;
+    overflow-y: auto;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+    border: 1px solid var(--border);
+    transform: scale(0.94) translateY(10px);
+    opacity: 0;
+    transition: transform .3s cubic-bezier(.22,.9,.25,1), opacity .22s ease;
+  }
+  .backdrop.show .panel { transform: scale(1) translateY(0); opacity: 1; }
+  .panel-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 18px 20px;
+    border-bottom: 1px solid var(--border-soft);
+    position: sticky;
+    top: 0;
+    background: var(--surface);
+    z-index: 5;
+  }
+  .panel-header .lot-chip {
+    font-size: 15px;
+    font-weight: 800;
+    color: #fff;
+    background: var(--accent-strong);
+    border-radius: 8px;
+    padding: 6px 11px;
+  }
+  .panel-header h3 { margin: 0; font-size: 16px; flex: 1; }
+  .panel-header .overall-pct { font-size: 20px; font-weight: 800; font-variant-numeric: tabular-nums; }
+  .panel-close {
+    border: none;
+    background: var(--surface-2);
+    color: var(--text-secondary);
+    width: 30px; height: 30px;
+    border-radius: 50%;
+    font-size: 15px;
+    cursor: pointer;
+    line-height: 1;
+  }
+  .panel-close:hover { background: var(--border-soft); }
+  .panel-body { padding: 6px 20px 20px; }
+  .disc-row {
+    display: grid;
+    grid-template-columns: 30px 1fr auto;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border-soft);
+    animation: tileIn .35s ease both;
+  }
+  .disc-row:last-child { border-bottom: none; }
+  .disc-icon {
+    width: 30px; height: 30px;
+    border-radius: 8px;
+    background: var(--accent-soft);
+    color: var(--accent-strong);
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .disc-icon svg { width: 18px; height: 18px; }
+  .disc-main { min-width: 0; }
+  .disc-name { font-size: 13.5px; font-weight: 700; margin-bottom: 6px; }
+  .disc-bar-row { display: flex; align-items: center; gap: 8px; }
+  .disc-amount { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .disc-pct { font-size: 15px; font-weight: 800; min-width: 46px; text-align: left; font-variant-numeric: tabular-nums; }
+  .disc-row.na { opacity: 0.55; }
+  .disc-row.na .disc-name::after { content: " — לא רלוונטי למקטע זה"; font-weight: 400; color: var(--muted); }
+  .tunnel-msg { padding: 20px; color: var(--text-secondary); font-size: 14px; line-height: 1.6; }
+
+  .disc-row-expandable { cursor: pointer; }
+  .disc-row-expandable:hover { background: var(--surface-2); }
+  .disc-pct-wrap { display: flex; align-items: center; gap: 4px; }
+  .disc-expand-arrow { font-size: 11px; color: var(--muted); transition: transform .18s ease; }
+  .disc-row-expandable.expanded .disc-expand-arrow { transform: rotate(180deg); }
+  .bldg-list {
+    display: none;
+    grid-template-columns: 1fr 120px 40px;
+    gap: 6px 12px;
+    padding: 4px 12px 12px 46px;
+    background: var(--surface-2);
+    border-radius: 8px;
+    margin: -6px 0 6px;
+  }
+  .bldg-list.show { display: grid; }
+  .bldg-row { display: contents; }
+  .bldg-name { font-size: 12px; color: var(--text-secondary); padding: 4px 0; }
+  .bldg-pct { font-size: 12px; font-weight: 700; text-align: left; font-variant-numeric: tabular-nums; }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+</style>
+</head>
+<body>
+
+<h1>מפת התקדמות – קו ירוק</h1>
+<div class="subtitle">אחוז ביצוע מצטבר לפי מקטע ולפי דיסציפלינה, מתוך דוח הביצוע הדו-שבועי. לחצו על מקטע במפה או בטבלה לפירוט מלא.</div>
+
+<div class="toolbar">
+  <label for="dateSelect">תאריך דיווח:</label>
+  <select id="dateSelect"></select>
+  <span class="latest-badge" id="latestBadge" style="display:none;">עדכני ביותר</span>
+  <label class="depot-toggle" for="includeDepotsToggle">
+    <input type="checkbox" id="includeDepotsToggle">
+    כולל דיפויים
+  </label>
+</div>
+
+<div class="summary-card">
+  <h2>התקדמות כוללת בפרויקט</h2>
+  <div class="summary-main">
+    <div class="summary-hero">
+      <svg class="summary-ring" viewBox="0 0 160 160" aria-hidden="true">
+        <circle class="ring-track" cx="80" cy="80" r="68"/>
+        <circle class="ring-fill" id="summaryRingFill" cx="80" cy="80" r="68" transform="rotate(-90 80 80)"/>
+      </svg>
+      <div class="summary-hero-label">
+        <div class="summary-pct" id="summaryPct">0%</div>
+      </div>
+    </div>
+    <div class="summary-disciplines" id="summaryDisciplines"></div>
+  </div>
+  <div class="summary-junctions" id="summaryJunctions"></div>
+</div>
+
+<div class="summary-card">
+  <h2>דרום (EPO) — מקטעים 1A–6A</h2>
+  <div class="summary-main">
+    <div class="summary-hero">
+      <svg class="summary-ring" viewBox="0 0 160 160" aria-hidden="true">
+        <circle class="ring-track" cx="80" cy="80" r="68"/>
+        <circle class="ring-fill" id="summarySouthRingFill" cx="80" cy="80" r="68" transform="rotate(-90 80 80)"/>
+      </svg>
+      <div class="summary-hero-label">
+        <div class="summary-pct" id="summarySouthPct">0%</div>
+      </div>
+    </div>
+    <div class="summary-disciplines" id="summarySouthDisciplines"></div>
+  </div>
+  <div class="summary-junctions" id="summarySouthJunctions"></div>
+</div>
+
+<div class="summary-card">
+  <h2>צפון — מקטעים 7A–12A</h2>
+  <div class="summary-main">
+    <div class="summary-hero">
+      <svg class="summary-ring" viewBox="0 0 160 160" aria-hidden="true">
+        <circle class="ring-track" cx="80" cy="80" r="68"/>
+        <circle class="ring-fill" id="summaryNorthRingFill" cx="80" cy="80" r="68" transform="rotate(-90 80 80)"/>
+      </svg>
+      <div class="summary-hero-label">
+        <div class="summary-pct" id="summaryNorthPct">0%</div>
+      </div>
+    </div>
+    <div class="summary-disciplines" id="summaryNorthDisciplines"></div>
+  </div>
+  <div class="summary-junctions" id="summaryNorthJunctions"></div>
+</div>
+
+<div class="side-card" style="margin-bottom:22px;">
+  <h2>דיפויים</h2>
+  <p class="card-hint">מבנים וחצר דיפו חולון והרצליה</p>
+  <table id="depotTable">
+    <thead>
+      <tr><th>דיפו</th><th>ביצוע ממוצע מבנים</th><th></th></tr>
+    </thead>
+    <tbody id="depotTableBody"></tbody>
+  </table>
+</div>
+
+<div class="side-card" style="margin-bottom:22px;">
+  <h2>TTR</h2>
+  <p class="card-hint">ביצוע לפי מבנה TTR, מתוך גיליון ה-TTR</p>
+  <table id="ttrTable">
+    <thead>
+      <tr><th>TTR</th><th>ביצוע</th><th></th></tr>
+    </thead>
+    <tbody id="ttrTableBody"></tbody>
+  </table>
+</div>
+
+<div class="layout">
+  <div class="map-card">
+    <h2>מפת מקטעים</h2>
+    <p class="card-hint">12 מקטעי קו, 1A–12A · לחיצה על מקטע מציגה פירוט לפי דיסציפלינה</p>
+    <div class="map-wrap">
+      <svg id="routeMap" viewBox="0 0 960 406" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="מפת מסלול קו ירוק, מחולקת ל-12 מקטעים">
+        <defs>
+          <filter id="lotShadow" x="-60%" y="-60%" width="220%" height="220%">
+            <feDropShadow dx="0" dy="1.5" stdDeviation="2.2" flood-color="#0e2841" flood-opacity="0.30"/>
+          </filter>
+          <pattern id="nodataHatch" width="8" height="8" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+            <rect width="8" height="8" fill="var(--nodata)"/>
+            <line x1="0" y1="0" x2="0" y2="8" stroke="var(--surface)" stroke-width="4"/>
+          </pattern>
+        </defs>
+
+        <image href="דוגמאות למפות/מפת קו ירוק - ירוק אחיד.png" x="0" y="0" width="960" height="406" preserveAspectRatio="none"/>
+
+        <g class="lot-markers">
+          <g class="lot-marker" data-lot="1A"><circle class="lot-anchor" cx="35"  cy="285" r="4"/></g>
+          <g class="lot-marker" data-lot="2A"><circle class="lot-anchor" cx="112" cy="205" r="4"/></g>
+          <g class="lot-marker" data-lot="3A"><circle class="lot-anchor" cx="275" cy="150" r="4"/></g>
+          <g class="lot-marker" data-lot="4A"><circle class="lot-anchor" cx="50"  cy="140" r="4"/></g>
+          <g class="lot-marker" data-lot="5A"><circle class="lot-anchor" cx="161" cy="145" r="4"/></g>
+          <g class="lot-marker" data-lot="6A"><circle class="lot-anchor" cx="345" cy="65"  r="4"/></g>
+          <g class="lot-marker" data-lot="7A"><circle class="lot-anchor" cx="460" cy="150" r="4"/></g>
+          <g class="lot-marker" data-lot="8A"><circle class="lot-anchor" cx="600" cy="65"  r="4"/></g>
+          <g class="lot-marker" data-lot="9A"><circle class="lot-anchor" cx="568" cy="197" r="4"/></g>
+          <g class="lot-marker" data-lot="10A"><circle class="lot-anchor" cx="575" cy="295" r="4"/></g>
+          <g class="lot-marker" data-lot="11A"><circle class="lot-anchor" cx="735" cy="345" r="4"/></g>
+          <g class="lot-marker" data-lot="12A"><circle class="lot-anchor" cx="790" cy="175" r="4"/></g>
+        </g>
+      </svg>
+    </div>
+    <div class="legend">
+      <span>0%</span>
+      <div class="ramp"></div>
+      <span>100%</span>
+      <span style="margin-inline-start:14px;"><span class="nodata-swatch"></span>ללא נתון בדוח זה</span>
+    </div>
+    <div class="note">
+      אחוז לכל מקטע מחושב על פני הדיסציפלינות הרלוונטיות לאותו מקטע, מתוך דוח הביצוע הדו-שבועי.
+    </div>
+  </div>
+
+  <div class="side-card">
+    <h2>טבלת מקטעים</h2>
+    <p class="card-hint">אחוז ביצוע כולל לפי מקטע</p>
+    <table id="lotTable">
+      <thead>
+        <tr><th>מקטע</th><th>אורך (מ')</th><th>ביצוע</th><th></th></tr>
+      </thead>
+      <tbody id="lotTableBody"></tbody>
+    </table>
+  </div>
+</div>
+
+<div class="backdrop" id="backdrop">
+  <div class="panel" role="dialog" aria-modal="true" id="panel"></div>
+</div>
+
+<script src="progress_data.js"></script>
+<script>
+  const LOT_ORDER = ["1A","2A","3A","4A","5A","6A","7A","8A","9A","10A","11A","12A"];
+
+  const DISCIPLINES = [
+    { key: "Excavation to foundation",   he: "חפירה",              unit: "excavate" },
+    { key: "Bedding Refill",             he: "מצעים",             unit: "bedding" },
+    { key: "OHLE piles",                 he: "כלונסאות עמודי חשמול (OHLE)",  unit: "pile" },
+    { key: "Multitubular",               he: "מולטיטובולר",                 unit: "multitube" },
+    { key: "Foundations slab",           he: "פאונדיישן סלאב",              unit: "slab" },
+    { key: "Track Installation on line", he: "התקנת מסילה",                 unit: "track" },
+    { key: "TRK Turnout Installation",   he: "התקנת מפלגים",                 unit: "turnout" },
+    { key: "OHLE Poles Installation",    he: "התקנת עמודי חשמול (OHLE)",     unit: "pole" }
+  ];
+
+  const ICONS = {
+    excavate:  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v9M8 9l4 4 4-4"/><path d="M5 21l2-6h10l2 6"/></svg>',
+    bedding:   '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h16M6 12.5h12M4 17h16"/></svg>',
+    pile:      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v14"/><path d="M7 21h10"/><rect x="9" y="17" width="6" height="4"/></svg>',
+    multitube: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="12" r="5"/><circle cx="16" cy="12" r="5"/></svg>',
+    slab:      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="5"/><path d="M4 10l2-3h12l2 3"/></svg>',
+    track:     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v20M16 2v20"/><path d="M5 6h6M13 6h6M5 12h6M13 12h6M5 18h6M13 18h6"/></svg>',
+    turnout:   '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20L20 4"/><path d="M12 12L20 20"/></svg>',
+    pole:      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21V5"/><path d="M6 8h12"/><path d="M6 8v3M18 8v3"/></svg>',
+    junctionDone: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 12.3l2.6 2.6L16.2 9"/></svg>',
+    junctionProgress: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7.3V12l3.3 1.9"/></svg>',
+    shell:     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V10l8-6 8 6v11"/><path d="M4 21h16M9 21v-6h6v6"/></svg>',
+    mep:       '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>',
+    rsy:       '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="7" width="16" height="9" rx="2"/><path d="M4 11h16"/><circle cx="8" cy="19" r="1.4"/><circle cx="16" cy="19" r="1.4"/><path d="M8 7V4h8v3"/></svg>',
+    landscape: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21v-7"/><path d="M12 14c-4 0-7-3-7-7 4 0 7 3 7 7z"/><path d="M12 14c4 0 7-3 7-7-4 0-7 3-7 7z"/></svg>'
+  };
+
+  const BUILDING_DISCIPLINES = [
+    { key: "Excavation and Foundation", he: "חפירה",             unit: "excavate" },
+    { key: "Shell",                     he: "שלד",               unit: "shell" },
+    { key: "Arch and MEP Works",        he: "מערכות מבנה",       unit: "mep" },
+    { key: "RSY - General",             he: "מערכות רכבתיות",    unit: "rsy" }
+  ];
+  const YARD_DEPOT_KEYS = ["Multitubular", "Foundations slab", "Track Installation on line", "OHLE Poles Installation"];
+  const DEPOT_LABELS = { "Holon": "דיפו חולון", "Herz": "דיפו הרצליה" };
+
+  const TTR_DISCIPLINES = [
+    { key: "Building Foundation",         he: "יסודות מבנה",    unit: "slab" },
+    { key: "Shell",                       he: "שלד",            unit: "shell" },
+    { key: "MEP and Architectural Works", he: "מערכות מבנה",    unit: "mep" },
+    { key: "Rail Systems",                he: "מערכות רכבתיות", unit: "rsy" },
+    { key: "Landscaping and Completion",  he: "גמרים",          unit: "landscape" }
+  ];
+
+  const UNIT_LABEL = { "m": "מ'", "Units": "יח'" };
+
+  // Sequential green ramp (light -> deep forest), brand green ~mid-high range
+  const RAMP = [
+    {p:0,   c:[238,244,224]},
+    {p:15,  c:[214,231,175]},
+    {p:30,  c:[178,214,120]},
+    {p:45,  c:[145,196,64]},
+    {p:60,  c:[110,168,49]},
+    {p:80,  c:[72,128,34]},
+    {p:100, c:[42,84,20]}
+  ];
+  function lerp(a,b,t){ return a + (b-a)*t; }
+  function colorForPct(p) {
+    p = Math.max(0, Math.min(100, p));
+    for (let i=0; i<RAMP.length-1; i++) {
+      const a = RAMP[i], b = RAMP[i+1];
+      if (p >= a.p && p <= b.p) {
+        const t = (p - a.p) / (b.p - a.p);
+        return [
+          Math.round(lerp(a.c[0], b.c[0], t)),
+          Math.round(lerp(a.c[1], b.c[1], t)),
+          Math.round(lerp(a.c[2], b.c[2], t))
+        ];
+      }
+    }
+    return RAMP[RAMP.length-1].c;
+  }
+  function rgbToCss(rgb){ return `rgb(${rgb[0]},${rgb[1]},${rgb[2]})`; }
+  function textColorFor(rgb) {
+    const [r,g,b] = rgb.map(v => v/255);
+    const lum = 0.2126*r + 0.7152*g + 0.0722*b;
+    return lum > 0.62 ? "#0e2841" : "#ffffff";
+  }
+  function fmt(n) {
+    if (n === null || n === undefined) return "–";
+    return Math.round(n).toLocaleString("he-IL");
+  }
+
+  const SOUTH_LOTS = ["1A","2A","3A","4A","5A","6A"];
+  const NORTH_LOTS = ["7A","8A","9A","10A","11A","12A"];
+
+  function computeProjectSummary(dateStr, lotFilter, depotKeys) {
+    const data = PROGRESS_DATA[dateStr] || {};
+    const totals = {};
+    DISCIPLINES.forEach(d => { totals[d.key] = { actual: 0, planned: 0 }; });
+    let allActual = 0, allPlanned = 0;
+    let junctionsTotal = 0, junctionsCompleted = 0, junctionsInProgress = 0;
+    const lots = lotFilter ? lotFilter.filter(lot => data[lot]) : Object.keys(data);
+    lots.forEach(lot => {
+      const disc = data[lot].disciplines || {};
+      Object.keys(disc).forEach(key => {
+        const v = disc[key];
+        if (!totals[key]) return;
+        totals[key].actual += v.actual;
+        totals[key].planned += v.planned;
+        allActual += v.actual;
+        allPlanned += v.planned;
+      });
+      const j = data[lot].junctions;
+      if (j) {
+        junctionsTotal += j.total;
+        junctionsCompleted += j.completed;
+        junctionsInProgress += j.inProgress;
+      }
+    });
+
+    const includeDepots = document.getElementById("includeDepotsToggle").checked;
+    if (includeDepots && depotKeys && DEPOT_DATA[dateStr]) {
+      depotKeys.forEach(dk => {
+        const dep = DEPOT_DATA[dateStr][dk];
+        if (!dep || !dep.yard) return;
+        Object.keys(dep.yard).forEach(key => {
+          const v = dep.yard[key];
+          if (!totals[key]) return;
+          totals[key].actual += v.actual;
+          totals[key].planned += v.planned;
+          allActual += v.actual;
+          allPlanned += v.planned;
+        });
+      });
+    }
+
+    const disciplineResults = DISCIPLINES.map(d => {
+      const t = totals[d.key];
+      const pct = t.planned > 0 ? Math.round((t.actual / t.planned) * 1000) / 10 : null;
+      return Object.assign({}, d, { pct, actual: t.actual, planned: t.planned });
+    });
+    const overallPct = allPlanned > 0 ? Math.round((allActual / allPlanned) * 1000) / 10 : 0;
+    return {
+      overallPct,
+      disciplineResults,
+      junctions: { total: junctionsTotal, completed: junctionsCompleted, inProgress: junctionsInProgress }
+    };
+  }
+
+  function animateNumber(el, to, suffix) {
+    suffix = suffix || "%";
+    const from = parseFloat(el.dataset.val || "0");
+    const duration = 750;
+    const start = performance.now();
+    function step(now) {
+      const t = Math.min(1, (now - start) / duration);
+      const eased = 1 - Math.pow(1 - t, 3);
+      const val = from + (to - from) * eased;
+      el.textContent = (Math.round(val * 10) / 10).toLocaleString("he-IL") + suffix;
+      if (t < 1) requestAnimationFrame(step);
+      else el.dataset.val = to;
+    }
+    requestAnimationFrame(step);
+  }
+
+  const RING_R = 68;
+  const RING_C = 2 * Math.PI * RING_R;
+
+  function makeSummaryRenderer(idPrefix, lotFilter, depotKeys) {
+    const ringFill = document.getElementById(idPrefix + "RingFill");
+    const pctEl = document.getElementById(idPrefix + "Pct");
+    const discWrap = document.getElementById(idPrefix + "Disciplines");
+    const juncWrap = document.getElementById(idPrefix + "Junctions");
+    ringFill.setAttribute("stroke-dasharray", RING_C.toFixed(2));
+
+    return function render(dateStr) {
+      const { overallPct, disciplineResults, junctions } = computeProjectSummary(dateStr, lotFilter, depotKeys);
+      const rgb = colorForPct(overallPct);
+      ringFill.style.stroke = rgbToCss(rgb);
+      ringFill.setAttribute("stroke-dashoffset", (RING_C * (1 - overallPct / 100)).toFixed(2));
+      animateNumber(pctEl, overallPct);
+
+      discWrap.innerHTML = "";
+      disciplineResults.forEach((d, i) => {
+        const tile = document.createElement("div");
+        tile.className = "summary-tile";
+        tile.style.animationDelay = (i * 35) + "ms";
+        if (d.pct === null) {
+          tile.innerHTML = `
+            <div class="disc-icon" style="opacity:.5;">${ICONS[d.unit]}</div>
+            <div class="summary-tile-main">
+              <div class="summary-tile-name">${d.he}</div>
+              <div class="summary-tile-row" style="color:var(--muted); font-size:11.5px;">אין נתון</div>
+            </div>`;
+        } else {
+          const barRgb = colorForPct(d.pct);
+          tile.innerHTML = `
+            <div class="disc-icon">${ICONS[d.unit]}</div>
+            <div class="summary-tile-main">
+              <div class="summary-tile-name">${d.he}</div>
+              <div class="summary-tile-row">
+                <div class="bar-track" style="height:6px;"><div class="bar-fill" style="width:${Math.min(100, d.pct)}%; background:${rgbToCss(barRgb)};"></div></div>
+                <span class="summary-tile-pct">${d.pct}%</span>
+              </div>
+            </div>`;
+        }
+        discWrap.appendChild(tile);
+      });
+
+      juncWrap.innerHTML = `
+        <div class="junction-stat" style="animation-delay:280ms;">
+          <div class="disc-icon">${ICONS.junctionDone}</div>
+          <div>
+            <div class="junction-stat-num">${fmt(junctions.completed)}</div>
+            <div class="junction-stat-label">צמתים שהסתיימו מתוך ${fmt(junctions.total)}</div>
+          </div>
+        </div>
+        <div class="junction-stat" style="animation-delay:315ms;">
+          <div class="disc-icon">${ICONS.junctionProgress}</div>
+          <div>
+            <div class="junction-stat-num">${fmt(junctions.inProgress)}</div>
+            <div class="junction-stat-label">צמתים בעבודה מתוך ${fmt(junctions.total)}</div>
+          </div>
+        </div>`;
+    };
+  }
+
+  const renderOverallSummary = makeSummaryRenderer("summary", null, ["Holon","Herz"]);
+  const renderSouthSummary = makeSummaryRenderer("summarySouth", SOUTH_LOTS, ["Holon"]);
+  const renderNorthSummary = makeSummaryRenderer("summaryNorth", NORTH_LOTS, ["Herz"]);
+
+  function renderSummary(dateStr) {
+    renderOverallSummary(dateStr);
+    renderSouthSummary(dateStr);
+    renderNorthSummary(dateStr);
+  }
+
+  const SVGNS = "http://www.w3.org/2000/svg";
+  const dates = Object.keys(PROGRESS_DATA).sort();
+  const dateSelect = document.getElementById("dateSelect");
+  dates.forEach(d => {
+    const opt = document.createElement("option");
+    opt.value = d;
+    opt.textContent = formatDate(d);
+    dateSelect.appendChild(opt);
+  });
+  dateSelect.value = dates[dates.length - 1];
+
+  function formatDate(iso) {
+    const [y,m,d] = iso.split("-");
+    return `${d}.${m}.${y}`;
+  }
+
+  function buildJunctionRows(entry) {
+    const j = entry.junctions;
+    if (!j || j.total === 0) {
+      return `
+        <div class="disc-row na">
+          <div class="disc-icon">${ICONS.junctionDone}</div>
+          <div class="disc-main"><div class="disc-name">צמתים — אין נתון למקטע זה</div></div>
+          <div></div>
+        </div>`;
+    }
+    const donePct = Math.round((j.completed / j.total) * 1000) / 10;
+    const progPct = Math.round((j.inProgress / j.total) * 1000) / 10;
+    const doneRgb = colorForPct(donePct);
+    const progRgb = colorForPct(progPct);
+    return `
+      <div class="disc-row">
+        <div class="disc-icon">${ICONS.junctionDone}</div>
+        <div class="disc-main">
+          <div class="disc-name">צמתים שהסתיימו</div>
+          <div class="disc-bar-row">
+            <div class="bar-track"><div class="bar-fill" style="width:${donePct}%; background:${rgbToCss(doneRgb)};"></div></div>
+            <span class="disc-amount"><span dir="ltr">${j.completed} / ${j.total}</span> צמתים</span>
+          </div>
+        </div>
+        <div class="disc-pct">${j.completed}</div>
+      </div>
+      <div class="disc-row">
+        <div class="disc-icon">${ICONS.junctionProgress}</div>
+        <div class="disc-main">
+          <div class="disc-name">צמתים בעבודה</div>
+          <div class="disc-bar-row">
+            <div class="bar-track"><div class="bar-fill" style="width:${progPct}%; background:${rgbToCss(progRgb)};"></div></div>
+            <span class="disc-amount"><span dir="ltr">${j.inProgress} / ${j.total}</span> צמתים</span>
+          </div>
+        </div>
+        <div class="disc-pct">${j.inProgress}</div>
+      </div>`;
+  }
+
+  const backdrop = document.getElementById("backdrop");
+  const panel = document.getElementById("panel");
+
+  function closePanel() { backdrop.classList.remove("show"); }
+  backdrop.addEventListener("click", (e) => { if (e.target === backdrop) closePanel(); });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") closePanel(); });
+
+  function openPanel(lot, dateStr) {
+    const data = PROGRESS_DATA[dateStr] || {};
+    const entry = data[lot];
+
+    if (!entry) {
+      panel.innerHTML = `
+        <div class="panel-header">
+          <span class="lot-chip" style="background:var(--nodata); color:var(--text-secondary);">${lot}</span>
+          <h3>אין נתון למקטע זה</h3>
+          <button class="panel-close" id="panelCloseBtn">✕</button>
+        </div>
+        <div class="tunnel-msg">לא נמצא נתון עבור מקטע זה בתאריך הדיווח שנבחר.</div>`;
+    } else {
+      const rgb = colorForPct(entry.overall.pct);
+      const rows = DISCIPLINES.map(d => {
+        const v = entry.disciplines[d.key];
+        if (!v) {
+          return `
+            <div class="disc-row na">
+              <div class="disc-icon">${ICONS[d.unit]}</div>
+              <div class="disc-main"><div class="disc-name">${d.he}</div></div>
+              <div></div>
+            </div>`;
+        }
+        const barRgb = colorForPct(v.pct);
+        const unitLabel = UNIT_LABEL[v.unit] || v.unit || "";
+        return `
+          <div class="disc-row">
+            <div class="disc-icon">${ICONS[d.unit]}</div>
+            <div class="disc-main">
+              <div class="disc-name">${d.he}</div>
+              <div class="disc-bar-row">
+                <div class="bar-track"><div class="bar-fill" style="width:${Math.min(100,v.pct)}%; background:${rgbToCss(barRgb)};"></div></div>
+                <span class="disc-amount"><span dir="ltr">${fmt(v.actual)} / ${fmt(v.planned)}</span> ${unitLabel}</span>
+              </div>
+            </div>
+            <div class="disc-pct">${v.pct}%</div>
+          </div>`;
+      }).join("");
+
+      panel.innerHTML = `
+        <div class="panel-header">
+          <span class="lot-chip" style="background:${rgbToCss(rgb)}; color:${textColorFor(rgb)};">${lot}</span>
+          <h3>פירוט ביצוע לפי דיסציפלינה</h3>
+          <span class="overall-pct">${entry.overall.pct}%</span>
+          <button class="panel-close" id="panelCloseBtn">✕</button>
+        </div>
+        <div class="panel-body">${rows}${buildJunctionRows(entry)}</div>`;
+    }
+
+    document.getElementById("panelCloseBtn").addEventListener("click", closePanel);
+    backdrop.classList.add("show");
+  }
+
+  const mapMarkers = {};
+  document.querySelectorAll(".lot-marker").forEach(g => {
+    mapMarkers[g.getAttribute("data-lot")] = g;
+  });
+
+  function render(dateStr) {
+    const isLatest = dateStr === dates[dates.length - 1];
+    document.getElementById("latestBadge").style.display = isLatest ? "inline-block" : "none";
+
+    const data = PROGRESS_DATA[dateStr] || {};
+
+    LOT_ORDER.forEach(lot => {
+      const g = mapMarkers[lot];
+      if (!g) return;
+      const anchor = g.querySelector(".lot-anchor");
+      const cx = anchor.cx.baseVal.value, cy = anchor.cy.baseVal.value;
+      g.querySelectorAll(".lot-badge").forEach(b => b.remove());
+
+      const entry = data[lot];
+      const badge = document.createElementNS(SVGNS, "g");
+      badge.setAttribute("class", "lot-badge" + (entry ? "" : " nodata"));
+      badge.setAttribute("filter", "url(#lotShadow)");
+
+      const ring = document.createElementNS(SVGNS, "circle");
+      ring.setAttribute("class", "ring");
+      ring.setAttribute("cx", cx); ring.setAttribute("cy", cy); ring.setAttribute("r", 23);
+
+      const codeText = document.createElementNS(SVGNS, "text");
+      codeText.setAttribute("class", "code");
+      codeText.setAttribute("x", cx); codeText.setAttribute("y", cy - 5);
+      codeText.setAttribute("text-anchor", "middle");
+      codeText.textContent = lot;
+
+      const pctText = document.createElementNS(SVGNS, "text");
+      pctText.setAttribute("class", "pct");
+      pctText.setAttribute("x", cx); pctText.setAttribute("y", cy + 11);
+      pctText.setAttribute("text-anchor", "middle");
+
+      const title = document.createElementNS(SVGNS, "title");
+
+      if (entry) {
+        const rgb = colorForPct(entry.overall.pct);
+        ring.setAttribute("fill", rgbToCss(rgb));
+        const tc = textColorFor(rgb);
+        codeText.setAttribute("fill", tc);
+        pctText.setAttribute("fill", tc);
+        pctText.textContent = entry.overall.pct + "%";
+        title.textContent = `מקטע ${lot} · ${entry.overall.pct}% ביצוע · אורך ${fmt(entry.overall.len)} מ'`;
+        g.setAttribute("data-clickable", "true");
+      } else {
+        pctText.textContent = "?";
+        title.textContent = `מקטע ${lot} · אין נתון בדוח זה`;
+        g.setAttribute("data-clickable", "false");
+      }
+
+      badge.appendChild(ring);
+      badge.appendChild(codeText);
+      badge.appendChild(pctText);
+      badge.appendChild(title);
+      g.appendChild(badge);
+    });
+
+    // click handlers (rebind per render since dateStr is captured)
+    LOT_ORDER.forEach(lot => {
+      const g = mapMarkers[lot];
+      if (!g) return;
+      g.onclick = () => { if (g.getAttribute("data-clickable") !== "false") openPanel(lot, dateStr); };
+    });
+
+    // table
+    const tbody = document.getElementById("lotTableBody");
+    tbody.innerHTML = "";
+    LOT_ORDER.forEach(lot => {
+      const entry = data[lot];
+      const tr = document.createElement("tr");
+      if (entry) {
+        const rgb = colorForPct(entry.overall.pct);
+        tr.innerHTML = `
+          <td class="row-lot">${lot}</td>
+          <td class="num">${fmt(entry.overall.len)}</td>
+          <td>
+            <div class="bar-cell">
+              <span class="pct-label">${entry.overall.pct}%</span>
+              <div class="bar-track"><div class="bar-fill" style="width:${entry.overall.pct}%; background:${rgbToCss(rgb)};"></div></div>
+            </div>
+          </td>
+          <td><button class="detail-btn" data-lot="${lot}">פירוט</button></td>`;
+      } else {
+        tr.innerHTML = `
+          <td class="row-lot">${lot}</td>
+          <td class="num">–</td>
+          <td style="color:var(--muted);">אין נתון</td>
+          <td><button class="detail-btn" data-lot="${lot}" disabled>פירוט</button></td>`;
+      }
+      tbody.appendChild(tr);
+    });
+    tbody.querySelectorAll(".detail-btn").forEach(btn => {
+      btn.addEventListener("click", () => openPanel(btn.getAttribute("data-lot"), dateStr));
+    });
+  }
+
+  function buildDepotDisciplineRow(icon, name, pct, amountHtml) {
+    return `
+      <div class="disc-row">
+        <div class="disc-icon">${icon}</div>
+        <div class="disc-main">
+          <div class="disc-name">${name}</div>
+          <div class="disc-bar-row">
+            <div class="bar-track"><div class="bar-fill" style="width:${Math.min(100, pct)}%; background:${rgbToCss(colorForPct(pct))};"></div></div>
+            ${amountHtml}
+          </div>
+        </div>
+        <div class="disc-pct">${pct}%</div>
+      </div>`;
+  }
+
+  function buildBuildingListHtml(buildingList, toggleId) {
+    const rows = (buildingList || []).map(b => {
+      const rgb = colorForPct(b.pct);
+      return `
+        <div class="bldg-row">
+          <span class="bldg-name">${b.name}</span>
+          <div class="bar-track" style="height:6px;"><div class="bar-fill" style="width:${Math.min(100, b.pct)}%; background:${rgbToCss(rgb)};"></div></div>
+          <span class="bldg-pct">${b.pct}%</span>
+        </div>`;
+    }).join("");
+    return `<div class="bldg-list" id="${toggleId}">${rows}</div>`;
+  }
+
+  function buildDepotBuildingDisciplineRow(icon, name, pct, buildingList, toggleId) {
+    return `
+      <div class="disc-row disc-row-expandable" data-target="${toggleId}">
+        <div class="disc-icon">${icon}</div>
+        <div class="disc-main">
+          <div class="disc-name">${name}</div>
+          <div class="disc-bar-row">
+            <div class="bar-track"><div class="bar-fill" style="width:${Math.min(100, pct)}%; background:${rgbToCss(colorForPct(pct))};"></div></div>
+            <span class="disc-amount">ממוצע משוקלל לפי היקף מבנה</span>
+          </div>
+        </div>
+        <div class="disc-pct-wrap">
+          <div class="disc-pct">${pct}%</div>
+          <span class="disc-expand-arrow">▾</span>
+        </div>
+      </div>
+      ${buildBuildingListHtml(buildingList, toggleId)}`;
+  }
+
+  function openDepotPanel(depotKey, dateStr) {
+    const dep = (DEPOT_DATA[dateStr] || {})[depotKey];
+    const label = DEPOT_LABELS[depotKey];
+
+    if (!dep) {
+      panel.innerHTML = `
+        <div class="panel-header">
+          <span class="lot-chip" style="background:var(--nodata); color:var(--text-secondary);">${label}</span>
+          <h3>אין נתון לדיפו זה</h3>
+          <button class="panel-close" id="panelCloseBtn">✕</button>
+        </div>
+        <div class="tunnel-msg">לא נמצא נתון עבור דיפו זה בתאריך הדיווח שנבחר.</div>`;
+    } else {
+      const buildingRows = BUILDING_DISCIPLINES.map((bd, i) => {
+        const toggleId = "bldgList-" + depotKey + "-" + i;
+        const v = dep.buildings && dep.buildings[bd.key];
+        if (!v) {
+          return `
+            <div class="disc-row na">
+              <div class="disc-icon">${ICONS[bd.unit]}</div>
+              <div class="disc-main"><div class="disc-name">${bd.he}</div></div>
+              <div></div>
+            </div>`;
+        }
+        return buildDepotBuildingDisciplineRow(ICONS[bd.unit], bd.he, v.pct, v.buildingList, toggleId);
+      }).join("");
+
+      const yardRows = DISCIPLINES.filter(d => YARD_DEPOT_KEYS.includes(d.key)).map(d => {
+        const v = dep.yard && dep.yard[d.key];
+        if (!v) {
+          return `
+            <div class="disc-row na">
+              <div class="disc-icon">${ICONS[d.unit]}</div>
+              <div class="disc-main"><div class="disc-name">${d.he}</div></div>
+              <div></div>
+            </div>`;
+        }
+        return buildDepotDisciplineRow(ICONS[d.unit], d.he, v.pct,
+          `<span class="disc-amount"><span dir="ltr">${fmt(v.actual)} / ${fmt(v.planned)}</span></span>`);
+      }).join("");
+
+      const allPcts = [];
+      if (dep.buildings) Object.values(dep.buildings).forEach(v => allPcts.push(v.pct));
+      if (dep.yard) Object.values(dep.yard).forEach(v => allPcts.push(v.pct));
+      const overallPct = allPcts.length ? Math.round((allPcts.reduce((a,b)=>a+b,0) / allPcts.length) * 10) / 10 : 0;
+      const rgb = colorForPct(overallPct);
+
+      panel.innerHTML = `
+        <div class="panel-header">
+          <span class="lot-chip" style="background:${rgbToCss(rgb)}; color:${textColorFor(rgb)};">${label}</span>
+          <h3>פירוט מבנים ותשתית חצר</h3>
+          <span class="overall-pct">${overallPct}%</span>
+          <button class="panel-close" id="panelCloseBtn">✕</button>
+        </div>
+        <div class="panel-body">
+          <div class="note" style="margin:0 0 10px;">מבנים (חפירה, שלד, מערכות מבנה, מערכות רכבתיות) — ממוצע משוקלל לפי היקף כל מבנה מתוך גיליון ה-Buildings. לחצו על שורה לפירוט לפי מבנה</div>
+          ${buildingRows}
+          <div class="note" style="margin:14px 0 10px;">פירוט ביצוע לפי דיסציפלינה</div>
+          ${yardRows}
+        </div>`;
+
+      panel.querySelectorAll(".disc-row-expandable").forEach(row => {
+        row.addEventListener("click", () => {
+          const list = document.getElementById(row.getAttribute("data-target"));
+          row.classList.toggle("expanded");
+          list.classList.toggle("show");
+        });
+      });
+    }
+
+    document.getElementById("panelCloseBtn").addEventListener("click", closePanel);
+    backdrop.classList.add("show");
+  }
+
+  function renderDepotTable(dateStr) {
+    const tbody = document.getElementById("depotTableBody");
+    tbody.innerHTML = "";
+    Object.keys(DEPOT_LABELS).forEach(dk => {
+      const dep = (DEPOT_DATA[dateStr] || {})[dk];
+      const label = DEPOT_LABELS[dk];
+      const tr = document.createElement("tr");
+
+      const pcts = [];
+      if (dep && dep.buildings) Object.values(dep.buildings).forEach(v => pcts.push(v.pct));
+      if (dep && dep.yard) Object.values(dep.yard).forEach(v => pcts.push(v.pct));
+      const avgPct = pcts.length ? Math.round((pcts.reduce((a,b)=>a+b,0) / pcts.length) * 10) / 10 : null;
+
+      if (avgPct === null) {
+        tr.innerHTML = `
+          <td class="row-lot">${label}</td>
+          <td style="color:var(--muted);">אין נתון</td>
+          <td><button class="detail-btn" data-depot="${dk}" disabled>פירוט</button></td>`;
+      } else {
+        const rgb = colorForPct(avgPct);
+        tr.innerHTML = `
+          <td class="row-lot">${label}</td>
+          <td>
+            <div class="bar-cell">
+              <span class="pct-label">${avgPct}%</span>
+              <div class="bar-track"><div class="bar-fill" style="width:${avgPct}%; background:${rgbToCss(rgb)};"></div></div>
+            </div>
+          </td>
+          <td><button class="detail-btn" data-depot="${dk}">פירוט</button></td>`;
+      }
+      tbody.appendChild(tr);
+    });
+    tbody.querySelectorAll(".detail-btn[data-depot]").forEach(btn => {
+      btn.addEventListener("click", () => openDepotPanel(btn.getAttribute("data-depot"), dateStr));
+    });
+  }
+
+  function openTTRPanel(ttrName, dateStr) {
+    const list = TTR_DATA[dateStr] || [];
+    const item = list.find(t => t.name === ttrName);
+
+    if (!item) {
+      panel.innerHTML = `
+        <div class="panel-header">
+          <span class="lot-chip" style="background:var(--nodata); color:var(--text-secondary);">${ttrName}</span>
+          <h3>אין נתון ל-TTR זה</h3>
+          <button class="panel-close" id="panelCloseBtn">✕</button>
+        </div>
+        <div class="tunnel-msg">לא נמצא נתון עבור TTR זה בתאריך הדיווח שנבחר.</div>`;
+    } else {
+      const rgb = colorForPct(item.pct);
+      const rows = TTR_DISCIPLINES.map(d => {
+        const pct = item.details ? item.details[d.key] : undefined;
+        if (pct === undefined || pct === null) {
+          return `
+            <div class="disc-row na">
+              <div class="disc-icon">${ICONS[d.unit]}</div>
+              <div class="disc-main"><div class="disc-name">${d.he}</div></div>
+              <div></div>
+            </div>`;
+        }
+        return buildDepotDisciplineRow(ICONS[d.unit], d.he, pct, "");
+      }).join("");
+
+      panel.innerHTML = `
+        <div class="panel-header">
+          <span class="lot-chip" style="background:${rgbToCss(rgb)}; color:${textColorFor(rgb)};">${ttrName}</span>
+          <h3>פירוט ביצוע לפי דיסציפלינה</h3>
+          <span class="overall-pct">${item.pct}%</span>
+          <button class="panel-close" id="panelCloseBtn">✕</button>
+        </div>
+        <div class="panel-body">${rows}</div>`;
+    }
+
+    document.getElementById("panelCloseBtn").addEventListener("click", closePanel);
+    backdrop.classList.add("show");
+  }
+
+  function renderTTRTable(dateStr) {
+    const tbody = document.getElementById("ttrTableBody");
+    tbody.innerHTML = "";
+    const list = TTR_DATA[dateStr] || [];
+    list.forEach(item => {
+      const tr = document.createElement("tr");
+      const rgb = colorForPct(item.pct);
+      tr.innerHTML = `
+        <td class="row-lot">${item.name}</td>
+        <td>
+          <div class="bar-cell">
+            <span class="pct-label">${item.pct}%</span>
+            <div class="bar-track"><div class="bar-fill" style="width:${Math.min(100, item.pct)}%; background:${rgbToCss(rgb)};"></div></div>
+          </div>
+        </td>
+        <td><button class="detail-btn" data-ttr="${item.name}">פירוט</button></td>`;
+      tbody.appendChild(tr);
+    });
+    tbody.querySelectorAll(".detail-btn[data-ttr]").forEach(btn => {
+      btn.addEventListener("click", () => openTTRPanel(btn.getAttribute("data-ttr"), dateStr));
+    });
+  }
+
+  document.getElementById("includeDepotsToggle").addEventListener("change", () => renderSummary(dateSelect.value));
+
+  dateSelect.addEventListener("change", () => { render(dateSelect.value); renderSummary(dateSelect.value); renderDepotTable(dateSelect.value); renderTTRTable(dateSelect.value); });
+  render(dateSelect.value);
+  renderSummary(dateSelect.value);
+  renderDepotTable(dateSelect.value);
+  renderTTRTable(dateSelect.value);
+</script>
+
+</body>
+</html>
