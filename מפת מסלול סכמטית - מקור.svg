@@ -1,0 +1,68 @@
+<!--
+  Schematic route map for the Green Line progress dashboard.
+  Metro-diagram style: straightened, stylized route (not literal geography),
+  preserving the real line's west->east order and the fork at 8A into a
+  coastal branch (->12A) and a southern branch (9A->10A->11A).
+  Order/adjacency reference: real map at
+  "..\מפת קו ירוק - מעודכן 2.png" (1A..6A..7A(tunnel)..8A, then 8A->12A east
+  and 8A->9A->10A->11A south).
+
+  This file is the editable design source. Its <svg> markup (this whole
+  element) is pasted inline into "..\דשבורד התקדמות.html" so the dashboard's
+  JS can address the route/markers as live DOM nodes. If you edit the route
+  shape or marker positions here, copy the updated markup into the HTML file.
+
+  Each marker group carries data-lot="1A".."12A". The 7A group additionally
+  carries data-tunnel="true" (measured separately by tunnel rings, not part
+  of the 8-discipline dataset - the dashboard renders it as "no data").
+-->
+<svg viewBox="0 0 1200 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="מפת מסלול קו ירוק, מחולקת ל-12 מקטעים">
+  <defs>
+    <filter id="lotShadow" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2.2" flood-color="#0e2841" flood-opacity="0.30"/>
+    </filter>
+    <filter id="lineShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0e2841" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- subtle city / context labels (static, non-interactive) -->
+  <g class="context-labels" fill="#9a9a92" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="600">
+    <text x="60" y="605" text-anchor="middle">בת ים</text>
+    <text x="330" y="205" text-anchor="middle">חולון</text>
+    <text x="560" y="205" text-anchor="middle">תל אביב - יפו</text>
+    <text x="1080" y="120" text-anchor="middle">הרצליה</text>
+    <text x="960" y="580" text-anchor="middle">רמת גן / בני ברק</text>
+  </g>
+
+  <!-- route casing (drawn first, gives the line depth/thickness) -->
+  <g class="route-casing" fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#lineShadow)">
+    <path d="M90,560 L170,480 L255,420 L195,300 L320,235 L480,260 L640,245 L790,265" />
+    <path d="M790,265 L945,190 L1075,155" />
+    <path d="M790,265 L825,380 L845,460 L915,545" />
+  </g>
+
+  <!-- route line (bright neutral-green stroke on top of the casing) -->
+  <g class="route-line" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M90,560 L170,480 L255,420 L195,300 L320,235 L480,260 L640,245 L790,265" />
+    <path d="M790,265 L945,190 L1075,155" />
+    <path d="M790,265 L825,380 L845,460 L915,545" />
+  </g>
+
+  <!-- 12 section markers: anchor dot only; the dashboard JS builds the
+       live percentage badge + label on top of each anchor. -->
+  <g class="lot-markers">
+    <g class="lot-marker" data-lot="1A"><circle class="lot-anchor" cx="90"   cy="560" r="6"/></g>
+    <g class="lot-marker" data-lot="2A"><circle class="lot-anchor" cx="170"  cy="480" r="6"/></g>
+    <g class="lot-marker" data-lot="3A"><circle class="lot-anchor" cx="255"  cy="420" r="6"/></g>
+    <g class="lot-marker" data-lot="4A"><circle class="lot-anchor" cx="195"  cy="300" r="6"/></g>
+    <g class="lot-marker" data-lot="5A"><circle class="lot-anchor" cx="320"  cy="235" r="6"/></g>
+    <g class="lot-marker" data-lot="6A"><circle class="lot-anchor" cx="480"  cy="260" r="6"/></g>
+    <g class="lot-marker" data-lot="7A" data-tunnel="true"><circle class="lot-anchor" cx="640" cy="245" r="6"/></g>
+    <g class="lot-marker" data-lot="8A"><circle class="lot-anchor" cx="790"  cy="265" r="6"/></g>
+    <g class="lot-marker" data-lot="9A"><circle class="lot-anchor" cx="825"  cy="380" r="6"/></g>
+    <g class="lot-marker" data-lot="10A"><circle class="lot-anchor" cx="845" cy="460" r="6"/></g>
+    <g class="lot-marker" data-lot="11A"><circle class="lot-anchor" cx="915" cy="545" r="6"/></g>
+    <g class="lot-marker" data-lot="12A"><circle class="lot-anchor" cx="1075" cy="155" r="6"/></g>
+  </g>
+</svg>
