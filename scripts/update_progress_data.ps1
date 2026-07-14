@@ -163,31 +163,33 @@ function Get-BuildingsData($ws, $buildingNames) {
     if ($r4 -is [string] -and $r4.Trim() -ieq $RSY_GENERAL_LABEL) { $discCols[$RSY_GENERAL_LABEL] = $c; break }
   }
 
-  $sumWeighted = @{}
-  $sumWeight = @{}
+  $sumPct = @{}
+  $countBldg = @{}
   $buildingLists = @{}
-  foreach ($k in $discCols.Keys) { $sumWeighted[$k] = 0.0; $sumWeight[$k] = 0.0; $buildingLists[$k] = @() }
+  foreach ($k in $discCols.Keys) { $sumPct[$k] = 0.0; $countBldg[$k] = 0; $buildingLists[$k] = @() }
 
   $bIndex = 0
   for ($r = 6; $r -le $maxRow; $r++) {
     $name = $ws.Cells.Item($r, 2).Value2
     if (-not ($name -is [string]) -or [string]::IsNullOrWhiteSpace($name)) { continue }
     if ($name.Trim() -eq "Weighted Average") { continue }
-    $weight = $ws.Cells.Item($r, 1).Value2
-    if (-not ($weight -is [double])) { continue }
     $heName = if ($bIndex -lt $buildingNames.Count) { $buildingNames[$bIndex] } else { $name.Trim() }
 
     # Per-building percentage must come from THIS discipline's own column, not
     # column D (that building's overall % across all disciplines) - otherwise
-    # a discipline whose weighted average is 100% could show buildings well
-    # under 100% underneath it, which is exactly the bug reported: reusing one
-    # shared column-D list under every discipline row instead of each
-    # discipline's own per-building figures.
+    # a discipline whose average is 100% could show buildings well under 100%
+    # underneath it, which is exactly the bug reported: reusing one shared
+    # column-D list under every discipline row instead of each discipline's
+    # own per-building figures.
+    #
+    # Flat, equally-weighted average across buildings (each building counts
+    # once, regardless of its budget/weight share in column A) - per Omri's
+    # request, replacing the previous weight-share weighted average.
     foreach ($canonical in $discCols.Keys) {
       $pct = $ws.Cells.Item($r, $discCols[$canonical]).Value2
       if (-not ($pct -is [double])) { continue }
-      $sumWeighted[$canonical] += $weight * $pct
-      $sumWeight[$canonical] += $weight
+      $sumPct[$canonical] += $pct
+      $countBldg[$canonical] += 1
       $buildingLists[$canonical] += [ordered]@{ name = $heName; pct = [math]::Round(100.0 * $pct, 1) }
     }
     $bIndex++
@@ -196,9 +198,9 @@ function Get-BuildingsData($ws, $buildingNames) {
   $disciplines = [ordered]@{}
   foreach ($canonical in (@($BUILDING_DISCIPLINE_LABELS.Keys) + @($RSY_GENERAL_LABEL))) {
     if (-not $discCols.ContainsKey($canonical)) { continue }
-    if ($sumWeight[$canonical] -le 0) { continue }
+    if ($countBldg[$canonical] -le 0) { continue }
     $disciplines[$canonical] = [ordered]@{
-      pct         = [math]::Round(100.0 * $sumWeighted[$canonical] / $sumWeight[$canonical], 1)
+      pct         = [math]::Round(100.0 * $sumPct[$canonical] / $countBldg[$canonical], 1)
       buildingList = $buildingLists[$canonical]
     }
   }
@@ -238,10 +240,12 @@ function Get-DepotYardData($ws) {
 
 function Add-JunctionData($ws, $lotJunctions) {
   # "Junctions" sheet: one row per junction. Column B ("A section") is the
-  # 1A-12A section code, column G ("Execution %") is that junction's own
-  # completion fraction (0-1). A trailing "Average" summary row and blank
-  # rows have an empty column B and are skipped naturally. "6A-2" is not a
-  # sub-code of 6A - it denotes section 7A's junctions and must map there.
+  # 1A-12A section code, column D ("Name") is the junction's English name
+  # (kept verbatim, just trimmed), column G ("Execution %") is that
+  # junction's own completion fraction (0-1). A trailing "Average" summary
+  # row and blank rows have an empty column B and are skipped naturally.
+  # "6A-2" is not a sub-code of 6A - it denotes section 7A's junctions and
+  # must map there.
   $used = $ws.UsedRange
   $maxRow = $used.Row + $used.Rows.Count - 1
 
@@ -255,12 +259,21 @@ function Add-JunctionData($ws, $lotJunctions) {
     $pct = $ws.Cells.Item($r, 7).Value2
     if (-not ($pct -is [double])) { continue }
 
+    $name = $ws.Cells.Item($r, 4).Value2
+    $name = if ($name -is [string]) { $name.Trim() } else { "" }
+
     if (-not $lotJunctions.ContainsKey($loc)) {
-      $lotJunctions[$loc] = @{ total = 0; completed = 0; inProgress = 0 }
+      $lotJunctions[$loc] = @{ total = 0; completed = 0; inProgress = 0; completedNames = @(); inProgressNames = @() }
     }
     $lotJunctions[$loc].total++
-    if ($pct -ge 1) { $lotJunctions[$loc].completed++ }
-    elseif ($pct -gt 0) { $lotJunctions[$loc].inProgress++ }
+    if ($pct -ge 1) {
+      $lotJunctions[$loc].completed++
+      if ($name) { $lotJunctions[$loc].completedNames += $name }
+    }
+    elseif ($pct -gt 0) {
+      $lotJunctions[$loc].inProgress++
+      if ($name) { $lotJunctions[$loc].inProgressNames += $name }
+    }
   }
 }
 
@@ -289,18 +302,24 @@ function Get-TTRData($ws) {
   for ($r = 6; $r -le $maxRow; $r++) {
     $name = $ws.Cells.Item($r, 2).Value2
     if (-not ($name -is [string]) -or [string]::IsNullOrWhiteSpace($name)) { continue }
-    $pctRaw = $ws.Cells.Item($r, 5).Value2
-    if (-not ($pctRaw -is [double])) { continue }
 
     $details = [ordered]@{}
     foreach ($key in $TTR_DETAIL_COLS.Keys) {
       $v = $ws.Cells.Item($r, $TTR_DETAIL_COLS[$key]).Value2
       if ($v -is [double]) { $details[$key] = [math]::Round(100.0 * $v, 1) }
     }
+    if ($details.Count -eq 0) { continue }
+
+    # Flat, equally-weighted average across the 5 discipline percentages (each
+    # weighted 1/5) - per Omri's request, replacing Excel's own column-E
+    # "Execution %" (a budget-weighted formula) as this row's headline %.
+    $sum = 0.0
+    foreach ($v in $details.Values) { $sum += $v }
+    $avgPct = [math]::Round($sum / $details.Count, 1)
 
     $list += [ordered]@{
       name    = $name.Trim()
-      pct     = [math]::Round(100.0 * $pctRaw, 1)
+      pct     = $avgPct
       details = $details
     }
   }
@@ -417,9 +436,11 @@ foreach ($f in $files) {
       $lotObj.disciplines = $disciplines
       if ($lotJunctions.ContainsKey($loc)) {
         $lotObj.junctions = [ordered]@{
-          total      = $lotJunctions[$loc].total
-          completed  = $lotJunctions[$loc].completed
-          inProgress = $lotJunctions[$loc].inProgress
+          total           = $lotJunctions[$loc].total
+          completed       = $lotJunctions[$loc].completed
+          inProgress      = $lotJunctions[$loc].inProgress
+          completedNames  = $lotJunctions[$loc].completedNames
+          inProgressNames = $lotJunctions[$loc].inProgressNames
         }
       }
       $lotFinal[$loc] = $lotObj

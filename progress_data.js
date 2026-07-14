@@ -53,7 +53,13 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  5,
                                                      "completed":  0,
-                                                     "inProgress":  0
+                                                     "inProgress":  0,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+
+                                                                         ]
                                                  }
                                },
                        "11A":  {
@@ -108,7 +114,13 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  9,
                                                      "completed":  0,
-                                                     "inProgress":  0
+                                                     "inProgress":  0,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+
+                                                                         ]
                                                  }
                                },
                        "12A":  {
@@ -163,7 +175,18 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  28,
                                                      "completed":  0,
-                                                     "inProgress":  6
+                                                     "inProgress":  6,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+                                                                             "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
+                                                                             "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
+                                                                             "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
+                                                                             "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
+                                                                             "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3",
+                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2"
+                                                                         ]
                                                  }
                                },
                        "1A":  {
@@ -218,7 +241,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  2,
                                                     "completed":  0,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Holon Depot - Vehicle Enterance CR-G1-2 G1-1",
+                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                        ]
                                                 }
                               },
                        "2A":  {
@@ -273,7 +303,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  4,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "3A":  {
@@ -328,7 +364,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  17,
                                                     "completed":  0,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
+                                                                            "Yerush Blvd - Betsalel CR-G1-11"
+                                                                        ]
                                                 }
                               },
                        "4A":  {
@@ -383,7 +426,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2",
+                                                                            "A Bar - Shaike Dan CR-G2-11"
+                                                                        ]
                                                 }
                               },
                        "5A":  {
@@ -438,7 +488,15 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  10,
                                                     "completed":  0,
-                                                    "inProgress":  3
+                                                    "inProgress":  3,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Erlich - Laskov CR-G2-12",
+                                                                            "Barkat - Lavon CR-G2-16",
+                                                                            "Barkat - Porat (Feher) CR-G2-18"
+                                                                        ]
                                                 }
                               },
                        "6A":  {
@@ -493,7 +551,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "7A":  {
@@ -507,7 +571,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  3,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "8A":  {
@@ -550,7 +620,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "9A":  {
@@ -645,7 +721,13 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  5,
                                                      "completed":  0,
-                                                     "inProgress":  0
+                                                     "inProgress":  0,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+
+                                                                         ]
                                                  }
                                },
                        "11A":  {
@@ -700,7 +782,13 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  9,
                                                      "completed":  0,
-                                                     "inProgress":  0
+                                                     "inProgress":  0,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+
+                                                                         ]
                                                  }
                                },
                        "12A":  {
@@ -755,7 +843,18 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  28,
                                                      "completed":  0,
-                                                     "inProgress":  6
+                                                     "inProgress":  6,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+                                                                             "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
+                                                                             "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
+                                                                             "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
+                                                                             "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
+                                                                             "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3",
+                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2"
+                                                                         ]
                                                  }
                                },
                        "1A":  {
@@ -810,7 +909,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  2,
                                                     "completed":  0,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Holon Depot - Vehicle Enterance CR-G1-2 G1-1",
+                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                        ]
                                                 }
                               },
                        "2A":  {
@@ -865,7 +971,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  4,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "3A":  {
@@ -920,7 +1032,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  17,
                                                     "completed":  0,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
+                                                                            "Yerush Blvd - Betsalel CR-G1-11"
+                                                                        ]
                                                 }
                               },
                        "4A":  {
@@ -975,7 +1094,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2",
+                                                                            "A Bar - Shaike Dan CR-G2-11"
+                                                                        ]
                                                 }
                               },
                        "5A":  {
@@ -1030,7 +1156,15 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  10,
                                                     "completed":  0,
-                                                    "inProgress":  3
+                                                    "inProgress":  3,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Erlich - Laskov CR-G2-12",
+                                                                            "Barkat - Lavon CR-G2-16",
+                                                                            "Barkat - Porat (Feher) CR-G2-18"
+                                                                        ]
                                                 }
                               },
                        "6A":  {
@@ -1085,7 +1219,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "7A":  {
@@ -1099,7 +1239,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  3,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "8A":  {
@@ -1142,7 +1288,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "9A":  {
@@ -1243,7 +1395,13 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  5,
                                                      "completed":  0,
-                                                     "inProgress":  0
+                                                     "inProgress":  0,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+
+                                                                         ]
                                                  }
                                },
                        "11A":  {
@@ -1304,7 +1462,13 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  9,
                                                      "completed":  0,
-                                                     "inProgress":  0
+                                                     "inProgress":  0,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+
+                                                                         ]
                                                  }
                                },
                        "12A":  {
@@ -1365,7 +1529,18 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  28,
                                                      "completed":  0,
-                                                     "inProgress":  6
+                                                     "inProgress":  6,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+                                                                             "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
+                                                                             "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
+                                                                             "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
+                                                                             "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
+                                                                             "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3",
+                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2"
+                                                                         ]
                                                  }
                                },
                        "1A":  {
@@ -1426,7 +1601,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  2,
                                                     "completed":  0,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Holon Depot - Vehicle Enterance CR-G1-2 G1-1",
+                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                        ]
                                                 }
                               },
                        "2A":  {
@@ -1481,7 +1663,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  4,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "3A":  {
@@ -1542,7 +1730,15 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  17,
                                                     "completed":  0,
-                                                    "inProgress":  3
+                                                    "inProgress":  3,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
+                                                                            "Yerush Blvd - Betsalel CR-G1-11",
+                                                                            "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel CR-G1-26"
+                                                                        ]
                                                 }
                               },
                        "4A":  {
@@ -1603,7 +1799,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2",
+                                                                            "A Bar - Shaike Dan CR-G2-11"
+                                                                        ]
                                                 }
                               },
                        "5A":  {
@@ -1664,7 +1867,15 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  10,
                                                     "completed":  0,
-                                                    "inProgress":  3
+                                                    "inProgress":  3,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Erlich - Laskov CR-G2-12",
+                                                                            "Barkat - Lavon CR-G2-16",
+                                                                            "Barkat - Porat (Feher) CR-G2-18"
+                                                                        ]
                                                 }
                               },
                        "6A":  {
@@ -1725,7 +1936,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "7A":  {
@@ -1739,7 +1956,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  3,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "8A":  {
@@ -1788,7 +2011,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "9A":  {
@@ -1889,7 +2118,13 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  5,
                                                      "completed":  0,
-                                                     "inProgress":  0
+                                                     "inProgress":  0,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+
+                                                                         ]
                                                  }
                                },
                        "11A":  {
@@ -1950,7 +2185,13 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  9,
                                                      "completed":  0,
-                                                     "inProgress":  0
+                                                     "inProgress":  0,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+
+                                                                         ]
                                                  }
                                },
                        "12A":  {
@@ -2011,7 +2252,18 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  28,
                                                      "completed":  0,
-                                                     "inProgress":  6
+                                                     "inProgress":  6,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+                                                                             "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
+                                                                             "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
+                                                                             "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
+                                                                             "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
+                                                                             "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3",
+                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2"
+                                                                         ]
                                                  }
                                },
                        "1A":  {
@@ -2072,7 +2324,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  2,
                                                     "completed":  0,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Holon Depot - Vehicle Enterance CR-G1-2 G1-1",
+                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                        ]
                                                 }
                               },
                        "2A":  {
@@ -2127,7 +2386,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  4,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "3A":  {
@@ -2188,7 +2453,15 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  17,
                                                     "completed":  0,
-                                                    "inProgress":  3
+                                                    "inProgress":  3,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
+                                                                            "Yerush Blvd - Betsalel CR-G1-11",
+                                                                            "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel CR-G1-26"
+                                                                        ]
                                                 }
                               },
                        "4A":  {
@@ -2249,7 +2522,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2",
+                                                                            "A Bar - Shaike Dan CR-G2-11"
+                                                                        ]
                                                 }
                               },
                        "5A":  {
@@ -2310,7 +2590,15 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  10,
                                                     "completed":  0,
-                                                    "inProgress":  3
+                                                    "inProgress":  3,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Erlich - Laskov CR-G2-12",
+                                                                            "Barkat - Lavon CR-G2-16",
+                                                                            "Barkat - Porat (Feher) CR-G2-18"
+                                                                        ]
                                                 }
                               },
                        "6A":  {
@@ -2371,7 +2659,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "7A":  {
@@ -2385,7 +2679,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  3,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "8A":  {
@@ -2434,7 +2734,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "9A":  {
@@ -2535,7 +2841,13 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  5,
                                                      "completed":  0,
-                                                     "inProgress":  0
+                                                     "inProgress":  0,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+
+                                                                         ]
                                                  }
                                },
                        "11A":  {
@@ -2596,7 +2908,13 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  9,
                                                      "completed":  0,
-                                                     "inProgress":  0
+                                                     "inProgress":  0,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+
+                                                                         ]
                                                  }
                                },
                        "12A":  {
@@ -2657,7 +2975,18 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  28,
                                                      "completed":  0,
-                                                     "inProgress":  6
+                                                     "inProgress":  6,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+                                                                             "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
+                                                                             "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
+                                                                             "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
+                                                                             "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
+                                                                             "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3",
+                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2"
+                                                                         ]
                                                  }
                                },
                        "1A":  {
@@ -2718,7 +3047,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  2,
                                                     "completed":  0,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Holon Depot - Vehicle Enterance CR-G1-2 G1-1",
+                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                        ]
                                                 }
                               },
                        "2A":  {
@@ -2773,7 +3109,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  4,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "3A":  {
@@ -2834,7 +3176,15 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  17,
                                                     "completed":  0,
-                                                    "inProgress":  3
+                                                    "inProgress":  3,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
+                                                                            "Yerush Blvd - Betsalel CR-G1-11",
+                                                                            "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel CR-G1-26"
+                                                                        ]
                                                 }
                               },
                        "4A":  {
@@ -2895,7 +3245,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2",
+                                                                            "A Bar - Shaike Dan CR-G2-11"
+                                                                        ]
                                                 }
                               },
                        "5A":  {
@@ -2956,7 +3313,15 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  10,
                                                     "completed":  0,
-                                                    "inProgress":  3
+                                                    "inProgress":  3,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Erlich - Laskov CR-G2-12",
+                                                                            "Barkat - Lavon CR-G2-16",
+                                                                            "Barkat - Porat (Feher) CR-G2-18"
+                                                                        ]
                                                 }
                               },
                        "6A":  {
@@ -3017,7 +3382,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "7A":  {
@@ -3031,7 +3402,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  3,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "8A":  {
@@ -3080,7 +3457,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "9A":  {
@@ -3181,7 +3564,13 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  5,
                                                      "completed":  0,
-                                                     "inProgress":  1
+                                                     "inProgress":  1,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+                                                                             "Sheetrit - Stadium Parking - East Entrance CR-G4-18"
+                                                                         ]
                                                  }
                                },
                        "11A":  {
@@ -3242,7 +3631,13 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  9,
                                                      "completed":  0,
-                                                     "inProgress":  0
+                                                     "inProgress":  0,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+
+                                                                         ]
                                                  }
                                },
                        "12A":  {
@@ -3303,7 +3698,18 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  28,
                                                      "completed":  0,
-                                                     "inProgress":  6
+                                                     "inProgress":  6,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+                                                                             "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
+                                                                             "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
+                                                                             "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
+                                                                             "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
+                                                                             "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3",
+                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2"
+                                                                         ]
                                                  }
                                },
                        "1A":  {
@@ -3364,7 +3770,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  2,
                                                     "completed":  1,
-                                                    "inProgress":  1
+                                                    "inProgress":  1,
+                                                    "completedNames":  [
+                                                                           "Holon Depot - Vehicle Enterance CR-G1-2 G1-1"
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                        ]
                                                 }
                               },
                        "2A":  {
@@ -3419,7 +3831,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  4,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "3A":  {
@@ -3480,7 +3898,15 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  17,
                                                     "completed":  0,
-                                                    "inProgress":  3
+                                                    "inProgress":  3,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
+                                                                            "Yerush Blvd - Betsalel CR-G1-11",
+                                                                            "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel CR-G1-26"
+                                                                        ]
                                                 }
                               },
                        "4A":  {
@@ -3541,7 +3967,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  1,
-                                                    "inProgress":  1
+                                                    "inProgress":  1,
+                                                    "completedNames":  [
+                                                                           "A Bar - Shaike Dan CR-G2-11"
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2"
+                                                                        ]
                                                 }
                               },
                        "5A":  {
@@ -3602,7 +4034,15 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  10,
                                                     "completed":  0,
-                                                    "inProgress":  3
+                                                    "inProgress":  3,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Erlich - Laskov CR-G2-12",
+                                                                            "Barkat - Lavon CR-G2-16",
+                                                                            "Barkat - Porat (Feher) CR-G2-18"
+                                                                        ]
                                                 }
                               },
                        "6A":  {
@@ -3663,7 +4103,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "7A":  {
@@ -3694,7 +4140,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  3,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "8A":  {
@@ -3743,7 +4195,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "9A":  {
@@ -3844,7 +4302,13 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  5,
                                                      "completed":  0,
-                                                     "inProgress":  1
+                                                     "inProgress":  1,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+                                                                             "Sheetrit - Stadium Parking - East Entrance CR-G4-18"
+                                                                         ]
                                                  }
                                },
                        "11A":  {
@@ -3905,7 +4369,13 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  9,
                                                      "completed":  0,
-                                                     "inProgress":  0
+                                                     "inProgress":  0,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+
+                                                                         ]
                                                  }
                                },
                        "12A":  {
@@ -3966,7 +4436,18 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  28,
                                                      "completed":  0,
-                                                     "inProgress":  6
+                                                     "inProgress":  6,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+                                                                             "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
+                                                                             "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
+                                                                             "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
+                                                                             "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
+                                                                             "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3",
+                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2"
+                                                                         ]
                                                  }
                                },
                        "1A":  {
@@ -4027,7 +4508,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  2,
                                                     "completed":  1,
-                                                    "inProgress":  1
+                                                    "inProgress":  1,
+                                                    "completedNames":  [
+                                                                           "Holon Depot - Vehicle Enterance CR-G1-2 G1-1"
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                        ]
                                                 }
                               },
                        "2A":  {
@@ -4082,7 +4569,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  4,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "3A":  {
@@ -4143,7 +4636,15 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  17,
                                                     "completed":  0,
-                                                    "inProgress":  3
+                                                    "inProgress":  3,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
+                                                                            "Yerush Blvd - Betsalel CR-G1-11",
+                                                                            "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel CR-G1-26"
+                                                                        ]
                                                 }
                               },
                        "4A":  {
@@ -4204,7 +4705,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  1,
-                                                    "inProgress":  1
+                                                    "inProgress":  1,
+                                                    "completedNames":  [
+                                                                           "A Bar - Shaike Dan CR-G2-11"
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2"
+                                                                        ]
                                                 }
                               },
                        "5A":  {
@@ -4265,7 +4772,15 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  10,
                                                     "completed":  0,
-                                                    "inProgress":  3
+                                                    "inProgress":  3,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Erlich - Laskov CR-G2-12",
+                                                                            "Barkat - Lavon CR-G2-16",
+                                                                            "Barkat - Porat (Feher) CR-G2-18"
+                                                                        ]
                                                 }
                               },
                        "6A":  {
@@ -4326,7 +4841,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "7A":  {
@@ -4357,7 +4878,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  3,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "8A":  {
@@ -4406,7 +4933,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "9A":  {
@@ -4507,7 +5040,14 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  5,
                                                      "completed":  0,
-                                                     "inProgress":  2
+                                                     "inProgress":  2,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+                                                                             "Sheetrit - Stadium Parking - East Entrance CR-G4-18",
+                                                                             "Sports Center Parking CR-G4-15"
+                                                                         ]
                                                  }
                                },
                        "11A":  {
@@ -4568,7 +5108,13 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  9,
                                                      "completed":  0,
-                                                     "inProgress":  0
+                                                     "inProgress":  0,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+
+                                                                         ]
                                                  }
                                },
                        "12A":  {
@@ -4629,7 +5175,23 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  28,
                                                      "completed":  0,
-                                                     "inProgress":  11
+                                                     "inProgress":  11,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+                                                                             "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
+                                                                             "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
+                                                                             "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
+                                                                             "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
+                                                                             "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3",
+                                                                             "Ibn Gabirol - Avenue 34 / Avenue 20 (HR2200)  CR-G5-31 G5-6",
+                                                                             "Ibn Gabirol - Track Switching Sides North To Avenue 7 (HR2200) CR-G5-27.1 G5-6",
+                                                                             "Ibn Gabirol - Avenue 16 (HR2200) 0 Phases CR-G5-30 G5-6",
+                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2",
+                                                                             "Ibn Gabirol - Avenue 12 (HR2200) CR-G5-29 G5-6",
+                                                                             "Ibn Gabirol - Avenue 8 - Street 36 (HR2200) CR-G5-27 G5-6"
+                                                                         ]
                                                  }
                                },
                        "1A":  {
@@ -4690,7 +5252,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  2,
                                                     "completed":  1,
-                                                    "inProgress":  1
+                                                    "inProgress":  1,
+                                                    "completedNames":  [
+                                                                           "Holon Depot - Vehicle Enterance CR-G1-2 G1-1"
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                        ]
                                                 }
                               },
                        "2A":  {
@@ -4745,7 +5313,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  4,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "3A":  {
@@ -4806,7 +5380,15 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  17,
                                                     "completed":  0,
-                                                    "inProgress":  3
+                                                    "inProgress":  3,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
+                                                                            "Yerush Blvd - Betsalel CR-G1-11",
+                                                                            "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel CR-G1-26"
+                                                                        ]
                                                 }
                               },
                        "4A":  {
@@ -4867,7 +5449,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  1,
-                                                    "inProgress":  1
+                                                    "inProgress":  1,
+                                                    "completedNames":  [
+                                                                           "A Bar - Shaike Dan CR-G2-11"
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2"
+                                                                        ]
                                                 }
                               },
                        "5A":  {
@@ -4928,7 +5516,15 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  10,
                                                     "completed":  0,
-                                                    "inProgress":  3
+                                                    "inProgress":  3,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Erlich - Laskov CR-G2-12",
+                                                                            "Barkat - Lavon CR-G2-16",
+                                                                            "Barkat - Porat (Feher) CR-G2-18"
+                                                                        ]
                                                 }
                               },
                        "6A":  {
@@ -4989,7 +5585,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  1
+                                                    "inProgress":  1,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Har Tsiyon - Hachmei Israel CR-G3-4"
+                                                                        ]
                                                 }
                               },
                        "7A":  {
@@ -5020,7 +5622,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  3,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "8A":  {
@@ -5069,7 +5677,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "9A":  {
@@ -5170,7 +5784,14 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  5,
                                                      "completed":  0,
-                                                     "inProgress":  2
+                                                     "inProgress":  2,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+                                                                             "Sheetrit - Stadium Parking - East Entrance CR-G4-18",
+                                                                             "Sports Center Parking CR-G4-15"
+                                                                         ]
                                                  }
                                },
                        "11A":  {
@@ -5231,7 +5852,13 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  9,
                                                      "completed":  0,
-                                                     "inProgress":  0
+                                                     "inProgress":  0,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+
+                                                                         ]
                                                  }
                                },
                        "12A":  {
@@ -5292,7 +5919,23 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  28,
                                                      "completed":  0,
-                                                     "inProgress":  11
+                                                     "inProgress":  11,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+                                                                             "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
+                                                                             "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
+                                                                             "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
+                                                                             "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
+                                                                             "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3",
+                                                                             "Ibn Gabirol - Avenue 34 / Avenue 20 (HR2200)  CR-G5-31 G5-6",
+                                                                             "Ibn Gabirol - Track Switching Sides North To Avenue 7 (HR2200) CR-G5-27.1 G5-6",
+                                                                             "Ibn Gabirol - Avenue 16 (HR2200) 0 Phases CR-G5-30 G5-6",
+                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2",
+                                                                             "Ibn Gabirol - Avenue 12 (HR2200) CR-G5-29 G5-6",
+                                                                             "Ibn Gabirol - Avenue 8 - Street 36 (HR2200) CR-G5-27 G5-6"
+                                                                         ]
                                                  }
                                },
                        "1A":  {
@@ -5353,7 +5996,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  2,
                                                     "completed":  1,
-                                                    "inProgress":  1
+                                                    "inProgress":  1,
+                                                    "completedNames":  [
+                                                                           "Holon Depot - Vehicle Enterance CR-G1-2 G1-1"
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                        ]
                                                 }
                               },
                        "2A":  {
@@ -5408,7 +6057,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  4,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "3A":  {
@@ -5469,7 +6124,15 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  17,
                                                     "completed":  0,
-                                                    "inProgress":  3
+                                                    "inProgress":  3,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
+                                                                            "Yerush Blvd - Betsalel CR-G1-11",
+                                                                            "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel CR-G1-26"
+                                                                        ]
                                                 }
                               },
                        "4A":  {
@@ -5530,7 +6193,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  1,
-                                                    "inProgress":  1
+                                                    "inProgress":  1,
+                                                    "completedNames":  [
+                                                                           "A Bar - Shaike Dan CR-G2-11"
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2"
+                                                                        ]
                                                 }
                               },
                        "5A":  {
@@ -5591,7 +6260,15 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  10,
                                                     "completed":  0,
-                                                    "inProgress":  3
+                                                    "inProgress":  3,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Erlich - Laskov CR-G2-12",
+                                                                            "Barkat - Lavon CR-G2-16",
+                                                                            "Barkat - Porat (Feher) CR-G2-18"
+                                                                        ]
                                                 }
                               },
                        "6A":  {
@@ -5652,7 +6329,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  1
+                                                    "inProgress":  1,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Har Tsiyon - Hachmei Israel CR-G3-4"
+                                                                        ]
                                                 }
                               },
                        "7A":  {
@@ -5683,7 +6366,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  3,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "8A":  {
@@ -5732,7 +6421,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "9A":  {
@@ -5833,7 +6528,14 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  5,
                                                      "completed":  0,
-                                                     "inProgress":  2
+                                                     "inProgress":  2,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+                                                                             "Sheetrit - Stadium Parking - East Entrance CR-G4-18",
+                                                                             "Sports Center Parking CR-G4-15"
+                                                                         ]
                                                  }
                                },
                        "11A":  {
@@ -5894,7 +6596,13 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  9,
                                                      "completed":  0,
-                                                     "inProgress":  0
+                                                     "inProgress":  0,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+
+                                                                         ]
                                                  }
                                },
                        "12A":  {
@@ -5955,7 +6663,22 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  28,
                                                      "completed":  5,
-                                                     "inProgress":  6
+                                                     "inProgress":  6,
+                                                     "completedNames":  [
+                                                                            "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
+                                                                            "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
+                                                                            "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
+                                                                            "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
+                                                                            "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3"
+                                                                        ],
+                                                     "inProgressNames":  [
+                                                                             "Ibn Gabirol - Avenue 34 / Avenue 20 (HR2200)  CR-G5-31 G5-6",
+                                                                             "Ibn Gabirol - Track Switching Sides North To Avenue 7 (HR2200) CR-G5-27.1 G5-6",
+                                                                             "Ibn Gabirol - Avenue 16 (HR2200) 0 Phases CR-G5-30 G5-6",
+                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2",
+                                                                             "Ibn Gabirol - Avenue 12 (HR2200) CR-G5-29 G5-6",
+                                                                             "Ibn Gabirol - Avenue 8 - Street 36 (HR2200) CR-G5-27 G5-6"
+                                                                         ]
                                                  }
                                },
                        "1A":  {
@@ -6016,7 +6739,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  2,
                                                     "completed":  1,
-                                                    "inProgress":  1
+                                                    "inProgress":  1,
+                                                    "completedNames":  [
+                                                                           "Holon Depot - Vehicle Enterance CR-G1-2 G1-1"
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                        ]
                                                 }
                               },
                        "2A":  {
@@ -6071,7 +6800,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  4,
                                                     "completed":  0,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Yerush Blvd - exit to HaMerkava CR-G1-5",
+                                                                            "Yerush Blvd - HaBanai CR-G1-7"
+                                                                        ]
                                                 }
                               },
                        "3A":  {
@@ -6132,7 +6868,15 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  17,
                                                     "completed":  0,
-                                                    "inProgress":  3
+                                                    "inProgress":  3,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
+                                                                            "Yerush Blvd - Betsalel CR-G1-11",
+                                                                            "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel CR-G1-26"
+                                                                        ]
                                                 }
                               },
                        "4A":  {
@@ -6193,7 +6937,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  1,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+                                                                           "A Bar - Shaike Dan CR-G2-11"
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2",
+                                                                            "A Bar - Rozhanski CR-G2-08"
+                                                                        ]
                                                 }
                               },
                        "5A":  {
@@ -6254,7 +7005,16 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  10,
                                                     "completed":  0,
-                                                    "inProgress":  4
+                                                    "inProgress":  4,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Erlich - Laskov CR-G2-12",
+                                                                            "Barkat - Lavon CR-G2-16",
+                                                                            "Barkat - Porat (Feher) CR-G2-18",
+                                                                            "Shenkar - Khoma u-Migdal CR-G2-23"
+                                                                        ]
                                                 }
                               },
                        "6A":  {
@@ -6315,7 +7075,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Ben Zvi - Gitit CR-G3-1",
+                                                                            "Har Tsiyon - Hachmei Israel CR-G3-4"
+                                                                        ]
                                                 }
                               },
                        "7A":  {
@@ -6346,7 +7113,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  3,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "8A":  {
@@ -6395,7 +7168,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "9A":  {
@@ -6496,7 +7275,14 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  5,
                                                      "completed":  0,
-                                                     "inProgress":  2
+                                                     "inProgress":  2,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+                                                                             "Sheetrit - Stadium Parking - East Entrance CR-G4-18",
+                                                                             "Sports Center Parking CR-G4-15"
+                                                                         ]
                                                  }
                                },
                        "11A":  {
@@ -6557,7 +7343,13 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  9,
                                                      "completed":  0,
-                                                     "inProgress":  0
+                                                     "inProgress":  0,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+
+                                                                         ]
                                                  }
                                },
                        "12A":  {
@@ -6618,7 +7410,22 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  28,
                                                      "completed":  5,
-                                                     "inProgress":  6
+                                                     "inProgress":  6,
+                                                     "completedNames":  [
+                                                                            "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
+                                                                            "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
+                                                                            "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
+                                                                            "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
+                                                                            "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3"
+                                                                        ],
+                                                     "inProgressNames":  [
+                                                                             "Ibn Gabirol - Avenue 34 / Avenue 20 (HR2200)  CR-G5-31 G5-6",
+                                                                             "Ibn Gabirol - Track Switching Sides North To Avenue 7 (HR2200) CR-G5-27.1 G5-6",
+                                                                             "Ibn Gabirol - Avenue 16 (HR2200) 0 Phases CR-G5-30 G5-6",
+                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2",
+                                                                             "Ibn Gabirol - Avenue 12 (HR2200) CR-G5-29 G5-6",
+                                                                             "Ibn Gabirol - Avenue 8 - Street 36 (HR2200) CR-G5-27 G5-6"
+                                                                         ]
                                                  }
                                },
                        "1A":  {
@@ -6679,7 +7486,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  2,
                                                     "completed":  1,
-                                                    "inProgress":  1
+                                                    "inProgress":  1,
+                                                    "completedNames":  [
+                                                                           "Holon Depot - Vehicle Enterance CR-G1-2 G1-1"
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                        ]
                                                 }
                               },
                        "2A":  {
@@ -6734,7 +7547,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  4,
                                                     "completed":  0,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Yerush Blvd - exit to HaMerkava CR-G1-5",
+                                                                            "Yerush Blvd - HaBanai CR-G1-7"
+                                                                        ]
                                                 }
                               },
                        "3A":  {
@@ -6795,7 +7615,16 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  17,
                                                     "completed":  0,
-                                                    "inProgress":  4
+                                                    "inProgress":  4,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
+                                                                            "Yerush Blvd - Betsalel CR-G1-11",
+                                                                            "Yerush Blvd - Mohiliver CR-G1-13",
+                                                                            "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel CR-G1-26"
+                                                                        ]
                                                 }
                               },
                        "4A":  {
@@ -6856,7 +7685,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  1,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+                                                                           "A Bar - Shaike Dan CR-G2-11"
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2",
+                                                                            "A Bar - Rozhanski CR-G2-08"
+                                                                        ]
                                                 }
                               },
                        "5A":  {
@@ -6917,7 +7753,16 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  10,
                                                     "completed":  0,
-                                                    "inProgress":  4
+                                                    "inProgress":  4,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Erlich - Laskov CR-G2-12",
+                                                                            "Barkat - Lavon CR-G2-16",
+                                                                            "Barkat - Porat (Feher) CR-G2-18",
+                                                                            "Shenkar - Khoma u-Migdal CR-G2-23"
+                                                                        ]
                                                 }
                               },
                        "6A":  {
@@ -6978,7 +7823,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Ben Zvi - Gitit CR-G3-1",
+                                                                            "Har Tsiyon - Hachmei Israel CR-G3-4"
+                                                                        ]
                                                 }
                               },
                        "7A":  {
@@ -7009,7 +7861,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  3,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "8A":  {
@@ -7058,7 +7916,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "9A":  {
@@ -7159,7 +8023,14 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  5,
                                                      "completed":  0,
-                                                     "inProgress":  2
+                                                     "inProgress":  2,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+                                                                             "Sheetrit - Stadium Parking - East Entrance CR-G4-18",
+                                                                             "Sports Center Parking CR-G4-15"
+                                                                         ]
                                                  }
                                },
                        "11A":  {
@@ -7220,7 +8091,13 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  9,
                                                      "completed":  0,
-                                                     "inProgress":  0
+                                                     "inProgress":  0,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+
+                                                                         ]
                                                  }
                                },
                        "12A":  {
@@ -7281,7 +8158,22 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  28,
                                                      "completed":  5,
-                                                     "inProgress":  6
+                                                     "inProgress":  6,
+                                                     "completedNames":  [
+                                                                            "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
+                                                                            "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
+                                                                            "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
+                                                                            "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
+                                                                            "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3"
+                                                                        ],
+                                                     "inProgressNames":  [
+                                                                             "Ibn Gabirol - Avenue 34 / Avenue 20 (HR2200)  CR-G5-31 G5-6",
+                                                                             "Ibn Gabirol - Track Switching Sides North To Avenue 7 (HR2200) CR-G5-27.1 G5-6",
+                                                                             "Ibn Gabirol - Avenue 16 (HR2200) 0 Phases CR-G5-30 G5-6",
+                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2",
+                                                                             "Ibn Gabirol - Avenue 12 (HR2200) CR-G5-29 G5-6",
+                                                                             "Ibn Gabirol - Avenue 8 - Street 36 (HR2200) CR-G5-27 G5-6"
+                                                                         ]
                                                  }
                                },
                        "1A":  {
@@ -7342,7 +8234,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  2,
                                                     "completed":  1,
-                                                    "inProgress":  1
+                                                    "inProgress":  1,
+                                                    "completedNames":  [
+                                                                           "Holon Depot - Vehicle Enterance CR-G1-2 G1-1"
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                        ]
                                                 }
                               },
                        "2A":  {
@@ -7397,7 +8295,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  4,
                                                     "completed":  0,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Yerush Blvd - exit to HaMerkava CR-G1-5",
+                                                                            "Yerush Blvd - HaBanai CR-G1-7"
+                                                                        ]
                                                 }
                               },
                        "3A":  {
@@ -7458,7 +8363,16 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  17,
                                                     "completed":  0,
-                                                    "inProgress":  4
+                                                    "inProgress":  4,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
+                                                                            "Yerush Blvd - Betsalel CR-G1-11",
+                                                                            "Yerush Blvd - Mohiliver CR-G1-13",
+                                                                            "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel CR-G1-26"
+                                                                        ]
                                                 }
                               },
                        "4A":  {
@@ -7519,7 +8433,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  1,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+                                                                           "A Bar - Shaike Dan CR-G2-11"
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2",
+                                                                            "A Bar - Rozhanski CR-G2-08"
+                                                                        ]
                                                 }
                               },
                        "5A":  {
@@ -7580,7 +8501,16 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  10,
                                                     "completed":  0,
-                                                    "inProgress":  4
+                                                    "inProgress":  4,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Erlich - Laskov CR-G2-12",
+                                                                            "Barkat - Lavon CR-G2-16",
+                                                                            "Barkat - Porat (Feher) CR-G2-18",
+                                                                            "Shenkar - Khoma u-Migdal CR-G2-23"
+                                                                        ]
                                                 }
                               },
                        "6A":  {
@@ -7641,7 +8571,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Ben Zvi - Gitit CR-G3-1",
+                                                                            "Har Tsiyon - Hachmei Israel CR-G3-4"
+                                                                        ]
                                                 }
                               },
                        "7A":  {
@@ -7672,7 +8609,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  3,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "8A":  {
@@ -7721,7 +8664,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "9A":  {
@@ -7822,7 +8771,14 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  5,
                                                      "completed":  0,
-                                                     "inProgress":  2
+                                                     "inProgress":  2,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+                                                                             "Sheetrit - Stadium Parking - East Entrance CR-G4-18",
+                                                                             "Sports Center Parking CR-G4-15"
+                                                                         ]
                                                  }
                                },
                        "11A":  {
@@ -7883,7 +8839,13 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  9,
                                                      "completed":  0,
-                                                     "inProgress":  0
+                                                     "inProgress":  0,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+
+                                                                         ]
                                                  }
                                },
                        "12A":  {
@@ -7944,7 +8906,22 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  28,
                                                      "completed":  5,
-                                                     "inProgress":  6
+                                                     "inProgress":  6,
+                                                     "completedNames":  [
+                                                                            "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
+                                                                            "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
+                                                                            "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
+                                                                            "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
+                                                                            "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3"
+                                                                        ],
+                                                     "inProgressNames":  [
+                                                                             "Ibn Gabirol - Avenue 34 / Avenue 20 (HR2200)  CR-G5-31 G5-6",
+                                                                             "Ibn Gabirol - Track Switching Sides North To Avenue 7 (HR2200) CR-G5-27.1 G5-6",
+                                                                             "Ibn Gabirol - Avenue 16 (HR2200) 0 Phases CR-G5-30 G5-6",
+                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2",
+                                                                             "Ibn Gabirol - Avenue 12 (HR2200) CR-G5-29 G5-6",
+                                                                             "Ibn Gabirol - Avenue 8 - Street 36 (HR2200) CR-G5-27 G5-6"
+                                                                         ]
                                                  }
                                },
                        "1A":  {
@@ -8005,7 +8982,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  2,
                                                     "completed":  1,
-                                                    "inProgress":  1
+                                                    "inProgress":  1,
+                                                    "completedNames":  [
+                                                                           "Holon Depot - Vehicle Enterance CR-G1-2 G1-1"
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                        ]
                                                 }
                               },
                        "2A":  {
@@ -8060,7 +9043,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  4,
                                                     "completed":  0,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Yerush Blvd - exit to HaMerkava CR-G1-5",
+                                                                            "Yerush Blvd - HaBanai CR-G1-7"
+                                                                        ]
                                                 }
                               },
                        "3A":  {
@@ -8121,7 +9111,16 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  17,
                                                     "completed":  0,
-                                                    "inProgress":  4
+                                                    "inProgress":  4,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
+                                                                            "Yerush Blvd - Betsalel CR-G1-11",
+                                                                            "Yerush Blvd - Mohiliver CR-G1-13",
+                                                                            "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel CR-G1-26"
+                                                                        ]
                                                 }
                               },
                        "4A":  {
@@ -8182,7 +9181,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  1,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+                                                                           "A Bar - Shaike Dan CR-G2-11"
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2",
+                                                                            "A Bar - Rozhanski CR-G2-08"
+                                                                        ]
                                                 }
                               },
                        "5A":  {
@@ -8243,7 +9249,16 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  10,
                                                     "completed":  0,
-                                                    "inProgress":  4
+                                                    "inProgress":  4,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Erlich - Laskov CR-G2-12",
+                                                                            "Barkat - Lavon CR-G2-16",
+                                                                            "Barkat - Porat (Feher) CR-G2-18",
+                                                                            "Shenkar - Khoma u-Migdal CR-G2-23"
+                                                                        ]
                                                 }
                               },
                        "6A":  {
@@ -8304,7 +9319,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Ben Zvi - Gitit CR-G3-1",
+                                                                            "Har Tsiyon - Hachmei Israel CR-G3-4"
+                                                                        ]
                                                 }
                               },
                        "7A":  {
@@ -8335,7 +9357,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  3,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "8A":  {
@@ -8384,7 +9412,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  1
+                                                    "inProgress":  1,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Einstein - Levi Eshkol CR-G4-1 G4-3"
+                                                                        ]
                                                 }
                               },
                        "9A":  {
@@ -8485,7 +9519,14 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  5,
                                                      "completed":  0,
-                                                     "inProgress":  2
+                                                     "inProgress":  2,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+                                                                             "Sheetrit - Stadium Parking - East Entrance CR-G4-18",
+                                                                             "Sports Center Parking CR-G4-15"
+                                                                         ]
                                                  }
                                },
                        "11A":  {
@@ -8546,7 +9587,13 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  9,
                                                      "completed":  0,
-                                                     "inProgress":  0
+                                                     "inProgress":  0,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+
+                                                                         ]
                                                  }
                                },
                        "12A":  {
@@ -8607,7 +9654,23 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  28,
                                                      "completed":  5,
-                                                     "inProgress":  7
+                                                     "inProgress":  7,
+                                                     "completedNames":  [
+                                                                            "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
+                                                                            "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
+                                                                            "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
+                                                                            "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
+                                                                            "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3"
+                                                                        ],
+                                                     "inProgressNames":  [
+                                                                             "Ibn Gabirol - Avenue 34 / Avenue 20 (HR2200)  CR-G5-31 G5-6",
+                                                                             "Ibn Gabirol - Track Switching Sides North To Avenue 7 (HR2200) CR-G5-27.1 G5-6",
+                                                                             "Ibn Gabirol - Avenue 16 (HR2200) 0 Phases CR-G5-30 G5-6",
+                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2",
+                                                                             "Ibn Gabirol - Street 24 / Avenue 11 (HR2200)  CR-G5-32 G5-6",
+                                                                             "Ibn Gabirol - Avenue 12 (HR2200) CR-G5-29 G5-6",
+                                                                             "Ibn Gabirol - Avenue 8 - Street 36 (HR2200) CR-G5-27 G5-6"
+                                                                         ]
                                                  }
                                },
                        "1A":  {
@@ -8668,7 +9731,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  2,
                                                     "completed":  1,
-                                                    "inProgress":  1
+                                                    "inProgress":  1,
+                                                    "completedNames":  [
+                                                                           "Holon Depot - Vehicle Enterance CR-G1-2 G1-1"
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                        ]
                                                 }
                               },
                        "2A":  {
@@ -8723,7 +9792,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  4,
                                                     "completed":  0,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Yerush Blvd - exit to HaMerkava CR-G1-5",
+                                                                            "Yerush Blvd - HaBanai CR-G1-7"
+                                                                        ]
                                                 }
                               },
                        "3A":  {
@@ -8784,7 +9860,16 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  17,
                                                     "completed":  0,
-                                                    "inProgress":  4
+                                                    "inProgress":  4,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
+                                                                            "Yerush Blvd - Betsalel CR-G1-11",
+                                                                            "Yerush Blvd - Mohiliver CR-G1-13",
+                                                                            "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel CR-G1-26"
+                                                                        ]
                                                 }
                               },
                        "4A":  {
@@ -8845,7 +9930,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  1,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+                                                                           "A Bar - Shaike Dan CR-G2-11"
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2",
+                                                                            "A Bar - Rozhanski CR-G2-08"
+                                                                        ]
                                                 }
                               },
                        "5A":  {
@@ -8906,7 +9998,16 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  10,
                                                     "completed":  2,
-                                                    "inProgress":  3
+                                                    "inProgress":  3,
+                                                    "completedNames":  [
+                                                                           "Barkat - Lavon CR-G2-16",
+                                                                           "Barkat - Porat (Feher) CR-G2-18"
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Erlich - Laskov CR-G2-12",
+                                                                            "Barkat - Wallanberg CR-G2-17",
+                                                                            "Shenkar - Khoma u-Migdal CR-G2-23"
+                                                                        ]
                                                 }
                               },
                        "6A":  {
@@ -8967,7 +10068,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Ben Zvi - Gitit CR-G3-1",
+                                                                            "Har Tsiyon - Hachmei Israel CR-G3-4"
+                                                                        ]
                                                 }
                               },
                        "7A":  {
@@ -8998,7 +10106,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  3,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "8A":  {
@@ -9053,7 +10167,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  1
+                                                    "inProgress":  1,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Einstein - Levi Eshkol CR-G4-1 G4-3"
+                                                                        ]
                                                 }
                               },
                        "9A":  {
@@ -9160,7 +10280,15 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  5,
                                                      "completed":  0,
-                                                     "inProgress":  3
+                                                     "inProgress":  3,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+                                                                             "Sheetrit - Stadium Parking - East Entrance CR-G4-18",
+                                                                             "Sheetrit - Stadium Parking - West Entrance CR-G4-17",
+                                                                             "Sports Center Parking CR-G4-15"
+                                                                         ]
                                                  }
                                },
                        "11A":  {
@@ -9221,7 +10349,13 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  9,
                                                      "completed":  0,
-                                                     "inProgress":  0
+                                                     "inProgress":  0,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+
+                                                                         ]
                                                  }
                                },
                        "12A":  {
@@ -9282,7 +10416,26 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  28,
                                                      "completed":  5,
-                                                     "inProgress":  10
+                                                     "inProgress":  10,
+                                                     "completedNames":  [
+                                                                            "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
+                                                                            "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
+                                                                            "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
+                                                                            "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
+                                                                            "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3"
+                                                                        ],
+                                                     "inProgressNames":  [
+                                                                             "Ibn Gabirol - Avenue 34 / Avenue 20 (HR2200)  CR-G5-31 G5-6",
+                                                                             "Ibn Gabirol - Track Switching Sides North To Avenue 7 (HR2200) CR-G5-27.1 G5-6",
+                                                                             "Ibn Gabirol - Avenue 16 (HR2200) 0 Phases CR-G5-30 G5-6",
+                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2",
+                                                                             "Ibn Gabirol - Street 24 / Avenue 11 (HR2200)  CR-G5-32 G5-6",
+                                                                             "Ibn Gabirol - Avenue 12 (HR2200) CR-G5-29 G5-6",
+                                                                             "Ibn Gabirol - Avenue 8 - Street 36 (HR2200) CR-G5-27 G5-6",
+                                                                             "Ibn Gabirol - Avenue 4 (TA3700)  CR-G5-22 G5-4",
+                                                                             "Ibn Gabirol - Crossing North To Avenue 5 (TA3700) CR-G5-25 G5-4",
+                                                                             "New Built, Ibn Gabirol - Crossing North To Avenue 2 (TA3700) CR-G5-17  G5-4"
+                                                                         ]
                                                  }
                                },
                        "1A":  {
@@ -9343,7 +10496,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  2,
                                                     "completed":  1,
-                                                    "inProgress":  1
+                                                    "inProgress":  1,
+                                                    "completedNames":  [
+                                                                           "Holon Depot - Vehicle Enterance CR-G1-2 G1-1"
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                        ]
                                                 }
                               },
                        "2A":  {
@@ -9398,7 +10557,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  4,
                                                     "completed":  0,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Yerush Blvd - exit to HaMerkava CR-G1-5",
+                                                                            "Yerush Blvd - HaBanai CR-G1-7"
+                                                                        ]
                                                 }
                               },
                        "3A":  {
@@ -9459,7 +10625,15 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  17,
                                                     "completed":  1,
-                                                    "inProgress":  3
+                                                    "inProgress":  3,
+                                                    "completedNames":  [
+                                                                           "Yerush Blvd - Betsalel CR-G1-11"
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
+                                                                            "Yerush Blvd - Mohiliver CR-G1-13",
+                                                                            "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel CR-G1-26"
+                                                                        ]
                                                 }
                               },
                        "4A":  {
@@ -9520,7 +10694,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  1,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+                                                                           "A Bar - Shaike Dan CR-G2-11"
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2",
+                                                                            "A Bar - Rozhanski CR-G2-08"
+                                                                        ]
                                                 }
                               },
                        "5A":  {
@@ -9581,7 +10762,16 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  10,
                                                     "completed":  2,
-                                                    "inProgress":  3
+                                                    "inProgress":  3,
+                                                    "completedNames":  [
+                                                                           "Barkat - Lavon CR-G2-16",
+                                                                           "Barkat - Porat (Feher) CR-G2-18"
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Erlich - Laskov CR-G2-12",
+                                                                            "Barkat - Wallanberg CR-G2-17",
+                                                                            "Shenkar - Khoma u-Migdal CR-G2-23"
+                                                                        ]
                                                 }
                               },
                        "6A":  {
@@ -9642,7 +10832,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Ben Zvi - Gitit CR-G3-1",
+                                                                            "Har Tsiyon - Hachmei Israel CR-G3-4"
+                                                                        ]
                                                 }
                               },
                        "7A":  {
@@ -9673,7 +10870,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  3,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "8A":  {
@@ -9728,7 +10931,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  1
+                                                    "inProgress":  1,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Einstein - Levi Eshkol CR-G4-1 G4-3"
+                                                                        ]
                                                 }
                               },
                        "9A":  {
@@ -9835,7 +11044,15 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  5,
                                                      "completed":  0,
-                                                     "inProgress":  3
+                                                     "inProgress":  3,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+                                                                             "Sheetrit - Stadium Parking - East Entrance CR-G4-18",
+                                                                             "Sheetrit - Stadium Parking - West Entrance CR-G4-17",
+                                                                             "Sports Center Parking CR-G4-15"
+                                                                         ]
                                                  }
                                },
                        "11A":  {
@@ -9896,7 +11113,13 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  9,
                                                      "completed":  0,
-                                                     "inProgress":  0
+                                                     "inProgress":  0,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+
+                                                                         ]
                                                  }
                                },
                        "12A":  {
@@ -9957,7 +11180,26 @@ const PROGRESS_DATA = {
                                    "junctions":  {
                                                      "total":  28,
                                                      "completed":  5,
-                                                     "inProgress":  10
+                                                     "inProgress":  10,
+                                                     "completedNames":  [
+                                                                            "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
+                                                                            "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
+                                                                            "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
+                                                                            "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
+                                                                            "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3"
+                                                                        ],
+                                                     "inProgressNames":  [
+                                                                             "Ibn Gabirol - Avenue 34 / Avenue 20 (HR2200)  CR-G5-31 G5-6",
+                                                                             "Ibn Gabirol - Track Switching Sides North To Avenue 7 (HR2200) CR-G5-27.1 G5-6",
+                                                                             "Ibn Gabirol - Avenue 16 (HR2200) 0 Phases CR-G5-30 G5-6",
+                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2",
+                                                                             "Ibn Gabirol - Street 24 / Avenue 11 (HR2200)  CR-G5-32 G5-6",
+                                                                             "Ibn Gabirol - Avenue 12 (HR2200) CR-G5-29 G5-6",
+                                                                             "Ibn Gabirol - Avenue 8 - Street 36 (HR2200) CR-G5-27 G5-6",
+                                                                             "Ibn Gabirol - Avenue 4 (TA3700)  CR-G5-22 G5-4",
+                                                                             "Ibn Gabirol - Crossing North To Avenue 5 (TA3700) CR-G5-25 G5-4",
+                                                                             "New Built, Ibn Gabirol - Crossing North To Avenue 2 (TA3700) CR-G5-17  G5-4"
+                                                                         ]
                                                  }
                                },
                        "1A":  {
@@ -10018,7 +11260,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  2,
                                                     "completed":  1,
-                                                    "inProgress":  1
+                                                    "inProgress":  1,
+                                                    "completedNames":  [
+                                                                           "Holon Depot - Vehicle Enterance CR-G1-2 G1-1"
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                        ]
                                                 }
                               },
                        "2A":  {
@@ -10073,7 +11321,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  4,
                                                     "completed":  0,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Yerush Blvd - exit to HaMerkava CR-G1-5",
+                                                                            "Yerush Blvd - HaBanai CR-G1-7"
+                                                                        ]
                                                 }
                               },
                        "3A":  {
@@ -10134,7 +11389,15 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  17,
                                                     "completed":  1,
-                                                    "inProgress":  3
+                                                    "inProgress":  3,
+                                                    "completedNames":  [
+                                                                           "Yerush Blvd - Betsalel CR-G1-11"
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
+                                                                            "Yerush Blvd - Mohiliver CR-G1-13",
+                                                                            "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel CR-G1-26"
+                                                                        ]
                                                 }
                               },
                        "4A":  {
@@ -10195,7 +11458,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  1,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+                                                                           "A Bar - Shaike Dan CR-G2-11"
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2",
+                                                                            "A Bar - Rozhanski CR-G2-08"
+                                                                        ]
                                                 }
                               },
                        "5A":  {
@@ -10256,7 +11526,16 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  10,
                                                     "completed":  2,
-                                                    "inProgress":  3
+                                                    "inProgress":  3,
+                                                    "completedNames":  [
+                                                                           "Barkat - Lavon CR-G2-16",
+                                                                           "Barkat - Porat (Feher) CR-G2-18"
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Erlich - Laskov CR-G2-12",
+                                                                            "Barkat - Wallanberg CR-G2-17",
+                                                                            "Shenkar - Khoma u-Migdal CR-G2-23"
+                                                                        ]
                                                 }
                               },
                        "6A":  {
@@ -10317,7 +11596,14 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  2
+                                                    "inProgress":  2,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Ben Zvi - Gitit CR-G3-1",
+                                                                            "Har Tsiyon - Hachmei Israel CR-G3-4"
+                                                                        ]
                                                 }
                               },
                        "7A":  {
@@ -10348,7 +11634,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  3,
                                                     "completed":  0,
-                                                    "inProgress":  0
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
                                                 }
                               },
                        "8A":  {
@@ -10403,7 +11695,13 @@ const PROGRESS_DATA = {
                                   "junctions":  {
                                                     "total":  6,
                                                     "completed":  0,
-                                                    "inProgress":  1
+                                                    "inProgress":  1,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+                                                                            "Einstein - Levi Eshkol CR-G4-1 G4-3"
+                                                                        ]
                                                 }
                               },
                        "9A":  {

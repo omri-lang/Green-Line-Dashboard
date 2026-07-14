@@ -525,7 +525,7 @@
   <p class="card-hint">מבנים וחצר דיפו חולון והרצליה</p>
   <table id="depotTable">
     <thead>
-      <tr><th>דיפו</th><th>ביצוע ממוצע מבנים</th><th></th></tr>
+      <tr><th>דיפו</th><th>ביצוע</th><th></th></tr>
     </thead>
     <tbody id="depotTableBody"></tbody>
   </table>
@@ -533,7 +533,7 @@
 
 <div class="side-card" style="margin-bottom:22px;">
   <h2>TTR</h2>
-  <p class="card-hint">ביצוע לפי מבנה TTR, מתוך גיליון ה-TTR</p>
+  <p class="card-hint">ביצוע לפי מבנה TTR</p>
   <table id="ttrTable">
     <thead>
       <tr><th>TTR</th><th>ביצוע</th><th></th></tr>
@@ -699,6 +699,7 @@
     const totals = {};
     DISCIPLINES.forEach(d => { totals[d.key] = { actual: 0, planned: 0 }; });
     let junctionsTotal = 0, junctionsCompleted = 0, junctionsInProgress = 0;
+    const junctionsCompletedNames = [], junctionsInProgressNames = [];
     const lots = lotFilter ? lotFilter.filter(lot => data[lot]) : Object.keys(data);
     lots.forEach(lot => {
       const disc = data[lot].disciplines || {};
@@ -713,6 +714,8 @@
         junctionsTotal += j.total;
         junctionsCompleted += j.completed;
         junctionsInProgress += j.inProgress;
+        (j.completedNames || []).forEach(n => junctionsCompletedNames.push(n));
+        (j.inProgressNames || []).forEach(n => junctionsInProgressNames.push(n));
       }
     });
 
@@ -745,7 +748,10 @@
     return {
       overallPct,
       disciplineResults,
-      junctions: { total: junctionsTotal, completed: junctionsCompleted, inProgress: junctionsInProgress }
+      junctions: {
+        total: junctionsTotal, completed: junctionsCompleted, inProgress: junctionsInProgress,
+        completedNames: junctionsCompletedNames, inProgressNames: junctionsInProgressNames
+      }
     };
   }
 
@@ -768,7 +774,30 @@
   const RING_R = 68;
   const RING_C = 2 * Math.PI * RING_R;
 
-  function makeSummaryRenderer(idPrefix, lotFilter, depotKeys) {
+  // Modal listing junction names (from the Junctions sheet, column D, kept in
+  // English verbatim) for one region and one status (completed / in progress).
+  function openJunctionListPanel(regionLabel, statusLabel, icon, names) {
+    const rows = names.length
+      ? names.map(n => `
+          <div class="disc-row" style="grid-template-columns: 30px 1fr;">
+            <div class="disc-icon">${icon}</div>
+            <div class="disc-name" style="margin-bottom:0;">${n}</div>
+          </div>`).join("")
+      : `<div class="tunnel-msg" style="padding:10px 0;">אין צמתים להצגה בתאריך הדיווח שנבחר.</div>`;
+
+    panel.innerHTML = `
+      <div class="panel-header">
+        <span class="lot-chip">${fmt(names.length)}</span>
+        <h3>${statusLabel} — ${regionLabel}</h3>
+        <button class="panel-close" id="panelCloseBtn">✕</button>
+      </div>
+      <div class="panel-body">${rows}</div>`;
+
+    document.getElementById("panelCloseBtn").addEventListener("click", closePanel);
+    backdrop.classList.add("show");
+  }
+
+  function makeSummaryRenderer(idPrefix, lotFilter, depotKeys, regionLabel) {
     const ringFill = document.getElementById(idPrefix + "RingFill");
     const pctEl = document.getElementById(idPrefix + "Pct");
     const discWrap = document.getElementById(idPrefix + "Disciplines");
@@ -812,24 +841,31 @@
       juncWrap.innerHTML = `
         <div class="junction-stat" style="animation-delay:280ms;">
           <div class="disc-icon">${ICONS.junctionDone}</div>
-          <div>
+          <div style="flex:1; min-width:0;">
             <div class="junction-stat-num">${fmt(junctions.completed)}</div>
             <div class="junction-stat-label">צמתים שהסתיימו מתוך ${fmt(junctions.total)}</div>
           </div>
+          <button class="detail-btn" data-junc="completed">פירוט</button>
         </div>
         <div class="junction-stat" style="animation-delay:315ms;">
           <div class="disc-icon">${ICONS.junctionProgress}</div>
-          <div>
+          <div style="flex:1; min-width:0;">
             <div class="junction-stat-num">${fmt(junctions.inProgress)}</div>
             <div class="junction-stat-label">צמתים בעבודה מתוך ${fmt(junctions.total)}</div>
           </div>
+          <button class="detail-btn" data-junc="inProgress">פירוט</button>
         </div>`;
+
+      juncWrap.querySelector('[data-junc="completed"]').addEventListener("click", () =>
+        openJunctionListPanel(regionLabel, "צמתים שהסתיימו", ICONS.junctionDone, junctions.completedNames || []));
+      juncWrap.querySelector('[data-junc="inProgress"]').addEventListener("click", () =>
+        openJunctionListPanel(regionLabel, "צמתים בעבודה", ICONS.junctionProgress, junctions.inProgressNames || []));
     };
   }
 
-  const renderOverallSummary = makeSummaryRenderer("summary", null, ["Holon","Herz"]);
-  const renderSouthSummary = makeSummaryRenderer("summarySouth", SOUTH_LOTS, ["Holon"]);
-  const renderNorthSummary = makeSummaryRenderer("summaryNorth", NORTH_LOTS, ["Herz"]);
+  const renderOverallSummary = makeSummaryRenderer("summary", null, ["Holon","Herz"], "כלל הפרויקט");
+  const renderSouthSummary = makeSummaryRenderer("summarySouth", SOUTH_LOTS, ["Holon"], "דרום (EPO)");
+  const renderNorthSummary = makeSummaryRenderer("summaryNorth", NORTH_LOTS, ["Herz"], "צפון");
 
   function renderSummary(dateStr) {
     renderOverallSummary(dateStr);
