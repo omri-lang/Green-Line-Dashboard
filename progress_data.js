@@ -9775,13 +9775,835 @@ const PROGRESS_DATA = {
                                                                                      }
                                                   }
                               }
+                   },
+    "2026-07-12":  {
+                       "10A":  {
+                                   "overall":  {
+                                                   "pct":  48.1,
+                                                   "len":  1454
+                                               },
+                                   "disciplines":  {
+                                                       "Excavation to foundation":  {
+                                                                                        "pct":  93.3,
+                                                                                        "actual":  1357.1,
+                                                                                        "planned":  1454,
+                                                                                        "unit":  "m"
+                                                                                    },
+                                                       "Bedding Refill":  {
+                                                                              "pct":  78.2,
+                                                                              "actual":  1137.1,
+                                                                              "planned":  1454,
+                                                                              "unit":  "m"
+                                                                          },
+                                                       "OHLE piles":  {
+                                                                          "pct":  47.4,
+                                                                          "actual":  27,
+                                                                          "planned":  57,
+                                                                          "unit":  "Units"
+                                                                      },
+                                                       "Multitubular":  {
+                                                                            "pct":  56.1,
+                                                                            "actual":  1736.8,
+                                                                            "planned":  3098,
+                                                                            "unit":  "m"
+                                                                        },
+                                                       "Foundations slab":  {
+                                                                                "pct":  53.4,
+                                                                                "actual":  1654.8,
+                                                                                "planned":  3098,
+                                                                                "unit":  "m"
+                                                                            },
+                                                       "Track Installation on line":  {
+                                                                                          "pct":  0,
+                                                                                          "actual":  0,
+                                                                                          "planned":  3098,
+                                                                                          "unit":  "m"
+                                                                                      },
+                                                       "TRK Turnout Installation":  {
+                                                                                        "pct":  0,
+                                                                                        "actual":  0,
+                                                                                        "planned":  3,
+                                                                                        "unit":  ""
+                                                                                    },
+                                                       "OHLE Poles Installation":  {
+                                                                                       "pct":  0,
+                                                                                       "actual":  0,
+                                                                                       "planned":  31,
+                                                                                       "unit":  ""
+                                                                                   }
+                                                   },
+                                   "junctions":  {
+                                                     "total":  5,
+                                                     "completed":  0,
+                                                     "inProgress":  3
+                                                 }
+                               },
+                       "11A":  {
+                                   "overall":  {
+                                                   "pct":  4.8,
+                                                   "len":  2053
+                                               },
+                                   "disciplines":  {
+                                                       "Excavation to foundation":  {
+                                                                                        "pct":  22,
+                                                                                        "actual":  452,
+                                                                                        "planned":  2053,
+                                                                                        "unit":  "m"
+                                                                                    },
+                                                       "Bedding Refill":  {
+                                                                              "pct":  4.6,
+                                                                              "actual":  95,
+                                                                              "planned":  2053,
+                                                                              "unit":  "m"
+                                                                          },
+                                                       "OHLE piles":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  96,
+                                                                          "unit":  "Units"
+                                                                      },
+                                                       "Multitubular":  {
+                                                                            "pct":  4,
+                                                                            "actual":  190,
+                                                                            "planned":  4789,
+                                                                            "unit":  "m"
+                                                                        },
+                                                       "Foundations slab":  {
+                                                                                "pct":  3.1,
+                                                                                "actual":  150,
+                                                                                "planned":  4789,
+                                                                                "unit":  "m"
+                                                                            },
+                                                       "Track Installation on line":  {
+                                                                                          "pct":  0,
+                                                                                          "actual":  0,
+                                                                                          "planned":  4789,
+                                                                                          "unit":  "m"
+                                                                                      },
+                                                       "TRK Turnout Installation":  {
+                                                                                        "pct":  0,
+                                                                                        "actual":  0,
+                                                                                        "planned":  2,
+                                                                                        "unit":  ""
+                                                                                    },
+                                                       "OHLE Poles Installation":  {
+                                                                                       "pct":  0,
+                                                                                       "actual":  0,
+                                                                                       "planned":  82,
+                                                                                       "unit":  ""
+                                                                                   }
+                                                   },
+                                   "junctions":  {
+                                                     "total":  9,
+                                                     "completed":  0,
+                                                     "inProgress":  0
+                                                 }
+                               },
+                       "12A":  {
+                                   "overall":  {
+                                                   "pct":  16.7,
+                                                   "len":  7274
+                                               },
+                                   "disciplines":  {
+                                                       "Excavation to foundation":  {
+                                                                                        "pct":  47.6,
+                                                                                        "actual":  3459.1,
+                                                                                        "planned":  7274,
+                                                                                        "unit":  "m"
+                                                                                    },
+                                                       "Bedding Refill":  {
+                                                                              "pct":  31.2,
+                                                                              "actual":  2271.9,
+                                                                              "planned":  7274,
+                                                                              "unit":  "m"
+                                                                          },
+                                                       "OHLE piles":  {
+                                                                          "pct":  0.4,
+                                                                          "actual":  1,
+                                                                          "planned":  246,
+                                                                          "unit":  "Units"
+                                                                      },
+                                                       "Multitubular":  {
+                                                                            "pct":  13.5,
+                                                                            "actual":  1836.6,
+                                                                            "planned":  13595,
+                                                                            "unit":  "m"
+                                                                        },
+                                                       "Foundations slab":  {
+                                                                                "pct":  9.2,
+                                                                                "actual":  1251,
+                                                                                "planned":  13595,
+                                                                                "unit":  "m"
+                                                                            },
+                                                       "Track Installation on line":  {
+                                                                                          "pct":  3.8,
+                                                                                          "actual":  521,
+                                                                                          "planned":  13595,
+                                                                                          "unit":  "m"
+                                                                                      },
+                                                       "TRK Turnout Installation":  {
+                                                                                        "pct":  0,
+                                                                                        "actual":  0,
+                                                                                        "planned":  14,
+                                                                                        "unit":  ""
+                                                                                    },
+                                                       "OHLE Poles Installation":  {
+                                                                                       "pct":  0,
+                                                                                       "actual":  0,
+                                                                                       "planned":  246,
+                                                                                       "unit":  ""
+                                                                                   }
+                                                   },
+                                   "junctions":  {
+                                                     "total":  28,
+                                                     "completed":  5,
+                                                     "inProgress":  10
+                                                 }
+                               },
+                       "1A":  {
+                                  "overall":  {
+                                                  "pct":  84.2,
+                                                  "len":  1295
+                                              },
+                                  "disciplines":  {
+                                                      "Excavation to foundation":  {
+                                                                                       "pct":  100,
+                                                                                       "actual":  1294.8,
+                                                                                       "planned":  1295,
+                                                                                       "unit":  "m"
+                                                                                   },
+                                                      "Bedding Refill":  {
+                                                                             "pct":  100,
+                                                                             "actual":  1294.8,
+                                                                             "planned":  1295,
+                                                                             "unit":  "m"
+                                                                         },
+                                                      "OHLE piles":  {
+                                                                         "pct":  91.7,
+                                                                         "actual":  66,
+                                                                         "planned":  72,
+                                                                         "unit":  "Units"
+                                                                     },
+                                                      "Multitubular":  {
+                                                                           "pct":  96.4,
+                                                                           "actual":  2751,
+                                                                           "planned":  2854,
+                                                                           "unit":  "m"
+                                                                       },
+                                                      "Foundations slab":  {
+                                                                               "pct":  91,
+                                                                               "actual":  2597.8,
+                                                                               "planned":  2854,
+                                                                               "unit":  "m"
+                                                                           },
+                                                      "Track Installation on line":  {
+                                                                                         "pct":  52.6,
+                                                                                         "actual":  1502,
+                                                                                         "planned":  2854,
+                                                                                         "unit":  "m"
+                                                                                     },
+                                                      "TRK Turnout Installation":  {
+                                                                                       "pct":  66.7,
+                                                                                       "actual":  2,
+                                                                                       "planned":  3,
+                                                                                       "unit":  ""
+                                                                                   },
+                                                      "OHLE Poles Installation":  {
+                                                                                      "pct":  0,
+                                                                                      "actual":  0,
+                                                                                      "planned":  72,
+                                                                                      "unit":  ""
+                                                                                  }
+                                                  },
+                                  "junctions":  {
+                                                    "total":  2,
+                                                    "completed":  1,
+                                                    "inProgress":  1
+                                                }
+                              },
+                       "2A":  {
+                                  "overall":  {
+                                                  "pct":  42.2,
+                                                  "len":  1072
+                                              },
+                                  "disciplines":  {
+                                                      "Excavation to foundation":  {
+                                                                                       "pct":  98.7,
+                                                                                       "actual":  1058,
+                                                                                       "planned":  1072,
+                                                                                       "unit":  "m"
+                                                                                   },
+                                                      "Bedding Refill":  {
+                                                                             "pct":  98.7,
+                                                                             "actual":  1057.9,
+                                                                             "planned":  1072,
+                                                                             "unit":  "m"
+                                                                         },
+                                                      "OHLE piles":  {
+                                                                         "pct":  28.2,
+                                                                         "actual":  11,
+                                                                         "planned":  39,
+                                                                         "unit":  "Units"
+                                                                     },
+                                                      "Multitubular":  {
+                                                                           "pct":  49,
+                                                                           "actual":  1020,
+                                                                           "planned":  2083,
+                                                                           "unit":  "m"
+                                                                       },
+                                                      "Foundations slab":  {
+                                                                               "pct":  20.6,
+                                                                               "actual":  430,
+                                                                               "planned":  2083,
+                                                                               "unit":  "m"
+                                                                           },
+                                                      "Track Installation on line":  {
+                                                                                         "pct":  0,
+                                                                                         "actual":  0,
+                                                                                         "planned":  2083,
+                                                                                         "unit":  "m"
+                                                                                     },
+                                                      "OHLE Poles Installation":  {
+                                                                                      "pct":  0,
+                                                                                      "actual":  0,
+                                                                                      "planned":  39,
+                                                                                      "unit":  ""
+                                                                                  }
+                                                  },
+                                  "junctions":  {
+                                                    "total":  4,
+                                                    "completed":  0,
+                                                    "inProgress":  2
+                                                }
+                              },
+                       "3A":  {
+                                  "overall":  {
+                                                  "pct":  30.7,
+                                                  "len":  4555
+                                              },
+                                  "disciplines":  {
+                                                      "Excavation to foundation":  {
+                                                                                       "pct":  63.6,
+                                                                                       "actual":  2896.8,
+                                                                                       "planned":  4555,
+                                                                                       "unit":  "m"
+                                                                                   },
+                                                      "Bedding Refill":  {
+                                                                             "pct":  63.6,
+                                                                             "actual":  2896.7,
+                                                                             "planned":  4555,
+                                                                             "unit":  "m"
+                                                                         },
+                                                      "OHLE piles":  {
+                                                                         "pct":  46.3,
+                                                                         "actual":  76,
+                                                                         "planned":  164,
+                                                                         "unit":  "Units"
+                                                                     },
+                                                      "Multitubular":  {
+                                                                           "pct":  35.5,
+                                                                           "actual":  3235.4,
+                                                                           "planned":  9111,
+                                                                           "unit":  "m"
+                                                                       },
+                                                      "Foundations slab":  {
+                                                                               "pct":  24.4,
+                                                                               "actual":  2226.2,
+                                                                               "planned":  9111,
+                                                                               "unit":  "m"
+                                                                           },
+                                                      "Track Installation on line":  {
+                                                                                         "pct":  0,
+                                                                                         "actual":  0,
+                                                                                         "planned":  9111,
+                                                                                         "unit":  "m"
+                                                                                     },
+                                                      "TRK Turnout Installation":  {
+                                                                                       "pct":  0,
+                                                                                       "actual":  0,
+                                                                                       "planned":  4,
+                                                                                       "unit":  ""
+                                                                                   },
+                                                      "OHLE Poles Installation":  {
+                                                                                      "pct":  0,
+                                                                                      "actual":  0,
+                                                                                      "planned":  249,
+                                                                                      "unit":  ""
+                                                                                  }
+                                                  },
+                                  "junctions":  {
+                                                    "total":  17,
+                                                    "completed":  1,
+                                                    "inProgress":  3
+                                                }
+                              },
+                       "4A":  {
+                                  "overall":  {
+                                                  "pct":  70.8,
+                                                  "len":  2719
+                                              },
+                                  "disciplines":  {
+                                                      "Excavation to foundation":  {
+                                                                                       "pct":  100,
+                                                                                       "actual":  2719.1,
+                                                                                       "planned":  2719,
+                                                                                       "unit":  "m"
+                                                                                   },
+                                                      "Bedding Refill":  {
+                                                                             "pct":  100,
+                                                                             "actual":  2718.6,
+                                                                             "planned":  2719,
+                                                                             "unit":  "m"
+                                                                         },
+                                                      "OHLE piles":  {
+                                                                         "pct":  88.7,
+                                                                         "actual":  86,
+                                                                         "planned":  97,
+                                                                         "unit":  "Units"
+                                                                     },
+                                                      "Multitubular":  {
+                                                                           "pct":  95.2,
+                                                                           "actual":  5446.3,
+                                                                           "planned":  5721,
+                                                                           "unit":  "m"
+                                                                       },
+                                                      "Foundations slab":  {
+                                                                               "pct":  62.4,
+                                                                               "actual":  3570,
+                                                                               "planned":  5721,
+                                                                               "unit":  "m"
+                                                                           },
+                                                      "Track Installation on line":  {
+                                                                                         "pct":  27.8,
+                                                                                         "actual":  1591,
+                                                                                         "planned":  5721,
+                                                                                         "unit":  "m"
+                                                                                     },
+                                                      "TRK Turnout Installation":  {
+                                                                                       "pct":  0,
+                                                                                       "actual":  0,
+                                                                                       "planned":  4,
+                                                                                       "unit":  ""
+                                                                                   },
+                                                      "OHLE Poles Installation":  {
+                                                                                      "pct":  0,
+                                                                                      "actual":  0,
+                                                                                      "planned":  97,
+                                                                                      "unit":  ""
+                                                                                  }
+                                                  },
+                                  "junctions":  {
+                                                    "total":  6,
+                                                    "completed":  1,
+                                                    "inProgress":  2
+                                                }
+                              },
+                       "5A":  {
+                                  "overall":  {
+                                                  "pct":  44.4,
+                                                  "len":  3416
+                                              },
+                                  "disciplines":  {
+                                                      "Excavation to foundation":  {
+                                                                                       "pct":  94.6,
+                                                                                       "actual":  3233.1,
+                                                                                       "planned":  3416,
+                                                                                       "unit":  "m"
+                                                                                   },
+                                                      "Bedding Refill":  {
+                                                                             "pct":  95.6,
+                                                                             "actual":  3264.8,
+                                                                             "planned":  3416,
+                                                                             "unit":  "m"
+                                                                         },
+                                                      "OHLE piles":  {
+                                                                         "pct":  76.2,
+                                                                         "actual":  99,
+                                                                         "planned":  130,
+                                                                         "unit":  "Units"
+                                                                     },
+                                                      "Multitubular":  {
+                                                                           "pct":  61.3,
+                                                                           "actual":  4185.6,
+                                                                           "planned":  6831,
+                                                                           "unit":  "m"
+                                                                       },
+                                                      "Foundations slab":  {
+                                                                               "pct":  21.4,
+                                                                               "actual":  1461,
+                                                                               "planned":  6831,
+                                                                               "unit":  "m"
+                                                                           },
+                                                      "Track Installation on line":  {
+                                                                                         "pct":  0,
+                                                                                         "actual":  0,
+                                                                                         "planned":  6831,
+                                                                                         "unit":  "m"
+                                                                                     },
+                                                      "TRK Turnout Installation":  {
+                                                                                       "pct":  0,
+                                                                                       "actual":  0,
+                                                                                       "planned":  4,
+                                                                                       "unit":  ""
+                                                                                   },
+                                                      "OHLE Poles Installation":  {
+                                                                                      "pct":  0,
+                                                                                      "actual":  0,
+                                                                                      "planned":  130,
+                                                                                      "unit":  ""
+                                                                                  }
+                                                  },
+                                  "junctions":  {
+                                                    "total":  10,
+                                                    "completed":  2,
+                                                    "inProgress":  3
+                                                }
+                              },
+                       "6A":  {
+                                  "overall":  {
+                                                  "pct":  53.3,
+                                                  "len":  1780
+                                              },
+                                  "disciplines":  {
+                                                      "Excavation to foundation":  {
+                                                                                       "pct":  89.6,
+                                                                                       "actual":  1595.5,
+                                                                                       "planned":  1780,
+                                                                                       "unit":  "m"
+                                                                                   },
+                                                      "Bedding Refill":  {
+                                                                             "pct":  67.2,
+                                                                             "actual":  1195.5,
+                                                                             "planned":  1780,
+                                                                             "unit":  "m"
+                                                                         },
+                                                      "OHLE piles":  {
+                                                                         "pct":  45.8,
+                                                                         "actual":  27,
+                                                                         "planned":  59,
+                                                                         "unit":  "Units"
+                                                                     },
+                                                      "Multitubular":  {
+                                                                           "pct":  65.9,
+                                                                           "actual":  2344.8,
+                                                                           "planned":  3558.5,
+                                                                           "unit":  "m"
+                                                                       },
+                                                      "Foundations slab":  {
+                                                                               "pct":  45.2,
+                                                                               "actual":  1610,
+                                                                               "planned":  3558.5,
+                                                                               "unit":  "m"
+                                                                           },
+                                                      "Track Installation on line":  {
+                                                                                         "pct":  24.7,
+                                                                                         "actual":  880,
+                                                                                         "planned":  3558.5,
+                                                                                         "unit":  "m"
+                                                                                     },
+                                                      "TRK Turnout Installation":  {
+                                                                                       "pct":  0,
+                                                                                       "actual":  0,
+                                                                                       "planned":  1,
+                                                                                       "unit":  ""
+                                                                                   },
+                                                      "OHLE Poles Installation":  {
+                                                                                      "pct":  0,
+                                                                                      "actual":  0,
+                                                                                      "planned":  59,
+                                                                                      "unit":  ""
+                                                                                  }
+                                                  },
+                                  "junctions":  {
+                                                    "total":  6,
+                                                    "completed":  0,
+                                                    "inProgress":  2
+                                                }
+                              },
+                       "7A":  {
+                                  "overall":  {
+                                                  "pct":  0,
+                                                  "len":  4860
+                                              },
+                                  "disciplines":  {
+                                                      "Multitubular":  {
+                                                                           "pct":  0,
+                                                                           "actual":  0,
+                                                                           "planned":  9720,
+                                                                           "unit":  "m"
+                                                                       },
+                                                      "Foundations slab":  {
+                                                                               "pct":  0,
+                                                                               "actual":  0,
+                                                                               "planned":  9720,
+                                                                               "unit":  "m"
+                                                                           },
+                                                      "Track Installation on line":  {
+                                                                                         "pct":  0,
+                                                                                         "actual":  0,
+                                                                                         "planned":  9720,
+                                                                                         "unit":  "m"
+                                                                                     }
+                                                  },
+                                  "junctions":  {
+                                                    "total":  3,
+                                                    "completed":  0,
+                                                    "inProgress":  0
+                                                }
+                              },
+                       "8A":  {
+                                  "overall":  {
+                                                  "pct":  0,
+                                                  "len":  2334
+                                              },
+                                  "disciplines":  {
+                                                      "Excavation to foundation":  {
+                                                                                       "pct":  0,
+                                                                                       "actual":  0,
+                                                                                       "planned":  2334,
+                                                                                       "unit":  "m"
+                                                                                   },
+                                                      "Bedding Refill":  {
+                                                                             "pct":  0,
+                                                                             "actual":  0,
+                                                                             "planned":  2334,
+                                                                             "unit":  "m"
+                                                                         },
+                                                      "OHLE piles":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  87,
+                                                                         "unit":  "Units"
+                                                                     },
+                                                      "Multitubular":  {
+                                                                           "pct":  0,
+                                                                           "actual":  0,
+                                                                           "planned":  4904,
+                                                                           "unit":  "m"
+                                                                       },
+                                                      "Foundations slab":  {
+                                                                               "pct":  0,
+                                                                               "actual":  0,
+                                                                               "planned":  4904,
+                                                                               "unit":  "m"
+                                                                           },
+                                                      "Track Installation on line":  {
+                                                                                         "pct":  0,
+                                                                                         "actual":  0,
+                                                                                         "planned":  4904,
+                                                                                         "unit":  "m"
+                                                                                     },
+                                                      "TRK Turnout Installation":  {
+                                                                                       "pct":  0,
+                                                                                       "actual":  0,
+                                                                                       "planned":  1,
+                                                                                       "unit":  ""
+                                                                                   }
+                                                  },
+                                  "junctions":  {
+                                                    "total":  6,
+                                                    "completed":  0,
+                                                    "inProgress":  1
+                                                }
+                              },
+                       "9A":  {
+                                  "overall":  {
+                                                  "pct":  0,
+                                                  "len":  1210
+                                              },
+                                  "disciplines":  {
+                                                      "Excavation to foundation":  {
+                                                                                       "pct":  0,
+                                                                                       "actual":  0,
+                                                                                       "planned":  1210,
+                                                                                       "unit":  "m"
+                                                                                   },
+                                                      "Bedding Refill":  {
+                                                                             "pct":  0,
+                                                                             "actual":  0,
+                                                                             "planned":  1210,
+                                                                             "unit":  "m"
+                                                                         },
+                                                      "OHLE piles":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  41,
+                                                                         "unit":  "Units"
+                                                                     },
+                                                      "Multitubular":  {
+                                                                           "pct":  0,
+                                                                           "actual":  0,
+                                                                           "planned":  1210,
+                                                                           "unit":  "m"
+                                                                       },
+                                                      "Foundations slab":  {
+                                                                               "pct":  0,
+                                                                               "actual":  0,
+                                                                               "planned":  1210,
+                                                                               "unit":  "m"
+                                                                           },
+                                                      "Track Installation on line":  {
+                                                                                         "pct":  0,
+                                                                                         "actual":  0,
+                                                                                         "planned":  1210,
+                                                                                         "unit":  "m"
+                                                                                     }
+                                                  }
+                              }
                    }
 };
 const DEPOT_DATA = {
     "2026-01-29":  {
                        "Holon":  {
                                      "buildings":  {
-
+                                                       "Excavation and Foundation":  {
+                                                                                         "pct":  100,
+                                                                                         "buildingList":  [
+                                                                                                              {
+                                                                                                                  "name":  "מבנה הנהלה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה תחזוקה יומי",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה נהגים",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה תחזוקה כבדה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה כניסה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "TTR-01",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "בור ניקוז 1",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "בור ניקוז 2",
+                                                                                                                  "pct":  100
+                                                                                                              }
+                                                                                                          ]
+                                                                                     },
+                                                       "Shell":  {
+                                                                     "pct":  77.2,
+                                                                     "buildingList":  [
+                                                                                          {
+                                                                                              "name":  "מבנה הנהלה",
+                                                                                              "pct":  97.2
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה תחזוקה יומי",
+                                                                                              "pct":  34
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה נהגים",
+                                                                                              "pct":  65
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה תחזוקה כבדה",
+                                                                                              "pct":  91.8
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה כניסה",
+                                                                                              "pct":  30
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "TTR-01",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "בור ניקוז 1",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "בור ניקוז 2",
+                                                                                              "pct":  100
+                                                                                          }
+                                                                                      ]
+                                                                 },
+                                                       "Arch and MEP Works":  {
+                                                                                  "pct":  2.5,
+                                                                                  "buildingList":  [
+                                                                                                       {
+                                                                                                           "name":  "מבנה הנהלה",
+                                                                                                           "pct":  1
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה תחזוקה יומי",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה נהגים",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה תחזוקה כבדה",
+                                                                                                           "pct":  10
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה כניסה",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "TTR-01",
+                                                                                                           "pct":  9
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "בור ניקוז 1",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "בור ניקוז 2",
+                                                                                                           "pct":  0
+                                                                                                       }
+                                                                                                   ]
+                                                                              },
+                                                       "RSY - General":  {
+                                                                             "pct":  0,
+                                                                             "buildingList":  [
+                                                                                                  {
+                                                                                                      "name":  "מבנה הנהלה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה תחזוקה יומי",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה נהגים",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה תחזוקה כבדה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה כניסה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "TTR-01",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "בור ניקוז 1",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "בור ניקוז 2",
+                                                                                                      "pct":  0
+                                                                                                  }
+                                                                                              ]
+                                                                         }
                                                    },
                                      "yard":  {
 
@@ -9789,7 +10611,154 @@ const DEPOT_DATA = {
                                  },
                        "Herz":  {
                                     "buildings":  {
-
+                                                      "Excavation and Foundation":  {
+                                                                                        "pct":  100,
+                                                                                        "buildingList":  [
+                                                                                                             {
+                                                                                                                 "name":  "מבנה הנהלה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה יומי",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה ניקיון",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה קלה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה כניסה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "TTR-15",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "בור ניקוז",
+                                                                                                                 "pct":  100
+                                                                                                             }
+                                                                                                         ]
+                                                                                    },
+                                                      "Shell":  {
+                                                                    "pct":  43.7,
+                                                                    "buildingList":  [
+                                                                                         {
+                                                                                             "name":  "מבנה הנהלה",
+                                                                                             "pct":  70
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה יומי",
+                                                                                             "pct":  24
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה ניקיון",
+                                                                                             "pct":  25
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה קלה",
+                                                                                             "pct":  28.4
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה",
+                                                                                             "pct":  55.2
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה כניסה",
+                                                                                             "pct":  25.5
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "TTR-15",
+                                                                                             "pct":  21.5
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "בור ניקוז",
+                                                                                             "pct":  100
+                                                                                         }
+                                                                                     ]
+                                                                },
+                                                      "Arch and MEP Works":  {
+                                                                                 "pct":  0,
+                                                                                 "buildingList":  [
+                                                                                                      {
+                                                                                                          "name":  "מבנה הנהלה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה יומי",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה ניקיון",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה קלה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה כניסה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "TTR-15",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "בור ניקוז",
+                                                                                                          "pct":  0
+                                                                                                      }
+                                                                                                  ]
+                                                                             },
+                                                      "RSY - General":  {
+                                                                            "pct":  0,
+                                                                            "buildingList":  [
+                                                                                                 {
+                                                                                                     "name":  "מבנה הנהלה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה יומי",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה ניקיון",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה קלה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה כניסה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "TTR-15",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "בור ניקוז",
+                                                                                                     "pct":  0
+                                                                                                 }
+                                                                                             ]
+                                                                        }
                                                   },
                                     "yard":  {
 
@@ -9799,7 +10768,154 @@ const DEPOT_DATA = {
     "2026-02-12":  {
                        "Holon":  {
                                      "buildings":  {
-
+                                                       "Excavation and Foundation":  {
+                                                                                         "pct":  100,
+                                                                                         "buildingList":  [
+                                                                                                              {
+                                                                                                                  "name":  "מבנה הנהלה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה תחזוקה יומי",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה נהגים",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה תחזוקה כבדה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה כניסה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "TTR-01",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "בור ניקוז 1",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "בור ניקוז 2",
+                                                                                                                  "pct":  100
+                                                                                                              }
+                                                                                                          ]
+                                                                                     },
+                                                       "Shell":  {
+                                                                     "pct":  77.4,
+                                                                     "buildingList":  [
+                                                                                          {
+                                                                                              "name":  "מבנה הנהלה",
+                                                                                              "pct":  98
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה תחזוקה יומי",
+                                                                                              "pct":  34
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה נהגים",
+                                                                                              "pct":  65
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה תחזוקה כבדה",
+                                                                                              "pct":  91.8
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה כניסה",
+                                                                                              "pct":  30
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "TTR-01",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "בור ניקוז 1",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "בור ניקוז 2",
+                                                                                              "pct":  100
+                                                                                          }
+                                                                                      ]
+                                                                 },
+                                                       "Arch and MEP Works":  {
+                                                                                  "pct":  2.7,
+                                                                                  "buildingList":  [
+                                                                                                       {
+                                                                                                           "name":  "מבנה הנהלה",
+                                                                                                           "pct":  1.2
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה תחזוקה יומי",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה נהגים",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה תחזוקה כבדה",
+                                                                                                           "pct":  11
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה כניסה",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "TTR-01",
+                                                                                                           "pct":  9.5
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "בור ניקוז 1",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "בור ניקוז 2",
+                                                                                                           "pct":  0
+                                                                                                       }
+                                                                                                   ]
+                                                                              },
+                                                       "RSY - General":  {
+                                                                             "pct":  0,
+                                                                             "buildingList":  [
+                                                                                                  {
+                                                                                                      "name":  "מבנה הנהלה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה תחזוקה יומי",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה נהגים",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה תחזוקה כבדה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה כניסה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "TTR-01",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "בור ניקוז 1",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "בור ניקוז 2",
+                                                                                                      "pct":  0
+                                                                                                  }
+                                                                                              ]
+                                                                         }
                                                    },
                                      "yard":  {
 
@@ -9807,7 +10923,154 @@ const DEPOT_DATA = {
                                  },
                        "Herz":  {
                                     "buildings":  {
-
+                                                      "Excavation and Foundation":  {
+                                                                                        "pct":  100,
+                                                                                        "buildingList":  [
+                                                                                                             {
+                                                                                                                 "name":  "מבנה הנהלה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה יומי",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה ניקיון",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה קלה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה כניסה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "TTR-15",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "בור ניקוז",
+                                                                                                                 "pct":  100
+                                                                                                             }
+                                                                                                         ]
+                                                                                    },
+                                                      "Shell":  {
+                                                                    "pct":  44.5,
+                                                                    "buildingList":  [
+                                                                                         {
+                                                                                             "name":  "מבנה הנהלה",
+                                                                                             "pct":  70
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה יומי",
+                                                                                             "pct":  26
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה ניקיון",
+                                                                                             "pct":  25
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה קלה",
+                                                                                             "pct":  29.2
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה",
+                                                                                             "pct":  56.8
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה כניסה",
+                                                                                             "pct":  26.4
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "TTR-15",
+                                                                                             "pct":  22.2
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "בור ניקוז",
+                                                                                             "pct":  100
+                                                                                         }
+                                                                                     ]
+                                                                },
+                                                      "Arch and MEP Works":  {
+                                                                                 "pct":  0,
+                                                                                 "buildingList":  [
+                                                                                                      {
+                                                                                                          "name":  "מבנה הנהלה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה יומי",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה ניקיון",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה קלה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה כניסה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "TTR-15",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "בור ניקוז",
+                                                                                                          "pct":  0
+                                                                                                      }
+                                                                                                  ]
+                                                                             },
+                                                      "RSY - General":  {
+                                                                            "pct":  0,
+                                                                            "buildingList":  [
+                                                                                                 {
+                                                                                                     "name":  "מבנה הנהלה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה יומי",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה ניקיון",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה קלה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה כניסה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "TTR-15",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "בור ניקוז",
+                                                                                                     "pct":  0
+                                                                                                 }
+                                                                                             ]
+                                                                        }
                                                   },
                                     "yard":  {
 
@@ -9817,7 +11080,154 @@ const DEPOT_DATA = {
     "2026-02-26":  {
                        "Holon":  {
                                      "buildings":  {
-
+                                                       "Excavation and Foundation":  {
+                                                                                         "pct":  100,
+                                                                                         "buildingList":  [
+                                                                                                              {
+                                                                                                                  "name":  "מבנה הנהלה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה תחזוקה יומי",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה נהגים",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה תחזוקה כבדה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה כניסה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "TTR-01",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "בור ניקוז 1",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "בור ניקוז 2",
+                                                                                                                  "pct":  100
+                                                                                                              }
+                                                                                                          ]
+                                                                                     },
+                                                       "Shell":  {
+                                                                     "pct":  97,
+                                                                     "buildingList":  [
+                                                                                          {
+                                                                                              "name":  "מבנה הנהלה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה תחזוקה יומי",
+                                                                                              "pct":  76
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה נהגים",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה תחזוקה כבדה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה כניסה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "TTR-01",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "בור ניקוז 1",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "בור ניקוז 2",
+                                                                                              "pct":  100
+                                                                                          }
+                                                                                      ]
+                                                                 },
+                                                       "Arch and MEP Works":  {
+                                                                                  "pct":  7.2,
+                                                                                  "buildingList":  [
+                                                                                                       {
+                                                                                                           "name":  "מבנה הנהלה",
+                                                                                                           "pct":  11.8
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה תחזוקה יומי",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה נהגים",
+                                                                                                           "pct":  5
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה תחזוקה כבדה",
+                                                                                                           "pct":  11.5
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה כניסה",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "TTR-01",
+                                                                                                           "pct":  29
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "בור ניקוז 1",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "בור ניקוז 2",
+                                                                                                           "pct":  0
+                                                                                                       }
+                                                                                                   ]
+                                                                              },
+                                                       "RSY - General":  {
+                                                                             "pct":  0,
+                                                                             "buildingList":  [
+                                                                                                  {
+                                                                                                      "name":  "מבנה הנהלה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה תחזוקה יומי",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה נהגים",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה תחזוקה כבדה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה כניסה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "TTR-01",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "בור ניקוז 1",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "בור ניקוז 2",
+                                                                                                      "pct":  0
+                                                                                                  }
+                                                                                              ]
+                                                                         }
                                                    },
                                      "yard":  {
 
@@ -9825,7 +11235,154 @@ const DEPOT_DATA = {
                                  },
                        "Herz":  {
                                     "buildings":  {
-
+                                                      "Excavation and Foundation":  {
+                                                                                        "pct":  100,
+                                                                                        "buildingList":  [
+                                                                                                             {
+                                                                                                                 "name":  "מבנה הנהלה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה יומי",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה ניקיון",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה קלה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה כניסה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "TTR-15",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "בור ניקוז",
+                                                                                                                 "pct":  100
+                                                                                                             }
+                                                                                                         ]
+                                                                                    },
+                                                      "Shell":  {
+                                                                    "pct":  44.5,
+                                                                    "buildingList":  [
+                                                                                         {
+                                                                                             "name":  "מבנה הנהלה",
+                                                                                             "pct":  70
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה יומי",
+                                                                                             "pct":  26
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה ניקיון",
+                                                                                             "pct":  25
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה קלה",
+                                                                                             "pct":  29.2
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה",
+                                                                                             "pct":  56.8
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה כניסה",
+                                                                                             "pct":  26.4
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "TTR-15",
+                                                                                             "pct":  22.2
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "בור ניקוז",
+                                                                                             "pct":  100
+                                                                                         }
+                                                                                     ]
+                                                                },
+                                                      "Arch and MEP Works":  {
+                                                                                 "pct":  0,
+                                                                                 "buildingList":  [
+                                                                                                      {
+                                                                                                          "name":  "מבנה הנהלה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה יומי",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה ניקיון",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה קלה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה כניסה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "TTR-15",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "בור ניקוז",
+                                                                                                          "pct":  0
+                                                                                                      }
+                                                                                                  ]
+                                                                             },
+                                                      "RSY - General":  {
+                                                                            "pct":  0,
+                                                                            "buildingList":  [
+                                                                                                 {
+                                                                                                     "name":  "מבנה הנהלה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה יומי",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה ניקיון",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה קלה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה כניסה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "TTR-15",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "בור ניקוז",
+                                                                                                     "pct":  0
+                                                                                                 }
+                                                                                             ]
+                                                                        }
                                                   },
                                     "yard":  {
 
@@ -9835,7 +11392,154 @@ const DEPOT_DATA = {
     "2026-03-12":  {
                        "Holon":  {
                                      "buildings":  {
-
+                                                       "Excavation and Foundation":  {
+                                                                                         "pct":  100,
+                                                                                         "buildingList":  [
+                                                                                                              {
+                                                                                                                  "name":  "מבנה הנהלה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה תחזוקה יומי",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה נהגים",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה תחזוקה כבדה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה כניסה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "TTR-01",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "בור ניקוז 1",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "בור ניקוז 2",
+                                                                                                                  "pct":  100
+                                                                                                              }
+                                                                                                          ]
+                                                                                     },
+                                                       "Shell":  {
+                                                                     "pct":  98.5,
+                                                                     "buildingList":  [
+                                                                                          {
+                                                                                              "name":  "מבנה הנהלה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה תחזוקה יומי",
+                                                                                              "pct":  88
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה נהגים",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה תחזוקה כבדה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה כניסה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "TTR-01",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "בור ניקוז 1",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "בור ניקוז 2",
+                                                                                              "pct":  100
+                                                                                          }
+                                                                                      ]
+                                                                 },
+                                                       "Arch and MEP Works":  {
+                                                                                  "pct":  9.6,
+                                                                                  "buildingList":  [
+                                                                                                       {
+                                                                                                           "name":  "מבנה הנהלה",
+                                                                                                           "pct":  14.5
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה תחזוקה יומי",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה נהגים",
+                                                                                                           "pct":  10.5
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה תחזוקה כבדה",
+                                                                                                           "pct":  18.5
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה כניסה",
+                                                                                                           "pct":  3
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "TTR-01",
+                                                                                                           "pct":  30.5
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "בור ניקוז 1",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "בור ניקוז 2",
+                                                                                                           "pct":  0
+                                                                                                       }
+                                                                                                   ]
+                                                                              },
+                                                       "RSY - General":  {
+                                                                             "pct":  0,
+                                                                             "buildingList":  [
+                                                                                                  {
+                                                                                                      "name":  "מבנה הנהלה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה תחזוקה יומי",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה נהגים",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה תחזוקה כבדה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה כניסה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "TTR-01",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "בור ניקוז 1",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "בור ניקוז 2",
+                                                                                                      "pct":  0
+                                                                                                  }
+                                                                                              ]
+                                                                         }
                                                    },
                                      "yard":  {
 
@@ -9843,7 +11547,154 @@ const DEPOT_DATA = {
                                  },
                        "Herz":  {
                                     "buildings":  {
-
+                                                      "Excavation and Foundation":  {
+                                                                                        "pct":  100,
+                                                                                        "buildingList":  [
+                                                                                                             {
+                                                                                                                 "name":  "מבנה הנהלה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה יומי",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה ניקיון",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה קלה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה כניסה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "TTR-15",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "בור ניקוז",
+                                                                                                                 "pct":  100
+                                                                                                             }
+                                                                                                         ]
+                                                                                    },
+                                                      "Shell":  {
+                                                                    "pct":  79.6,
+                                                                    "buildingList":  [
+                                                                                         {
+                                                                                             "name":  "מבנה הנהלה",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה יומי",
+                                                                                             "pct":  88
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה ניקיון",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה קלה",
+                                                                                             "pct":  73.4
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה",
+                                                                                             "pct":  49.2
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה כניסה",
+                                                                                             "pct":  39
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "TTR-15",
+                                                                                             "pct":  86.8
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "בור ניקוז",
+                                                                                             "pct":  100
+                                                                                         }
+                                                                                     ]
+                                                                },
+                                                      "Arch and MEP Works":  {
+                                                                                 "pct":  0,
+                                                                                 "buildingList":  [
+                                                                                                      {
+                                                                                                          "name":  "מבנה הנהלה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה יומי",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה ניקיון",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה קלה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה כניסה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "TTR-15",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "בור ניקוז",
+                                                                                                          "pct":  0
+                                                                                                      }
+                                                                                                  ]
+                                                                             },
+                                                      "RSY - General":  {
+                                                                            "pct":  0,
+                                                                            "buildingList":  [
+                                                                                                 {
+                                                                                                     "name":  "מבנה הנהלה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה יומי",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה ניקיון",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה קלה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה כניסה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "TTR-15",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "בור ניקוז",
+                                                                                                     "pct":  0
+                                                                                                 }
+                                                                                             ]
+                                                                        }
                                                   },
                                     "yard":  {
 
@@ -9853,7 +11704,154 @@ const DEPOT_DATA = {
     "2026-04-09":  {
                        "Holon":  {
                                      "buildings":  {
-
+                                                       "Excavation and Foundation":  {
+                                                                                         "pct":  100,
+                                                                                         "buildingList":  [
+                                                                                                              {
+                                                                                                                  "name":  "מבנה הנהלה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה תחזוקה יומי",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה נהגים",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה תחזוקה כבדה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה כניסה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "TTR-01",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "בור ניקוז 1",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "בור ניקוז 2",
+                                                                                                                  "pct":  100
+                                                                                                              }
+                                                                                                          ]
+                                                                                     },
+                                                       "Shell":  {
+                                                                     "pct":  98.5,
+                                                                     "buildingList":  [
+                                                                                          {
+                                                                                              "name":  "מבנה הנהלה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה תחזוקה יומי",
+                                                                                              "pct":  88
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה נהגים",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה תחזוקה כבדה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה כניסה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "TTR-01",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "בור ניקוז 1",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "בור ניקוז 2",
+                                                                                              "pct":  100
+                                                                                          }
+                                                                                      ]
+                                                                 },
+                                                       "Arch and MEP Works":  {
+                                                                                  "pct":  13.2,
+                                                                                  "buildingList":  [
+                                                                                                       {
+                                                                                                           "name":  "מבנה הנהלה",
+                                                                                                           "pct":  24.5
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה תחזוקה יומי",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה נהגים",
+                                                                                                           "pct":  13.5
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה תחזוקה כבדה",
+                                                                                                           "pct":  26.5
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה כניסה",
+                                                                                                           "pct":  7
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "TTR-01",
+                                                                                                           "pct":  34
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "בור ניקוז 1",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "בור ניקוז 2",
+                                                                                                           "pct":  0
+                                                                                                       }
+                                                                                                   ]
+                                                                              },
+                                                       "RSY - General":  {
+                                                                             "pct":  0,
+                                                                             "buildingList":  [
+                                                                                                  {
+                                                                                                      "name":  "מבנה הנהלה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה תחזוקה יומי",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה נהגים",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה תחזוקה כבדה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה כניסה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "TTR-01",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "בור ניקוז 1",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "בור ניקוז 2",
+                                                                                                      "pct":  0
+                                                                                                  }
+                                                                                              ]
+                                                                         }
                                                    },
                                      "yard":  {
                                                   "Multitubular":  {
@@ -9875,7 +11873,154 @@ const DEPOT_DATA = {
                                  },
                        "Herz":  {
                                     "buildings":  {
-
+                                                      "Excavation and Foundation":  {
+                                                                                        "pct":  100,
+                                                                                        "buildingList":  [
+                                                                                                             {
+                                                                                                                 "name":  "מבנה הנהלה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה יומי",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה ניקיון",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה קלה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה כניסה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "TTR-15",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "בור ניקוז",
+                                                                                                                 "pct":  100
+                                                                                                             }
+                                                                                                         ]
+                                                                                    },
+                                                      "Shell":  {
+                                                                    "pct":  84.9,
+                                                                    "buildingList":  [
+                                                                                         {
+                                                                                             "name":  "מבנה הנהלה",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה יומי",
+                                                                                             "pct":  91
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה ניקיון",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה קלה",
+                                                                                             "pct":  81.8
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה",
+                                                                                             "pct":  58.4
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה כניסה",
+                                                                                             "pct":  48
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "TTR-15",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "בור ניקוז",
+                                                                                             "pct":  100
+                                                                                         }
+                                                                                     ]
+                                                                },
+                                                      "Arch and MEP Works":  {
+                                                                                 "pct":  0,
+                                                                                 "buildingList":  [
+                                                                                                      {
+                                                                                                          "name":  "מבנה הנהלה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה יומי",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה ניקיון",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה קלה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה כניסה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "TTR-15",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "בור ניקוז",
+                                                                                                          "pct":  0
+                                                                                                      }
+                                                                                                  ]
+                                                                             },
+                                                      "RSY - General":  {
+                                                                            "pct":  0,
+                                                                            "buildingList":  [
+                                                                                                 {
+                                                                                                     "name":  "מבנה הנהלה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה יומי",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה ניקיון",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה קלה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה כניסה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "TTR-15",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "בור ניקוז",
+                                                                                                     "pct":  0
+                                                                                                 }
+                                                                                             ]
+                                                                        }
                                                   },
                                     "yard":  {
 
@@ -9885,7 +12030,154 @@ const DEPOT_DATA = {
     "2026-04-23":  {
                        "Holon":  {
                                      "buildings":  {
-
+                                                       "Excavation and Foundation":  {
+                                                                                         "pct":  100,
+                                                                                         "buildingList":  [
+                                                                                                              {
+                                                                                                                  "name":  "מבנה הנהלה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה תחזוקה יומי",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה נהגים",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה תחזוקה כבדה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה כניסה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "TTR-01",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "בור ניקוז 1",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "בור ניקוז 2",
+                                                                                                                  "pct":  100
+                                                                                                              }
+                                                                                                          ]
+                                                                                     },
+                                                       "Shell":  {
+                                                                     "pct":  98.5,
+                                                                     "buildingList":  [
+                                                                                          {
+                                                                                              "name":  "מבנה הנהלה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה תחזוקה יומי",
+                                                                                              "pct":  88
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה נהגים",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה תחזוקה כבדה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה כניסה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "TTR-01",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "בור ניקוז 1",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "בור ניקוז 2",
+                                                                                              "pct":  100
+                                                                                          }
+                                                                                      ]
+                                                                 },
+                                                       "Arch and MEP Works":  {
+                                                                                  "pct":  15,
+                                                                                  "buildingList":  [
+                                                                                                       {
+                                                                                                           "name":  "מבנה הנהלה",
+                                                                                                           "pct":  28.2
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה תחזוקה יומי",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה נהגים",
+                                                                                                           "pct":  16
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה תחזוקה כבדה",
+                                                                                                           "pct":  32
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה כניסה",
+                                                                                                           "pct":  7
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "TTR-01",
+                                                                                                           "pct":  37
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "בור ניקוז 1",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "בור ניקוז 2",
+                                                                                                           "pct":  0
+                                                                                                       }
+                                                                                                   ]
+                                                                              },
+                                                       "RSY - General":  {
+                                                                             "pct":  0,
+                                                                             "buildingList":  [
+                                                                                                  {
+                                                                                                      "name":  "מבנה הנהלה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה תחזוקה יומי",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה נהגים",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה תחזוקה כבדה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה כניסה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "TTR-01",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "בור ניקוז 1",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "בור ניקוז 2",
+                                                                                                      "pct":  0
+                                                                                                  }
+                                                                                              ]
+                                                                         }
                                                    },
                                      "yard":  {
                                                   "Multitubular":  {
@@ -9907,7 +12199,154 @@ const DEPOT_DATA = {
                                  },
                        "Herz":  {
                                     "buildings":  {
-
+                                                      "Excavation and Foundation":  {
+                                                                                        "pct":  100,
+                                                                                        "buildingList":  [
+                                                                                                             {
+                                                                                                                 "name":  "מבנה הנהלה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה יומי",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה ניקיון",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה קלה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה כניסה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "TTR-15",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "בור ניקוז",
+                                                                                                                 "pct":  100
+                                                                                                             }
+                                                                                                         ]
+                                                                                    },
+                                                      "Shell":  {
+                                                                    "pct":  86.4,
+                                                                    "buildingList":  [
+                                                                                         {
+                                                                                             "name":  "מבנה הנהלה",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה יומי",
+                                                                                             "pct":  91
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה ניקיון",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה קלה",
+                                                                                             "pct":  88.4
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה",
+                                                                                             "pct":  58.4
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה כניסה",
+                                                                                             "pct":  53
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "TTR-15",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "בור ניקוז",
+                                                                                             "pct":  100
+                                                                                         }
+                                                                                     ]
+                                                                },
+                                                      "Arch and MEP Works":  {
+                                                                                 "pct":  0,
+                                                                                 "buildingList":  [
+                                                                                                      {
+                                                                                                          "name":  "מבנה הנהלה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה יומי",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה ניקיון",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה קלה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה כניסה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "TTR-15",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "בור ניקוז",
+                                                                                                          "pct":  0
+                                                                                                      }
+                                                                                                  ]
+                                                                             },
+                                                      "RSY - General":  {
+                                                                            "pct":  0,
+                                                                            "buildingList":  [
+                                                                                                 {
+                                                                                                     "name":  "מבנה הנהלה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה יומי",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה ניקיון",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה קלה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה כניסה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "TTR-15",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "בור ניקוז",
+                                                                                                     "pct":  0
+                                                                                                 }
+                                                                                             ]
+                                                                        }
                                                   },
                                     "yard":  {
 
@@ -9917,7 +12356,154 @@ const DEPOT_DATA = {
     "2026-04-28":  {
                        "Holon":  {
                                      "buildings":  {
-
+                                                       "Excavation and Foundation":  {
+                                                                                         "pct":  100,
+                                                                                         "buildingList":  [
+                                                                                                              {
+                                                                                                                  "name":  "מבנה הנהלה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה תחזוקה יומי",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה נהגים",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה תחזוקה כבדה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה כניסה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "TTR-01",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "בור ניקוז 1",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "בור ניקוז 2",
+                                                                                                                  "pct":  100
+                                                                                                              }
+                                                                                                          ]
+                                                                                     },
+                                                       "Shell":  {
+                                                                     "pct":  98.5,
+                                                                     "buildingList":  [
+                                                                                          {
+                                                                                              "name":  "מבנה הנהלה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה תחזוקה יומי",
+                                                                                              "pct":  88
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה נהגים",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה תחזוקה כבדה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה כניסה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "TTR-01",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "בור ניקוז 1",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "בור ניקוז 2",
+                                                                                              "pct":  100
+                                                                                          }
+                                                                                      ]
+                                                                 },
+                                                       "Arch and MEP Works":  {
+                                                                                  "pct":  15,
+                                                                                  "buildingList":  [
+                                                                                                       {
+                                                                                                           "name":  "מבנה הנהלה",
+                                                                                                           "pct":  28.2
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה תחזוקה יומי",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה נהגים",
+                                                                                                           "pct":  16
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה תחזוקה כבדה",
+                                                                                                           "pct":  32
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה כניסה",
+                                                                                                           "pct":  7
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "TTR-01",
+                                                                                                           "pct":  37
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "בור ניקוז 1",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "בור ניקוז 2",
+                                                                                                           "pct":  0
+                                                                                                       }
+                                                                                                   ]
+                                                                              },
+                                                       "RSY - General":  {
+                                                                             "pct":  0,
+                                                                             "buildingList":  [
+                                                                                                  {
+                                                                                                      "name":  "מבנה הנהלה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה תחזוקה יומי",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה נהגים",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה תחזוקה כבדה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה כניסה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "TTR-01",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "בור ניקוז 1",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "בור ניקוז 2",
+                                                                                                      "pct":  0
+                                                                                                  }
+                                                                                              ]
+                                                                         }
                                                    },
                                      "yard":  {
                                                   "Multitubular":  {
@@ -9939,7 +12525,154 @@ const DEPOT_DATA = {
                                  },
                        "Herz":  {
                                     "buildings":  {
-
+                                                      "Excavation and Foundation":  {
+                                                                                        "pct":  100,
+                                                                                        "buildingList":  [
+                                                                                                             {
+                                                                                                                 "name":  "מבנה הנהלה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה יומי",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה ניקיון",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה קלה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה כניסה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "TTR-15",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "בור ניקוז",
+                                                                                                                 "pct":  100
+                                                                                                             }
+                                                                                                         ]
+                                                                                    },
+                                                      "Shell":  {
+                                                                    "pct":  86.4,
+                                                                    "buildingList":  [
+                                                                                         {
+                                                                                             "name":  "מבנה הנהלה",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה יומי",
+                                                                                             "pct":  91
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה ניקיון",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה קלה",
+                                                                                             "pct":  88.4
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה",
+                                                                                             "pct":  58.4
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה כניסה",
+                                                                                             "pct":  53
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "TTR-15",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "בור ניקוז",
+                                                                                             "pct":  100
+                                                                                         }
+                                                                                     ]
+                                                                },
+                                                      "Arch and MEP Works":  {
+                                                                                 "pct":  0,
+                                                                                 "buildingList":  [
+                                                                                                      {
+                                                                                                          "name":  "מבנה הנהלה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה יומי",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה ניקיון",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה קלה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה כניסה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "TTR-15",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "בור ניקוז",
+                                                                                                          "pct":  0
+                                                                                                      }
+                                                                                                  ]
+                                                                             },
+                                                      "RSY - General":  {
+                                                                            "pct":  0,
+                                                                            "buildingList":  [
+                                                                                                 {
+                                                                                                     "name":  "מבנה הנהלה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה יומי",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה ניקיון",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה קלה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה כניסה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "TTR-15",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "בור ניקוז",
+                                                                                                     "pct":  0
+                                                                                                 }
+                                                                                             ]
+                                                                        }
                                                   },
                                     "yard":  {
 
@@ -9949,7 +12682,154 @@ const DEPOT_DATA = {
     "2026-05-03":  {
                        "Holon":  {
                                      "buildings":  {
-
+                                                       "Excavation and Foundation":  {
+                                                                                         "pct":  100,
+                                                                                         "buildingList":  [
+                                                                                                              {
+                                                                                                                  "name":  "מבנה הנהלה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה תחזוקה יומי",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה נהגים",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה תחזוקה כבדה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה כניסה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "TTR-01",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "בור ניקוז 1",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "בור ניקוז 2",
+                                                                                                                  "pct":  100
+                                                                                                              }
+                                                                                                          ]
+                                                                                     },
+                                                       "Shell":  {
+                                                                     "pct":  98.5,
+                                                                     "buildingList":  [
+                                                                                          {
+                                                                                              "name":  "מבנה הנהלה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה תחזוקה יומי",
+                                                                                              "pct":  88
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה נהגים",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה תחזוקה כבדה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה כניסה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "TTR-01",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "בור ניקוז 1",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "בור ניקוז 2",
+                                                                                              "pct":  100
+                                                                                          }
+                                                                                      ]
+                                                                 },
+                                                       "Arch and MEP Works":  {
+                                                                                  "pct":  15,
+                                                                                  "buildingList":  [
+                                                                                                       {
+                                                                                                           "name":  "מבנה הנהלה",
+                                                                                                           "pct":  28.2
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה תחזוקה יומי",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה נהגים",
+                                                                                                           "pct":  16
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה תחזוקה כבדה",
+                                                                                                           "pct":  32
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה כניסה",
+                                                                                                           "pct":  7
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "TTR-01",
+                                                                                                           "pct":  37
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "בור ניקוז 1",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "בור ניקוז 2",
+                                                                                                           "pct":  0
+                                                                                                       }
+                                                                                                   ]
+                                                                              },
+                                                       "RSY - General":  {
+                                                                             "pct":  0,
+                                                                             "buildingList":  [
+                                                                                                  {
+                                                                                                      "name":  "מבנה הנהלה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה תחזוקה יומי",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה נהגים",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה תחזוקה כבדה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה כניסה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "TTR-01",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "בור ניקוז 1",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "בור ניקוז 2",
+                                                                                                      "pct":  0
+                                                                                                  }
+                                                                                              ]
+                                                                         }
                                                    },
                                      "yard":  {
                                                   "Multitubular":  {
@@ -9971,7 +12851,154 @@ const DEPOT_DATA = {
                                  },
                        "Herz":  {
                                     "buildings":  {
-
+                                                      "Excavation and Foundation":  {
+                                                                                        "pct":  100,
+                                                                                        "buildingList":  [
+                                                                                                             {
+                                                                                                                 "name":  "מבנה הנהלה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה יומי",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה ניקיון",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה קלה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה כניסה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "TTR-15",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "בור ניקוז",
+                                                                                                                 "pct":  100
+                                                                                                             }
+                                                                                                         ]
+                                                                                    },
+                                                      "Shell":  {
+                                                                    "pct":  86.4,
+                                                                    "buildingList":  [
+                                                                                         {
+                                                                                             "name":  "מבנה הנהלה",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה יומי",
+                                                                                             "pct":  91
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה ניקיון",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה קלה",
+                                                                                             "pct":  88.4
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה",
+                                                                                             "pct":  58.4
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה כניסה",
+                                                                                             "pct":  53
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "TTR-15",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "בור ניקוז",
+                                                                                             "pct":  100
+                                                                                         }
+                                                                                     ]
+                                                                },
+                                                      "Arch and MEP Works":  {
+                                                                                 "pct":  0,
+                                                                                 "buildingList":  [
+                                                                                                      {
+                                                                                                          "name":  "מבנה הנהלה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה יומי",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה ניקיון",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה קלה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה כניסה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "TTR-15",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "בור ניקוז",
+                                                                                                          "pct":  0
+                                                                                                      }
+                                                                                                  ]
+                                                                             },
+                                                      "RSY - General":  {
+                                                                            "pct":  0,
+                                                                            "buildingList":  [
+                                                                                                 {
+                                                                                                     "name":  "מבנה הנהלה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה יומי",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה ניקיון",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה קלה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה כניסה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "TTR-15",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "בור ניקוז",
+                                                                                                     "pct":  0
+                                                                                                 }
+                                                                                             ]
+                                                                        }
                                                   },
                                     "yard":  {
 
@@ -9981,7 +13008,154 @@ const DEPOT_DATA = {
     "2026-05-07":  {
                        "Holon":  {
                                      "buildings":  {
-
+                                                       "Excavation and Foundation":  {
+                                                                                         "pct":  100,
+                                                                                         "buildingList":  [
+                                                                                                              {
+                                                                                                                  "name":  "מבנה הנהלה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה תחזוקה יומי",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה נהגים",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה תחזוקה כבדה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה כניסה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "TTR-01",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "בור ניקוז 1",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "בור ניקוז 2",
+                                                                                                                  "pct":  100
+                                                                                                              }
+                                                                                                          ]
+                                                                                     },
+                                                       "Shell":  {
+                                                                     "pct":  98.5,
+                                                                     "buildingList":  [
+                                                                                          {
+                                                                                              "name":  "מבנה הנהלה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה תחזוקה יומי",
+                                                                                              "pct":  88
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה נהגים",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה תחזוקה כבדה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה כניסה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "TTR-01",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "בור ניקוז 1",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "בור ניקוז 2",
+                                                                                              "pct":  100
+                                                                                          }
+                                                                                      ]
+                                                                 },
+                                                       "Arch and MEP Works":  {
+                                                                                  "pct":  15,
+                                                                                  "buildingList":  [
+                                                                                                       {
+                                                                                                           "name":  "מבנה הנהלה",
+                                                                                                           "pct":  28.2
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה תחזוקה יומי",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה נהגים",
+                                                                                                           "pct":  16
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה תחזוקה כבדה",
+                                                                                                           "pct":  32
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה כניסה",
+                                                                                                           "pct":  7
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "TTR-01",
+                                                                                                           "pct":  37
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "בור ניקוז 1",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "בור ניקוז 2",
+                                                                                                           "pct":  0
+                                                                                                       }
+                                                                                                   ]
+                                                                              },
+                                                       "RSY - General":  {
+                                                                             "pct":  0.6,
+                                                                             "buildingList":  [
+                                                                                                  {
+                                                                                                      "name":  "מבנה הנהלה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה תחזוקה יומי",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה נהגים",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה תחזוקה כבדה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה כניסה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "TTR-01",
+                                                                                                      "pct":  4.8
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "בור ניקוז 1",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "בור ניקוז 2",
+                                                                                                      "pct":  0
+                                                                                                  }
+                                                                                              ]
+                                                                         }
                                                    },
                                      "yard":  {
                                                   "Multitubular":  {
@@ -10003,7 +13177,154 @@ const DEPOT_DATA = {
                                  },
                        "Herz":  {
                                     "buildings":  {
-
+                                                      "Excavation and Foundation":  {
+                                                                                        "pct":  100,
+                                                                                        "buildingList":  [
+                                                                                                             {
+                                                                                                                 "name":  "מבנה הנהלה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה יומי",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה ניקיון",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה קלה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה כניסה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "TTR-15",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "בור ניקוז",
+                                                                                                                 "pct":  100
+                                                                                                             }
+                                                                                                         ]
+                                                                                    },
+                                                      "Shell":  {
+                                                                    "pct":  86.4,
+                                                                    "buildingList":  [
+                                                                                         {
+                                                                                             "name":  "מבנה הנהלה",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה יומי",
+                                                                                             "pct":  91
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה ניקיון",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה קלה",
+                                                                                             "pct":  88.4
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה",
+                                                                                             "pct":  58.4
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה כניסה",
+                                                                                             "pct":  53
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "TTR-15",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "בור ניקוז",
+                                                                                             "pct":  100
+                                                                                         }
+                                                                                     ]
+                                                                },
+                                                      "Arch and MEP Works":  {
+                                                                                 "pct":  0,
+                                                                                 "buildingList":  [
+                                                                                                      {
+                                                                                                          "name":  "מבנה הנהלה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה יומי",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה ניקיון",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה קלה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה כניסה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "TTR-15",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "בור ניקוז",
+                                                                                                          "pct":  0
+                                                                                                      }
+                                                                                                  ]
+                                                                             },
+                                                      "RSY - General":  {
+                                                                            "pct":  0,
+                                                                            "buildingList":  [
+                                                                                                 {
+                                                                                                     "name":  "מבנה הנהלה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה יומי",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה ניקיון",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה קלה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה כניסה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "TTR-15",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "בור ניקוז",
+                                                                                                     "pct":  0
+                                                                                                 }
+                                                                                             ]
+                                                                        }
                                                   },
                                     "yard":  {
                                                  "Multitubular":  {
@@ -10022,7 +13343,154 @@ const DEPOT_DATA = {
     "2026-05-24":  {
                        "Holon":  {
                                      "buildings":  {
-
+                                                       "Excavation and Foundation":  {
+                                                                                         "pct":  100,
+                                                                                         "buildingList":  [
+                                                                                                              {
+                                                                                                                  "name":  "מבנה הנהלה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה תחזוקה יומי",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה נהגים",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה תחזוקה כבדה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה כניסה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "TTR-01",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "בור ניקוז 1",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "בור ניקוז 2",
+                                                                                                                  "pct":  100
+                                                                                                              }
+                                                                                                          ]
+                                                                                     },
+                                                       "Shell":  {
+                                                                     "pct":  98.5,
+                                                                     "buildingList":  [
+                                                                                          {
+                                                                                              "name":  "מבנה הנהלה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה תחזוקה יומי",
+                                                                                              "pct":  88
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה נהגים",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה תחזוקה כבדה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה כניסה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "TTR-01",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "בור ניקוז 1",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "בור ניקוז 2",
+                                                                                              "pct":  100
+                                                                                          }
+                                                                                      ]
+                                                                 },
+                                                       "Arch and MEP Works":  {
+                                                                                  "pct":  17.6,
+                                                                                  "buildingList":  [
+                                                                                                       {
+                                                                                                           "name":  "מבנה הנהלה",
+                                                                                                           "pct":  32.2
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה תחזוקה יומי",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה נהגים",
+                                                                                                           "pct":  19
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה תחזוקה כבדה",
+                                                                                                           "pct":  36.5
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה כניסה",
+                                                                                                           "pct":  8
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "TTR-01",
+                                                                                                           "pct":  45
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "בור ניקוז 1",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "בור ניקוז 2",
+                                                                                                           "pct":  0
+                                                                                                       }
+                                                                                                   ]
+                                                                              },
+                                                       "RSY - General":  {
+                                                                             "pct":  1,
+                                                                             "buildingList":  [
+                                                                                                  {
+                                                                                                      "name":  "מבנה הנהלה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה תחזוקה יומי",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה נהגים",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה תחזוקה כבדה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה כניסה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "TTR-01",
+                                                                                                      "pct":  7.6
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "בור ניקוז 1",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "בור ניקוז 2",
+                                                                                                      "pct":  0
+                                                                                                  }
+                                                                                              ]
+                                                                         }
                                                    },
                                      "yard":  {
                                                   "Multitubular":  {
@@ -10044,7 +13512,154 @@ const DEPOT_DATA = {
                                  },
                        "Herz":  {
                                     "buildings":  {
-
+                                                      "Excavation and Foundation":  {
+                                                                                        "pct":  100,
+                                                                                        "buildingList":  [
+                                                                                                             {
+                                                                                                                 "name":  "מבנה הנהלה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה יומי",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה ניקיון",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה קלה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה כניסה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "TTR-15",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "בור ניקוז",
+                                                                                                                 "pct":  100
+                                                                                                             }
+                                                                                                         ]
+                                                                                    },
+                                                      "Shell":  {
+                                                                    "pct":  92.2,
+                                                                    "buildingList":  [
+                                                                                         {
+                                                                                             "name":  "מבנה הנהלה",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה יומי",
+                                                                                             "pct":  92
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה ניקיון",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה קלה",
+                                                                                             "pct":  92.2
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה",
+                                                                                             "pct":  90.4
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה כניסה",
+                                                                                             "pct":  63
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "TTR-15",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "בור ניקוז",
+                                                                                             "pct":  100
+                                                                                         }
+                                                                                     ]
+                                                                },
+                                                      "Arch and MEP Works":  {
+                                                                                 "pct":  0,
+                                                                                 "buildingList":  [
+                                                                                                      {
+                                                                                                          "name":  "מבנה הנהלה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה יומי",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה ניקיון",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה קלה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה כניסה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "TTR-15",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "בור ניקוז",
+                                                                                                          "pct":  0
+                                                                                                      }
+                                                                                                  ]
+                                                                             },
+                                                      "RSY - General":  {
+                                                                            "pct":  0,
+                                                                            "buildingList":  [
+                                                                                                 {
+                                                                                                     "name":  "מבנה הנהלה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה יומי",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה ניקיון",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה קלה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה כניסה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "TTR-15",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "בור ניקוז",
+                                                                                                     "pct":  0
+                                                                                                 }
+                                                                                             ]
+                                                                        }
                                                   },
                                     "yard":  {
                                                  "Multitubular":  {
@@ -10138,7 +13753,7 @@ const DEPOT_DATA = {
                                                                                       ]
                                                                  },
                                                        "Arch and MEP Works":  {
-                                                                                  "pct":  25.8,
+                                                                                  "pct":  21.7,
                                                                                   "buildingList":  [
                                                                                                        {
                                                                                                            "name":  "מבנה הנהלה",
@@ -10175,7 +13790,7 @@ const DEPOT_DATA = {
                                                                                                    ]
                                                                               },
                                                        "RSY - General":  {
-                                                                             "pct":  1.1,
+                                                                             "pct":  1,
                                                                              "buildingList":  [
                                                                                                   {
                                                                                                       "name":  "מבנה הנהלה",
@@ -10275,7 +13890,7 @@ const DEPOT_DATA = {
                                                                                                          ]
                                                                                     },
                                                       "Shell":  {
-                                                                    "pct":  93.9,
+                                                                    "pct":  94,
                                                                     "buildingList":  [
                                                                                          {
                                                                                              "name":  "מבנה הנהלה",
@@ -10312,7 +13927,7 @@ const DEPOT_DATA = {
                                                                                      ]
                                                                 },
                                                       "Arch and MEP Works":  {
-                                                                                 "pct":  0.4,
+                                                                                 "pct":  0.3,
                                                                                  "buildingList":  [
                                                                                                       {
                                                                                                           "name":  "מבנה הנהלה",
@@ -10483,7 +14098,7 @@ const DEPOT_DATA = {
                                                                                       ]
                                                                  },
                                                        "Arch and MEP Works":  {
-                                                                                  "pct":  25.8,
+                                                                                  "pct":  21.7,
                                                                                   "buildingList":  [
                                                                                                        {
                                                                                                            "name":  "מבנה הנהלה",
@@ -10520,7 +14135,7 @@ const DEPOT_DATA = {
                                                                                                    ]
                                                                               },
                                                        "RSY - General":  {
-                                                                             "pct":  1.1,
+                                                                             "pct":  1,
                                                                              "buildingList":  [
                                                                                                   {
                                                                                                       "name":  "מבנה הנהלה",
@@ -10620,7 +14235,7 @@ const DEPOT_DATA = {
                                                                                                          ]
                                                                                     },
                                                       "Shell":  {
-                                                                    "pct":  93.9,
+                                                                    "pct":  94,
                                                                     "buildingList":  [
                                                                                          {
                                                                                              "name":  "מבנה הנהלה",
@@ -10657,7 +14272,7 @@ const DEPOT_DATA = {
                                                                                      ]
                                                                 },
                                                       "Arch and MEP Works":  {
-                                                                                 "pct":  0.4,
+                                                                                 "pct":  0.3,
                                                                                  "buildingList":  [
                                                                                                       {
                                                                                                           "name":  "מבנה הנהלה",
@@ -10828,7 +14443,7 @@ const DEPOT_DATA = {
                                                                                       ]
                                                                  },
                                                        "Arch and MEP Works":  {
-                                                                                  "pct":  27.2,
+                                                                                  "pct":  22.8,
                                                                                   "buildingList":  [
                                                                                                        {
                                                                                                            "name":  "מבנה הנהלה",
@@ -10865,7 +14480,7 @@ const DEPOT_DATA = {
                                                                                                    ]
                                                                               },
                                                        "RSY - General":  {
-                                                                             "pct":  1.1,
+                                                                             "pct":  1,
                                                                              "buildingList":  [
                                                                                                   {
                                                                                                       "name":  "מבנה הנהלה",
@@ -10965,7 +14580,7 @@ const DEPOT_DATA = {
                                                                                                          ]
                                                                                     },
                                                       "Shell":  {
-                                                                    "pct":  94.1,
+                                                                    "pct":  94.2,
                                                                     "buildingList":  [
                                                                                          {
                                                                                              "name":  "מבנה הנהלה",
@@ -11002,7 +14617,7 @@ const DEPOT_DATA = {
                                                                                      ]
                                                                 },
                                                       "Arch and MEP Works":  {
-                                                                                 "pct":  0.5,
+                                                                                 "pct":  0.4,
                                                                                  "buildingList":  [
                                                                                                       {
                                                                                                           "name":  "מבנה הנהלה",
@@ -11173,7 +14788,7 @@ const DEPOT_DATA = {
                                                                                       ]
                                                                  },
                                                        "Arch and MEP Works":  {
-                                                                                  "pct":  27.2,
+                                                                                  "pct":  22.8,
                                                                                   "buildingList":  [
                                                                                                        {
                                                                                                            "name":  "מבנה הנהלה",
@@ -11210,7 +14825,7 @@ const DEPOT_DATA = {
                                                                                                    ]
                                                                               },
                                                        "RSY - General":  {
-                                                                             "pct":  1.1,
+                                                                             "pct":  1,
                                                                              "buildingList":  [
                                                                                                   {
                                                                                                       "name":  "מבנה הנהלה",
@@ -11310,7 +14925,7 @@ const DEPOT_DATA = {
                                                                                                          ]
                                                                                     },
                                                       "Shell":  {
-                                                                    "pct":  94.1,
+                                                                    "pct":  94.2,
                                                                     "buildingList":  [
                                                                                          {
                                                                                              "name":  "מבנה הנהלה",
@@ -11347,7 +14962,7 @@ const DEPOT_DATA = {
                                                                                      ]
                                                                 },
                                                       "Arch and MEP Works":  {
-                                                                                 "pct":  0.5,
+                                                                                 "pct":  0.4,
                                                                                  "buildingList":  [
                                                                                                       {
                                                                                                           "name":  "מבנה הנהלה",
@@ -11518,7 +15133,7 @@ const DEPOT_DATA = {
                                                                                       ]
                                                                  },
                                                        "Arch and MEP Works":  {
-                                                                                  "pct":  32.6,
+                                                                                  "pct":  27.5,
                                                                                   "buildingList":  [
                                                                                                        {
                                                                                                            "name":  "מבנה הנהלה",
@@ -11555,7 +15170,7 @@ const DEPOT_DATA = {
                                                                                                    ]
                                                                               },
                                                        "RSY - General":  {
-                                                                             "pct":  1.1,
+                                                                             "pct":  1,
                                                                              "buildingList":  [
                                                                                                   {
                                                                                                       "name":  "מבנה הנהלה",
@@ -11692,7 +15307,7 @@ const DEPOT_DATA = {
                                                                                      ]
                                                                 },
                                                       "Arch and MEP Works":  {
-                                                                                 "pct":  0.6,
+                                                                                 "pct":  0.5,
                                                                                  "buildingList":  [
                                                                                                       {
                                                                                                           "name":  "מבנה הנהלה",
@@ -11789,6 +15404,356 @@ const DEPOT_DATA = {
                                                                              }
                                              }
                                 }
+                   },
+    "2026-07-12":  {
+                       "Holon":  {
+                                     "buildings":  {
+                                                       "Excavation and Foundation":  {
+                                                                                         "pct":  100,
+                                                                                         "buildingList":  [
+                                                                                                              {
+                                                                                                                  "name":  "מבנה הנהלה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה תחזוקה יומי",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה נהגים",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה תחזוקה כבדה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה כניסה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "TTR-01",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "בור ניקוז 1",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "בור ניקוז 2",
+                                                                                                                  "pct":  100
+                                                                                                              }
+                                                                                                          ]
+                                                                                     },
+                                                       "Shell":  {
+                                                                     "pct":  100,
+                                                                     "buildingList":  [
+                                                                                          {
+                                                                                              "name":  "מבנה הנהלה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה תחזוקה יומי",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה נהגים",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה תחזוקה כבדה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה כניסה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "TTR-01",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "בור ניקוז 1",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "בור ניקוז 2",
+                                                                                              "pct":  100
+                                                                                          }
+                                                                                      ]
+                                                                 },
+                                                       "Arch and MEP Works":  {
+                                                                                  "pct":  27.5,
+                                                                                  "buildingList":  [
+                                                                                                       {
+                                                                                                           "name":  "מבנה הנהלה",
+                                                                                                           "pct":  48.1
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה תחזוקה יומי",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה נהגים",
+                                                                                                           "pct":  40.5
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה תחזוקה כבדה",
+                                                                                                           "pct":  51
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה כניסה",
+                                                                                                           "pct":  17.5
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "TTR-01",
+                                                                                                           "pct":  63
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "בור ניקוז 1",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "בור ניקוז 2",
+                                                                                                           "pct":  0
+                                                                                                       }
+                                                                                                   ]
+                                                                              },
+                                                       "RSY - General":  {
+                                                                             "pct":  1,
+                                                                             "buildingList":  [
+                                                                                                  {
+                                                                                                      "name":  "מבנה הנהלה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה תחזוקה יומי",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה נהגים",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה תחזוקה כבדה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה כניסה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "TTR-01",
+                                                                                                      "pct":  7.6
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "בור ניקוז 1",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "בור ניקוז 2",
+                                                                                                      "pct":  0
+                                                                                                  }
+                                                                                              ]
+                                                                         }
+                                                   },
+                                     "yard":  {
+                                                  "Multitubular":  {
+                                                                       "pct":  100,
+                                                                       "actual":  6715,
+                                                                       "planned":  6715
+                                                                   },
+                                                  "Foundations slab":  {
+                                                                           "pct":  98.5,
+                                                                           "actual":  6615,
+                                                                           "planned":  6715
+                                                                       },
+                                                  "Track Installation on line":  {
+                                                                                     "pct":  45.8,
+                                                                                     "actual":  3078,
+                                                                                     "planned":  6715
+                                                                                 },
+                                                  "OHLE Poles Installation":  {
+                                                                                  "pct":  0,
+                                                                                  "actual":  0,
+                                                                                  "planned":  194
+                                                                              }
+                                              }
+                                 },
+                       "Herz":  {
+                                    "buildings":  {
+                                                      "Excavation and Foundation":  {
+                                                                                        "pct":  100,
+                                                                                        "buildingList":  [
+                                                                                                             {
+                                                                                                                 "name":  "מבנה הנהלה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה יומי",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה ניקיון",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה קלה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה כניסה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "TTR-15",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "בור ניקוז",
+                                                                                                                 "pct":  100
+                                                                                                             }
+                                                                                                         ]
+                                                                                    },
+                                                      "Shell":  {
+                                                                    "pct":  94.4,
+                                                                    "buildingList":  [
+                                                                                         {
+                                                                                             "name":  "מבנה הנהלה",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה יומי",
+                                                                                             "pct":  94
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה ניקיון",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה קלה",
+                                                                                             "pct":  95.8
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה כניסה",
+                                                                                             "pct":  65
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "TTR-15",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "בור ניקוז",
+                                                                                             "pct":  100
+                                                                                         }
+                                                                                     ]
+                                                                },
+                                                      "Arch and MEP Works":  {
+                                                                                 "pct":  0.5,
+                                                                                 "buildingList":  [
+                                                                                                      {
+                                                                                                          "name":  "מבנה הנהלה",
+                                                                                                          "pct":  1.7
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה יומי",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה ניקיון",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה קלה",
+                                                                                                          "pct":  2.5
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה כניסה",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "TTR-15",
+                                                                                                          "pct":  0
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "בור ניקוז",
+                                                                                                          "pct":  0
+                                                                                                      }
+                                                                                                  ]
+                                                                             },
+                                                      "RSY - General":  {
+                                                                            "pct":  0,
+                                                                            "buildingList":  [
+                                                                                                 {
+                                                                                                     "name":  "מבנה הנהלה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה יומי",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה ניקיון",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה קלה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה כניסה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "TTR-15",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "בור ניקוז",
+                                                                                                     "pct":  0
+                                                                                                 }
+                                                                                             ]
+                                                                        }
+                                                  },
+                                    "yard":  {
+                                                 "Multitubular":  {
+                                                                      "pct":  100,
+                                                                      "actual":  3000,
+                                                                      "planned":  3000
+                                                                  },
+                                                 "Foundations slab":  {
+                                                                          "pct":  28.9,
+                                                                          "actual":  773,
+                                                                          "planned":  2674
+                                                                      },
+                                                 "Track Installation on line":  {
+                                                                                    "pct":  0,
+                                                                                    "actual":  0,
+                                                                                    "planned":  2674
+                                                                                },
+                                                 "OHLE Poles Installation":  {
+                                                                                 "pct":  0,
+                                                                                 "actual":  0,
+                                                                                 "planned":  105
+                                                                             }
+                                             }
+                                }
                    }
 };
 const TTR_DATA = {
@@ -11806,7 +15771,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR3",
-                           "pct":  2.7,
+                           "pct":  5.4,
                            "details":  {
                                            "Building Foundation":  27,
                                            "Shell":  0,
@@ -11817,7 +15782,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR4",
-                           "pct":  1.9,
+                           "pct":  3.8,
                            "details":  {
                                            "Building Foundation":  18.8,
                                            "Shell":  0,
@@ -11828,7 +15793,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR6",
-                           "pct":  30,
+                           "pct":  40,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -11839,7 +15804,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR7",
-                           "pct":  30,
+                           "pct":  40,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -11850,7 +15815,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR8",
-                           "pct":  1.2,
+                           "pct":  2.5,
                            "details":  {
                                            "Building Foundation":  12.5,
                                            "Shell":  0,
@@ -11861,7 +15826,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR13",
-                           "pct":  30,
+                           "pct":  40,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -11995,7 +15960,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR3",
-                           "pct":  2.8,
+                           "pct":  5.7,
                            "details":  {
                                            "Building Foundation":  28.5,
                                            "Shell":  0,
@@ -12006,7 +15971,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR4",
-                           "pct":  2,
+                           "pct":  4,
                            "details":  {
                                            "Building Foundation":  20,
                                            "Shell":  0,
@@ -12017,7 +15982,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR6",
-                           "pct":  30,
+                           "pct":  40,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -12028,7 +15993,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR7",
-                           "pct":  30,
+                           "pct":  40,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -12039,7 +16004,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR8",
-                           "pct":  1.5,
+                           "pct":  3,
                            "details":  {
                                            "Building Foundation":  15,
                                            "Shell":  0,
@@ -12050,7 +16015,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR13",
-                           "pct":  30,
+                           "pct":  40,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -12184,7 +16149,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR3",
-                           "pct":  6.8,
+                           "pct":  13.6,
                            "details":  {
                                            "Building Foundation":  68,
                                            "Shell":  0,
@@ -12195,7 +16160,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR4",
-                           "pct":  3,
+                           "pct":  6,
                            "details":  {
                                            "Building Foundation":  29.8,
                                            "Shell":  0,
@@ -12206,7 +16171,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR6",
-                           "pct":  34.1,
+                           "pct":  43.2,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -12217,7 +16182,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR7",
-                           "pct":  42.5,
+                           "pct":  50,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -12228,7 +16193,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR8",
-                           "pct":  1.5,
+                           "pct":  3,
                            "details":  {
                                            "Building Foundation":  15,
                                            "Shell":  0,
@@ -12239,7 +16204,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR13",
-                           "pct":  36.6,
+                           "pct":  45.3,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -12373,7 +16338,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR3",
-                           "pct":  6.8,
+                           "pct":  13.6,
                            "details":  {
                                            "Building Foundation":  68,
                                            "Shell":  0,
@@ -12384,7 +16349,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR4",
-                           "pct":  3,
+                           "pct":  6,
                            "details":  {
                                            "Building Foundation":  29.8,
                                            "Shell":  0,
@@ -12395,7 +16360,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR6",
-                           "pct":  34.1,
+                           "pct":  43.2,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -12406,7 +16371,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR7",
-                           "pct":  42.5,
+                           "pct":  50,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -12417,7 +16382,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR8",
-                           "pct":  1.5,
+                           "pct":  3,
                            "details":  {
                                            "Building Foundation":  15,
                                            "Shell":  0,
@@ -12428,7 +16393,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR13",
-                           "pct":  36.6,
+                           "pct":  45.3,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -12551,7 +16516,7 @@ const TTR_DATA = {
     "2026-04-09":  [
                        {
                            "name":  "TTR2",
-                           "pct":  0.3,
+                           "pct":  0.5,
                            "details":  {
                                            "Building Foundation":  2.5,
                                            "Shell":  0,
@@ -12562,7 +16527,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR3",
-                           "pct":  7.8,
+                           "pct":  15.5,
                            "details":  {
                                            "Building Foundation":  77.5,
                                            "Shell":  0,
@@ -12573,7 +16538,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR4",
-                           "pct":  3,
+                           "pct":  6,
                            "details":  {
                                            "Building Foundation":  30,
                                            "Shell":  0,
@@ -12584,7 +16549,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR6",
-                           "pct":  41.5,
+                           "pct":  49.2,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -12595,7 +16560,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR7",
-                           "pct":  49.3,
+                           "pct":  55.4,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -12606,7 +16571,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR8",
-                           "pct":  1.6,
+                           "pct":  3.2,
                            "details":  {
                                            "Building Foundation":  16.2,
                                            "Shell":  0,
@@ -12617,7 +16582,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR13",
-                           "pct":  45,
+                           "pct":  52,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -12639,7 +16604,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR16",
-                           "pct":  0.3,
+                           "pct":  0.5,
                            "details":  {
                                            "Building Foundation":  2.5,
                                            "Shell":  0,
@@ -12740,7 +16705,7 @@ const TTR_DATA = {
     "2026-04-23":  [
                        {
                            "name":  "TTR2",
-                           "pct":  0.8,
+                           "pct":  1.5,
                            "details":  {
                                            "Building Foundation":  7.5,
                                            "Shell":  0,
@@ -12751,7 +16716,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR3",
-                           "pct":  7.8,
+                           "pct":  15.5,
                            "details":  {
                                            "Building Foundation":  77.5,
                                            "Shell":  0,
@@ -12762,7 +16727,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR4",
-                           "pct":  6.5,
+                           "pct":  13,
                            "details":  {
                                            "Building Foundation":  65,
                                            "Shell":  0,
@@ -12773,7 +16738,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR6",
-                           "pct":  41.5,
+                           "pct":  49.2,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -12784,7 +16749,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR7",
-                           "pct":  49.3,
+                           "pct":  55.4,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -12795,7 +16760,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR8",
-                           "pct":  1.6,
+                           "pct":  3.2,
                            "details":  {
                                            "Building Foundation":  16.2,
                                            "Shell":  0,
@@ -12806,7 +16771,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR13",
-                           "pct":  45,
+                           "pct":  52,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -12828,7 +16793,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR16",
-                           "pct":  1,
+                           "pct":  2,
                            "details":  {
                                            "Building Foundation":  10,
                                            "Shell":  0,
@@ -12929,7 +16894,7 @@ const TTR_DATA = {
     "2026-04-28":  [
                        {
                            "name":  "TTR2",
-                           "pct":  0.8,
+                           "pct":  1.5,
                            "details":  {
                                            "Building Foundation":  7.5,
                                            "Shell":  0,
@@ -12940,7 +16905,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR3",
-                           "pct":  7.8,
+                           "pct":  15.5,
                            "details":  {
                                            "Building Foundation":  77.5,
                                            "Shell":  0,
@@ -12951,7 +16916,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR4",
-                           "pct":  6.5,
+                           "pct":  13,
                            "details":  {
                                            "Building Foundation":  65,
                                            "Shell":  0,
@@ -12962,7 +16927,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR6",
-                           "pct":  41.5,
+                           "pct":  49.2,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -12973,7 +16938,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR7",
-                           "pct":  49.3,
+                           "pct":  55.4,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -12984,7 +16949,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR8",
-                           "pct":  1.6,
+                           "pct":  3.2,
                            "details":  {
                                            "Building Foundation":  16.2,
                                            "Shell":  0,
@@ -12995,7 +16960,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR13",
-                           "pct":  45,
+                           "pct":  52,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -13017,7 +16982,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR16",
-                           "pct":  1,
+                           "pct":  2,
                            "details":  {
                                            "Building Foundation":  10,
                                            "Shell":  0,
@@ -13118,7 +17083,7 @@ const TTR_DATA = {
     "2026-05-03":  [
                        {
                            "name":  "TTR2",
-                           "pct":  0.8,
+                           "pct":  1.5,
                            "details":  {
                                            "Building Foundation":  7.5,
                                            "Shell":  0,
@@ -13129,7 +17094,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR3",
-                           "pct":  7.8,
+                           "pct":  15.5,
                            "details":  {
                                            "Building Foundation":  77.5,
                                            "Shell":  0,
@@ -13140,7 +17105,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR4",
-                           "pct":  6.5,
+                           "pct":  13,
                            "details":  {
                                            "Building Foundation":  65,
                                            "Shell":  0,
@@ -13151,7 +17116,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR6",
-                           "pct":  41.5,
+                           "pct":  49.2,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -13162,7 +17127,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR7",
-                           "pct":  49.3,
+                           "pct":  55.4,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -13173,7 +17138,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR8",
-                           "pct":  1.6,
+                           "pct":  3.2,
                            "details":  {
                                            "Building Foundation":  16.2,
                                            "Shell":  0,
@@ -13184,7 +17149,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR13",
-                           "pct":  45,
+                           "pct":  52,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -13206,7 +17171,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR16",
-                           "pct":  1,
+                           "pct":  2,
                            "details":  {
                                            "Building Foundation":  10,
                                            "Shell":  0,
@@ -13307,7 +17272,7 @@ const TTR_DATA = {
     "2026-05-07":  [
                        {
                            "name":  "TTR2",
-                           "pct":  1,
+                           "pct":  2,
                            "details":  {
                                            "Building Foundation":  10,
                                            "Shell":  0,
@@ -13318,7 +17283,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR3",
-                           "pct":  13.5,
+                           "pct":  23.5,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  17.5,
@@ -13329,7 +17294,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR4",
-                           "pct":  6.5,
+                           "pct":  13,
                            "details":  {
                                            "Building Foundation":  65,
                                            "Shell":  0,
@@ -13340,7 +17305,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR6",
-                           "pct":  44.9,
+                           "pct":  51.9,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -13351,7 +17316,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR7",
-                           "pct":  49.3,
+                           "pct":  55.4,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -13362,7 +17327,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR8",
-                           "pct":  1.9,
+                           "pct":  3.8,
                            "details":  {
                                            "Building Foundation":  18.8,
                                            "Shell":  0,
@@ -13373,7 +17338,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR13",
-                           "pct":  45,
+                           "pct":  52,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -13395,7 +17360,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR16",
-                           "pct":  2.6,
+                           "pct":  5.1,
                            "details":  {
                                            "Building Foundation":  25.5,
                                            "Shell":  0,
@@ -13406,7 +17371,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR17",
-                           "pct":  0.5,
+                           "pct":  1,
                            "details":  {
                                            "Building Foundation":  5,
                                            "Shell":  0,
@@ -13496,7 +17461,7 @@ const TTR_DATA = {
     "2026-05-24":  [
                        {
                            "name":  "TTR2",
-                           "pct":  2,
+                           "pct":  4,
                            "details":  {
                                            "Building Foundation":  20,
                                            "Shell":  0,
@@ -13507,7 +17472,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR3",
-                           "pct":  19.6,
+                           "pct":  29.6,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  48,
@@ -13518,7 +17483,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR4",
-                           "pct":  6.5,
+                           "pct":  13,
                            "details":  {
                                            "Building Foundation":  65,
                                            "Shell":  0,
@@ -13529,7 +17494,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR6",
-                           "pct":  44.9,
+                           "pct":  51.9,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -13540,7 +17505,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR7",
-                           "pct":  49.3,
+                           "pct":  55.4,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -13551,7 +17516,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR8",
-                           "pct":  30,
+                           "pct":  40,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -13562,7 +17527,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR13",
-                           "pct":  45,
+                           "pct":  52,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -13584,7 +17549,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR16",
-                           "pct":  2.8,
+                           "pct":  5.6,
                            "details":  {
                                            "Building Foundation":  28,
                                            "Shell":  0,
@@ -13595,7 +17560,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR17",
-                           "pct":  1.5,
+                           "pct":  3,
                            "details":  {
                                            "Building Foundation":  15,
                                            "Shell":  0,
@@ -13685,7 +17650,7 @@ const TTR_DATA = {
     "2026-06-07":  [
                        {
                            "name":  "TTR2",
-                           "pct":  2.6,
+                           "pct":  5.1,
                            "details":  {
                                            "Building Foundation":  25.5,
                                            "Shell":  0,
@@ -13696,7 +17661,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR3",
-                           "pct":  23.5,
+                           "pct":  33.5,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  67.5,
@@ -13707,7 +17672,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR4",
-                           "pct":  6.5,
+                           "pct":  13,
                            "details":  {
                                            "Building Foundation":  65,
                                            "Shell":  0,
@@ -13718,7 +17683,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR6",
-                           "pct":  47.4,
+                           "pct":  53.9,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -13729,7 +17694,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR7",
-                           "pct":  51.3,
+                           "pct":  57,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -13740,7 +17705,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR8",
-                           "pct":  30,
+                           "pct":  40,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -13751,7 +17716,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR13",
-                           "pct":  47.5,
+                           "pct":  54,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -13773,7 +17738,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR16",
-                           "pct":  3,
+                           "pct":  6,
                            "details":  {
                                            "Building Foundation":  30,
                                            "Shell":  0,
@@ -13784,7 +17749,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR17",
-                           "pct":  2.6,
+                           "pct":  5.1,
                            "details":  {
                                            "Building Foundation":  25.5,
                                            "Shell":  0,
@@ -13874,7 +17839,7 @@ const TTR_DATA = {
     "2026-06-14":  [
                        {
                            "name":  "TTR2",
-                           "pct":  2.6,
+                           "pct":  5.1,
                            "details":  {
                                            "Building Foundation":  25.5,
                                            "Shell":  0,
@@ -13885,7 +17850,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR3",
-                           "pct":  23.5,
+                           "pct":  33.5,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  67.5,
@@ -13896,7 +17861,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR4",
-                           "pct":  6.5,
+                           "pct":  13,
                            "details":  {
                                            "Building Foundation":  65,
                                            "Shell":  0,
@@ -13907,7 +17872,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR6",
-                           "pct":  47.4,
+                           "pct":  53.9,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -13918,7 +17883,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR7",
-                           "pct":  51.3,
+                           "pct":  57,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -13929,7 +17894,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR8",
-                           "pct":  30,
+                           "pct":  40,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -13940,7 +17905,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR13",
-                           "pct":  47.5,
+                           "pct":  54,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -13962,7 +17927,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR16",
-                           "pct":  3,
+                           "pct":  6,
                            "details":  {
                                            "Building Foundation":  30,
                                            "Shell":  0,
@@ -13973,7 +17938,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR17",
-                           "pct":  2.6,
+                           "pct":  5.1,
                            "details":  {
                                            "Building Foundation":  25.5,
                                            "Shell":  0,
@@ -14063,7 +18028,7 @@ const TTR_DATA = {
     "2026-06-21":  [
                        {
                            "name":  "TTR2",
-                           "pct":  2.6,
+                           "pct":  5.2,
                            "details":  {
                                            "Building Foundation":  26,
                                            "Shell":  0,
@@ -14074,7 +18039,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR3",
-                           "pct":  26.1,
+                           "pct":  36.1,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  80.5,
@@ -14085,7 +18050,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR4",
-                           "pct":  6.9,
+                           "pct":  13.8,
                            "details":  {
                                            "Building Foundation":  69,
                                            "Shell":  0,
@@ -14096,7 +18061,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR6",
-                           "pct":  50.8,
+                           "pct":  56.6,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -14107,7 +18072,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR7",
-                           "pct":  52.9,
+                           "pct":  58.4,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -14118,7 +18083,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR8",
-                           "pct":  30,
+                           "pct":  40,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -14129,7 +18094,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR13",
-                           "pct":  52.5,
+                           "pct":  58,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -14151,7 +18116,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR16",
-                           "pct":  3,
+                           "pct":  6,
                            "details":  {
                                            "Building Foundation":  30,
                                            "Shell":  0,
@@ -14162,7 +18127,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR17",
-                           "pct":  2.6,
+                           "pct":  5.2,
                            "details":  {
                                            "Building Foundation":  26,
                                            "Shell":  0,
@@ -14252,7 +18217,7 @@ const TTR_DATA = {
     "2026-06-28":  [
                        {
                            "name":  "TTR2",
-                           "pct":  2.6,
+                           "pct":  5.2,
                            "details":  {
                                            "Building Foundation":  26,
                                            "Shell":  0,
@@ -14263,7 +18228,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR3",
-                           "pct":  26.1,
+                           "pct":  36.1,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  80.5,
@@ -14274,7 +18239,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR4",
-                           "pct":  6.9,
+                           "pct":  13.8,
                            "details":  {
                                            "Building Foundation":  69,
                                            "Shell":  0,
@@ -14285,7 +18250,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR6",
-                           "pct":  50.8,
+                           "pct":  56.6,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -14296,7 +18261,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR7",
-                           "pct":  52.9,
+                           "pct":  58.4,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -14307,7 +18272,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR8",
-                           "pct":  30,
+                           "pct":  40,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -14318,7 +18283,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR13",
-                           "pct":  52.5,
+                           "pct":  58,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -14340,7 +18305,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR16",
-                           "pct":  3,
+                           "pct":  6,
                            "details":  {
                                            "Building Foundation":  30,
                                            "Shell":  0,
@@ -14351,7 +18316,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR17",
-                           "pct":  2.6,
+                           "pct":  5.2,
                            "details":  {
                                            "Building Foundation":  26,
                                            "Shell":  0,
@@ -14441,7 +18406,7 @@ const TTR_DATA = {
     "2026-07-05":  [
                        {
                            "name":  "TTR2",
-                           "pct":  3,
+                           "pct":  6,
                            "details":  {
                                            "Building Foundation":  30,
                                            "Shell":  0,
@@ -14452,7 +18417,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR3",
-                           "pct":  27.4,
+                           "pct":  37.4,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  87,
@@ -14463,7 +18428,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR4",
-                           "pct":  7.1,
+                           "pct":  14.2,
                            "details":  {
                                            "Building Foundation":  71,
                                            "Shell":  0,
@@ -14474,7 +18439,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR6",
-                           "pct":  53.3,
+                           "pct":  58.6,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -14485,7 +18450,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR7",
-                           "pct":  53.8,
+                           "pct":  59,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -14496,7 +18461,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR8",
-                           "pct":  30,
+                           "pct":  40,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -14507,7 +18472,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR13",
-                           "pct":  53.8,
+                           "pct":  59,
                            "details":  {
                                            "Building Foundation":  100,
                                            "Shell":  100,
@@ -14529,7 +18494,7 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR16",
-                           "pct":  6.1,
+                           "pct":  12.2,
                            "details":  {
                                            "Building Foundation":  61,
                                            "Shell":  0,
@@ -14540,7 +18505,196 @@ const TTR_DATA = {
                        },
                        {
                            "name":  "TTR17",
-                           "pct":  3,
+                           "pct":  6,
+                           "details":  {
+                                           "Building Foundation":  30,
+                                           "Shell":  0,
+                                           "MEP and Architectural Works":  0,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR18",
+                           "pct":  0,
+                           "details":  {
+                                           "Building Foundation":  0,
+                                           "Shell":  0,
+                                           "MEP and Architectural Works":  0,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR20",
+                           "pct":  0,
+                           "details":  {
+                                           "Building Foundation":  0,
+                                           "Shell":  0,
+                                           "MEP and Architectural Works":  0,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR21",
+                           "pct":  0,
+                           "details":  {
+                                           "Building Foundation":  0,
+                                           "Shell":  0,
+                                           "MEP and Architectural Works":  0,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR22",
+                           "pct":  0,
+                           "details":  {
+                                           "Building Foundation":  0,
+                                           "Shell":  0,
+                                           "MEP and Architectural Works":  0,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR24",
+                           "pct":  0,
+                           "details":  {
+                                           "Building Foundation":  0,
+                                           "Shell":  0,
+                                           "MEP and Architectural Works":  0,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR25",
+                           "pct":  0,
+                           "details":  {
+                                           "Building Foundation":  0,
+                                           "Shell":  0,
+                                           "MEP and Architectural Works":  0,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR26",
+                           "pct":  0,
+                           "details":  {
+                                           "Building Foundation":  0,
+                                           "Shell":  0,
+                                           "MEP and Architectural Works":  0,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       }
+                   ],
+    "2026-07-12":  [
+                       {
+                           "name":  "TTR2",
+                           "pct":  6,
+                           "details":  {
+                                           "Building Foundation":  30,
+                                           "Shell":  0,
+                                           "MEP and Architectural Works":  0,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR3",
+                           "pct":  37.4,
+                           "details":  {
+                                           "Building Foundation":  100,
+                                           "Shell":  87,
+                                           "MEP and Architectural Works":  0,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR4",
+                           "pct":  14.2,
+                           "details":  {
+                                           "Building Foundation":  71,
+                                           "Shell":  0,
+                                           "MEP and Architectural Works":  0,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR6",
+                           "pct":  58.6,
+                           "details":  {
+                                           "Building Foundation":  100,
+                                           "Shell":  100,
+                                           "MEP and Architectural Works":  93.2,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR7",
+                           "pct":  59,
+                           "details":  {
+                                           "Building Foundation":  100,
+                                           "Shell":  100,
+                                           "MEP and Architectural Works":  95,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR8",
+                           "pct":  40,
+                           "details":  {
+                                           "Building Foundation":  100,
+                                           "Shell":  100,
+                                           "MEP and Architectural Works":  0,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR13",
+                           "pct":  59,
+                           "details":  {
+                                           "Building Foundation":  100,
+                                           "Shell":  100,
+                                           "MEP and Architectural Works":  95,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR14",
+                           "pct":  0,
+                           "details":  {
+                                           "Building Foundation":  0,
+                                           "Shell":  0,
+                                           "MEP and Architectural Works":  0,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR16",
+                           "pct":  12.2,
+                           "details":  {
+                                           "Building Foundation":  61,
+                                           "Shell":  0,
+                                           "MEP and Architectural Works":  0,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR17",
+                           "pct":  6,
                            "details":  {
                                            "Building Foundation":  30,
                                            "Shell":  0,

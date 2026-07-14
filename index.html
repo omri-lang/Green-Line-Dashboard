@@ -698,7 +698,6 @@
     const data = PROGRESS_DATA[dateStr] || {};
     const totals = {};
     DISCIPLINES.forEach(d => { totals[d.key] = { actual: 0, planned: 0 }; });
-    let allActual = 0, allPlanned = 0;
     let junctionsTotal = 0, junctionsCompleted = 0, junctionsInProgress = 0;
     const lots = lotFilter ? lotFilter.filter(lot => data[lot]) : Object.keys(data);
     lots.forEach(lot => {
@@ -708,8 +707,6 @@
         if (!totals[key]) return;
         totals[key].actual += v.actual;
         totals[key].planned += v.planned;
-        allActual += v.actual;
-        allPlanned += v.planned;
       });
       const j = data[lot].junctions;
       if (j) {
@@ -729,8 +726,6 @@
           if (!totals[key]) return;
           totals[key].actual += v.actual;
           totals[key].planned += v.planned;
-          allActual += v.actual;
-          allPlanned += v.planned;
         });
       });
     }
@@ -740,7 +735,13 @@
       const pct = t.planned > 0 ? Math.round((t.actual / t.planned) * 1000) / 10 : null;
       return Object.assign({}, d, { pct, actual: t.actual, planned: t.planned });
     });
-    const overallPct = allPlanned > 0 ? Math.round((allActual / allPlanned) * 1000) / 10 : 0;
+    // Flat, equally-weighted average across the 8 main disciplines (each 1/8 =
+    // 12.5%), junctions excluded - per Omri's request, replacing the previous
+    // quantity-weighted (total actual / total planned across all disciplines) method.
+    const validPcts = disciplineResults.map(d => d.pct).filter(p => p !== null);
+    const overallPct = validPcts.length
+      ? Math.round((validPcts.reduce((a, b) => a + b, 0) / validPcts.length) * 10) / 10
+      : 0;
     return {
       overallPct,
       disciplineResults,
