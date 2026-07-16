@@ -143,6 +143,159 @@ $YARD_DEPOT_MAP = [ordered]@{
   "OHLE poles"  = "OHLE Poles Installation"
 }
 
+# "Stops" sheet: one row per station. Row 3 gives each column-group's raw
+# label ("Location", "Name", "Stops - General", "Secondary Routing and
+# Manholes", "CSLM Casting", "SIG Stops equipment installation", "COM
+# Equipment installation & Testing"); row 4 gives that same column's
+# sub-header ("Execution %" for the columns we want). The exact column
+# letters SHIFT between report versions (verified: N/AB/BD/CT on the
+# 29.1.2026 report vs O/AC/BE/CU from 07.06.2026 onward), so columns must be
+# located by their row-3 label per file rather than assumed fixed.
+#
+# The station list itself (Hebrew name + section) is not on this sheet at
+# all - it's the canonical list from "טבלת תחנות.xlsx" (62 stations, order
+# below follows route direction 1A->12A). Per Omri's instruction (2026-07-16):
+# this Hebrew/section list is authoritative; any station the Stops sheet
+# doesn't have under a matching English name is still shown, at 0%.
+$STOPS_GROUP_LABELS = [ordered]@{
+  location  = "Location"
+  name      = "Name"
+  general   = "Stops - General"
+  secondary = "Secondary Routing and Manholes"
+  cslm      = "CSLM Casting"
+  sig       = "SIG Stops equipment installation"
+  com       = "COM Equipment installation & Testing"
+}
+
+$STOPS_MASTER_LIST = @(
+  @{ en = "Holon East"; he = "חולון מזרח"; section = "1A" }
+  @{ en = "Agricultural Center"; he = "הקריה החקלאית"; section = "1A" }
+  @{ en = "Peres Park"; he = "פארק פרס"; section = "2A" }
+  @{ en = "HaMerkava"; he = "המרכבה"; section = "2A" }
+  @{ en = "Holon Junction"; he = "צומת חולון"; section = "3A" }
+  @{ en = "Holon Theater"; he = "תיאטרון חולון"; section = "3A" }
+  @{ en = "Kugel"; he = "קוגל"; section = "3A" }
+  @{ en = "Krauze"; he = "קראוזה"; section = "3A" }
+  @{ en = "Sokolov East"; he = "סוקולוב מזרח"; section = "3A" }
+  @{ en = "Ge'ulim"; he = "גאולים"; section = "3A" }
+  @{ en = "Cactus Garden"; he = "גן הקקטוסים"; section = "3A" }
+  @{ en = "HaMelakha"; he = "המלאכה"; section = "3A" }
+  @{ en = "Nahalat Yehuda"; he = "נחלת יהודה"; section = "4A" }
+  @{ en = "Sakharov"; he = "סחרוב"; section = "4A" }
+  @{ en = "Yalde Tehran"; he = "ילדי טהרן"; section = "4A" }
+  @{ en = "Lishansky"; he = "לישנסקי"; section = "4A" }
+  @{ en = "Moshe Dayan"; he = "משה דיין"; section = "4A" }
+  @{ en = "HaHistadrut"; he = "ההסתדרות"; section = "5A" }
+  @{ en = "Holon Institute of Technology"; he = "המכון הטכנולוגי חולון"; section = "5A" }
+  @{ en = "Lavon"; he = "לבון"; section = "5A" }
+  @{ en = "Begin"; he = "בגין"; section = "5A" }
+  @{ en = "Bar-Lev"; he = "בר-לב"; section = "5A" }
+  @{ en = "Laskov"; he = "לסקוב"; section = "5A" }
+  @{ en = "HaBonim Park"; he = "פארק הבונים"; section = "5A" }
+  @{ en = "Shapira"; he = "שפירא"; section = "6A" }
+  @{ en = "Kibbuts Galuyot"; he = "קיבוץ גלויות"; section = "6A" }
+  @{ en = "HaHurshot Park"; he = "פארק החורשות"; section = "6A" }
+  @{ en = "Kiryat Shalom"; he = "קריית שלום"; section = "6A" }
+  @{ en = "Yehuda HaMakkabbi"; he = "יהודה המכבי"; section = "7A" }
+  @{ en = "Ibn Gabirol Arlosoroff"; he = "אבן גבירול ארלוזורוב"; section = "7A" }
+  @{ en = "Rabin Square"; he = "כיכר רבין"; section = "7A" }
+  @{ en = "Kaplan"; he = "קפלן"; section = "7A" }
+  @{ en = "Carlebach"; he = "קרליבך"; section = "7A" }
+  @{ en = "Levinski Garden"; he = "גינת לוינסקי"; section = "7A" }
+  @{ en = "Namir"; he = "נמיר"; section = "8A" }
+  @{ en = "Brodetsky"; he = "ברודצקי"; section = "8A" }
+  @{ en = "Tel Aviv University"; he = "אוניברסיטת תל אביב"; section = "8A" }
+  @{ en = "Broshim"; he = "ברושים"; section = "8A" }
+  @{ en = "Reading"; he = "רדינג"; section = "8A" }
+  @{ en = "HaYeridim"; he = "הירידים"; section = "9A" }
+  @{ en = "Ganne Yehoshua"; he = "גני יהושע"; section = "10A" }
+  @{ en = "Hadar Yosef"; he = "הדר יוסף"; section = "10A" }
+  @{ en = "Pinhas Rosen Bridge"; he = "גשר פנחס רוזן"; section = "11A" }
+  @{ en = "HaBarzel"; he = "הברזל"; section = "11A" }
+  @{ en = "HaNehoshet"; he = "הנחושת"; section = "11A" }
+  @{ en = "Dvora HaNevi'a"; he = "דבורה הנביאה"; section = "11A" }
+  @{ en = "Neve Sharet"; he = "נווה שרת"; section = "11A" }
+  @{ en = "Abba Eban"; he = "אבא אבן"; section = "12A" }
+  @{ en = "HaHoshlim"; he = "החושלים"; section = "12A" }
+  @{ en = "Altneuland"; he = "אלטנוילנד"; section = "12A" }
+  @{ en = "Hof HaTkhelet North"; he = "חוף התכלת צפון"; section = "12A" }
+  @{ en = "Hof HaTkhelet South"; he = "חוף התכלת דרום"; section = "12A" }
+  @{ en = "Unichman"; he = "יוניצ'מן"; section = "12A" }
+  @{ en = "Miryam Yalan-Shteklis"; he = "מרים ילן שטקליס"; section = "12A" }
+  @{ en = "Miryam Ben-Porat"; he = "מרים בן פורת"; section = "12A" }
+  @{ en = "Shoshanna Persitz"; he = "שושנה פרסיץ"; section = "12A" }
+  @{ en = "Azorey Hen"; he = "אזורי חן"; section = "12A" }
+  @{ en = "Propes"; he = "פרופס"; section = "12A" }
+  @{ en = "Nofe Yam"; he = "נופי ים"; section = "12A" }
+  @{ en = "Einstein"; he = "איינשטיין"; section = "12A" }
+  @{ en = "Levi Eshkol"; he = "לוי אשכול"; section = "12A" }
+  @{ en = "Zohara Leviatov"; he = "זהרה לביטוב"; section = "12A" }
+)
+
+function Normalize-StopName($s) {
+  if (-not ($s -is [string])) { return "" }
+  return ($s.ToLower() -replace '[^a-z0-9]', '')
+}
+
+function Get-StopsData($ws) {
+  $used = $ws.UsedRange
+  $maxRow = $used.Row + $used.Rows.Count - 1
+  $maxCol = $used.Column + $used.Columns.Count - 1
+
+  $cols = @{}
+  foreach ($key in $STOPS_GROUP_LABELS.Keys) {
+    $label = $STOPS_GROUP_LABELS[$key]
+    for ($c = 1; $c -le $maxCol; $c++) {
+      $r3 = $ws.Cells.Item(3, $c).Value2
+      if ($r3 -is [string] -and $r3.Trim() -eq $label) { $cols[$key] = $c; break }
+    }
+    if (-not $cols.ContainsKey($key)) {
+      Write-Output "WARN Stops sheet: column not found for '$label'"
+    }
+  }
+  if (-not $cols.ContainsKey("location") -or -not $cols.ContainsKey("name")) { return @() }
+
+  function Get-StopPct($ws, $r, $cols, $key) {
+    if (-not $cols.ContainsKey($key)) { return 0 }
+    $v = $ws.Cells.Item($r, $cols[$key]).Value2
+    if ($v -is [double]) { return [math]::Round(100.0 * $v, 1) }
+    return 0
+  }
+
+  $rawByNorm = @{}
+  for ($r = 5; $r -le $maxRow; $r++) {
+    $name = $ws.Cells.Item($r, $cols["name"]).Value2
+    if (-not ($name -is [string]) -or [string]::IsNullOrWhiteSpace($name)) { continue }
+    $loc = $ws.Cells.Item($r, $cols["location"]).Value2
+    $loc = if ($loc -is [string]) { $loc.Trim() } else { "" }
+    if ($loc -notmatch '^\d{1,2}A$') { continue }
+
+    $entry = @{
+      overall   = Get-StopPct $ws $r $cols "general"
+      secondary = Get-StopPct $ws $r $cols "secondary"
+      cslm      = Get-StopPct $ws $r $cols "cslm"
+      sig       = Get-StopPct $ws $r $cols "sig"
+      com       = Get-StopPct $ws $r $cols "com"
+    }
+    $rawByNorm[(Normalize-StopName $name.Trim())] = $entry
+  }
+
+  $out = @()
+  foreach ($m in $STOPS_MASTER_LIST) {
+    $norm = Normalize-StopName $m.en
+    $raw = $rawByNorm[$norm]
+    if ($raw) {
+      $pct = $raw.overall
+      $details = [ordered]@{ secondary = $raw.secondary; cslm = $raw.cslm; sig = $raw.sig; com = $raw.com }
+    } else {
+      $pct = 0
+      $details = [ordered]@{ secondary = 0; cslm = 0; sig = 0; com = 0 }
+    }
+    $out += [ordered]@{ en = $m.en; he = $m.he; section = $m.section; pct = $pct; details = $details }
+  }
+  return $out
+}
+
 function Get-BuildingsData($ws, $buildingNames) {
   $used = $ws.UsedRange
   $maxRow = $used.Row + $used.Rows.Count - 1
@@ -330,6 +483,7 @@ $files = Get-ChildItem -Path $InFolder -Filter "Construction Bi-Weekly report-*.
 $results = @{}
 $depotResults = @{}
 $ttrResults = @{}
+$stopsResults = @{}
 
 $excel = New-Object -ComObject Excel.Application
 $excel.Visible = $false
@@ -478,7 +632,15 @@ foreach ($f in $files) {
     if ($ttrSheet) { $ttrList = Get-TTRData $wb.Worksheets.Item($ttrSheet) }
     $ttrResults[$dateStr] = $ttrList
 
-    Write-Output "OK $dateStr <- $($f.Name)  lots=$($lotFinal.Count) disciplines=$($discBlocks.Count)/$($TARGET_DISCIPLINES.Count) tunnel=$($tunnelBlocks.Count -as [string]) junctionSections=$($lotJunctions.Count) depots=$($depotsForDate.Count) ttr=$($ttrList.Count)"
+    # Stops: one row per station, matched against the canonical 62-station
+    # Hebrew/section list (see $STOPS_MASTER_LIST above).
+    $stopsSheet = $null
+    foreach ($s in $wb.Worksheets) { if ($s.Name -eq "Stops") { $stopsSheet = $s.Name } }
+    $stopsList = @()
+    if ($stopsSheet) { $stopsList = Get-StopsData $wb.Worksheets.Item($stopsSheet) }
+    $stopsResults[$dateStr] = $stopsList
+
+    Write-Output "OK $dateStr <- $($f.Name)  lots=$($lotFinal.Count) disciplines=$($discBlocks.Count)/$($TARGET_DISCIPLINES.Count) tunnel=$($tunnelBlocks.Count -as [string]) junctionSections=$($lotJunctions.Count) depots=$($depotsForDate.Count) ttr=$($ttrList.Count) stops=$($stopsList.Count)"
 
     $wb.Close($false)
   } catch {
@@ -510,6 +672,11 @@ $ttrObjAll = [ordered]@{}
 foreach ($d in $ttrSortedDates) { $ttrObjAll[$d] = $ttrResults[$d] }
 $ttrJson = $ttrObjAll | ConvertTo-Json -Depth 6
 
-$js = "// Auto-generated by update_progress_data.ps1 - do not edit by hand`r`nconst PROGRESS_DATA = $json;`r`nconst DEPOT_DATA = $depotJson;`r`nconst TTR_DATA = $ttrJson;`r`n"
+$stopsSortedDates = $stopsResults.Keys | Sort-Object
+$stopsObjAll = [ordered]@{}
+foreach ($d in $stopsSortedDates) { $stopsObjAll[$d] = $stopsResults[$d] }
+$stopsJson = $stopsObjAll | ConvertTo-Json -Depth 6
+
+$js = "// Auto-generated by update_progress_data.ps1 - do not edit by hand`r`nconst PROGRESS_DATA = $json;`r`nconst DEPOT_DATA = $depotJson;`r`nconst TTR_DATA = $ttrJson;`r`nconst STOPS_DATA = $stopsJson;`r`n"
 Set-Content -Path $OutJs -Value $js -Encoding utf8
 Write-Output "WROTE: $OutJs"

@@ -599,6 +599,19 @@
   </div>
 </div>
 
+<div class="side-card" style="margin-top:22px;">
+  <h2>תחנות</h2>
+  <p class="card-hint">ביצוע לפי תחנה, מתוך גיליון ה-Stops · שם התחנה בעברית ומקטע, לפי טבלת התחנות</p>
+  <div style="max-height:520px; overflow-y:auto;">
+    <table id="stopsTable">
+      <thead>
+        <tr><th>תחנה</th><th>מקטע</th><th>ביצוע</th><th></th></tr>
+      </thead>
+      <tbody id="stopsTableBody"></tbody>
+    </table>
+  </div>
+</div>
+
 <div class="backdrop" id="backdrop">
   <div class="panel" role="dialog" aria-modal="true" id="panel"></div>
 </div>
@@ -643,6 +656,13 @@
   ];
   const YARD_DEPOT_KEYS = ["Multitubular", "Foundations slab", "Track Installation on line", "OHLE Poles Installation"];
   const DEPOT_LABELS = { "Holon": "דיפו חולון", "Herz": "דיפו הרצליה" };
+
+  const STOPS_DISCIPLINES = [
+    { key: "secondary", he: "שוחות",                                    unit: "pile" },
+    { key: "cslm",      he: "יציקת CLSM",                                unit: "slab" },
+    { key: "sig",       he: "התקנת מערכות איתות",                        unit: "pole" },
+    { key: "com",       he: "התקנת מערכות תקשורת ובדיקות",                unit: "mep" }
+  ];
 
   const TTR_DISCIPLINES = [
     { key: "Building Foundation",         he: "יסודות מבנה",    unit: "slab" },
@@ -1312,13 +1332,87 @@
     });
   }
 
+  function openStopPanel(stopEn, dateStr) {
+    const list = STOPS_DATA[dateStr] || [];
+    const item = list.find(s => s.en === stopEn);
+
+    if (!item) {
+      panel.innerHTML = `
+        <div class="panel-header">
+          <span class="lot-chip" style="background:var(--nodata); color:var(--text-secondary);">${stopEn}</span>
+          <h3>אין נתון לתחנה זו</h3>
+          <button class="panel-close" id="panelCloseBtn">✕</button>
+        </div>
+        <div class="tunnel-msg">לא נמצא נתון עבור תחנה זו בתאריך הדיווח שנבחר.</div>`;
+    } else {
+      const rgb = colorForPct(item.pct);
+      const rows = STOPS_DISCIPLINES.map(d => {
+        const pct = item.details ? item.details[d.key] : undefined;
+        if (pct === undefined || pct === null) {
+          return `
+            <div class="disc-row na">
+              <div class="disc-icon">${ICONS[d.unit]}</div>
+              <div class="disc-main"><div class="disc-name">${d.he}</div></div>
+              <div></div>
+            </div>`;
+        }
+        return buildDepotDisciplineRow(ICONS[d.unit], d.he, pct, "");
+      }).join("");
+
+      panel.innerHTML = `
+        <div class="panel-header">
+          <span class="lot-chip" style="background:${rgbToCss(rgb)}; color:${textColorFor(rgb)};">${item.section}</span>
+          <h3>${item.he} · פירוט ביצוע לפי דיסציפלינה</h3>
+          <span class="overall-pct">${item.pct}%</span>
+          <button class="panel-close" id="panelCloseBtn">✕</button>
+        </div>
+        <div class="panel-body">${rows}</div>`;
+    }
+
+    document.getElementById("panelCloseBtn").addEventListener("click", closePanel);
+    backdrop.classList.add("show");
+  }
+
+  function renderStopsTable(dateStr) {
+    const tbody = document.getElementById("stopsTableBody");
+    tbody.innerHTML = "";
+    const list = STOPS_DATA[dateStr] || [];
+    list.forEach(item => {
+      const tr = document.createElement("tr");
+      const rgb = colorForPct(item.pct);
+      const tdName = document.createElement("td");
+      tdName.className = "row-lot";
+      tdName.textContent = item.he;
+      const tdSection = document.createElement("td");
+      tdSection.textContent = item.section;
+      const tdPct = document.createElement("td");
+      tdPct.innerHTML = `
+        <div class="bar-cell">
+          <span class="pct-label">${item.pct}%</span>
+          <div class="bar-track"><div class="bar-fill" style="width:${Math.min(100, item.pct)}%; background:${rgbToCss(rgb)};"></div></div>
+        </div>`;
+      const tdBtn = document.createElement("td");
+      const btn = document.createElement("button");
+      btn.className = "detail-btn";
+      btn.textContent = "פירוט";
+      btn.addEventListener("click", () => openStopPanel(item.en, dateStr));
+      tdBtn.appendChild(btn);
+      tr.appendChild(tdName);
+      tr.appendChild(tdSection);
+      tr.appendChild(tdPct);
+      tr.appendChild(tdBtn);
+      tbody.appendChild(tr);
+    });
+  }
+
   document.getElementById("includeDepotsToggle").addEventListener("change", () => renderSummary(dateSelect.value));
 
-  dateSelect.addEventListener("change", () => { render(dateSelect.value); renderSummary(dateSelect.value); renderDepotTable(dateSelect.value); renderTTRTable(dateSelect.value); });
+  dateSelect.addEventListener("change", () => { render(dateSelect.value); renderSummary(dateSelect.value); renderDepotTable(dateSelect.value); renderTTRTable(dateSelect.value); renderStopsTable(dateSelect.value); });
   render(dateSelect.value);
   renderSummary(dateSelect.value);
   renderDepotTable(dateSelect.value);
   renderTTRTable(dateSelect.value);
+  renderStopsTable(dateSelect.value);
 </script>
 
 </body>

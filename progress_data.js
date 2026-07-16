@@ -20080,4 +20080,11942 @@ const TTR_DATA = {
                        }
                    ]
 };
+const STOPS_DATA = {
+    "2026-01-29":  [
+                       {
+                           "en":  "Holon East",
+                           "he":  "חולון מזרח",
+                           "section":  "1A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Agricultural Center",
+                           "he":  "הקריה החקלאית",
+                           "section":  "1A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Peres Park",
+                           "he":  "פארק פרס",
+                           "section":  "2A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMerkava",
+                           "he":  "המרכבה",
+                           "section":  "2A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Junction",
+                           "he":  "צומת חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Theater",
+                           "he":  "תיאטרון חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kugel",
+                           "he":  "קוגל",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Krauze",
+                           "he":  "קראוזה",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sokolov East",
+                           "he":  "סוקולוב מזרח",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ge\u0027ulim",
+                           "he":  "גאולים",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Cactus Garden",
+                           "he":  "גן הקקטוסים",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMelakha",
+                           "he":  "המלאכה",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nahalat Yehuda",
+                           "he":  "נחלת יהודה",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sakharov",
+                           "he":  "סחרוב",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yalde Tehran",
+                           "he":  "ילדי טהרן",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lishansky",
+                           "he":  "לישנסקי",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Moshe Dayan",
+                           "he":  "משה דיין",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHistadrut",
+                           "he":  "ההסתדרות",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Institute of Technology",
+                           "he":  "המכון הטכנולוגי חולון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lavon",
+                           "he":  "לבון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Begin",
+                           "he":  "בגין",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Bar-Lev",
+                           "he":  "בר-לב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Laskov",
+                           "he":  "לסקוב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBonim Park",
+                           "he":  "פארק הבונים",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shapira",
+                           "he":  "שפירא",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kibbuts Galuyot",
+                           "he":  "קיבוץ גלויות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHurshot Park",
+                           "he":  "פארק החורשות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kiryat Shalom",
+                           "he":  "קריית שלום",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yehuda HaMakkabbi",
+                           "he":  "יהודה המכבי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ibn Gabirol Arlosoroff",
+                           "he":  "אבן גבירול ארלוזורוב",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Rabin Square",
+                           "he":  "כיכר רבין",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kaplan",
+                           "he":  "קפלן",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Carlebach",
+                           "he":  "קרליבך",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levinski Garden",
+                           "he":  "גינת לוינסקי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Namir",
+                           "he":  "נמיר",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Brodetsky",
+                           "he":  "ברודצקי",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Tel Aviv University",
+                           "he":  "אוניברסיטת תל אביב",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Broshim",
+                           "he":  "ברושים",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Reading",
+                           "he":  "רדינג",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaYeridim",
+                           "he":  "הירידים",
+                           "section":  "9A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ganne Yehoshua",
+                           "he":  "גני יהושע",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hadar Yosef",
+                           "he":  "הדר יוסף",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Pinhas Rosen Bridge",
+                           "he":  "גשר פנחס רוזן",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBarzel",
+                           "he":  "הברזל",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaNehoshet",
+                           "he":  "הנחושת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Dvora HaNevi\u0027a",
+                           "he":  "דבורה הנביאה",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Neve Sharet",
+                           "he":  "נווה שרת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Abba Eban",
+                           "he":  "אבא אבן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHoshlim",
+                           "he":  "החושלים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Altneuland",
+                           "he":  "אלטנוילנד",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet North",
+                           "he":  "חוף התכלת צפון",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet South",
+                           "he":  "חוף התכלת דרום",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Unichman",
+                           "he":  "יוניצ\u0027מן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Yalan-Shteklis",
+                           "he":  "מרים ילן שטקליס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Ben-Porat",
+                           "he":  "מרים בן פורת",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shoshanna Persitz",
+                           "he":  "שושנה פרסיץ",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Azorey Hen",
+                           "he":  "אזורי חן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Propes",
+                           "he":  "פרופס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nofe Yam",
+                           "he":  "נופי ים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Einstein",
+                           "he":  "איינשטיין",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levi Eshkol",
+                           "he":  "לוי אשכול",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Zohara Leviatov",
+                           "he":  "זהרה לביטוב",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       }
+                   ],
+    "2026-02-12":  [
+                       {
+                           "en":  "Holon East",
+                           "he":  "חולון מזרח",
+                           "section":  "1A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Agricultural Center",
+                           "he":  "הקריה החקלאית",
+                           "section":  "1A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Peres Park",
+                           "he":  "פארק פרס",
+                           "section":  "2A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMerkava",
+                           "he":  "המרכבה",
+                           "section":  "2A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Junction",
+                           "he":  "צומת חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Theater",
+                           "he":  "תיאטרון חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kugel",
+                           "he":  "קוגל",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Krauze",
+                           "he":  "קראוזה",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sokolov East",
+                           "he":  "סוקולוב מזרח",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ge\u0027ulim",
+                           "he":  "גאולים",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Cactus Garden",
+                           "he":  "גן הקקטוסים",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMelakha",
+                           "he":  "המלאכה",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nahalat Yehuda",
+                           "he":  "נחלת יהודה",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sakharov",
+                           "he":  "סחרוב",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yalde Tehran",
+                           "he":  "ילדי טהרן",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lishansky",
+                           "he":  "לישנסקי",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Moshe Dayan",
+                           "he":  "משה דיין",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHistadrut",
+                           "he":  "ההסתדרות",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Institute of Technology",
+                           "he":  "המכון הטכנולוגי חולון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lavon",
+                           "he":  "לבון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Begin",
+                           "he":  "בגין",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Bar-Lev",
+                           "he":  "בר-לב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Laskov",
+                           "he":  "לסקוב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBonim Park",
+                           "he":  "פארק הבונים",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shapira",
+                           "he":  "שפירא",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kibbuts Galuyot",
+                           "he":  "קיבוץ גלויות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHurshot Park",
+                           "he":  "פארק החורשות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kiryat Shalom",
+                           "he":  "קריית שלום",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yehuda HaMakkabbi",
+                           "he":  "יהודה המכבי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ibn Gabirol Arlosoroff",
+                           "he":  "אבן גבירול ארלוזורוב",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Rabin Square",
+                           "he":  "כיכר רבין",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kaplan",
+                           "he":  "קפלן",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Carlebach",
+                           "he":  "קרליבך",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levinski Garden",
+                           "he":  "גינת לוינסקי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Namir",
+                           "he":  "נמיר",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Brodetsky",
+                           "he":  "ברודצקי",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Tel Aviv University",
+                           "he":  "אוניברסיטת תל אביב",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Broshim",
+                           "he":  "ברושים",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Reading",
+                           "he":  "רדינג",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaYeridim",
+                           "he":  "הירידים",
+                           "section":  "9A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ganne Yehoshua",
+                           "he":  "גני יהושע",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hadar Yosef",
+                           "he":  "הדר יוסף",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Pinhas Rosen Bridge",
+                           "he":  "גשר פנחס רוזן",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBarzel",
+                           "he":  "הברזל",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaNehoshet",
+                           "he":  "הנחושת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Dvora HaNevi\u0027a",
+                           "he":  "דבורה הנביאה",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Neve Sharet",
+                           "he":  "נווה שרת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Abba Eban",
+                           "he":  "אבא אבן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHoshlim",
+                           "he":  "החושלים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Altneuland",
+                           "he":  "אלטנוילנד",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet North",
+                           "he":  "חוף התכלת צפון",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet South",
+                           "he":  "חוף התכלת דרום",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Unichman",
+                           "he":  "יוניצ\u0027מן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Yalan-Shteklis",
+                           "he":  "מרים ילן שטקליס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Ben-Porat",
+                           "he":  "מרים בן פורת",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shoshanna Persitz",
+                           "he":  "שושנה פרסיץ",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Azorey Hen",
+                           "he":  "אזורי חן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Propes",
+                           "he":  "פרופס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nofe Yam",
+                           "he":  "נופי ים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Einstein",
+                           "he":  "איינשטיין",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levi Eshkol",
+                           "he":  "לוי אשכול",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Zohara Leviatov",
+                           "he":  "זהרה לביטוב",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       }
+                   ],
+    "2026-02-26":  [
+                       {
+                           "en":  "Holon East",
+                           "he":  "חולון מזרח",
+                           "section":  "1A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Agricultural Center",
+                           "he":  "הקריה החקלאית",
+                           "section":  "1A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Peres Park",
+                           "he":  "פארק פרס",
+                           "section":  "2A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMerkava",
+                           "he":  "המרכבה",
+                           "section":  "2A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Junction",
+                           "he":  "צומת חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Theater",
+                           "he":  "תיאטרון חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kugel",
+                           "he":  "קוגל",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Krauze",
+                           "he":  "קראוזה",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sokolov East",
+                           "he":  "סוקולוב מזרח",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ge\u0027ulim",
+                           "he":  "גאולים",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Cactus Garden",
+                           "he":  "גן הקקטוסים",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMelakha",
+                           "he":  "המלאכה",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nahalat Yehuda",
+                           "he":  "נחלת יהודה",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sakharov",
+                           "he":  "סחרוב",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yalde Tehran",
+                           "he":  "ילדי טהרן",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lishansky",
+                           "he":  "לישנסקי",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Moshe Dayan",
+                           "he":  "משה דיין",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHistadrut",
+                           "he":  "ההסתדרות",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Institute of Technology",
+                           "he":  "המכון הטכנולוגי חולון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lavon",
+                           "he":  "לבון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Begin",
+                           "he":  "בגין",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Bar-Lev",
+                           "he":  "בר-לב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Laskov",
+                           "he":  "לסקוב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBonim Park",
+                           "he":  "פארק הבונים",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shapira",
+                           "he":  "שפירא",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kibbuts Galuyot",
+                           "he":  "קיבוץ גלויות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHurshot Park",
+                           "he":  "פארק החורשות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kiryat Shalom",
+                           "he":  "קריית שלום",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yehuda HaMakkabbi",
+                           "he":  "יהודה המכבי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ibn Gabirol Arlosoroff",
+                           "he":  "אבן גבירול ארלוזורוב",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Rabin Square",
+                           "he":  "כיכר רבין",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kaplan",
+                           "he":  "קפלן",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Carlebach",
+                           "he":  "קרליבך",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levinski Garden",
+                           "he":  "גינת לוינסקי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Namir",
+                           "he":  "נמיר",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Brodetsky",
+                           "he":  "ברודצקי",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Tel Aviv University",
+                           "he":  "אוניברסיטת תל אביב",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Broshim",
+                           "he":  "ברושים",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Reading",
+                           "he":  "רדינג",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaYeridim",
+                           "he":  "הירידים",
+                           "section":  "9A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ganne Yehoshua",
+                           "he":  "גני יהושע",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hadar Yosef",
+                           "he":  "הדר יוסף",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Pinhas Rosen Bridge",
+                           "he":  "גשר פנחס רוזן",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBarzel",
+                           "he":  "הברזל",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaNehoshet",
+                           "he":  "הנחושת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Dvora HaNevi\u0027a",
+                           "he":  "דבורה הנביאה",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Neve Sharet",
+                           "he":  "נווה שרת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Abba Eban",
+                           "he":  "אבא אבן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHoshlim",
+                           "he":  "החושלים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Altneuland",
+                           "he":  "אלטנוילנד",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet North",
+                           "he":  "חוף התכלת צפון",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet South",
+                           "he":  "חוף התכלת דרום",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Unichman",
+                           "he":  "יוניצ\u0027מן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Yalan-Shteklis",
+                           "he":  "מרים ילן שטקליס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Ben-Porat",
+                           "he":  "מרים בן פורת",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shoshanna Persitz",
+                           "he":  "שושנה פרסיץ",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Azorey Hen",
+                           "he":  "אזורי חן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Propes",
+                           "he":  "פרופס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nofe Yam",
+                           "he":  "נופי ים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Einstein",
+                           "he":  "איינשטיין",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levi Eshkol",
+                           "he":  "לוי אשכול",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Zohara Leviatov",
+                           "he":  "זהרה לביטוב",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       }
+                   ],
+    "2026-03-12":  [
+                       {
+                           "en":  "Holon East",
+                           "he":  "חולון מזרח",
+                           "section":  "1A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Agricultural Center",
+                           "he":  "הקריה החקלאית",
+                           "section":  "1A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Peres Park",
+                           "he":  "פארק פרס",
+                           "section":  "2A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMerkava",
+                           "he":  "המרכבה",
+                           "section":  "2A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Junction",
+                           "he":  "צומת חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Theater",
+                           "he":  "תיאטרון חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kugel",
+                           "he":  "קוגל",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Krauze",
+                           "he":  "קראוזה",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sokolov East",
+                           "he":  "סוקולוב מזרח",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ge\u0027ulim",
+                           "he":  "גאולים",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Cactus Garden",
+                           "he":  "גן הקקטוסים",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMelakha",
+                           "he":  "המלאכה",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nahalat Yehuda",
+                           "he":  "נחלת יהודה",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sakharov",
+                           "he":  "סחרוב",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yalde Tehran",
+                           "he":  "ילדי טהרן",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lishansky",
+                           "he":  "לישנסקי",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Moshe Dayan",
+                           "he":  "משה דיין",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHistadrut",
+                           "he":  "ההסתדרות",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Institute of Technology",
+                           "he":  "המכון הטכנולוגי חולון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lavon",
+                           "he":  "לבון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Begin",
+                           "he":  "בגין",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Bar-Lev",
+                           "he":  "בר-לב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Laskov",
+                           "he":  "לסקוב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBonim Park",
+                           "he":  "פארק הבונים",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shapira",
+                           "he":  "שפירא",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kibbuts Galuyot",
+                           "he":  "קיבוץ גלויות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHurshot Park",
+                           "he":  "פארק החורשות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kiryat Shalom",
+                           "he":  "קריית שלום",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yehuda HaMakkabbi",
+                           "he":  "יהודה המכבי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ibn Gabirol Arlosoroff",
+                           "he":  "אבן גבירול ארלוזורוב",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Rabin Square",
+                           "he":  "כיכר רבין",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kaplan",
+                           "he":  "קפלן",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Carlebach",
+                           "he":  "קרליבך",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levinski Garden",
+                           "he":  "גינת לוינסקי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Namir",
+                           "he":  "נמיר",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Brodetsky",
+                           "he":  "ברודצקי",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Tel Aviv University",
+                           "he":  "אוניברסיטת תל אביב",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Broshim",
+                           "he":  "ברושים",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Reading",
+                           "he":  "רדינג",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaYeridim",
+                           "he":  "הירידים",
+                           "section":  "9A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ganne Yehoshua",
+                           "he":  "גני יהושע",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hadar Yosef",
+                           "he":  "הדר יוסף",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Pinhas Rosen Bridge",
+                           "he":  "גשר פנחס רוזן",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBarzel",
+                           "he":  "הברזל",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaNehoshet",
+                           "he":  "הנחושת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Dvora HaNevi\u0027a",
+                           "he":  "דבורה הנביאה",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Neve Sharet",
+                           "he":  "נווה שרת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Abba Eban",
+                           "he":  "אבא אבן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHoshlim",
+                           "he":  "החושלים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Altneuland",
+                           "he":  "אלטנוילנד",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet North",
+                           "he":  "חוף התכלת צפון",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet South",
+                           "he":  "חוף התכלת דרום",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Unichman",
+                           "he":  "יוניצ\u0027מן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Yalan-Shteklis",
+                           "he":  "מרים ילן שטקליס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Ben-Porat",
+                           "he":  "מרים בן פורת",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shoshanna Persitz",
+                           "he":  "שושנה פרסיץ",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Azorey Hen",
+                           "he":  "אזורי חן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Propes",
+                           "he":  "פרופס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nofe Yam",
+                           "he":  "נופי ים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Einstein",
+                           "he":  "איינשטיין",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levi Eshkol",
+                           "he":  "לוי אשכול",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Zohara Leviatov",
+                           "he":  "זהרה לביטוב",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       }
+                   ],
+    "2026-04-09":  [
+                       {
+                           "en":  "Holon East",
+                           "he":  "חולון מזרח",
+                           "section":  "1A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Agricultural Center",
+                           "he":  "הקריה החקלאית",
+                           "section":  "1A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Peres Park",
+                           "he":  "פארק פרס",
+                           "section":  "2A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMerkava",
+                           "he":  "המרכבה",
+                           "section":  "2A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Junction",
+                           "he":  "צומת חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Theater",
+                           "he":  "תיאטרון חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kugel",
+                           "he":  "קוגל",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Krauze",
+                           "he":  "קראוזה",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sokolov East",
+                           "he":  "סוקולוב מזרח",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ge\u0027ulim",
+                           "he":  "גאולים",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Cactus Garden",
+                           "he":  "גן הקקטוסים",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMelakha",
+                           "he":  "המלאכה",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nahalat Yehuda",
+                           "he":  "נחלת יהודה",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sakharov",
+                           "he":  "סחרוב",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yalde Tehran",
+                           "he":  "ילדי טהרן",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lishansky",
+                           "he":  "לישנסקי",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Moshe Dayan",
+                           "he":  "משה דיין",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  100,
+                                           "cslm":  100,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHistadrut",
+                           "he":  "ההסתדרות",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Institute of Technology",
+                           "he":  "המכון הטכנולוגי חולון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lavon",
+                           "he":  "לבון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Begin",
+                           "he":  "בגין",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Bar-Lev",
+                           "he":  "בר-לב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Laskov",
+                           "he":  "לסקוב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBonim Park",
+                           "he":  "פארק הבונים",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shapira",
+                           "he":  "שפירא",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kibbuts Galuyot",
+                           "he":  "קיבוץ גלויות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHurshot Park",
+                           "he":  "פארק החורשות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kiryat Shalom",
+                           "he":  "קריית שלום",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yehuda HaMakkabbi",
+                           "he":  "יהודה המכבי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ibn Gabirol Arlosoroff",
+                           "he":  "אבן גבירול ארלוזורוב",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Rabin Square",
+                           "he":  "כיכר רבין",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kaplan",
+                           "he":  "קפלן",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Carlebach",
+                           "he":  "קרליבך",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levinski Garden",
+                           "he":  "גינת לוינסקי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Namir",
+                           "he":  "נמיר",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Brodetsky",
+                           "he":  "ברודצקי",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Tel Aviv University",
+                           "he":  "אוניברסיטת תל אביב",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Broshim",
+                           "he":  "ברושים",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Reading",
+                           "he":  "רדינג",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaYeridim",
+                           "he":  "הירידים",
+                           "section":  "9A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ganne Yehoshua",
+                           "he":  "גני יהושע",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hadar Yosef",
+                           "he":  "הדר יוסף",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Pinhas Rosen Bridge",
+                           "he":  "גשר פנחס רוזן",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBarzel",
+                           "he":  "הברזל",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaNehoshet",
+                           "he":  "הנחושת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Dvora HaNevi\u0027a",
+                           "he":  "דבורה הנביאה",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Neve Sharet",
+                           "he":  "נווה שרת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Abba Eban",
+                           "he":  "אבא אבן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHoshlim",
+                           "he":  "החושלים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Altneuland",
+                           "he":  "אלטנוילנד",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet North",
+                           "he":  "חוף התכלת צפון",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet South",
+                           "he":  "חוף התכלת דרום",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Unichman",
+                           "he":  "יוניצ\u0027מן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Yalan-Shteklis",
+                           "he":  "מרים ילן שטקליס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Ben-Porat",
+                           "he":  "מרים בן פורת",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shoshanna Persitz",
+                           "he":  "שושנה פרסיץ",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Azorey Hen",
+                           "he":  "אזורי חן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Propes",
+                           "he":  "פרופס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nofe Yam",
+                           "he":  "נופי ים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Einstein",
+                           "he":  "איינשטיין",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levi Eshkol",
+                           "he":  "לוי אשכול",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Zohara Leviatov",
+                           "he":  "זהרה לביטוב",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       }
+                   ],
+    "2026-04-23":  [
+                       {
+                           "en":  "Holon East",
+                           "he":  "חולון מזרח",
+                           "section":  "1A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Agricultural Center",
+                           "he":  "הקריה החקלאית",
+                           "section":  "1A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Peres Park",
+                           "he":  "פארק פרס",
+                           "section":  "2A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMerkava",
+                           "he":  "המרכבה",
+                           "section":  "2A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Junction",
+                           "he":  "צומת חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Theater",
+                           "he":  "תיאטרון חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kugel",
+                           "he":  "קוגל",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Krauze",
+                           "he":  "קראוזה",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sokolov East",
+                           "he":  "סוקולוב מזרח",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ge\u0027ulim",
+                           "he":  "גאולים",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Cactus Garden",
+                           "he":  "גן הקקטוסים",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMelakha",
+                           "he":  "המלאכה",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nahalat Yehuda",
+                           "he":  "נחלת יהודה",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sakharov",
+                           "he":  "סחרוב",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yalde Tehran",
+                           "he":  "ילדי טהרן",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lishansky",
+                           "he":  "לישנסקי",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Moshe Dayan",
+                           "he":  "משה דיין",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  100,
+                                           "cslm":  100,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHistadrut",
+                           "he":  "ההסתדרות",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Institute of Technology",
+                           "he":  "המכון הטכנולוגי חולון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lavon",
+                           "he":  "לבון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Begin",
+                           "he":  "בגין",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Bar-Lev",
+                           "he":  "בר-לב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Laskov",
+                           "he":  "לסקוב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBonim Park",
+                           "he":  "פארק הבונים",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shapira",
+                           "he":  "שפירא",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kibbuts Galuyot",
+                           "he":  "קיבוץ גלויות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHurshot Park",
+                           "he":  "פארק החורשות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kiryat Shalom",
+                           "he":  "קריית שלום",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yehuda HaMakkabbi",
+                           "he":  "יהודה המכבי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ibn Gabirol Arlosoroff",
+                           "he":  "אבן גבירול ארלוזורוב",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Rabin Square",
+                           "he":  "כיכר רבין",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kaplan",
+                           "he":  "קפלן",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Carlebach",
+                           "he":  "קרליבך",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levinski Garden",
+                           "he":  "גינת לוינסקי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Namir",
+                           "he":  "נמיר",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Brodetsky",
+                           "he":  "ברודצקי",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Tel Aviv University",
+                           "he":  "אוניברסיטת תל אביב",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Broshim",
+                           "he":  "ברושים",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Reading",
+                           "he":  "רדינג",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaYeridim",
+                           "he":  "הירידים",
+                           "section":  "9A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ganne Yehoshua",
+                           "he":  "גני יהושע",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hadar Yosef",
+                           "he":  "הדר יוסף",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Pinhas Rosen Bridge",
+                           "he":  "גשר פנחס רוזן",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBarzel",
+                           "he":  "הברזל",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaNehoshet",
+                           "he":  "הנחושת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Dvora HaNevi\u0027a",
+                           "he":  "דבורה הנביאה",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Neve Sharet",
+                           "he":  "נווה שרת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Abba Eban",
+                           "he":  "אבא אבן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHoshlim",
+                           "he":  "החושלים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Altneuland",
+                           "he":  "אלטנוילנד",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet North",
+                           "he":  "חוף התכלת צפון",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet South",
+                           "he":  "חוף התכלת דרום",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Unichman",
+                           "he":  "יוניצ\u0027מן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Yalan-Shteklis",
+                           "he":  "מרים ילן שטקליס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Ben-Porat",
+                           "he":  "מרים בן פורת",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shoshanna Persitz",
+                           "he":  "שושנה פרסיץ",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Azorey Hen",
+                           "he":  "אזורי חן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Propes",
+                           "he":  "פרופס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nofe Yam",
+                           "he":  "נופי ים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Einstein",
+                           "he":  "איינשטיין",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levi Eshkol",
+                           "he":  "לוי אשכול",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Zohara Leviatov",
+                           "he":  "זהרה לביטוב",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       }
+                   ],
+    "2026-04-28":  [
+                       {
+                           "en":  "Holon East",
+                           "he":  "חולון מזרח",
+                           "section":  "1A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Agricultural Center",
+                           "he":  "הקריה החקלאית",
+                           "section":  "1A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Peres Park",
+                           "he":  "פארק פרס",
+                           "section":  "2A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMerkava",
+                           "he":  "המרכבה",
+                           "section":  "2A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Junction",
+                           "he":  "צומת חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Theater",
+                           "he":  "תיאטרון חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kugel",
+                           "he":  "קוגל",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Krauze",
+                           "he":  "קראוזה",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sokolov East",
+                           "he":  "סוקולוב מזרח",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ge\u0027ulim",
+                           "he":  "גאולים",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Cactus Garden",
+                           "he":  "גן הקקטוסים",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMelakha",
+                           "he":  "המלאכה",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nahalat Yehuda",
+                           "he":  "נחלת יהודה",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sakharov",
+                           "he":  "סחרוב",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yalde Tehran",
+                           "he":  "ילדי טהרן",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lishansky",
+                           "he":  "לישנסקי",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Moshe Dayan",
+                           "he":  "משה דיין",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  100,
+                                           "cslm":  100,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHistadrut",
+                           "he":  "ההסתדרות",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Institute of Technology",
+                           "he":  "המכון הטכנולוגי חולון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lavon",
+                           "he":  "לבון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Begin",
+                           "he":  "בגין",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Bar-Lev",
+                           "he":  "בר-לב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Laskov",
+                           "he":  "לסקוב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBonim Park",
+                           "he":  "פארק הבונים",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shapira",
+                           "he":  "שפירא",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kibbuts Galuyot",
+                           "he":  "קיבוץ גלויות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHurshot Park",
+                           "he":  "פארק החורשות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kiryat Shalom",
+                           "he":  "קריית שלום",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yehuda HaMakkabbi",
+                           "he":  "יהודה המכבי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ibn Gabirol Arlosoroff",
+                           "he":  "אבן גבירול ארלוזורוב",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Rabin Square",
+                           "he":  "כיכר רבין",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kaplan",
+                           "he":  "קפלן",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Carlebach",
+                           "he":  "קרליבך",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levinski Garden",
+                           "he":  "גינת לוינסקי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Namir",
+                           "he":  "נמיר",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Brodetsky",
+                           "he":  "ברודצקי",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Tel Aviv University",
+                           "he":  "אוניברסיטת תל אביב",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Broshim",
+                           "he":  "ברושים",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Reading",
+                           "he":  "רדינג",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaYeridim",
+                           "he":  "הירידים",
+                           "section":  "9A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ganne Yehoshua",
+                           "he":  "גני יהושע",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hadar Yosef",
+                           "he":  "הדר יוסף",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Pinhas Rosen Bridge",
+                           "he":  "גשר פנחס רוזן",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBarzel",
+                           "he":  "הברזל",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaNehoshet",
+                           "he":  "הנחושת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Dvora HaNevi\u0027a",
+                           "he":  "דבורה הנביאה",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Neve Sharet",
+                           "he":  "נווה שרת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Abba Eban",
+                           "he":  "אבא אבן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHoshlim",
+                           "he":  "החושלים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Altneuland",
+                           "he":  "אלטנוילנד",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet North",
+                           "he":  "חוף התכלת צפון",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet South",
+                           "he":  "חוף התכלת דרום",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Unichman",
+                           "he":  "יוניצ\u0027מן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Yalan-Shteklis",
+                           "he":  "מרים ילן שטקליס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Ben-Porat",
+                           "he":  "מרים בן פורת",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shoshanna Persitz",
+                           "he":  "שושנה פרסיץ",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Azorey Hen",
+                           "he":  "אזורי חן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Propes",
+                           "he":  "פרופס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nofe Yam",
+                           "he":  "נופי ים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Einstein",
+                           "he":  "איינשטיין",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levi Eshkol",
+                           "he":  "לוי אשכול",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Zohara Leviatov",
+                           "he":  "זהרה לביטוב",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       }
+                   ],
+    "2026-05-03":  [
+                       {
+                           "en":  "Holon East",
+                           "he":  "חולון מזרח",
+                           "section":  "1A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Agricultural Center",
+                           "he":  "הקריה החקלאית",
+                           "section":  "1A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Peres Park",
+                           "he":  "פארק פרס",
+                           "section":  "2A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMerkava",
+                           "he":  "המרכבה",
+                           "section":  "2A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Junction",
+                           "he":  "צומת חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Theater",
+                           "he":  "תיאטרון חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kugel",
+                           "he":  "קוגל",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Krauze",
+                           "he":  "קראוזה",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sokolov East",
+                           "he":  "סוקולוב מזרח",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ge\u0027ulim",
+                           "he":  "גאולים",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Cactus Garden",
+                           "he":  "גן הקקטוסים",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMelakha",
+                           "he":  "המלאכה",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nahalat Yehuda",
+                           "he":  "נחלת יהודה",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sakharov",
+                           "he":  "סחרוב",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yalde Tehran",
+                           "he":  "ילדי טהרן",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lishansky",
+                           "he":  "לישנסקי",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Moshe Dayan",
+                           "he":  "משה דיין",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  100,
+                                           "cslm":  100,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHistadrut",
+                           "he":  "ההסתדרות",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Institute of Technology",
+                           "he":  "המכון הטכנולוגי חולון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lavon",
+                           "he":  "לבון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Begin",
+                           "he":  "בגין",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Bar-Lev",
+                           "he":  "בר-לב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Laskov",
+                           "he":  "לסקוב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBonim Park",
+                           "he":  "פארק הבונים",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shapira",
+                           "he":  "שפירא",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kibbuts Galuyot",
+                           "he":  "קיבוץ גלויות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHurshot Park",
+                           "he":  "פארק החורשות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kiryat Shalom",
+                           "he":  "קריית שלום",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yehuda HaMakkabbi",
+                           "he":  "יהודה המכבי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ibn Gabirol Arlosoroff",
+                           "he":  "אבן גבירול ארלוזורוב",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Rabin Square",
+                           "he":  "כיכר רבין",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kaplan",
+                           "he":  "קפלן",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Carlebach",
+                           "he":  "קרליבך",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levinski Garden",
+                           "he":  "גינת לוינסקי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Namir",
+                           "he":  "נמיר",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Brodetsky",
+                           "he":  "ברודצקי",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Tel Aviv University",
+                           "he":  "אוניברסיטת תל אביב",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Broshim",
+                           "he":  "ברושים",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Reading",
+                           "he":  "רדינג",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaYeridim",
+                           "he":  "הירידים",
+                           "section":  "9A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ganne Yehoshua",
+                           "he":  "גני יהושע",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hadar Yosef",
+                           "he":  "הדר יוסף",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Pinhas Rosen Bridge",
+                           "he":  "גשר פנחס רוזן",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBarzel",
+                           "he":  "הברזל",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaNehoshet",
+                           "he":  "הנחושת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Dvora HaNevi\u0027a",
+                           "he":  "דבורה הנביאה",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Neve Sharet",
+                           "he":  "נווה שרת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Abba Eban",
+                           "he":  "אבא אבן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHoshlim",
+                           "he":  "החושלים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Altneuland",
+                           "he":  "אלטנוילנד",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet North",
+                           "he":  "חוף התכלת צפון",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet South",
+                           "he":  "חוף התכלת דרום",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Unichman",
+                           "he":  "יוניצ\u0027מן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Yalan-Shteklis",
+                           "he":  "מרים ילן שטקליס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Ben-Porat",
+                           "he":  "מרים בן פורת",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shoshanna Persitz",
+                           "he":  "שושנה פרסיץ",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Azorey Hen",
+                           "he":  "אזורי חן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Propes",
+                           "he":  "פרופס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nofe Yam",
+                           "he":  "נופי ים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Einstein",
+                           "he":  "איינשטיין",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levi Eshkol",
+                           "he":  "לוי אשכול",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Zohara Leviatov",
+                           "he":  "זהרה לביטוב",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       }
+                   ],
+    "2026-05-07":  [
+                       {
+                           "en":  "Holon East",
+                           "he":  "חולון מזרח",
+                           "section":  "1A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Agricultural Center",
+                           "he":  "הקריה החקלאית",
+                           "section":  "1A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Peres Park",
+                           "he":  "פארק פרס",
+                           "section":  "2A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMerkava",
+                           "he":  "המרכבה",
+                           "section":  "2A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Junction",
+                           "he":  "צומת חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Theater",
+                           "he":  "תיאטרון חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kugel",
+                           "he":  "קוגל",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Krauze",
+                           "he":  "קראוזה",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sokolov East",
+                           "he":  "סוקולוב מזרח",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ge\u0027ulim",
+                           "he":  "גאולים",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Cactus Garden",
+                           "he":  "גן הקקטוסים",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMelakha",
+                           "he":  "המלאכה",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nahalat Yehuda",
+                           "he":  "נחלת יהודה",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sakharov",
+                           "he":  "סחרוב",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yalde Tehran",
+                           "he":  "ילדי טהרן",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lishansky",
+                           "he":  "לישנסקי",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Moshe Dayan",
+                           "he":  "משה דיין",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  100,
+                                           "cslm":  100,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHistadrut",
+                           "he":  "ההסתדרות",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Institute of Technology",
+                           "he":  "המכון הטכנולוגי חולון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lavon",
+                           "he":  "לבון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Begin",
+                           "he":  "בגין",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Bar-Lev",
+                           "he":  "בר-לב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Laskov",
+                           "he":  "לסקוב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBonim Park",
+                           "he":  "פארק הבונים",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shapira",
+                           "he":  "שפירא",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kibbuts Galuyot",
+                           "he":  "קיבוץ גלויות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHurshot Park",
+                           "he":  "פארק החורשות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kiryat Shalom",
+                           "he":  "קריית שלום",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yehuda HaMakkabbi",
+                           "he":  "יהודה המכבי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ibn Gabirol Arlosoroff",
+                           "he":  "אבן גבירול ארלוזורוב",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Rabin Square",
+                           "he":  "כיכר רבין",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kaplan",
+                           "he":  "קפלן",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Carlebach",
+                           "he":  "קרליבך",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levinski Garden",
+                           "he":  "גינת לוינסקי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Namir",
+                           "he":  "נמיר",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Brodetsky",
+                           "he":  "ברודצקי",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Tel Aviv University",
+                           "he":  "אוניברסיטת תל אביב",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Broshim",
+                           "he":  "ברושים",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Reading",
+                           "he":  "רדינג",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaYeridim",
+                           "he":  "הירידים",
+                           "section":  "9A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ganne Yehoshua",
+                           "he":  "גני יהושע",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hadar Yosef",
+                           "he":  "הדר יוסף",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Pinhas Rosen Bridge",
+                           "he":  "גשר פנחס רוזן",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBarzel",
+                           "he":  "הברזל",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaNehoshet",
+                           "he":  "הנחושת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Dvora HaNevi\u0027a",
+                           "he":  "דבורה הנביאה",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Neve Sharet",
+                           "he":  "נווה שרת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Abba Eban",
+                           "he":  "אבא אבן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHoshlim",
+                           "he":  "החושלים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Altneuland",
+                           "he":  "אלטנוילנד",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet North",
+                           "he":  "חוף התכלת צפון",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet South",
+                           "he":  "חוף התכלת דרום",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Unichman",
+                           "he":  "יוניצ\u0027מן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Yalan-Shteklis",
+                           "he":  "מרים ילן שטקליס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Ben-Porat",
+                           "he":  "מרים בן פורת",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shoshanna Persitz",
+                           "he":  "שושנה פרסיץ",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Azorey Hen",
+                           "he":  "אזורי חן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Propes",
+                           "he":  "פרופס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nofe Yam",
+                           "he":  "נופי ים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Einstein",
+                           "he":  "איינשטיין",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levi Eshkol",
+                           "he":  "לוי אשכול",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Zohara Leviatov",
+                           "he":  "זהרה לביטוב",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       }
+                   ],
+    "2026-05-24":  [
+                       {
+                           "en":  "Holon East",
+                           "he":  "חולון מזרח",
+                           "section":  "1A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Agricultural Center",
+                           "he":  "הקריה החקלאית",
+                           "section":  "1A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Peres Park",
+                           "he":  "פארק פרס",
+                           "section":  "2A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMerkava",
+                           "he":  "המרכבה",
+                           "section":  "2A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Junction",
+                           "he":  "צומת חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Theater",
+                           "he":  "תיאטרון חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kugel",
+                           "he":  "קוגל",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Krauze",
+                           "he":  "קראוזה",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sokolov East",
+                           "he":  "סוקולוב מזרח",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ge\u0027ulim",
+                           "he":  "גאולים",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Cactus Garden",
+                           "he":  "גן הקקטוסים",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMelakha",
+                           "he":  "המלאכה",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nahalat Yehuda",
+                           "he":  "נחלת יהודה",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sakharov",
+                           "he":  "סחרוב",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yalde Tehran",
+                           "he":  "ילדי טהרן",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lishansky",
+                           "he":  "לישנסקי",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Moshe Dayan",
+                           "he":  "משה דיין",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  100,
+                                           "cslm":  100,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHistadrut",
+                           "he":  "ההסתדרות",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Institute of Technology",
+                           "he":  "המכון הטכנולוגי חולון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lavon",
+                           "he":  "לבון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Begin",
+                           "he":  "בגין",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Bar-Lev",
+                           "he":  "בר-לב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Laskov",
+                           "he":  "לסקוב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBonim Park",
+                           "he":  "פארק הבונים",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shapira",
+                           "he":  "שפירא",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kibbuts Galuyot",
+                           "he":  "קיבוץ גלויות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHurshot Park",
+                           "he":  "פארק החורשות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kiryat Shalom",
+                           "he":  "קריית שלום",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yehuda HaMakkabbi",
+                           "he":  "יהודה המכבי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ibn Gabirol Arlosoroff",
+                           "he":  "אבן גבירול ארלוזורוב",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Rabin Square",
+                           "he":  "כיכר רבין",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kaplan",
+                           "he":  "קפלן",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Carlebach",
+                           "he":  "קרליבך",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levinski Garden",
+                           "he":  "גינת לוינסקי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Namir",
+                           "he":  "נמיר",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Brodetsky",
+                           "he":  "ברודצקי",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Tel Aviv University",
+                           "he":  "אוניברסיטת תל אביב",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Broshim",
+                           "he":  "ברושים",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Reading",
+                           "he":  "רדינג",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaYeridim",
+                           "he":  "הירידים",
+                           "section":  "9A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ganne Yehoshua",
+                           "he":  "גני יהושע",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hadar Yosef",
+                           "he":  "הדר יוסף",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Pinhas Rosen Bridge",
+                           "he":  "גשר פנחס רוזן",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBarzel",
+                           "he":  "הברזל",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaNehoshet",
+                           "he":  "הנחושת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Dvora HaNevi\u0027a",
+                           "he":  "דבורה הנביאה",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Neve Sharet",
+                           "he":  "נווה שרת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Abba Eban",
+                           "he":  "אבא אבן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHoshlim",
+                           "he":  "החושלים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Altneuland",
+                           "he":  "אלטנוילנד",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet North",
+                           "he":  "חוף התכלת צפון",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet South",
+                           "he":  "חוף התכלת דרום",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Unichman",
+                           "he":  "יוניצ\u0027מן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Yalan-Shteklis",
+                           "he":  "מרים ילן שטקליס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Ben-Porat",
+                           "he":  "מרים בן פורת",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shoshanna Persitz",
+                           "he":  "שושנה פרסיץ",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Azorey Hen",
+                           "he":  "אזורי חן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Propes",
+                           "he":  "פרופס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nofe Yam",
+                           "he":  "נופי ים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Einstein",
+                           "he":  "איינשטיין",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levi Eshkol",
+                           "he":  "לוי אשכול",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Zohara Leviatov",
+                           "he":  "זהרה לביטוב",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       }
+                   ],
+    "2026-06-07":  [
+                       {
+                           "en":  "Holon East",
+                           "he":  "חולון מזרח",
+                           "section":  "1A",
+                           "pct":  1,
+                           "details":  {
+                                           "secondary":  15,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Agricultural Center",
+                           "he":  "הקריה החקלאית",
+                           "section":  "1A",
+                           "pct":  6.2,
+                           "details":  {
+                                           "secondary":  100,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Peres Park",
+                           "he":  "פארק פרס",
+                           "section":  "2A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMerkava",
+                           "he":  "המרכבה",
+                           "section":  "2A",
+                           "pct":  1.1,
+                           "details":  {
+                                           "secondary":  15,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Junction",
+                           "he":  "צומת חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Theater",
+                           "he":  "תיאטרון חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kugel",
+                           "he":  "קוגל",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Krauze",
+                           "he":  "קראוזה",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sokolov East",
+                           "he":  "סוקולוב מזרח",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ge\u0027ulim",
+                           "he":  "גאולים",
+                           "section":  "3A",
+                           "pct":  1,
+                           "details":  {
+                                           "secondary":  15,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Cactus Garden",
+                           "he":  "גן הקקטוסים",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMelakha",
+                           "he":  "המלאכה",
+                           "section":  "3A",
+                           "pct":  1,
+                           "details":  {
+                                           "secondary":  15,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nahalat Yehuda",
+                           "he":  "נחלת יהודה",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sakharov",
+                           "he":  "סחרוב",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yalde Tehran",
+                           "he":  "ילדי טהרן",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lishansky",
+                           "he":  "לישנסקי",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Moshe Dayan",
+                           "he":  "משה דיין",
+                           "section":  "4A",
+                           "pct":  55.9,
+                           "details":  {
+                                           "secondary":  100,
+                                           "cslm":  100,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHistadrut",
+                           "he":  "ההסתדרות",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Institute of Technology",
+                           "he":  "המכון הטכנולוגי חולון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lavon",
+                           "he":  "לבון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Begin",
+                           "he":  "בגין",
+                           "section":  "5A",
+                           "pct":  0.6,
+                           "details":  {
+                                           "secondary":  10,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Bar-Lev",
+                           "he":  "בר-לב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Laskov",
+                           "he":  "לסקוב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBonim Park",
+                           "he":  "פארק הבונים",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shapira",
+                           "he":  "שפירא",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kibbuts Galuyot",
+                           "he":  "קיבוץ גלויות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHurshot Park",
+                           "he":  "פארק החורשות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kiryat Shalom",
+                           "he":  "קריית שלום",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yehuda HaMakkabbi",
+                           "he":  "יהודה המכבי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ibn Gabirol Arlosoroff",
+                           "he":  "אבן גבירול ארלוזורוב",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Rabin Square",
+                           "he":  "כיכר רבין",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kaplan",
+                           "he":  "קפלן",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Carlebach",
+                           "he":  "קרליבך",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levinski Garden",
+                           "he":  "גינת לוינסקי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Namir",
+                           "he":  "נמיר",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Brodetsky",
+                           "he":  "ברודצקי",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Tel Aviv University",
+                           "he":  "אוניברסיטת תל אביב",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Broshim",
+                           "he":  "ברושים",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Reading",
+                           "he":  "רדינג",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaYeridim",
+                           "he":  "הירידים",
+                           "section":  "9A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ganne Yehoshua",
+                           "he":  "גני יהושע",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hadar Yosef",
+                           "he":  "הדר יוסף",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Pinhas Rosen Bridge",
+                           "he":  "גשר פנחס רוזן",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBarzel",
+                           "he":  "הברזל",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaNehoshet",
+                           "he":  "הנחושת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Dvora HaNevi\u0027a",
+                           "he":  "דבורה הנביאה",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Neve Sharet",
+                           "he":  "נווה שרת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Abba Eban",
+                           "he":  "אבא אבן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHoshlim",
+                           "he":  "החושלים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Altneuland",
+                           "he":  "אלטנוילנד",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet North",
+                           "he":  "חוף התכלת צפון",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet South",
+                           "he":  "חוף התכלת דרום",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Unichman",
+                           "he":  "יוניצ\u0027מן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Yalan-Shteklis",
+                           "he":  "מרים ילן שטקליס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Ben-Porat",
+                           "he":  "מרים בן פורת",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shoshanna Persitz",
+                           "he":  "שושנה פרסיץ",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Azorey Hen",
+                           "he":  "אזורי חן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Propes",
+                           "he":  "פרופס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nofe Yam",
+                           "he":  "נופי ים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Einstein",
+                           "he":  "איינשטיין",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levi Eshkol",
+                           "he":  "לוי אשכול",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Zohara Leviatov",
+                           "he":  "זהרה לביטוב",
+                           "section":  "12A",
+                           "pct":  0.6,
+                           "details":  {
+                                           "secondary":  10,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       }
+                   ],
+    "2026-06-14":  [
+                       {
+                           "en":  "Holon East",
+                           "he":  "חולון מזרח",
+                           "section":  "1A",
+                           "pct":  1,
+                           "details":  {
+                                           "secondary":  15,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Agricultural Center",
+                           "he":  "הקריה החקלאית",
+                           "section":  "1A",
+                           "pct":  6.2,
+                           "details":  {
+                                           "secondary":  100,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Peres Park",
+                           "he":  "פארק פרס",
+                           "section":  "2A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMerkava",
+                           "he":  "המרכבה",
+                           "section":  "2A",
+                           "pct":  1.1,
+                           "details":  {
+                                           "secondary":  15,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Junction",
+                           "he":  "צומת חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Theater",
+                           "he":  "תיאטרון חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kugel",
+                           "he":  "קוגל",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Krauze",
+                           "he":  "קראוזה",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sokolov East",
+                           "he":  "סוקולוב מזרח",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ge\u0027ulim",
+                           "he":  "גאולים",
+                           "section":  "3A",
+                           "pct":  1,
+                           "details":  {
+                                           "secondary":  15,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Cactus Garden",
+                           "he":  "גן הקקטוסים",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMelakha",
+                           "he":  "המלאכה",
+                           "section":  "3A",
+                           "pct":  1,
+                           "details":  {
+                                           "secondary":  15,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nahalat Yehuda",
+                           "he":  "נחלת יהודה",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sakharov",
+                           "he":  "סחרוב",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yalde Tehran",
+                           "he":  "ילדי טהרן",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lishansky",
+                           "he":  "לישנסקי",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Moshe Dayan",
+                           "he":  "משה דיין",
+                           "section":  "4A",
+                           "pct":  55.9,
+                           "details":  {
+                                           "secondary":  100,
+                                           "cslm":  100,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHistadrut",
+                           "he":  "ההסתדרות",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Institute of Technology",
+                           "he":  "המכון הטכנולוגי חולון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lavon",
+                           "he":  "לבון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Begin",
+                           "he":  "בגין",
+                           "section":  "5A",
+                           "pct":  0.6,
+                           "details":  {
+                                           "secondary":  10,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Bar-Lev",
+                           "he":  "בר-לב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Laskov",
+                           "he":  "לסקוב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBonim Park",
+                           "he":  "פארק הבונים",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shapira",
+                           "he":  "שפירא",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kibbuts Galuyot",
+                           "he":  "קיבוץ גלויות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHurshot Park",
+                           "he":  "פארק החורשות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kiryat Shalom",
+                           "he":  "קריית שלום",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yehuda HaMakkabbi",
+                           "he":  "יהודה המכבי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ibn Gabirol Arlosoroff",
+                           "he":  "אבן גבירול ארלוזורוב",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Rabin Square",
+                           "he":  "כיכר רבין",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kaplan",
+                           "he":  "קפלן",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Carlebach",
+                           "he":  "קרליבך",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levinski Garden",
+                           "he":  "גינת לוינסקי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Namir",
+                           "he":  "נמיר",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Brodetsky",
+                           "he":  "ברודצקי",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Tel Aviv University",
+                           "he":  "אוניברסיטת תל אביב",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Broshim",
+                           "he":  "ברושים",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Reading",
+                           "he":  "רדינג",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaYeridim",
+                           "he":  "הירידים",
+                           "section":  "9A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ganne Yehoshua",
+                           "he":  "גני יהושע",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hadar Yosef",
+                           "he":  "הדר יוסף",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Pinhas Rosen Bridge",
+                           "he":  "גשר פנחס רוזן",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBarzel",
+                           "he":  "הברזל",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaNehoshet",
+                           "he":  "הנחושת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Dvora HaNevi\u0027a",
+                           "he":  "דבורה הנביאה",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Neve Sharet",
+                           "he":  "נווה שרת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Abba Eban",
+                           "he":  "אבא אבן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHoshlim",
+                           "he":  "החושלים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Altneuland",
+                           "he":  "אלטנוילנד",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet North",
+                           "he":  "חוף התכלת צפון",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet South",
+                           "he":  "חוף התכלת דרום",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Unichman",
+                           "he":  "יוניצ\u0027מן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Yalan-Shteklis",
+                           "he":  "מרים ילן שטקליס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Ben-Porat",
+                           "he":  "מרים בן פורת",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shoshanna Persitz",
+                           "he":  "שושנה פרסיץ",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Azorey Hen",
+                           "he":  "אזורי חן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Propes",
+                           "he":  "פרופס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nofe Yam",
+                           "he":  "נופי ים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Einstein",
+                           "he":  "איינשטיין",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levi Eshkol",
+                           "he":  "לוי אשכול",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Zohara Leviatov",
+                           "he":  "זהרה לביטוב",
+                           "section":  "12A",
+                           "pct":  0.6,
+                           "details":  {
+                                           "secondary":  10,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       }
+                   ],
+    "2026-06-21":  [
+                       {
+                           "en":  "Holon East",
+                           "he":  "חולון מזרח",
+                           "section":  "1A",
+                           "pct":  1.3,
+                           "details":  {
+                                           "secondary":  20,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Agricultural Center",
+                           "he":  "הקריה החקלאית",
+                           "section":  "1A",
+                           "pct":  6.2,
+                           "details":  {
+                                           "secondary":  100,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Peres Park",
+                           "he":  "פארק פרס",
+                           "section":  "2A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMerkava",
+                           "he":  "המרכבה",
+                           "section":  "2A",
+                           "pct":  1.5,
+                           "details":  {
+                                           "secondary":  20,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Junction",
+                           "he":  "צומת חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Theater",
+                           "he":  "תיאטרון חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kugel",
+                           "he":  "קוגל",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Krauze",
+                           "he":  "קראוזה",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sokolov East",
+                           "he":  "סוקולוב מזרח",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ge\u0027ulim",
+                           "he":  "גאולים",
+                           "section":  "3A",
+                           "pct":  1.3,
+                           "details":  {
+                                           "secondary":  20,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Cactus Garden",
+                           "he":  "גן הקקטוסים",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMelakha",
+                           "he":  "המלאכה",
+                           "section":  "3A",
+                           "pct":  1.4,
+                           "details":  {
+                                           "secondary":  20,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nahalat Yehuda",
+                           "he":  "נחלת יהודה",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sakharov",
+                           "he":  "סחרוב",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yalde Tehran",
+                           "he":  "ילדי טהרן",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lishansky",
+                           "he":  "לישנסקי",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Moshe Dayan",
+                           "he":  "משה דיין",
+                           "section":  "4A",
+                           "pct":  55.9,
+                           "details":  {
+                                           "secondary":  100,
+                                           "cslm":  100,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHistadrut",
+                           "he":  "ההסתדרות",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Institute of Technology",
+                           "he":  "המכון הטכנולוגי חולון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lavon",
+                           "he":  "לבון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Begin",
+                           "he":  "בגין",
+                           "section":  "5A",
+                           "pct":  0.9,
+                           "details":  {
+                                           "secondary":  15,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Bar-Lev",
+                           "he":  "בר-לב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Laskov",
+                           "he":  "לסקוב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBonim Park",
+                           "he":  "פארק הבונים",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shapira",
+                           "he":  "שפירא",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kibbuts Galuyot",
+                           "he":  "קיבוץ גלויות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHurshot Park",
+                           "he":  "פארק החורשות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kiryat Shalom",
+                           "he":  "קריית שלום",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yehuda HaMakkabbi",
+                           "he":  "יהודה המכבי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ibn Gabirol Arlosoroff",
+                           "he":  "אבן גבירול ארלוזורוב",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Rabin Square",
+                           "he":  "כיכר רבין",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kaplan",
+                           "he":  "קפלן",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Carlebach",
+                           "he":  "קרליבך",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levinski Garden",
+                           "he":  "גינת לוינסקי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Namir",
+                           "he":  "נמיר",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Brodetsky",
+                           "he":  "ברודצקי",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Tel Aviv University",
+                           "he":  "אוניברסיטת תל אביב",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Broshim",
+                           "he":  "ברושים",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Reading",
+                           "he":  "רדינג",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaYeridim",
+                           "he":  "הירידים",
+                           "section":  "9A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ganne Yehoshua",
+                           "he":  "גני יהושע",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hadar Yosef",
+                           "he":  "הדר יוסף",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Pinhas Rosen Bridge",
+                           "he":  "גשר פנחס רוזן",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBarzel",
+                           "he":  "הברזל",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaNehoshet",
+                           "he":  "הנחושת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Dvora HaNevi\u0027a",
+                           "he":  "דבורה הנביאה",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Neve Sharet",
+                           "he":  "נווה שרת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Abba Eban",
+                           "he":  "אבא אבן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHoshlim",
+                           "he":  "החושלים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Altneuland",
+                           "he":  "אלטנוילנד",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet North",
+                           "he":  "חוף התכלת צפון",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet South",
+                           "he":  "חוף התכלת דרום",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Unichman",
+                           "he":  "יוניצ\u0027מן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Yalan-Shteklis",
+                           "he":  "מרים ילן שטקליס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Ben-Porat",
+                           "he":  "מרים בן פורת",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shoshanna Persitz",
+                           "he":  "שושנה פרסיץ",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Azorey Hen",
+                           "he":  "אזורי חן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Propes",
+                           "he":  "פרופס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nofe Yam",
+                           "he":  "נופי ים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Einstein",
+                           "he":  "איינשטיין",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levi Eshkol",
+                           "he":  "לוי אשכול",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Zohara Leviatov",
+                           "he":  "זהרה לביטוב",
+                           "section":  "12A",
+                           "pct":  0.9,
+                           "details":  {
+                                           "secondary":  15,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       }
+                   ],
+    "2026-06-28":  [
+                       {
+                           "en":  "Holon East",
+                           "he":  "חולון מזרח",
+                           "section":  "1A",
+                           "pct":  1.3,
+                           "details":  {
+                                           "secondary":  20,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Agricultural Center",
+                           "he":  "הקריה החקלאית",
+                           "section":  "1A",
+                           "pct":  6.2,
+                           "details":  {
+                                           "secondary":  100,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Peres Park",
+                           "he":  "פארק פרס",
+                           "section":  "2A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMerkava",
+                           "he":  "המרכבה",
+                           "section":  "2A",
+                           "pct":  1.5,
+                           "details":  {
+                                           "secondary":  20,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Junction",
+                           "he":  "צומת חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Theater",
+                           "he":  "תיאטרון חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kugel",
+                           "he":  "קוגל",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Krauze",
+                           "he":  "קראוזה",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sokolov East",
+                           "he":  "סוקולוב מזרח",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ge\u0027ulim",
+                           "he":  "גאולים",
+                           "section":  "3A",
+                           "pct":  1.3,
+                           "details":  {
+                                           "secondary":  20,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Cactus Garden",
+                           "he":  "גן הקקטוסים",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMelakha",
+                           "he":  "המלאכה",
+                           "section":  "3A",
+                           "pct":  1.4,
+                           "details":  {
+                                           "secondary":  20,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nahalat Yehuda",
+                           "he":  "נחלת יהודה",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sakharov",
+                           "he":  "סחרוב",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yalde Tehran",
+                           "he":  "ילדי טהרן",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lishansky",
+                           "he":  "לישנסקי",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Moshe Dayan",
+                           "he":  "משה דיין",
+                           "section":  "4A",
+                           "pct":  55.9,
+                           "details":  {
+                                           "secondary":  100,
+                                           "cslm":  100,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHistadrut",
+                           "he":  "ההסתדרות",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Institute of Technology",
+                           "he":  "המכון הטכנולוגי חולון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lavon",
+                           "he":  "לבון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Begin",
+                           "he":  "בגין",
+                           "section":  "5A",
+                           "pct":  0.9,
+                           "details":  {
+                                           "secondary":  15,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Bar-Lev",
+                           "he":  "בר-לב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Laskov",
+                           "he":  "לסקוב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBonim Park",
+                           "he":  "פארק הבונים",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shapira",
+                           "he":  "שפירא",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kibbuts Galuyot",
+                           "he":  "קיבוץ גלויות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHurshot Park",
+                           "he":  "פארק החורשות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kiryat Shalom",
+                           "he":  "קריית שלום",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yehuda HaMakkabbi",
+                           "he":  "יהודה המכבי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ibn Gabirol Arlosoroff",
+                           "he":  "אבן גבירול ארלוזורוב",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Rabin Square",
+                           "he":  "כיכר רבין",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kaplan",
+                           "he":  "קפלן",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Carlebach",
+                           "he":  "קרליבך",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levinski Garden",
+                           "he":  "גינת לוינסקי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Namir",
+                           "he":  "נמיר",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Brodetsky",
+                           "he":  "ברודצקי",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Tel Aviv University",
+                           "he":  "אוניברסיטת תל אביב",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Broshim",
+                           "he":  "ברושים",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Reading",
+                           "he":  "רדינג",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaYeridim",
+                           "he":  "הירידים",
+                           "section":  "9A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ganne Yehoshua",
+                           "he":  "גני יהושע",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hadar Yosef",
+                           "he":  "הדר יוסף",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Pinhas Rosen Bridge",
+                           "he":  "גשר פנחס רוזן",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBarzel",
+                           "he":  "הברזל",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaNehoshet",
+                           "he":  "הנחושת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Dvora HaNevi\u0027a",
+                           "he":  "דבורה הנביאה",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Neve Sharet",
+                           "he":  "נווה שרת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Abba Eban",
+                           "he":  "אבא אבן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHoshlim",
+                           "he":  "החושלים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Altneuland",
+                           "he":  "אלטנוילנד",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet North",
+                           "he":  "חוף התכלת צפון",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet South",
+                           "he":  "חוף התכלת דרום",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Unichman",
+                           "he":  "יוניצ\u0027מן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Yalan-Shteklis",
+                           "he":  "מרים ילן שטקליס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Ben-Porat",
+                           "he":  "מרים בן פורת",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shoshanna Persitz",
+                           "he":  "שושנה פרסיץ",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Azorey Hen",
+                           "he":  "אזורי חן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Propes",
+                           "he":  "פרופס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nofe Yam",
+                           "he":  "נופי ים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Einstein",
+                           "he":  "איינשטיין",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levi Eshkol",
+                           "he":  "לוי אשכול",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Zohara Leviatov",
+                           "he":  "זהרה לביטוב",
+                           "section":  "12A",
+                           "pct":  0.9,
+                           "details":  {
+                                           "secondary":  15,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       }
+                   ],
+    "2026-07-05":  [
+                       {
+                           "en":  "Holon East",
+                           "he":  "חולון מזרח",
+                           "section":  "1A",
+                           "pct":  1.3,
+                           "details":  {
+                                           "secondary":  20,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Agricultural Center",
+                           "he":  "הקריה החקלאית",
+                           "section":  "1A",
+                           "pct":  6.2,
+                           "details":  {
+                                           "secondary":  100,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Peres Park",
+                           "he":  "פארק פרס",
+                           "section":  "2A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMerkava",
+                           "he":  "המרכבה",
+                           "section":  "2A",
+                           "pct":  1.5,
+                           "details":  {
+                                           "secondary":  20,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Junction",
+                           "he":  "צומת חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Theater",
+                           "he":  "תיאטרון חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kugel",
+                           "he":  "קוגל",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Krauze",
+                           "he":  "קראוזה",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sokolov East",
+                           "he":  "סוקולוב מזרח",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ge\u0027ulim",
+                           "he":  "גאולים",
+                           "section":  "3A",
+                           "pct":  1.3,
+                           "details":  {
+                                           "secondary":  20,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Cactus Garden",
+                           "he":  "גן הקקטוסים",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMelakha",
+                           "he":  "המלאכה",
+                           "section":  "3A",
+                           "pct":  1.4,
+                           "details":  {
+                                           "secondary":  20,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nahalat Yehuda",
+                           "he":  "נחלת יהודה",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sakharov",
+                           "he":  "סחרוב",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yalde Tehran",
+                           "he":  "ילדי טהרן",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lishansky",
+                           "he":  "לישנסקי",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Moshe Dayan",
+                           "he":  "משה דיין",
+                           "section":  "4A",
+                           "pct":  55.9,
+                           "details":  {
+                                           "secondary":  100,
+                                           "cslm":  100,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHistadrut",
+                           "he":  "ההסתדרות",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Institute of Technology",
+                           "he":  "המכון הטכנולוגי חולון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lavon",
+                           "he":  "לבון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Begin",
+                           "he":  "בגין",
+                           "section":  "5A",
+                           "pct":  0.9,
+                           "details":  {
+                                           "secondary":  15,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Bar-Lev",
+                           "he":  "בר-לב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Laskov",
+                           "he":  "לסקוב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBonim Park",
+                           "he":  "פארק הבונים",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shapira",
+                           "he":  "שפירא",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kibbuts Galuyot",
+                           "he":  "קיבוץ גלויות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHurshot Park",
+                           "he":  "פארק החורשות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kiryat Shalom",
+                           "he":  "קריית שלום",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yehuda HaMakkabbi",
+                           "he":  "יהודה המכבי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ibn Gabirol Arlosoroff",
+                           "he":  "אבן גבירול ארלוזורוב",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Rabin Square",
+                           "he":  "כיכר רבין",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kaplan",
+                           "he":  "קפלן",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Carlebach",
+                           "he":  "קרליבך",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levinski Garden",
+                           "he":  "גינת לוינסקי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Namir",
+                           "he":  "נמיר",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Brodetsky",
+                           "he":  "ברודצקי",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Tel Aviv University",
+                           "he":  "אוניברסיטת תל אביב",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Broshim",
+                           "he":  "ברושים",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Reading",
+                           "he":  "רדינג",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaYeridim",
+                           "he":  "הירידים",
+                           "section":  "9A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ganne Yehoshua",
+                           "he":  "גני יהושע",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hadar Yosef",
+                           "he":  "הדר יוסף",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Pinhas Rosen Bridge",
+                           "he":  "גשר פנחס רוזן",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBarzel",
+                           "he":  "הברזל",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaNehoshet",
+                           "he":  "הנחושת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Dvora HaNevi\u0027a",
+                           "he":  "דבורה הנביאה",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Neve Sharet",
+                           "he":  "נווה שרת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Abba Eban",
+                           "he":  "אבא אבן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHoshlim",
+                           "he":  "החושלים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Altneuland",
+                           "he":  "אלטנוילנד",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet North",
+                           "he":  "חוף התכלת צפון",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet South",
+                           "he":  "חוף התכלת דרום",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Unichman",
+                           "he":  "יוניצ\u0027מן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Yalan-Shteklis",
+                           "he":  "מרים ילן שטקליס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Ben-Porat",
+                           "he":  "מרים בן פורת",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shoshanna Persitz",
+                           "he":  "שושנה פרסיץ",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Azorey Hen",
+                           "he":  "אזורי חן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Propes",
+                           "he":  "פרופס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nofe Yam",
+                           "he":  "נופי ים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Einstein",
+                           "he":  "איינשטיין",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levi Eshkol",
+                           "he":  "לוי אשכול",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Zohara Leviatov",
+                           "he":  "זהרה לביטוב",
+                           "section":  "12A",
+                           "pct":  0.9,
+                           "details":  {
+                                           "secondary":  15,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       }
+                   ],
+    "2026-07-12":  [
+                       {
+                           "en":  "Holon East",
+                           "he":  "חולון מזרח",
+                           "section":  "1A",
+                           "pct":  1.3,
+                           "details":  {
+                                           "secondary":  20,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Agricultural Center",
+                           "he":  "הקריה החקלאית",
+                           "section":  "1A",
+                           "pct":  6.2,
+                           "details":  {
+                                           "secondary":  100,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Peres Park",
+                           "he":  "פארק פרס",
+                           "section":  "2A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMerkava",
+                           "he":  "המרכבה",
+                           "section":  "2A",
+                           "pct":  1.5,
+                           "details":  {
+                                           "secondary":  20,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Junction",
+                           "he":  "צומת חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Theater",
+                           "he":  "תיאטרון חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kugel",
+                           "he":  "קוגל",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Krauze",
+                           "he":  "קראוזה",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sokolov East",
+                           "he":  "סוקולוב מזרח",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ge\u0027ulim",
+                           "he":  "גאולים",
+                           "section":  "3A",
+                           "pct":  1.3,
+                           "details":  {
+                                           "secondary":  20,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Cactus Garden",
+                           "he":  "גן הקקטוסים",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaMelakha",
+                           "he":  "המלאכה",
+                           "section":  "3A",
+                           "pct":  1.4,
+                           "details":  {
+                                           "secondary":  20,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nahalat Yehuda",
+                           "he":  "נחלת יהודה",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sakharov",
+                           "he":  "סחרוב",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yalde Tehran",
+                           "he":  "ילדי טהרן",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lishansky",
+                           "he":  "לישנסקי",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Moshe Dayan",
+                           "he":  "משה דיין",
+                           "section":  "4A",
+                           "pct":  55.9,
+                           "details":  {
+                                           "secondary":  100,
+                                           "cslm":  100,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHistadrut",
+                           "he":  "ההסתדרות",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Institute of Technology",
+                           "he":  "המכון הטכנולוגי חולון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Lavon",
+                           "he":  "לבון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Begin",
+                           "he":  "בגין",
+                           "section":  "5A",
+                           "pct":  0.9,
+                           "details":  {
+                                           "secondary":  15,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Bar-Lev",
+                           "he":  "בר-לב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Laskov",
+                           "he":  "לסקוב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBonim Park",
+                           "he":  "פארק הבונים",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shapira",
+                           "he":  "שפירא",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kibbuts Galuyot",
+                           "he":  "קיבוץ גלויות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHurshot Park",
+                           "he":  "פארק החורשות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kiryat Shalom",
+                           "he":  "קריית שלום",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Yehuda HaMakkabbi",
+                           "he":  "יהודה המכבי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ibn Gabirol Arlosoroff",
+                           "he":  "אבן גבירול ארלוזורוב",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Rabin Square",
+                           "he":  "כיכר רבין",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Kaplan",
+                           "he":  "קפלן",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Carlebach",
+                           "he":  "קרליבך",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levinski Garden",
+                           "he":  "גינת לוינסקי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Namir",
+                           "he":  "נמיר",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Brodetsky",
+                           "he":  "ברודצקי",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Tel Aviv University",
+                           "he":  "אוניברסיטת תל אביב",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Broshim",
+                           "he":  "ברושים",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Reading",
+                           "he":  "רדינג",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaYeridim",
+                           "he":  "הירידים",
+                           "section":  "9A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ganne Yehoshua",
+                           "he":  "גני יהושע",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hadar Yosef",
+                           "he":  "הדר יוסף",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Pinhas Rosen Bridge",
+                           "he":  "גשר פנחס רוזן",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBarzel",
+                           "he":  "הברזל",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaNehoshet",
+                           "he":  "הנחושת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Dvora HaNevi\u0027a",
+                           "he":  "דבורה הנביאה",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Neve Sharet",
+                           "he":  "נווה שרת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Abba Eban",
+                           "he":  "אבא אבן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHoshlim",
+                           "he":  "החושלים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Altneuland",
+                           "he":  "אלטנוילנד",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet North",
+                           "he":  "חוף התכלת צפון",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet South",
+                           "he":  "חוף התכלת דרום",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Unichman",
+                           "he":  "יוניצ\u0027מן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Yalan-Shteklis",
+                           "he":  "מרים ילן שטקליס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Ben-Porat",
+                           "he":  "מרים בן פורת",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shoshanna Persitz",
+                           "he":  "שושנה פרסיץ",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Azorey Hen",
+                           "he":  "אזורי חן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Propes",
+                           "he":  "פרופס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nofe Yam",
+                           "he":  "נופי ים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Einstein",
+                           "he":  "איינשטיין",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levi Eshkol",
+                           "he":  "לוי אשכול",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       },
+                       {
+                           "en":  "Zohara Leviatov",
+                           "he":  "זהרה לביטוב",
+                           "section":  "12A",
+                           "pct":  0.9,
+                           "details":  {
+                                           "secondary":  15,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0
+                                       }
+                       }
+                   ]
+};
 
