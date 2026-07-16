@@ -391,12 +391,24 @@ function Get-DepotYardData($ws) {
   return $result
 }
 
+function Get-JunctionDisplayName($rawName) {
+  # Column D packs a human-readable description followed by one or two
+  # internal engineering codes, e.g. " Ibn Gabirol - Avenue 16 (HR2200) 0
+  # Phases CR-G5-30 G5-6" or " Sports Center Parking CR-G4-15". Per Omri's
+  # request (2026-07-16), only the descriptive part should show - strip
+  # everything from the first "CR-G..." code onward, then trim any
+  # leftover trailing separator (space/comma/dash) the code left behind.
+  $stripped = $rawName -replace '\s*CR-G.*$', ''
+  return ($stripped -replace '[\s,\-]+$', '').Trim()
+}
+
 function Add-JunctionData($ws, $lotJunctions) {
   # "Junctions" sheet: one row per junction. Column B ("A section") is the
   # 1A-12A section code, column D ("Name") is the junction's English name
-  # (kept verbatim, just trimmed), column G ("Execution %") is that
-  # junction's own completion fraction (0-1). A trailing "Average" summary
-  # row and blank rows have an empty column B and are skipped naturally.
+  # (descriptive part kept, internal CR-G.. code stripped - see
+  # Get-JunctionDisplayName), column G ("Execution %") is that junction's
+  # own completion fraction (0-1). A trailing "Average" summary row and
+  # blank rows have an empty column B and are skipped naturally.
   # "6A-2" is not a sub-code of 6A - it denotes section 7A's junctions and
   # must map there.
   $used = $ws.UsedRange
@@ -413,7 +425,7 @@ function Add-JunctionData($ws, $lotJunctions) {
     if (-not ($pct -is [double])) { continue }
 
     $name = $ws.Cells.Item($r, 4).Value2
-    $name = if ($name -is [string]) { $name.Trim() } else { "" }
+    $name = if ($name -is [string]) { Get-JunctionDisplayName $name.Trim() } else { "" }
 
     if (-not $lotJunctions.ContainsKey($loc)) {
       $lotJunctions[$loc] = @{ total = 0; completed = 0; inProgress = 0; completedNames = @(); inProgressNames = @() }
@@ -421,11 +433,11 @@ function Add-JunctionData($ws, $lotJunctions) {
     $lotJunctions[$loc].total++
     if ($pct -ge 1) {
       $lotJunctions[$loc].completed++
-      if ($name) { $lotJunctions[$loc].completedNames += $name }
+      if ($name) { $lotJunctions[$loc].completedNames += [ordered]@{ name = $name; section = $loc } }
     }
     elseif ($pct -gt 0) {
       $lotJunctions[$loc].inProgress++
-      if ($name) { $lotJunctions[$loc].inProgressNames += $name }
+      if ($name) { $lotJunctions[$loc].inProgressNames += [ordered]@{ name = $name; section = $loc } }
     }
   }
 }

@@ -799,9 +799,10 @@
   function openJunctionListPanel(regionLabel, statusLabel, icon, names) {
     const rows = names.length
       ? names.map(n => `
-          <div class="disc-row" style="grid-template-columns: 30px 1fr;">
+          <div class="disc-row" style="grid-template-columns: 30px 1fr auto;">
             <div class="disc-icon">${icon}</div>
-            <div class="disc-name" style="margin-bottom:0;">${n}</div>
+            <div class="disc-name" style="margin-bottom:0;">${n.name}</div>
+            <div style="font-size:12px; font-weight:700; color:var(--text-secondary); background:var(--surface-2); border:1px solid var(--border-soft); border-radius:6px; padding:3px 9px; white-space:nowrap;">${n.section}</div>
           </div>`).join("")
       : `<div class="tunnel-msg" style="padding:10px 0;">אין צמתים להצגה בתאריך הדיווח שנבחר.</div>`;
 

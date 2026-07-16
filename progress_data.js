@@ -180,12 +180,30 @@ const PROGRESS_DATA = {
 
                                                                         ],
                                                      "inProgressNames":  [
-                                                                             "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
-                                                                             "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
-                                                                             "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
-                                                                             "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
-                                                                             "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3",
-                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2"
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Avenue 3 (TA 4444)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Avenue 4 (TA 4444)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 9 (TA4444) / Shagal",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Einstein",
+                                                                                 "section":  "12A"
+                                                                             }
                                                                          ]
                                                  }
                                },
@@ -246,8 +264,14 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Holon Depot - Vehicle Enterance CR-G1-2 G1-1",
-                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                            {
+                                                                                "name":  "Holon Depot - Vehicle Enterance",
+                                                                                "section":  "1A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Holon Depot - Train Enterance",
+                                                                                "section":  "1A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -369,8 +393,14 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
-                                                                            "Yerush Blvd - Betsalel CR-G1-11"
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Moshe Sharet",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Betsalel",
+                                                                                "section":  "3A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -431,8 +461,14 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2",
-                                                                            "A Bar - Shaike Dan CR-G2-11"
+                                                                            {
+                                                                                "name":  "Moshe Dayan - Altalena (Israel Railway Parking)",
+                                                                                "section":  "4A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "A Bar - Shaike Dan",
+                                                                                "section":  "4A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -493,9 +529,18 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Erlich - Laskov CR-G2-12",
-                                                                            "Barkat - Lavon CR-G2-16",
-                                                                            "Barkat - Porat (Feher) CR-G2-18"
+                                                                            {
+                                                                                "name":  "Erlich - Laskov",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Lavon",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Porat (Feher)",
+                                                                                "section":  "5A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -848,12 +893,30 @@ const PROGRESS_DATA = {
 
                                                                         ],
                                                      "inProgressNames":  [
-                                                                             "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
-                                                                             "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
-                                                                             "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
-                                                                             "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
-                                                                             "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3",
-                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2"
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Avenue 3 (TA 4444)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Avenue 4 (TA 4444)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 9 (TA4444) / Shagal",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Einstein",
+                                                                                 "section":  "12A"
+                                                                             }
                                                                          ]
                                                  }
                                },
@@ -914,8 +977,14 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Holon Depot - Vehicle Enterance CR-G1-2 G1-1",
-                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                            {
+                                                                                "name":  "Holon Depot - Vehicle Enterance",
+                                                                                "section":  "1A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Holon Depot - Train Enterance",
+                                                                                "section":  "1A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -1037,8 +1106,14 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
-                                                                            "Yerush Blvd - Betsalel CR-G1-11"
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Moshe Sharet",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Betsalel",
+                                                                                "section":  "3A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -1099,8 +1174,14 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2",
-                                                                            "A Bar - Shaike Dan CR-G2-11"
+                                                                            {
+                                                                                "name":  "Moshe Dayan - Altalena (Israel Railway Parking)",
+                                                                                "section":  "4A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "A Bar - Shaike Dan",
+                                                                                "section":  "4A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -1161,9 +1242,18 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Erlich - Laskov CR-G2-12",
-                                                                            "Barkat - Lavon CR-G2-16",
-                                                                            "Barkat - Porat (Feher) CR-G2-18"
+                                                                            {
+                                                                                "name":  "Erlich - Laskov",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Lavon",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Porat (Feher)",
+                                                                                "section":  "5A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -1534,12 +1624,30 @@ const PROGRESS_DATA = {
 
                                                                         ],
                                                      "inProgressNames":  [
-                                                                             "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
-                                                                             "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
-                                                                             "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
-                                                                             "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
-                                                                             "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3",
-                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2"
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Avenue 3 (TA 4444)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Avenue 4 (TA 4444)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 9 (TA4444) / Shagal",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Einstein",
+                                                                                 "section":  "12A"
+                                                                             }
                                                                          ]
                                                  }
                                },
@@ -1606,8 +1714,14 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Holon Depot - Vehicle Enterance CR-G1-2 G1-1",
-                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                            {
+                                                                                "name":  "Holon Depot - Vehicle Enterance",
+                                                                                "section":  "1A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Holon Depot - Train Enterance",
+                                                                                "section":  "1A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -1735,9 +1849,18 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
-                                                                            "Yerush Blvd - Betsalel CR-G1-11",
-                                                                            "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel CR-G1-26"
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Moshe Sharet",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Betsalel",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel",
+                                                                                "section":  "3A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -1804,8 +1927,14 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2",
-                                                                            "A Bar - Shaike Dan CR-G2-11"
+                                                                            {
+                                                                                "name":  "Moshe Dayan - Altalena (Israel Railway Parking)",
+                                                                                "section":  "4A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "A Bar - Shaike Dan",
+                                                                                "section":  "4A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -1872,9 +2001,18 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Erlich - Laskov CR-G2-12",
-                                                                            "Barkat - Lavon CR-G2-16",
-                                                                            "Barkat - Porat (Feher) CR-G2-18"
+                                                                            {
+                                                                                "name":  "Erlich - Laskov",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Lavon",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Porat (Feher)",
+                                                                                "section":  "5A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -2257,12 +2395,30 @@ const PROGRESS_DATA = {
 
                                                                         ],
                                                      "inProgressNames":  [
-                                                                             "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
-                                                                             "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
-                                                                             "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
-                                                                             "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
-                                                                             "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3",
-                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2"
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Avenue 3 (TA 4444)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Avenue 4 (TA 4444)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 9 (TA4444) / Shagal",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Einstein",
+                                                                                 "section":  "12A"
+                                                                             }
                                                                          ]
                                                  }
                                },
@@ -2329,8 +2485,14 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Holon Depot - Vehicle Enterance CR-G1-2 G1-1",
-                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                            {
+                                                                                "name":  "Holon Depot - Vehicle Enterance",
+                                                                                "section":  "1A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Holon Depot - Train Enterance",
+                                                                                "section":  "1A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -2458,9 +2620,18 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
-                                                                            "Yerush Blvd - Betsalel CR-G1-11",
-                                                                            "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel CR-G1-26"
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Moshe Sharet",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Betsalel",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel",
+                                                                                "section":  "3A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -2527,8 +2698,14 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2",
-                                                                            "A Bar - Shaike Dan CR-G2-11"
+                                                                            {
+                                                                                "name":  "Moshe Dayan - Altalena (Israel Railway Parking)",
+                                                                                "section":  "4A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "A Bar - Shaike Dan",
+                                                                                "section":  "4A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -2595,9 +2772,18 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Erlich - Laskov CR-G2-12",
-                                                                            "Barkat - Lavon CR-G2-16",
-                                                                            "Barkat - Porat (Feher) CR-G2-18"
+                                                                            {
+                                                                                "name":  "Erlich - Laskov",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Lavon",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Porat (Feher)",
+                                                                                "section":  "5A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -2980,12 +3166,30 @@ const PROGRESS_DATA = {
 
                                                                         ],
                                                      "inProgressNames":  [
-                                                                             "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
-                                                                             "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
-                                                                             "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
-                                                                             "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
-                                                                             "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3",
-                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2"
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Avenue 3 (TA 4444)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Avenue 4 (TA 4444)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 9 (TA4444) / Shagal",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Einstein",
+                                                                                 "section":  "12A"
+                                                                             }
                                                                          ]
                                                  }
                                },
@@ -3052,8 +3256,14 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Holon Depot - Vehicle Enterance CR-G1-2 G1-1",
-                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                            {
+                                                                                "name":  "Holon Depot - Vehicle Enterance",
+                                                                                "section":  "1A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Holon Depot - Train Enterance",
+                                                                                "section":  "1A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -3181,9 +3391,18 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
-                                                                            "Yerush Blvd - Betsalel CR-G1-11",
-                                                                            "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel CR-G1-26"
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Moshe Sharet",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Betsalel",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel",
+                                                                                "section":  "3A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -3250,8 +3469,14 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2",
-                                                                            "A Bar - Shaike Dan CR-G2-11"
+                                                                            {
+                                                                                "name":  "Moshe Dayan - Altalena (Israel Railway Parking)",
+                                                                                "section":  "4A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "A Bar - Shaike Dan",
+                                                                                "section":  "4A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -3318,9 +3543,18 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Erlich - Laskov CR-G2-12",
-                                                                            "Barkat - Lavon CR-G2-16",
-                                                                            "Barkat - Porat (Feher) CR-G2-18"
+                                                                            {
+                                                                                "name":  "Erlich - Laskov",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Lavon",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Porat (Feher)",
+                                                                                "section":  "5A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -3569,7 +3803,10 @@ const PROGRESS_DATA = {
 
                                                                         ],
                                                      "inProgressNames":  [
-                                                                             "Sheetrit - Stadium Parking - East Entrance CR-G4-18"
+                                                                             {
+                                                                                 "name":  "Sheetrit - Stadium Parking - East Entrance",
+                                                                                 "section":  "10A"
+                                                                             }
                                                                          ]
                                                  }
                                },
@@ -3703,12 +3940,30 @@ const PROGRESS_DATA = {
 
                                                                         ],
                                                      "inProgressNames":  [
-                                                                             "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
-                                                                             "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
-                                                                             "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
-                                                                             "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
-                                                                             "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3",
-                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2"
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Avenue 3 (TA 4444)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Avenue 4 (TA 4444)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 9 (TA4444) / Shagal",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Einstein",
+                                                                                 "section":  "12A"
+                                                                             }
                                                                          ]
                                                  }
                                },
@@ -3772,10 +4027,16 @@ const PROGRESS_DATA = {
                                                     "completed":  1,
                                                     "inProgress":  1,
                                                     "completedNames":  [
-                                                                           "Holon Depot - Vehicle Enterance CR-G1-2 G1-1"
+                                                                           {
+                                                                               "name":  "Holon Depot - Vehicle Enterance",
+                                                                               "section":  "1A"
+                                                                           }
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                            {
+                                                                                "name":  "Holon Depot - Train Enterance",
+                                                                                "section":  "1A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -3903,9 +4164,18 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
-                                                                            "Yerush Blvd - Betsalel CR-G1-11",
-                                                                            "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel CR-G1-26"
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Moshe Sharet",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Betsalel",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel",
+                                                                                "section":  "3A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -3969,10 +4239,16 @@ const PROGRESS_DATA = {
                                                     "completed":  1,
                                                     "inProgress":  1,
                                                     "completedNames":  [
-                                                                           "A Bar - Shaike Dan CR-G2-11"
+                                                                           {
+                                                                               "name":  "A Bar - Shaike Dan",
+                                                                               "section":  "4A"
+                                                                           }
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2"
+                                                                            {
+                                                                                "name":  "Moshe Dayan - Altalena (Israel Railway Parking)",
+                                                                                "section":  "4A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -4039,9 +4315,18 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Erlich - Laskov CR-G2-12",
-                                                                            "Barkat - Lavon CR-G2-16",
-                                                                            "Barkat - Porat (Feher) CR-G2-18"
+                                                                            {
+                                                                                "name":  "Erlich - Laskov",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Lavon",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Porat (Feher)",
+                                                                                "section":  "5A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -4307,7 +4592,10 @@ const PROGRESS_DATA = {
 
                                                                         ],
                                                      "inProgressNames":  [
-                                                                             "Sheetrit - Stadium Parking - East Entrance CR-G4-18"
+                                                                             {
+                                                                                 "name":  "Sheetrit - Stadium Parking - East Entrance",
+                                                                                 "section":  "10A"
+                                                                             }
                                                                          ]
                                                  }
                                },
@@ -4441,12 +4729,30 @@ const PROGRESS_DATA = {
 
                                                                         ],
                                                      "inProgressNames":  [
-                                                                             "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
-                                                                             "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
-                                                                             "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
-                                                                             "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
-                                                                             "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3",
-                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2"
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Avenue 3 (TA 4444)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Avenue 4 (TA 4444)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 9 (TA4444) / Shagal",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Einstein",
+                                                                                 "section":  "12A"
+                                                                             }
                                                                          ]
                                                  }
                                },
@@ -4510,10 +4816,16 @@ const PROGRESS_DATA = {
                                                     "completed":  1,
                                                     "inProgress":  1,
                                                     "completedNames":  [
-                                                                           "Holon Depot - Vehicle Enterance CR-G1-2 G1-1"
+                                                                           {
+                                                                               "name":  "Holon Depot - Vehicle Enterance",
+                                                                               "section":  "1A"
+                                                                           }
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                            {
+                                                                                "name":  "Holon Depot - Train Enterance",
+                                                                                "section":  "1A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -4641,9 +4953,18 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
-                                                                            "Yerush Blvd - Betsalel CR-G1-11",
-                                                                            "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel CR-G1-26"
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Moshe Sharet",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Betsalel",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel",
+                                                                                "section":  "3A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -4707,10 +5028,16 @@ const PROGRESS_DATA = {
                                                     "completed":  1,
                                                     "inProgress":  1,
                                                     "completedNames":  [
-                                                                           "A Bar - Shaike Dan CR-G2-11"
+                                                                           {
+                                                                               "name":  "A Bar - Shaike Dan",
+                                                                               "section":  "4A"
+                                                                           }
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2"
+                                                                            {
+                                                                                "name":  "Moshe Dayan - Altalena (Israel Railway Parking)",
+                                                                                "section":  "4A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -4777,9 +5104,18 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Erlich - Laskov CR-G2-12",
-                                                                            "Barkat - Lavon CR-G2-16",
-                                                                            "Barkat - Porat (Feher) CR-G2-18"
+                                                                            {
+                                                                                "name":  "Erlich - Laskov",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Lavon",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Porat (Feher)",
+                                                                                "section":  "5A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -5045,8 +5381,14 @@ const PROGRESS_DATA = {
 
                                                                         ],
                                                      "inProgressNames":  [
-                                                                             "Sheetrit - Stadium Parking - East Entrance CR-G4-18",
-                                                                             "Sports Center Parking CR-G4-15"
+                                                                             {
+                                                                                 "name":  "Sheetrit - Stadium Parking - East Entrance",
+                                                                                 "section":  "10A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Sports Center Parking",
+                                                                                 "section":  "10A"
+                                                                             }
                                                                          ]
                                                  }
                                },
@@ -5180,17 +5522,50 @@ const PROGRESS_DATA = {
 
                                                                         ],
                                                      "inProgressNames":  [
-                                                                             "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
-                                                                             "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
-                                                                             "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
-                                                                             "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
-                                                                             "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3",
-                                                                             "Ibn Gabirol - Avenue 34 / Avenue 20 (HR2200)  CR-G5-31 G5-6",
-                                                                             "Ibn Gabirol - Track Switching Sides North To Avenue 7 (HR2200) CR-G5-27.1 G5-6",
-                                                                             "Ibn Gabirol - Avenue 16 (HR2200) 0 Phases CR-G5-30 G5-6",
-                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2",
-                                                                             "Ibn Gabirol - Avenue 12 (HR2200) CR-G5-29 G5-6",
-                                                                             "Ibn Gabirol - Avenue 8 - Street 36 (HR2200) CR-G5-27 G5-6"
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Avenue 3 (TA 4444)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Avenue 4 (TA 4444)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 9 (TA4444) / Shagal",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 34 / Avenue 20 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Track Switching Sides North To Avenue 7 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 16 (HR2200) 0 Phases",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Einstein",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 12 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 8 - Street 36 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             }
                                                                          ]
                                                  }
                                },
@@ -5254,10 +5629,16 @@ const PROGRESS_DATA = {
                                                     "completed":  1,
                                                     "inProgress":  1,
                                                     "completedNames":  [
-                                                                           "Holon Depot - Vehicle Enterance CR-G1-2 G1-1"
+                                                                           {
+                                                                               "name":  "Holon Depot - Vehicle Enterance",
+                                                                               "section":  "1A"
+                                                                           }
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                            {
+                                                                                "name":  "Holon Depot - Train Enterance",
+                                                                                "section":  "1A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -5385,9 +5766,18 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
-                                                                            "Yerush Blvd - Betsalel CR-G1-11",
-                                                                            "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel CR-G1-26"
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Moshe Sharet",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Betsalel",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel",
+                                                                                "section":  "3A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -5451,10 +5841,16 @@ const PROGRESS_DATA = {
                                                     "completed":  1,
                                                     "inProgress":  1,
                                                     "completedNames":  [
-                                                                           "A Bar - Shaike Dan CR-G2-11"
+                                                                           {
+                                                                               "name":  "A Bar - Shaike Dan",
+                                                                               "section":  "4A"
+                                                                           }
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2"
+                                                                            {
+                                                                                "name":  "Moshe Dayan - Altalena (Israel Railway Parking)",
+                                                                                "section":  "4A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -5521,9 +5917,18 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Erlich - Laskov CR-G2-12",
-                                                                            "Barkat - Lavon CR-G2-16",
-                                                                            "Barkat - Porat (Feher) CR-G2-18"
+                                                                            {
+                                                                                "name":  "Erlich - Laskov",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Lavon",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Porat (Feher)",
+                                                                                "section":  "5A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -5590,7 +5995,10 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Har Tsiyon - Hachmei Israel CR-G3-4"
+                                                                            {
+                                                                                "name":  "Har Tsiyon - Hachmei Israel",
+                                                                                "section":  "6A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -5789,8 +6197,14 @@ const PROGRESS_DATA = {
 
                                                                         ],
                                                      "inProgressNames":  [
-                                                                             "Sheetrit - Stadium Parking - East Entrance CR-G4-18",
-                                                                             "Sports Center Parking CR-G4-15"
+                                                                             {
+                                                                                 "name":  "Sheetrit - Stadium Parking - East Entrance",
+                                                                                 "section":  "10A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Sports Center Parking",
+                                                                                 "section":  "10A"
+                                                                             }
                                                                          ]
                                                  }
                                },
@@ -5924,17 +6338,50 @@ const PROGRESS_DATA = {
 
                                                                         ],
                                                      "inProgressNames":  [
-                                                                             "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
-                                                                             "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
-                                                                             "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
-                                                                             "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
-                                                                             "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3",
-                                                                             "Ibn Gabirol - Avenue 34 / Avenue 20 (HR2200)  CR-G5-31 G5-6",
-                                                                             "Ibn Gabirol - Track Switching Sides North To Avenue 7 (HR2200) CR-G5-27.1 G5-6",
-                                                                             "Ibn Gabirol - Avenue 16 (HR2200) 0 Phases CR-G5-30 G5-6",
-                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2",
-                                                                             "Ibn Gabirol - Avenue 12 (HR2200) CR-G5-29 G5-6",
-                                                                             "Ibn Gabirol - Avenue 8 - Street 36 (HR2200) CR-G5-27 G5-6"
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Avenue 3 (TA 4444)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Avenue 4 (TA 4444)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 9 (TA4444) / Shagal",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 34 / Avenue 20 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Track Switching Sides North To Avenue 7 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 16 (HR2200) 0 Phases",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Einstein",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 12 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 8 - Street 36 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             }
                                                                          ]
                                                  }
                                },
@@ -5998,10 +6445,16 @@ const PROGRESS_DATA = {
                                                     "completed":  1,
                                                     "inProgress":  1,
                                                     "completedNames":  [
-                                                                           "Holon Depot - Vehicle Enterance CR-G1-2 G1-1"
+                                                                           {
+                                                                               "name":  "Holon Depot - Vehicle Enterance",
+                                                                               "section":  "1A"
+                                                                           }
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                            {
+                                                                                "name":  "Holon Depot - Train Enterance",
+                                                                                "section":  "1A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -6129,9 +6582,18 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
-                                                                            "Yerush Blvd - Betsalel CR-G1-11",
-                                                                            "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel CR-G1-26"
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Moshe Sharet",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Betsalel",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel",
+                                                                                "section":  "3A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -6195,10 +6657,16 @@ const PROGRESS_DATA = {
                                                     "completed":  1,
                                                     "inProgress":  1,
                                                     "completedNames":  [
-                                                                           "A Bar - Shaike Dan CR-G2-11"
+                                                                           {
+                                                                               "name":  "A Bar - Shaike Dan",
+                                                                               "section":  "4A"
+                                                                           }
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2"
+                                                                            {
+                                                                                "name":  "Moshe Dayan - Altalena (Israel Railway Parking)",
+                                                                                "section":  "4A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -6265,9 +6733,18 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Erlich - Laskov CR-G2-12",
-                                                                            "Barkat - Lavon CR-G2-16",
-                                                                            "Barkat - Porat (Feher) CR-G2-18"
+                                                                            {
+                                                                                "name":  "Erlich - Laskov",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Lavon",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Porat (Feher)",
+                                                                                "section":  "5A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -6334,7 +6811,10 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Har Tsiyon - Hachmei Israel CR-G3-4"
+                                                                            {
+                                                                                "name":  "Har Tsiyon - Hachmei Israel",
+                                                                                "section":  "6A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -6533,8 +7013,14 @@ const PROGRESS_DATA = {
 
                                                                         ],
                                                      "inProgressNames":  [
-                                                                             "Sheetrit - Stadium Parking - East Entrance CR-G4-18",
-                                                                             "Sports Center Parking CR-G4-15"
+                                                                             {
+                                                                                 "name":  "Sheetrit - Stadium Parking - East Entrance",
+                                                                                 "section":  "10A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Sports Center Parking",
+                                                                                 "section":  "10A"
+                                                                             }
                                                                          ]
                                                  }
                                },
@@ -6665,19 +7151,52 @@ const PROGRESS_DATA = {
                                                      "completed":  5,
                                                      "inProgress":  6,
                                                      "completedNames":  [
-                                                                            "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
-                                                                            "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
-                                                                            "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
-                                                                            "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
-                                                                            "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3"
+                                                                            {
+                                                                                "name":  "New build, Ibn Gabirol - Avenue 3 (TA 4444)",
+                                                                                "section":  "12A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "New build, Ibn Gabirol - Avenue 4 (TA 4444)",
+                                                                                "section":  "12A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski",
+                                                                                "section":  "12A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases",
+                                                                                "section":  "12A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Ibn Gabirol - Avenue 9 (TA4444) / Shagal",
+                                                                                "section":  "12A"
+                                                                            }
                                                                         ],
                                                      "inProgressNames":  [
-                                                                             "Ibn Gabirol - Avenue 34 / Avenue 20 (HR2200)  CR-G5-31 G5-6",
-                                                                             "Ibn Gabirol - Track Switching Sides North To Avenue 7 (HR2200) CR-G5-27.1 G5-6",
-                                                                             "Ibn Gabirol - Avenue 16 (HR2200) 0 Phases CR-G5-30 G5-6",
-                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2",
-                                                                             "Ibn Gabirol - Avenue 12 (HR2200) CR-G5-29 G5-6",
-                                                                             "Ibn Gabirol - Avenue 8 - Street 36 (HR2200) CR-G5-27 G5-6"
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 34 / Avenue 20 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Track Switching Sides North To Avenue 7 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 16 (HR2200) 0 Phases",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Einstein",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 12 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 8 - Street 36 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             }
                                                                          ]
                                                  }
                                },
@@ -6741,10 +7260,16 @@ const PROGRESS_DATA = {
                                                     "completed":  1,
                                                     "inProgress":  1,
                                                     "completedNames":  [
-                                                                           "Holon Depot - Vehicle Enterance CR-G1-2 G1-1"
+                                                                           {
+                                                                               "name":  "Holon Depot - Vehicle Enterance",
+                                                                               "section":  "1A"
+                                                                           }
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                            {
+                                                                                "name":  "Holon Depot - Train Enterance",
+                                                                                "section":  "1A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -6805,8 +7330,14 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Yerush Blvd - exit to HaMerkava CR-G1-5",
-                                                                            "Yerush Blvd - HaBanai CR-G1-7"
+                                                                            {
+                                                                                "name":  "Yerush Blvd - exit to HaMerkava",
+                                                                                "section":  "2A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Yerush Blvd - HaBanai",
+                                                                                "section":  "2A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -6873,9 +7404,18 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
-                                                                            "Yerush Blvd - Betsalel CR-G1-11",
-                                                                            "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel CR-G1-26"
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Moshe Sharet",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Betsalel",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel",
+                                                                                "section":  "3A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -6939,11 +7479,20 @@ const PROGRESS_DATA = {
                                                     "completed":  1,
                                                     "inProgress":  2,
                                                     "completedNames":  [
-                                                                           "A Bar - Shaike Dan CR-G2-11"
+                                                                           {
+                                                                               "name":  "A Bar - Shaike Dan",
+                                                                               "section":  "4A"
+                                                                           }
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2",
-                                                                            "A Bar - Rozhanski CR-G2-08"
+                                                                            {
+                                                                                "name":  "Moshe Dayan - Altalena (Israel Railway Parking)",
+                                                                                "section":  "4A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "A Bar - Rozhanski",
+                                                                                "section":  "4A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -7010,10 +7559,22 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Erlich - Laskov CR-G2-12",
-                                                                            "Barkat - Lavon CR-G2-16",
-                                                                            "Barkat - Porat (Feher) CR-G2-18",
-                                                                            "Shenkar - Khoma u-Migdal CR-G2-23"
+                                                                            {
+                                                                                "name":  "Erlich - Laskov",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Lavon",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Porat (Feher)",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Shenkar - Khoma u-Migdal",
+                                                                                "section":  "5A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -7080,8 +7641,14 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Ben Zvi - Gitit CR-G3-1",
-                                                                            "Har Tsiyon - Hachmei Israel CR-G3-4"
+                                                                            {
+                                                                                "name":  "Ben Zvi - Gitit",
+                                                                                "section":  "6A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Har Tsiyon - Hachmei Israel",
+                                                                                "section":  "6A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -7280,8 +7847,14 @@ const PROGRESS_DATA = {
 
                                                                         ],
                                                      "inProgressNames":  [
-                                                                             "Sheetrit - Stadium Parking - East Entrance CR-G4-18",
-                                                                             "Sports Center Parking CR-G4-15"
+                                                                             {
+                                                                                 "name":  "Sheetrit - Stadium Parking - East Entrance",
+                                                                                 "section":  "10A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Sports Center Parking",
+                                                                                 "section":  "10A"
+                                                                             }
                                                                          ]
                                                  }
                                },
@@ -7412,19 +7985,52 @@ const PROGRESS_DATA = {
                                                      "completed":  5,
                                                      "inProgress":  6,
                                                      "completedNames":  [
-                                                                            "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
-                                                                            "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
-                                                                            "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
-                                                                            "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
-                                                                            "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3"
+                                                                            {
+                                                                                "name":  "New build, Ibn Gabirol - Avenue 3 (TA 4444)",
+                                                                                "section":  "12A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "New build, Ibn Gabirol - Avenue 4 (TA 4444)",
+                                                                                "section":  "12A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski",
+                                                                                "section":  "12A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases",
+                                                                                "section":  "12A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Ibn Gabirol - Avenue 9 (TA4444) / Shagal",
+                                                                                "section":  "12A"
+                                                                            }
                                                                         ],
                                                      "inProgressNames":  [
-                                                                             "Ibn Gabirol - Avenue 34 / Avenue 20 (HR2200)  CR-G5-31 G5-6",
-                                                                             "Ibn Gabirol - Track Switching Sides North To Avenue 7 (HR2200) CR-G5-27.1 G5-6",
-                                                                             "Ibn Gabirol - Avenue 16 (HR2200) 0 Phases CR-G5-30 G5-6",
-                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2",
-                                                                             "Ibn Gabirol - Avenue 12 (HR2200) CR-G5-29 G5-6",
-                                                                             "Ibn Gabirol - Avenue 8 - Street 36 (HR2200) CR-G5-27 G5-6"
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 34 / Avenue 20 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Track Switching Sides North To Avenue 7 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 16 (HR2200) 0 Phases",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Einstein",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 12 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 8 - Street 36 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             }
                                                                          ]
                                                  }
                                },
@@ -7488,10 +8094,16 @@ const PROGRESS_DATA = {
                                                     "completed":  1,
                                                     "inProgress":  1,
                                                     "completedNames":  [
-                                                                           "Holon Depot - Vehicle Enterance CR-G1-2 G1-1"
+                                                                           {
+                                                                               "name":  "Holon Depot - Vehicle Enterance",
+                                                                               "section":  "1A"
+                                                                           }
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                            {
+                                                                                "name":  "Holon Depot - Train Enterance",
+                                                                                "section":  "1A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -7552,8 +8164,14 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Yerush Blvd - exit to HaMerkava CR-G1-5",
-                                                                            "Yerush Blvd - HaBanai CR-G1-7"
+                                                                            {
+                                                                                "name":  "Yerush Blvd - exit to HaMerkava",
+                                                                                "section":  "2A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Yerush Blvd - HaBanai",
+                                                                                "section":  "2A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -7620,10 +8238,22 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
-                                                                            "Yerush Blvd - Betsalel CR-G1-11",
-                                                                            "Yerush Blvd - Mohiliver CR-G1-13",
-                                                                            "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel CR-G1-26"
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Moshe Sharet",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Betsalel",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Mohiliver",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel",
+                                                                                "section":  "3A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -7687,11 +8317,20 @@ const PROGRESS_DATA = {
                                                     "completed":  1,
                                                     "inProgress":  2,
                                                     "completedNames":  [
-                                                                           "A Bar - Shaike Dan CR-G2-11"
+                                                                           {
+                                                                               "name":  "A Bar - Shaike Dan",
+                                                                               "section":  "4A"
+                                                                           }
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2",
-                                                                            "A Bar - Rozhanski CR-G2-08"
+                                                                            {
+                                                                                "name":  "Moshe Dayan - Altalena (Israel Railway Parking)",
+                                                                                "section":  "4A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "A Bar - Rozhanski",
+                                                                                "section":  "4A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -7758,10 +8397,22 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Erlich - Laskov CR-G2-12",
-                                                                            "Barkat - Lavon CR-G2-16",
-                                                                            "Barkat - Porat (Feher) CR-G2-18",
-                                                                            "Shenkar - Khoma u-Migdal CR-G2-23"
+                                                                            {
+                                                                                "name":  "Erlich - Laskov",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Lavon",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Porat (Feher)",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Shenkar - Khoma u-Migdal",
+                                                                                "section":  "5A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -7828,8 +8479,14 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Ben Zvi - Gitit CR-G3-1",
-                                                                            "Har Tsiyon - Hachmei Israel CR-G3-4"
+                                                                            {
+                                                                                "name":  "Ben Zvi - Gitit",
+                                                                                "section":  "6A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Har Tsiyon - Hachmei Israel",
+                                                                                "section":  "6A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -8028,8 +8685,14 @@ const PROGRESS_DATA = {
 
                                                                         ],
                                                      "inProgressNames":  [
-                                                                             "Sheetrit - Stadium Parking - East Entrance CR-G4-18",
-                                                                             "Sports Center Parking CR-G4-15"
+                                                                             {
+                                                                                 "name":  "Sheetrit - Stadium Parking - East Entrance",
+                                                                                 "section":  "10A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Sports Center Parking",
+                                                                                 "section":  "10A"
+                                                                             }
                                                                          ]
                                                  }
                                },
@@ -8160,19 +8823,52 @@ const PROGRESS_DATA = {
                                                      "completed":  5,
                                                      "inProgress":  6,
                                                      "completedNames":  [
-                                                                            "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
-                                                                            "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
-                                                                            "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
-                                                                            "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
-                                                                            "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3"
+                                                                            {
+                                                                                "name":  "New build, Ibn Gabirol - Avenue 3 (TA 4444)",
+                                                                                "section":  "12A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "New build, Ibn Gabirol - Avenue 4 (TA 4444)",
+                                                                                "section":  "12A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski",
+                                                                                "section":  "12A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases",
+                                                                                "section":  "12A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Ibn Gabirol - Avenue 9 (TA4444) / Shagal",
+                                                                                "section":  "12A"
+                                                                            }
                                                                         ],
                                                      "inProgressNames":  [
-                                                                             "Ibn Gabirol - Avenue 34 / Avenue 20 (HR2200)  CR-G5-31 G5-6",
-                                                                             "Ibn Gabirol - Track Switching Sides North To Avenue 7 (HR2200) CR-G5-27.1 G5-6",
-                                                                             "Ibn Gabirol - Avenue 16 (HR2200) 0 Phases CR-G5-30 G5-6",
-                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2",
-                                                                             "Ibn Gabirol - Avenue 12 (HR2200) CR-G5-29 G5-6",
-                                                                             "Ibn Gabirol - Avenue 8 - Street 36 (HR2200) CR-G5-27 G5-6"
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 34 / Avenue 20 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Track Switching Sides North To Avenue 7 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 16 (HR2200) 0 Phases",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Einstein",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 12 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 8 - Street 36 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             }
                                                                          ]
                                                  }
                                },
@@ -8236,10 +8932,16 @@ const PROGRESS_DATA = {
                                                     "completed":  1,
                                                     "inProgress":  1,
                                                     "completedNames":  [
-                                                                           "Holon Depot - Vehicle Enterance CR-G1-2 G1-1"
+                                                                           {
+                                                                               "name":  "Holon Depot - Vehicle Enterance",
+                                                                               "section":  "1A"
+                                                                           }
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                            {
+                                                                                "name":  "Holon Depot - Train Enterance",
+                                                                                "section":  "1A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -8300,8 +9002,14 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Yerush Blvd - exit to HaMerkava CR-G1-5",
-                                                                            "Yerush Blvd - HaBanai CR-G1-7"
+                                                                            {
+                                                                                "name":  "Yerush Blvd - exit to HaMerkava",
+                                                                                "section":  "2A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Yerush Blvd - HaBanai",
+                                                                                "section":  "2A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -8368,10 +9076,22 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
-                                                                            "Yerush Blvd - Betsalel CR-G1-11",
-                                                                            "Yerush Blvd - Mohiliver CR-G1-13",
-                                                                            "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel CR-G1-26"
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Moshe Sharet",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Betsalel",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Mohiliver",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel",
+                                                                                "section":  "3A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -8435,11 +9155,20 @@ const PROGRESS_DATA = {
                                                     "completed":  1,
                                                     "inProgress":  2,
                                                     "completedNames":  [
-                                                                           "A Bar - Shaike Dan CR-G2-11"
+                                                                           {
+                                                                               "name":  "A Bar - Shaike Dan",
+                                                                               "section":  "4A"
+                                                                           }
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2",
-                                                                            "A Bar - Rozhanski CR-G2-08"
+                                                                            {
+                                                                                "name":  "Moshe Dayan - Altalena (Israel Railway Parking)",
+                                                                                "section":  "4A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "A Bar - Rozhanski",
+                                                                                "section":  "4A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -8506,10 +9235,22 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Erlich - Laskov CR-G2-12",
-                                                                            "Barkat - Lavon CR-G2-16",
-                                                                            "Barkat - Porat (Feher) CR-G2-18",
-                                                                            "Shenkar - Khoma u-Migdal CR-G2-23"
+                                                                            {
+                                                                                "name":  "Erlich - Laskov",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Lavon",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Porat (Feher)",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Shenkar - Khoma u-Migdal",
+                                                                                "section":  "5A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -8576,8 +9317,14 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Ben Zvi - Gitit CR-G3-1",
-                                                                            "Har Tsiyon - Hachmei Israel CR-G3-4"
+                                                                            {
+                                                                                "name":  "Ben Zvi - Gitit",
+                                                                                "section":  "6A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Har Tsiyon - Hachmei Israel",
+                                                                                "section":  "6A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -8776,8 +9523,14 @@ const PROGRESS_DATA = {
 
                                                                         ],
                                                      "inProgressNames":  [
-                                                                             "Sheetrit - Stadium Parking - East Entrance CR-G4-18",
-                                                                             "Sports Center Parking CR-G4-15"
+                                                                             {
+                                                                                 "name":  "Sheetrit - Stadium Parking - East Entrance",
+                                                                                 "section":  "10A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Sports Center Parking",
+                                                                                 "section":  "10A"
+                                                                             }
                                                                          ]
                                                  }
                                },
@@ -8908,19 +9661,52 @@ const PROGRESS_DATA = {
                                                      "completed":  5,
                                                      "inProgress":  6,
                                                      "completedNames":  [
-                                                                            "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
-                                                                            "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
-                                                                            "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
-                                                                            "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
-                                                                            "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3"
+                                                                            {
+                                                                                "name":  "New build, Ibn Gabirol - Avenue 3 (TA 4444)",
+                                                                                "section":  "12A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "New build, Ibn Gabirol - Avenue 4 (TA 4444)",
+                                                                                "section":  "12A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski",
+                                                                                "section":  "12A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases",
+                                                                                "section":  "12A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Ibn Gabirol - Avenue 9 (TA4444) / Shagal",
+                                                                                "section":  "12A"
+                                                                            }
                                                                         ],
                                                      "inProgressNames":  [
-                                                                             "Ibn Gabirol - Avenue 34 / Avenue 20 (HR2200)  CR-G5-31 G5-6",
-                                                                             "Ibn Gabirol - Track Switching Sides North To Avenue 7 (HR2200) CR-G5-27.1 G5-6",
-                                                                             "Ibn Gabirol - Avenue 16 (HR2200) 0 Phases CR-G5-30 G5-6",
-                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2",
-                                                                             "Ibn Gabirol - Avenue 12 (HR2200) CR-G5-29 G5-6",
-                                                                             "Ibn Gabirol - Avenue 8 - Street 36 (HR2200) CR-G5-27 G5-6"
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 34 / Avenue 20 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Track Switching Sides North To Avenue 7 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 16 (HR2200) 0 Phases",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Einstein",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 12 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 8 - Street 36 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             }
                                                                          ]
                                                  }
                                },
@@ -8984,10 +9770,16 @@ const PROGRESS_DATA = {
                                                     "completed":  1,
                                                     "inProgress":  1,
                                                     "completedNames":  [
-                                                                           "Holon Depot - Vehicle Enterance CR-G1-2 G1-1"
+                                                                           {
+                                                                               "name":  "Holon Depot - Vehicle Enterance",
+                                                                               "section":  "1A"
+                                                                           }
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                            {
+                                                                                "name":  "Holon Depot - Train Enterance",
+                                                                                "section":  "1A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -9048,8 +9840,14 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Yerush Blvd - exit to HaMerkava CR-G1-5",
-                                                                            "Yerush Blvd - HaBanai CR-G1-7"
+                                                                            {
+                                                                                "name":  "Yerush Blvd - exit to HaMerkava",
+                                                                                "section":  "2A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Yerush Blvd - HaBanai",
+                                                                                "section":  "2A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -9116,10 +9914,22 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
-                                                                            "Yerush Blvd - Betsalel CR-G1-11",
-                                                                            "Yerush Blvd - Mohiliver CR-G1-13",
-                                                                            "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel CR-G1-26"
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Moshe Sharet",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Betsalel",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Mohiliver",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel",
+                                                                                "section":  "3A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -9183,11 +9993,20 @@ const PROGRESS_DATA = {
                                                     "completed":  1,
                                                     "inProgress":  2,
                                                     "completedNames":  [
-                                                                           "A Bar - Shaike Dan CR-G2-11"
+                                                                           {
+                                                                               "name":  "A Bar - Shaike Dan",
+                                                                               "section":  "4A"
+                                                                           }
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2",
-                                                                            "A Bar - Rozhanski CR-G2-08"
+                                                                            {
+                                                                                "name":  "Moshe Dayan - Altalena (Israel Railway Parking)",
+                                                                                "section":  "4A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "A Bar - Rozhanski",
+                                                                                "section":  "4A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -9254,10 +10073,22 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Erlich - Laskov CR-G2-12",
-                                                                            "Barkat - Lavon CR-G2-16",
-                                                                            "Barkat - Porat (Feher) CR-G2-18",
-                                                                            "Shenkar - Khoma u-Migdal CR-G2-23"
+                                                                            {
+                                                                                "name":  "Erlich - Laskov",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Lavon",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Porat (Feher)",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Shenkar - Khoma u-Migdal",
+                                                                                "section":  "5A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -9324,8 +10155,14 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Ben Zvi - Gitit CR-G3-1",
-                                                                            "Har Tsiyon - Hachmei Israel CR-G3-4"
+                                                                            {
+                                                                                "name":  "Ben Zvi - Gitit",
+                                                                                "section":  "6A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Har Tsiyon - Hachmei Israel",
+                                                                                "section":  "6A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -9417,7 +10254,10 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Einstein - Levi Eshkol CR-G4-1 G4-3"
+                                                                            {
+                                                                                "name":  "Einstein - Levi Eshkol",
+                                                                                "section":  "8A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -9524,8 +10364,14 @@ const PROGRESS_DATA = {
 
                                                                         ],
                                                      "inProgressNames":  [
-                                                                             "Sheetrit - Stadium Parking - East Entrance CR-G4-18",
-                                                                             "Sports Center Parking CR-G4-15"
+                                                                             {
+                                                                                 "name":  "Sheetrit - Stadium Parking - East Entrance",
+                                                                                 "section":  "10A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Sports Center Parking",
+                                                                                 "section":  "10A"
+                                                                             }
                                                                          ]
                                                  }
                                },
@@ -9656,20 +10502,56 @@ const PROGRESS_DATA = {
                                                      "completed":  5,
                                                      "inProgress":  7,
                                                      "completedNames":  [
-                                                                            "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
-                                                                            "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
-                                                                            "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
-                                                                            "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
-                                                                            "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3"
+                                                                            {
+                                                                                "name":  "New build, Ibn Gabirol - Avenue 3 (TA 4444)",
+                                                                                "section":  "12A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "New build, Ibn Gabirol - Avenue 4 (TA 4444)",
+                                                                                "section":  "12A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski",
+                                                                                "section":  "12A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases",
+                                                                                "section":  "12A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Ibn Gabirol - Avenue 9 (TA4444) / Shagal",
+                                                                                "section":  "12A"
+                                                                            }
                                                                         ],
                                                      "inProgressNames":  [
-                                                                             "Ibn Gabirol - Avenue 34 / Avenue 20 (HR2200)  CR-G5-31 G5-6",
-                                                                             "Ibn Gabirol - Track Switching Sides North To Avenue 7 (HR2200) CR-G5-27.1 G5-6",
-                                                                             "Ibn Gabirol - Avenue 16 (HR2200) 0 Phases CR-G5-30 G5-6",
-                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2",
-                                                                             "Ibn Gabirol - Street 24 / Avenue 11 (HR2200)  CR-G5-32 G5-6",
-                                                                             "Ibn Gabirol - Avenue 12 (HR2200) CR-G5-29 G5-6",
-                                                                             "Ibn Gabirol - Avenue 8 - Street 36 (HR2200) CR-G5-27 G5-6"
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 34 / Avenue 20 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Track Switching Sides North To Avenue 7 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 16 (HR2200) 0 Phases",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Einstein",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Street 24 / Avenue 11 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 12 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 8 - Street 36 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             }
                                                                          ]
                                                  }
                                },
@@ -9733,10 +10615,16 @@ const PROGRESS_DATA = {
                                                     "completed":  1,
                                                     "inProgress":  1,
                                                     "completedNames":  [
-                                                                           "Holon Depot - Vehicle Enterance CR-G1-2 G1-1"
+                                                                           {
+                                                                               "name":  "Holon Depot - Vehicle Enterance",
+                                                                               "section":  "1A"
+                                                                           }
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                            {
+                                                                                "name":  "Holon Depot - Train Enterance",
+                                                                                "section":  "1A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -9797,8 +10685,14 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Yerush Blvd - exit to HaMerkava CR-G1-5",
-                                                                            "Yerush Blvd - HaBanai CR-G1-7"
+                                                                            {
+                                                                                "name":  "Yerush Blvd - exit to HaMerkava",
+                                                                                "section":  "2A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Yerush Blvd - HaBanai",
+                                                                                "section":  "2A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -9865,10 +10759,22 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
-                                                                            "Yerush Blvd - Betsalel CR-G1-11",
-                                                                            "Yerush Blvd - Mohiliver CR-G1-13",
-                                                                            "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel CR-G1-26"
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Moshe Sharet",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Betsalel",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Mohiliver",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel",
+                                                                                "section":  "3A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -9932,11 +10838,20 @@ const PROGRESS_DATA = {
                                                     "completed":  1,
                                                     "inProgress":  2,
                                                     "completedNames":  [
-                                                                           "A Bar - Shaike Dan CR-G2-11"
+                                                                           {
+                                                                               "name":  "A Bar - Shaike Dan",
+                                                                               "section":  "4A"
+                                                                           }
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2",
-                                                                            "A Bar - Rozhanski CR-G2-08"
+                                                                            {
+                                                                                "name":  "Moshe Dayan - Altalena (Israel Railway Parking)",
+                                                                                "section":  "4A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "A Bar - Rozhanski",
+                                                                                "section":  "4A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -10000,13 +10915,28 @@ const PROGRESS_DATA = {
                                                     "completed":  2,
                                                     "inProgress":  3,
                                                     "completedNames":  [
-                                                                           "Barkat - Lavon CR-G2-16",
-                                                                           "Barkat - Porat (Feher) CR-G2-18"
+                                                                           {
+                                                                               "name":  "Barkat - Lavon",
+                                                                               "section":  "5A"
+                                                                           },
+                                                                           {
+                                                                               "name":  "Barkat - Porat (Feher)",
+                                                                               "section":  "5A"
+                                                                           }
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Erlich - Laskov CR-G2-12",
-                                                                            "Barkat - Wallanberg CR-G2-17",
-                                                                            "Shenkar - Khoma u-Migdal CR-G2-23"
+                                                                            {
+                                                                                "name":  "Erlich - Laskov",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Wallanberg",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Shenkar - Khoma u-Migdal",
+                                                                                "section":  "5A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -10073,8 +11003,14 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Ben Zvi - Gitit CR-G3-1",
-                                                                            "Har Tsiyon - Hachmei Israel CR-G3-4"
+                                                                            {
+                                                                                "name":  "Ben Zvi - Gitit",
+                                                                                "section":  "6A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Har Tsiyon - Hachmei Israel",
+                                                                                "section":  "6A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -10172,7 +11108,10 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Einstein - Levi Eshkol CR-G4-1 G4-3"
+                                                                            {
+                                                                                "name":  "Einstein - Levi Eshkol",
+                                                                                "section":  "8A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -10285,9 +11224,18 @@ const PROGRESS_DATA = {
 
                                                                         ],
                                                      "inProgressNames":  [
-                                                                             "Sheetrit - Stadium Parking - East Entrance CR-G4-18",
-                                                                             "Sheetrit - Stadium Parking - West Entrance CR-G4-17",
-                                                                             "Sports Center Parking CR-G4-15"
+                                                                             {
+                                                                                 "name":  "Sheetrit - Stadium Parking - East Entrance",
+                                                                                 "section":  "10A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Sheetrit - Stadium Parking - West Entrance",
+                                                                                 "section":  "10A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Sports Center Parking",
+                                                                                 "section":  "10A"
+                                                                             }
                                                                          ]
                                                  }
                                },
@@ -10418,23 +11366,68 @@ const PROGRESS_DATA = {
                                                      "completed":  5,
                                                      "inProgress":  10,
                                                      "completedNames":  [
-                                                                            "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
-                                                                            "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
-                                                                            "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
-                                                                            "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
-                                                                            "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3"
+                                                                            {
+                                                                                "name":  "New build, Ibn Gabirol - Avenue 3 (TA 4444)",
+                                                                                "section":  "12A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "New build, Ibn Gabirol - Avenue 4 (TA 4444)",
+                                                                                "section":  "12A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski",
+                                                                                "section":  "12A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases",
+                                                                                "section":  "12A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Ibn Gabirol - Avenue 9 (TA4444) / Shagal",
+                                                                                "section":  "12A"
+                                                                            }
                                                                         ],
                                                      "inProgressNames":  [
-                                                                             "Ibn Gabirol - Avenue 34 / Avenue 20 (HR2200)  CR-G5-31 G5-6",
-                                                                             "Ibn Gabirol - Track Switching Sides North To Avenue 7 (HR2200) CR-G5-27.1 G5-6",
-                                                                             "Ibn Gabirol - Avenue 16 (HR2200) 0 Phases CR-G5-30 G5-6",
-                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2",
-                                                                             "Ibn Gabirol - Street 24 / Avenue 11 (HR2200)  CR-G5-32 G5-6",
-                                                                             "Ibn Gabirol - Avenue 12 (HR2200) CR-G5-29 G5-6",
-                                                                             "Ibn Gabirol - Avenue 8 - Street 36 (HR2200) CR-G5-27 G5-6",
-                                                                             "Ibn Gabirol - Avenue 4 (TA3700)  CR-G5-22 G5-4",
-                                                                             "Ibn Gabirol - Crossing North To Avenue 5 (TA3700) CR-G5-25 G5-4",
-                                                                             "New Built, Ibn Gabirol - Crossing North To Avenue 2 (TA3700) CR-G5-17  G5-4"
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 34 / Avenue 20 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Track Switching Sides North To Avenue 7 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 16 (HR2200) 0 Phases",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Einstein",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Street 24 / Avenue 11 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 12 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 8 - Street 36 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 4 (TA3700)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Crossing North To Avenue 5 (TA3700)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "New Built, Ibn Gabirol - Crossing North To Avenue 2 (TA3700)",
+                                                                                 "section":  "12A"
+                                                                             }
                                                                          ]
                                                  }
                                },
@@ -10498,10 +11491,16 @@ const PROGRESS_DATA = {
                                                     "completed":  1,
                                                     "inProgress":  1,
                                                     "completedNames":  [
-                                                                           "Holon Depot - Vehicle Enterance CR-G1-2 G1-1"
+                                                                           {
+                                                                               "name":  "Holon Depot - Vehicle Enterance",
+                                                                               "section":  "1A"
+                                                                           }
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                            {
+                                                                                "name":  "Holon Depot - Train Enterance",
+                                                                                "section":  "1A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -10562,8 +11561,14 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Yerush Blvd - exit to HaMerkava CR-G1-5",
-                                                                            "Yerush Blvd - HaBanai CR-G1-7"
+                                                                            {
+                                                                                "name":  "Yerush Blvd - exit to HaMerkava",
+                                                                                "section":  "2A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Yerush Blvd - HaBanai",
+                                                                                "section":  "2A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -10627,12 +11632,24 @@ const PROGRESS_DATA = {
                                                     "completed":  1,
                                                     "inProgress":  3,
                                                     "completedNames":  [
-                                                                           "Yerush Blvd - Betsalel CR-G1-11"
+                                                                           {
+                                                                               "name":  "Yerush Blvd - Betsalel",
+                                                                               "section":  "3A"
+                                                                           }
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
-                                                                            "Yerush Blvd - Mohiliver CR-G1-13",
-                                                                            "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel CR-G1-26"
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Moshe Sharet",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Mohiliver",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel",
+                                                                                "section":  "3A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -10696,11 +11713,20 @@ const PROGRESS_DATA = {
                                                     "completed":  1,
                                                     "inProgress":  2,
                                                     "completedNames":  [
-                                                                           "A Bar - Shaike Dan CR-G2-11"
+                                                                           {
+                                                                               "name":  "A Bar - Shaike Dan",
+                                                                               "section":  "4A"
+                                                                           }
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2",
-                                                                            "A Bar - Rozhanski CR-G2-08"
+                                                                            {
+                                                                                "name":  "Moshe Dayan - Altalena (Israel Railway Parking)",
+                                                                                "section":  "4A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "A Bar - Rozhanski",
+                                                                                "section":  "4A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -10764,13 +11790,28 @@ const PROGRESS_DATA = {
                                                     "completed":  2,
                                                     "inProgress":  3,
                                                     "completedNames":  [
-                                                                           "Barkat - Lavon CR-G2-16",
-                                                                           "Barkat - Porat (Feher) CR-G2-18"
+                                                                           {
+                                                                               "name":  "Barkat - Lavon",
+                                                                               "section":  "5A"
+                                                                           },
+                                                                           {
+                                                                               "name":  "Barkat - Porat (Feher)",
+                                                                               "section":  "5A"
+                                                                           }
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Erlich - Laskov CR-G2-12",
-                                                                            "Barkat - Wallanberg CR-G2-17",
-                                                                            "Shenkar - Khoma u-Migdal CR-G2-23"
+                                                                            {
+                                                                                "name":  "Erlich - Laskov",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Wallanberg",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Shenkar - Khoma u-Migdal",
+                                                                                "section":  "5A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -10837,8 +11878,14 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Ben Zvi - Gitit CR-G3-1",
-                                                                            "Har Tsiyon - Hachmei Israel CR-G3-4"
+                                                                            {
+                                                                                "name":  "Ben Zvi - Gitit",
+                                                                                "section":  "6A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Har Tsiyon - Hachmei Israel",
+                                                                                "section":  "6A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -10936,7 +11983,10 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Einstein - Levi Eshkol CR-G4-1 G4-3"
+                                                                            {
+                                                                                "name":  "Einstein - Levi Eshkol",
+                                                                                "section":  "8A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -11049,9 +12099,18 @@ const PROGRESS_DATA = {
 
                                                                         ],
                                                      "inProgressNames":  [
-                                                                             "Sheetrit - Stadium Parking - East Entrance CR-G4-18",
-                                                                             "Sheetrit - Stadium Parking - West Entrance CR-G4-17",
-                                                                             "Sports Center Parking CR-G4-15"
+                                                                             {
+                                                                                 "name":  "Sheetrit - Stadium Parking - East Entrance",
+                                                                                 "section":  "10A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Sheetrit - Stadium Parking - West Entrance",
+                                                                                 "section":  "10A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Sports Center Parking",
+                                                                                 "section":  "10A"
+                                                                             }
                                                                          ]
                                                  }
                                },
@@ -11182,23 +12241,68 @@ const PROGRESS_DATA = {
                                                      "completed":  5,
                                                      "inProgress":  10,
                                                      "completedNames":  [
-                                                                            "New build, Ibn Gabirol - Avenue 3 (TA 4444)  CR-G5-4 G5-2",
-                                                                            "New build, Ibn Gabirol - Avenue 4 (TA 4444)  CR-G5-5 G5-2",
-                                                                            "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski , CR-G5-12 G5-3",
-                                                                            "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases, CR-G5-8 G5-3",
-                                                                            "Ibn Gabirol - Avenue 9 (TA4444) / Shagal, CR-G5-10 G5-3"
+                                                                            {
+                                                                                "name":  "New build, Ibn Gabirol - Avenue 3 (TA 4444)",
+                                                                                "section":  "12A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "New build, Ibn Gabirol - Avenue 4 (TA 4444)",
+                                                                                "section":  "12A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Ibn Gabirol - Avenue 11 (TA4444) / Rodenski",
+                                                                                "section":  "12A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Ibn Gabirol - Avenue 7 (TA4444)  0 Phases",
+                                                                                "section":  "12A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Ibn Gabirol - Avenue 9 (TA4444) / Shagal",
+                                                                                "section":  "12A"
+                                                                            }
                                                                         ],
                                                      "inProgressNames":  [
-                                                                             "Ibn Gabirol - Avenue 34 / Avenue 20 (HR2200)  CR-G5-31 G5-6",
-                                                                             "Ibn Gabirol - Track Switching Sides North To Avenue 7 (HR2200) CR-G5-27.1 G5-6",
-                                                                             "Ibn Gabirol - Avenue 16 (HR2200) 0 Phases CR-G5-30 G5-6",
-                                                                             "New build, Ibn Gabirol - Einstein CR-G5-6 G5-2",
-                                                                             "Ibn Gabirol - Street 24 / Avenue 11 (HR2200)  CR-G5-32 G5-6",
-                                                                             "Ibn Gabirol - Avenue 12 (HR2200) CR-G5-29 G5-6",
-                                                                             "Ibn Gabirol - Avenue 8 - Street 36 (HR2200) CR-G5-27 G5-6",
-                                                                             "Ibn Gabirol - Avenue 4 (TA3700)  CR-G5-22 G5-4",
-                                                                             "Ibn Gabirol - Crossing North To Avenue 5 (TA3700) CR-G5-25 G5-4",
-                                                                             "New Built, Ibn Gabirol - Crossing North To Avenue 2 (TA3700) CR-G5-17  G5-4"
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 34 / Avenue 20 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Track Switching Sides North To Avenue 7 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 16 (HR2200) 0 Phases",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "New build, Ibn Gabirol - Einstein",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Street 24 / Avenue 11 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 12 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 8 - Street 36 (HR2200)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Avenue 4 (TA3700)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "Ibn Gabirol - Crossing North To Avenue 5 (TA3700)",
+                                                                                 "section":  "12A"
+                                                                             },
+                                                                             {
+                                                                                 "name":  "New Built, Ibn Gabirol - Crossing North To Avenue 2 (TA3700)",
+                                                                                 "section":  "12A"
+                                                                             }
                                                                          ]
                                                  }
                                },
@@ -11262,10 +12366,16 @@ const PROGRESS_DATA = {
                                                     "completed":  1,
                                                     "inProgress":  1,
                                                     "completedNames":  [
-                                                                           "Holon Depot - Vehicle Enterance CR-G1-2 G1-1"
+                                                                           {
+                                                                               "name":  "Holon Depot - Vehicle Enterance",
+                                                                               "section":  "1A"
+                                                                           }
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Holon Depot - Train Enterance CR-G1-3 G1-1"
+                                                                            {
+                                                                                "name":  "Holon Depot - Train Enterance",
+                                                                                "section":  "1A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -11326,8 +12436,14 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Yerush Blvd - exit to HaMerkava CR-G1-5",
-                                                                            "Yerush Blvd - HaBanai CR-G1-7"
+                                                                            {
+                                                                                "name":  "Yerush Blvd - exit to HaMerkava",
+                                                                                "section":  "2A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Yerush Blvd - HaBanai",
+                                                                                "section":  "2A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -11391,12 +12507,24 @@ const PROGRESS_DATA = {
                                                     "completed":  1,
                                                     "inProgress":  3,
                                                     "completedNames":  [
-                                                                           "Yerush Blvd - Betsalel CR-G1-11"
+                                                                           {
+                                                                               "name":  "Yerush Blvd - Betsalel",
+                                                                               "section":  "3A"
+                                                                           }
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Yerush Blvd - Moshe Sharet CR-G1-9",
-                                                                            "Yerush Blvd - Mohiliver CR-G1-13",
-                                                                            "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel CR-G1-26"
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Moshe Sharet",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Yerush Blvd - Mohiliver",
+                                                                                "section":  "3A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Kugel - Levi Eshkol - Ha\u0027lohamim / Mikve Israel",
+                                                                                "section":  "3A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -11460,11 +12588,20 @@ const PROGRESS_DATA = {
                                                     "completed":  1,
                                                     "inProgress":  2,
                                                     "completedNames":  [
-                                                                           "A Bar - Shaike Dan CR-G2-11"
+                                                                           {
+                                                                               "name":  "A Bar - Shaike Dan",
+                                                                               "section":  "4A"
+                                                                           }
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Moshe Dayan - Altalena (Israel Railway Parking) CR-G2-2",
-                                                                            "A Bar - Rozhanski CR-G2-08"
+                                                                            {
+                                                                                "name":  "Moshe Dayan - Altalena (Israel Railway Parking)",
+                                                                                "section":  "4A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "A Bar - Rozhanski",
+                                                                                "section":  "4A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -11528,13 +12665,28 @@ const PROGRESS_DATA = {
                                                     "completed":  2,
                                                     "inProgress":  3,
                                                     "completedNames":  [
-                                                                           "Barkat - Lavon CR-G2-16",
-                                                                           "Barkat - Porat (Feher) CR-G2-18"
+                                                                           {
+                                                                               "name":  "Barkat - Lavon",
+                                                                               "section":  "5A"
+                                                                           },
+                                                                           {
+                                                                               "name":  "Barkat - Porat (Feher)",
+                                                                               "section":  "5A"
+                                                                           }
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Erlich - Laskov CR-G2-12",
-                                                                            "Barkat - Wallanberg CR-G2-17",
-                                                                            "Shenkar - Khoma u-Migdal CR-G2-23"
+                                                                            {
+                                                                                "name":  "Erlich - Laskov",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Barkat - Wallanberg",
+                                                                                "section":  "5A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Shenkar - Khoma u-Migdal",
+                                                                                "section":  "5A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -11601,8 +12753,14 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Ben Zvi - Gitit CR-G3-1",
-                                                                            "Har Tsiyon - Hachmei Israel CR-G3-4"
+                                                                            {
+                                                                                "name":  "Ben Zvi - Gitit",
+                                                                                "section":  "6A"
+                                                                            },
+                                                                            {
+                                                                                "name":  "Har Tsiyon - Hachmei Israel",
+                                                                                "section":  "6A"
+                                                                            }
                                                                         ]
                                                 }
                               },
@@ -11700,7 +12858,10 @@ const PROGRESS_DATA = {
 
                                                                        ],
                                                     "inProgressNames":  [
-                                                                            "Einstein - Levi Eshkol CR-G4-1 G4-3"
+                                                                            {
+                                                                                "name":  "Einstein - Levi Eshkol",
+                                                                                "section":  "8A"
+                                                                            }
                                                                         ]
                                                 }
                               },
