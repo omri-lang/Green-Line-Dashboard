@@ -720,7 +720,10 @@
     DISCIPLINES.forEach(d => { totals[d.key] = { actual: 0, planned: 0 }; });
     let junctionsTotal = 0, junctionsCompleted = 0, junctionsInProgress = 0;
     const junctionsCompletedNames = [], junctionsInProgressNames = [];
-    const lots = lotFilter ? lotFilter.filter(lot => data[lot]) : Object.keys(data);
+    // Iterate lots in route order (1A->12A), not object-key order - Object.keys(data)
+    // follows the JSON's alphabetical string sort ("10A","11A","12A","1A","2A",...),
+    // which scrambled the junction name lists' section order.
+    const lots = (lotFilter || LOT_ORDER).filter(lot => data[lot]);
     lots.forEach(lot => {
       const disc = data[lot].disciplines || {};
       Object.keys(disc).forEach(key => {
