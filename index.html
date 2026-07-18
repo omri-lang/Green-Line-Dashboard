@@ -132,7 +132,36 @@
     opacity: 0.9;
     pointer-events: none;
   }
-  .summary-card h2 { position: relative; z-index: 1; margin: 0 0 16px; font-size: 18px; color: var(--text-primary); font-weight: 700; }
+  .summary-card h2 { position: relative; z-index: 1; margin: 0; font-size: 18px; color: var(--text-primary); font-weight: 700; }
+  .summary-card .card-header-row { margin: 0 0 16px; }
+
+  .card-header-row {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .card-collapse-btn {
+    background: var(--surface-2);
+    border: 1px solid var(--border-soft);
+    border-radius: 8px;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--text-secondary);
+    flex-shrink: 0;
+    padding: 0;
+    transition: background .18s ease, border-color .18s ease;
+  }
+  .card-collapse-btn:hover { background: var(--accent-soft); }
+  .card-collapse-btn svg { width: 14px; height: 14px; transition: transform .25s ease; }
+  .collapsed .card-collapse-btn svg { transform: rotate(-90deg); }
+  .collapsed .card-body { display: none; }
   .summary-main {
     display: flex;
     align-items: center;
@@ -239,10 +268,11 @@
   }
   .map-card h2, .side-card h2 {
     font-size: 18px;
-    margin: 0 0 4px;
+    margin: 0;
     color: var(--text-primary);
     font-weight: 700;
   }
+  .map-card .card-header-row, .side-card .card-header-row { margin: 0 0 4px; }
   .card-hint { font-size: 12.5px; color: var(--muted); margin: 0 0 14px; }
 
   .map-wrap { position: relative; width: 100%; }
@@ -457,7 +487,7 @@
 <body>
 
 <h1>מפת התקדמות – קו ירוק</h1>
-<div class="subtitle">אחוז ביצוע מצטבר לפי מקטע ולפי דיסציפלינה, מתוך דוח הביצוע הדו-שבועי. לחצו על מקטע במפה או בטבלה לפירוט מלא.</div>
+<div class="subtitle">אחוז ביצוע מצטבר המתאר את המצב הנוכחי בפרויקט</div>
 
 <div class="toolbar">
   <label for="dateSelect">תאריך דיווח:</label>
@@ -470,145 +500,201 @@
 </div>
 
 <div class="summary-card">
-  <h2>התקדמות כוללת בפרויקט</h2>
-  <div class="summary-main">
-    <div class="summary-hero">
-      <svg class="summary-ring" viewBox="0 0 160 160" aria-hidden="true">
-        <circle class="ring-track" cx="80" cy="80" r="68"/>
-        <circle class="ring-fill" id="summaryRingFill" cx="80" cy="80" r="68" transform="rotate(-90 80 80)"/>
-      </svg>
-      <div class="summary-hero-label">
-        <div class="summary-pct" id="summaryPct">0%</div>
-      </div>
-    </div>
-    <div class="summary-disciplines" id="summaryDisciplines"></div>
+  <div class="card-header-row">
+    <h2>התקדמות כוללת בפרויקט</h2>
+    <button class="card-collapse-btn" onclick="toggleCard(this)" aria-label="כיווץ/הרחבה" title="כיווץ/הרחבה">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+    </button>
   </div>
-  <div class="summary-junctions" id="summaryJunctions"></div>
+  <div class="card-body">
+    <div class="summary-main">
+      <div class="summary-hero">
+        <svg class="summary-ring" viewBox="0 0 160 160" aria-hidden="true">
+          <circle class="ring-track" cx="80" cy="80" r="68"/>
+          <circle class="ring-fill" id="summaryRingFill" cx="80" cy="80" r="68" transform="rotate(-90 80 80)"/>
+        </svg>
+        <div class="summary-hero-label">
+          <div class="summary-pct" id="summaryPct">0%</div>
+        </div>
+      </div>
+      <div class="summary-disciplines" id="summaryDisciplines"></div>
+    </div>
+    <div class="summary-junctions" id="summaryJunctions"></div>
+  </div>
 </div>
 
 <div class="summary-card">
-  <h2>דרום (EPO) — מקטעים 1A–6A</h2>
-  <div class="summary-main">
-    <div class="summary-hero">
-      <svg class="summary-ring" viewBox="0 0 160 160" aria-hidden="true">
-        <circle class="ring-track" cx="80" cy="80" r="68"/>
-        <circle class="ring-fill" id="summarySouthRingFill" cx="80" cy="80" r="68" transform="rotate(-90 80 80)"/>
-      </svg>
-      <div class="summary-hero-label">
-        <div class="summary-pct" id="summarySouthPct">0%</div>
-      </div>
-    </div>
-    <div class="summary-disciplines" id="summarySouthDisciplines"></div>
+  <div class="card-header-row">
+    <h2>דרום (EPO) — מקטעים 1A–6A</h2>
+    <button class="card-collapse-btn" onclick="toggleCard(this)" aria-label="כיווץ/הרחבה" title="כיווץ/הרחבה">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+    </button>
   </div>
-  <div class="summary-junctions" id="summarySouthJunctions"></div>
+  <div class="card-body">
+    <div class="summary-main">
+      <div class="summary-hero">
+        <svg class="summary-ring" viewBox="0 0 160 160" aria-hidden="true">
+          <circle class="ring-track" cx="80" cy="80" r="68"/>
+          <circle class="ring-fill" id="summarySouthRingFill" cx="80" cy="80" r="68" transform="rotate(-90 80 80)"/>
+        </svg>
+        <div class="summary-hero-label">
+          <div class="summary-pct" id="summarySouthPct">0%</div>
+        </div>
+      </div>
+      <div class="summary-disciplines" id="summarySouthDisciplines"></div>
+    </div>
+    <div class="summary-junctions" id="summarySouthJunctions"></div>
+  </div>
 </div>
 
 <div class="summary-card">
-  <h2>צפון — מקטעים 7A–12A</h2>
-  <div class="summary-main">
-    <div class="summary-hero">
-      <svg class="summary-ring" viewBox="0 0 160 160" aria-hidden="true">
-        <circle class="ring-track" cx="80" cy="80" r="68"/>
-        <circle class="ring-fill" id="summaryNorthRingFill" cx="80" cy="80" r="68" transform="rotate(-90 80 80)"/>
-      </svg>
-      <div class="summary-hero-label">
-        <div class="summary-pct" id="summaryNorthPct">0%</div>
-      </div>
-    </div>
-    <div class="summary-disciplines" id="summaryNorthDisciplines"></div>
+  <div class="card-header-row">
+    <h2>צפון — מקטעים 7A–12A</h2>
+    <button class="card-collapse-btn" onclick="toggleCard(this)" aria-label="כיווץ/הרחבה" title="כיווץ/הרחבה">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+    </button>
   </div>
-  <div class="summary-junctions" id="summaryNorthJunctions"></div>
+  <div class="card-body">
+    <div class="summary-main">
+      <div class="summary-hero">
+        <svg class="summary-ring" viewBox="0 0 160 160" aria-hidden="true">
+          <circle class="ring-track" cx="80" cy="80" r="68"/>
+          <circle class="ring-fill" id="summaryNorthRingFill" cx="80" cy="80" r="68" transform="rotate(-90 80 80)"/>
+        </svg>
+        <div class="summary-hero-label">
+          <div class="summary-pct" id="summaryNorthPct">0%</div>
+        </div>
+      </div>
+      <div class="summary-disciplines" id="summaryNorthDisciplines"></div>
+    </div>
+    <div class="summary-junctions" id="summaryNorthJunctions"></div>
+  </div>
 </div>
 
 <div class="side-card" style="margin-bottom:22px;">
-  <h2>דיפויים</h2>
-  <p class="card-hint">מבנים וחצר דיפו חולון והרצליה</p>
-  <table id="depotTable">
-    <thead>
-      <tr><th>דיפו</th><th>ביצוע</th><th></th></tr>
-    </thead>
-    <tbody id="depotTableBody"></tbody>
-  </table>
+  <div class="card-header-row">
+    <h2>דיפויים</h2>
+    <button class="card-collapse-btn" onclick="toggleCard(this)" aria-label="כיווץ/הרחבה" title="כיווץ/הרחבה">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+    </button>
+  </div>
+  <div class="card-body">
+    <p class="card-hint">מבנים וחצר דיפו חולון והרצליה</p>
+    <table id="depotTable">
+      <thead>
+        <tr><th>דיפו</th><th>ביצוע</th><th></th></tr>
+      </thead>
+      <tbody id="depotTableBody"></tbody>
+    </table>
+  </div>
 </div>
 
 <div class="side-card" style="margin-bottom:22px;">
-  <h2>TTR</h2>
-  <p class="card-hint">ביצוע לפי מבנה TTR</p>
-  <table id="ttrTable">
-    <thead>
-      <tr><th>TTR</th><th>ביצוע</th><th></th></tr>
-    </thead>
-    <tbody id="ttrTableBody"></tbody>
-  </table>
+  <div class="card-header-row">
+    <h2>TTR</h2>
+    <button class="card-collapse-btn" onclick="toggleCard(this)" aria-label="כיווץ/הרחבה" title="כיווץ/הרחבה">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+    </button>
+  </div>
+  <div class="card-body">
+    <p class="card-hint">ביצוע לפי מבנה TTR</p>
+    <table id="ttrTable">
+      <thead>
+        <tr><th>TTR</th><th>ביצוע</th><th></th></tr>
+      </thead>
+      <tbody id="ttrTableBody"></tbody>
+    </table>
+  </div>
 </div>
 
 <div class="layout">
   <div class="map-card">
-    <h2>מפת מקטעים</h2>
-    <p class="card-hint">12 מקטעי קו, 1A–12A · לחיצה על מקטע מציגה פירוט לפי דיסציפלינה</p>
-    <div class="map-wrap">
-      <svg id="routeMap" viewBox="0 0 960 406" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="מפת מסלול קו ירוק, מחולקת ל-12 מקטעים">
-        <defs>
-          <filter id="lotShadow" x="-60%" y="-60%" width="220%" height="220%">
-            <feDropShadow dx="0" dy="1.5" stdDeviation="2.2" flood-color="#0e2841" flood-opacity="0.30"/>
-          </filter>
-          <pattern id="nodataHatch" width="8" height="8" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
-            <rect width="8" height="8" fill="var(--nodata)"/>
-            <line x1="0" y1="0" x2="0" y2="8" stroke="var(--surface)" stroke-width="4"/>
-          </pattern>
-        </defs>
-
-        <image href="דוגמאות למפות/מפת קו ירוק - ירוק אחיד.png" x="0" y="0" width="960" height="406" preserveAspectRatio="none"/>
-
-        <g class="lot-markers">
-          <g class="lot-marker" data-lot="1A"><circle class="lot-anchor" cx="35"  cy="285" r="4"/></g>
-          <g class="lot-marker" data-lot="2A"><circle class="lot-anchor" cx="112" cy="205" r="4"/></g>
-          <g class="lot-marker" data-lot="3A"><circle class="lot-anchor" cx="275" cy="150" r="4"/></g>
-          <g class="lot-marker" data-lot="4A"><circle class="lot-anchor" cx="50"  cy="140" r="4"/></g>
-          <g class="lot-marker" data-lot="5A"><circle class="lot-anchor" cx="161" cy="145" r="4"/></g>
-          <g class="lot-marker" data-lot="6A"><circle class="lot-anchor" cx="345" cy="65"  r="4"/></g>
-          <g class="lot-marker" data-lot="7A"><circle class="lot-anchor" cx="460" cy="150" r="4"/></g>
-          <g class="lot-marker" data-lot="8A"><circle class="lot-anchor" cx="600" cy="65"  r="4"/></g>
-          <g class="lot-marker" data-lot="9A"><circle class="lot-anchor" cx="568" cy="197" r="4"/></g>
-          <g class="lot-marker" data-lot="10A"><circle class="lot-anchor" cx="575" cy="295" r="4"/></g>
-          <g class="lot-marker" data-lot="11A"><circle class="lot-anchor" cx="735" cy="345" r="4"/></g>
-          <g class="lot-marker" data-lot="12A"><circle class="lot-anchor" cx="790" cy="175" r="4"/></g>
-        </g>
-      </svg>
+    <div class="card-header-row">
+      <h2>מפת מקטעים</h2>
+      <button class="card-collapse-btn" onclick="toggleCard(this)" aria-label="כיווץ/הרחבה" title="כיווץ/הרחבה">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+      </button>
     </div>
-    <div class="legend">
-      <span>0%</span>
-      <div class="ramp"></div>
-      <span>100%</span>
-      <span style="margin-inline-start:14px;"><span class="nodata-swatch"></span>ללא נתון בדוח זה</span>
-    </div>
-    <div class="note">
-      אחוז לכל מקטע מחושב על פני הדיסציפלינות הרלוונטיות לאותו מקטע, מתוך דוח הביצוע הדו-שבועי.
+    <div class="card-body">
+      <p class="card-hint">1A-12A. לחיצה על מקטע מציגה פירוט לפי דיסציפלינה</p>
+      <div class="map-wrap">
+        <svg id="routeMap" viewBox="0 0 960 406" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="מפת מסלול קו ירוק, מחולקת ל-12 מקטעים">
+          <defs>
+            <filter id="lotShadow" x="-60%" y="-60%" width="220%" height="220%">
+              <feDropShadow dx="0" dy="1.5" stdDeviation="2.2" flood-color="#0e2841" flood-opacity="0.30"/>
+            </filter>
+            <pattern id="nodataHatch" width="8" height="8" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+              <rect width="8" height="8" fill="var(--nodata)"/>
+              <line x1="0" y1="0" x2="0" y2="8" stroke="var(--surface)" stroke-width="4"/>
+            </pattern>
+          </defs>
+
+          <image href="דוגמאות למפות/מפת קו ירוק - ירוק אחיד.png" x="0" y="0" width="960" height="406" preserveAspectRatio="none"/>
+
+          <g class="lot-markers">
+            <g class="lot-marker" data-lot="1A"><circle class="lot-anchor" cx="35"  cy="285" r="4"/></g>
+            <g class="lot-marker" data-lot="2A"><circle class="lot-anchor" cx="112" cy="205" r="4"/></g>
+            <g class="lot-marker" data-lot="3A"><circle class="lot-anchor" cx="275" cy="150" r="4"/></g>
+            <g class="lot-marker" data-lot="4A"><circle class="lot-anchor" cx="50"  cy="140" r="4"/></g>
+            <g class="lot-marker" data-lot="5A"><circle class="lot-anchor" cx="161" cy="145" r="4"/></g>
+            <g class="lot-marker" data-lot="6A"><circle class="lot-anchor" cx="345" cy="65"  r="4"/></g>
+            <g class="lot-marker" data-lot="7A"><circle class="lot-anchor" cx="460" cy="150" r="4"/></g>
+            <g class="lot-marker" data-lot="8A"><circle class="lot-anchor" cx="600" cy="65"  r="4"/></g>
+            <g class="lot-marker" data-lot="9A"><circle class="lot-anchor" cx="568" cy="197" r="4"/></g>
+            <g class="lot-marker" data-lot="10A"><circle class="lot-anchor" cx="575" cy="295" r="4"/></g>
+            <g class="lot-marker" data-lot="11A"><circle class="lot-anchor" cx="735" cy="345" r="4"/></g>
+            <g class="lot-marker" data-lot="12A"><circle class="lot-anchor" cx="790" cy="175" r="4"/></g>
+          </g>
+        </svg>
+      </div>
+      <div class="legend">
+        <span>0%</span>
+        <div class="ramp"></div>
+        <span>100%</span>
+        <span style="margin-inline-start:14px;"><span class="nodata-swatch"></span>ללא נתון בדוח זה</span>
+      </div>
+      <div class="note">
+        אחוז לכל מקטע מחושב על פני הדיסציפלינות הרלוונטיות לאותו מקטע, מתוך דוח הביצוע הדו-שבועי.
+      </div>
     </div>
   </div>
 
   <div class="side-card">
-    <h2>טבלת מקטעים</h2>
-    <p class="card-hint">אחוז ביצוע כולל לפי מקטע</p>
-    <table id="lotTable">
-      <thead>
-        <tr><th>מקטע</th><th>אורך (מ')</th><th>ביצוע</th><th></th></tr>
-      </thead>
-      <tbody id="lotTableBody"></tbody>
-    </table>
+    <div class="card-header-row">
+      <h2>טבלת מקטעים</h2>
+      <button class="card-collapse-btn" onclick="toggleCard(this)" aria-label="כיווץ/הרחבה" title="כיווץ/הרחבה">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+      </button>
+    </div>
+    <div class="card-body">
+      <p class="card-hint">אחוז ביצוע כולל לפי מקטע</p>
+      <table id="lotTable">
+        <thead>
+          <tr><th>מקטע</th><th>אורך (מ')</th><th>ביצוע</th><th></th></tr>
+        </thead>
+        <tbody id="lotTableBody"></tbody>
+      </table>
+    </div>
   </div>
 </div>
 
 <div class="side-card" style="margin-top:22px;">
-  <h2>תחנות</h2>
-  <p class="card-hint">ביצוע לפי תחנה, מתוך גיליון ה-Stops · שם התחנה בעברית ומקטע, לפי טבלת התחנות</p>
-  <div style="max-height:520px; overflow-y:auto;">
-    <table id="stopsTable">
-      <thead>
-        <tr><th>תחנה</th><th>מקטע</th><th>ביצוע</th><th></th></tr>
-      </thead>
-      <tbody id="stopsTableBody"></tbody>
-    </table>
+  <div class="card-header-row">
+    <h2>תחנות</h2>
+    <button class="card-collapse-btn" onclick="toggleCard(this)" aria-label="כיווץ/הרחבה" title="כיווץ/הרחבה">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+    </button>
+  </div>
+  <div class="card-body">
+    <p class="card-hint">ביצוע תחנות</p>
+    <div style="max-height:520px; overflow-y:auto;">
+      <table id="stopsTable">
+        <thead>
+          <tr><th>תחנה</th><th>מקטע</th><th>ביצוע</th><th></th></tr>
+        </thead>
+        <tbody id="stopsTableBody"></tbody>
+      </table>
+    </div>
   </div>
 </div>
 
@@ -618,6 +704,11 @@
 
 <script src="progress_data.js?v=20260716-1"></script>
 <script>
+  function toggleCard(btn) {
+    const card = btn.closest(".summary-card, .side-card, .map-card");
+    if (card) card.classList.toggle("collapsed");
+  }
+
   const LOT_ORDER = ["1A","2A","3A","4A","5A","6A","7A","8A","9A","10A","11A","12A"];
 
   const DISCIPLINES = [
@@ -1216,7 +1307,7 @@
           <button class="panel-close" id="panelCloseBtn">✕</button>
         </div>
         <div class="panel-body">
-          <div class="note" style="margin:0 0 10px;">מבנים (חפירה, שלד, מערכות מבנה, מערכות רכבתיות) — ממוצע משוקלל לפי היקף כל מבנה מתוך גיליון ה-Buildings. לחצו על שורה לפירוט לפי מבנה</div>
+          <div class="note" style="margin:0 0 10px;">מבנים. לחצו על שורה לפירוט לפי מבנה</div>
           ${buildingRows}
           <div class="note" style="margin:14px 0 10px;">פירוט ביצוע לפי דיסציפלינה</div>
           ${yardRows}
