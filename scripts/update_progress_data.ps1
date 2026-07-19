@@ -26,6 +26,15 @@ $TARGET_DISCIPLINES = @(
   "OHLE Poles Installation"
 )
 
+# "CW Track surfacing" (ריצוף) - same block layout as the 8 above (found via the
+# same "Execution from Cumulative (%)" header match), but per Omri's request
+# (2026-07-19) it's shown only as an extra row in each section's detail panel,
+# not folded into the section's own headline % (map color / table "ביצוע"
+# column), so it's kept in its own list rather than added to $TARGET_DISCIPLINES.
+$EXTRA_DISCIPLINES = @(
+  "CW Track surfacing"
+)
+
 # Section 7A is a bored tunnel, reported on its own "Tunnels 7A" sheet with a
 # different (smaller) set of disciplines and its own raw column names. Map
 # each raw sheet name to the canonical discipline key used above, so 7A's
@@ -158,13 +167,14 @@ $YARD_DEPOT_MAP = [ordered]@{
 # this Hebrew/section list is authoritative; any station the Stops sheet
 # doesn't have under a matching English name is still shown, at 0%.
 $STOPS_GROUP_LABELS = [ordered]@{
-  location  = "Location"
-  name      = "Name"
-  general   = "Stops - General"
-  secondary = "Secondary Routing and Manholes"
-  cslm      = "CSLM Casting"
-  sig       = "SIG Stops equipment installation"
-  com       = "COM Equipment installation & Testing"
+  location   = "Location"
+  name       = "Name"
+  general    = "Stops - General"
+  secondary  = "Secondary Routing and Manholes"
+  cslm       = "CSLM Casting"
+  sig        = "SIG Stops equipment installation"
+  com        = "COM Equipment installation & Testing"
+  surfacing  = "CW Station - Platform Surfacing"
 }
 
 $STOPS_MASTER_LIST = @(
@@ -262,6 +272,16 @@ function Get-StopsData($ws) {
     return 0
   }
 
+  # Same as Get-StopPct but returns $null (not 0) when there's no numeric value -
+  # used for "CW Station - Platform Surfacing" so the UI can show "אין נתון"
+  # instead of implying a genuine 0% for stations the report doesn't cover.
+  function Get-StopPctOrNull($ws, $r, $cols, $key) {
+    if (-not $cols.ContainsKey($key)) { return $null }
+    $v = $ws.Cells.Item($r, $cols[$key]).Value2
+    if ($v -is [double]) { return [math]::Round(100.0 * $v, 1) }
+    return $null
+  }
+
   $rawByNorm = @{}
   for ($r = 5; $r -le $maxRow; $r++) {
     $name = $ws.Cells.Item($r, $cols["name"]).Value2
@@ -274,18 +294,21 @@ function Get-StopsData($ws) {
     $cslm      = Get-StopPct $ws $r $cols "cslm"
     $sig       = Get-StopPct $ws $r $cols "sig"
     $com       = Get-StopPct $ws $r $cols "com"
+    $surfacing = Get-StopPctOrNull $ws $r $cols "surfacing"
 
     # Flat, equally-weighted average across the 4 discipline percentages (each
     # weighted 1/4) - per Omri's request, replacing Excel's own "Stops -
     # General" column (a differently-weighted formula) as this station's
     # headline %, so it matches the average of the 4 rows shown in the detail
-    # panel.
+    # panel. "surfacing" (added 2026-07-19) is shown as its own extra row in
+    # the detail panel and deliberately left out of this average.
     $entry = @{
       overall   = [math]::Round((($secondary + $cslm + $sig + $com) / 4.0), 1)
       secondary = $secondary
       cslm      = $cslm
       sig       = $sig
       com       = $com
+      surfacing = $surfacing
     }
     $rawByNorm[(Normalize-StopName $name.Trim())] = $entry
   }
@@ -296,10 +319,10 @@ function Get-StopsData($ws) {
     $raw = $rawByNorm[$norm]
     if ($raw) {
       $pct = $raw.overall
-      $details = [ordered]@{ secondary = $raw.secondary; cslm = $raw.cslm; sig = $raw.sig; com = $raw.com }
+      $details = [ordered]@{ secondary = $raw.secondary; cslm = $raw.cslm; sig = $raw.sig; com = $raw.com; surfacing = $raw.surfacing }
     } else {
       $pct = 0
-      $details = [ordered]@{ secondary = 0; cslm = 0; sig = 0; com = 0 }
+      $details = [ordered]@{ secondary = 0; cslm = 0; sig = 0; com = 0; surfacing = $null }
     }
     $out += [ordered]@{ en = $m.en; he = $m.he; section = $m.section; pct = $pct; details = $details }
   }
@@ -534,8 +557,9 @@ foreach ($f in $files) {
     # this script).
     $mainLookup = @{}
     foreach ($t in $TARGET_DISCIPLINES) { $mainLookup[$t] = $t }
+    foreach ($t in $EXTRA_DISCIPLINES) { $mainLookup[$t] = $t }
     $discBlocks = Find-DisciplineBlocks $ws $maxCol $mainLookup
-    foreach ($target in $TARGET_DISCIPLINES) {
+    foreach ($target in ($TARGET_DISCIPLINES + $EXTRA_DISCIPLINES)) {
       if (-not $discBlocks.ContainsKey($target)) {
         Write-Output "WARN $($f.Name): discipline not found on sheet '$sheetName': $target"
       }
@@ -587,7 +611,7 @@ foreach ($f in $files) {
       $sumPlannedAll = 0.0
 
       if ($lotDiscAgg.ContainsKey($loc)) {
-        foreach ($target in $TARGET_DISCIPLINES) {
+        foreach ($target in ($TARGET_DISCIPLINES + $EXTRA_DISCIPLINES)) {
           if (-not $lotDiscAgg[$loc].ContainsKey($target)) { continue }
           $entry = $lotDiscAgg[$loc][$target]
           if ($entry.sumPlanned -le 0) { continue }
@@ -597,8 +621,13 @@ foreach ($f in $files) {
             planned = [math]::Round($entry.sumPlanned, 1)
             unit    = $(if ($entry.unit) { $entry.unit } else { "" })
           }
-          $sumActualAll += $entry.sumActual
-          $sumPlannedAll += $entry.sumPlanned
+          # $EXTRA_DISCIPLINES (CW Track surfacing) is shown as its own detail-panel
+          # row but deliberately excluded from the section's headline % - see the
+          # $EXTRA_DISCIPLINES comment above.
+          if ($TARGET_DISCIPLINES -contains $target) {
+            $sumActualAll += $entry.sumActual
+            $sumPlannedAll += $entry.sumPlanned
+          }
         }
       }
 
