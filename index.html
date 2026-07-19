@@ -607,6 +607,26 @@
   </div>
 </div>
 
+<div class="side-card" style="margin-bottom:22px;">
+  <div class="card-header-row">
+    <h2>תחנות</h2>
+    <button class="card-collapse-btn" onclick="toggleCard(this)" aria-label="כיווץ/הרחבה" title="כיווץ/הרחבה">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+    </button>
+  </div>
+  <div class="card-body">
+    <p class="card-hint">ביצוע תחנות</p>
+    <div style="max-height:520px; overflow-y:auto;">
+      <table id="stopsTable">
+        <thead>
+          <tr><th>תחנה</th><th>מקטע</th><th>ביצוע</th><th></th></tr>
+        </thead>
+        <tbody id="stopsTableBody"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
 <div class="layout">
   <div class="map-card">
     <div class="card-header-row">
@@ -678,31 +698,11 @@
   </div>
 </div>
 
-<div class="side-card" style="margin-top:22px;">
-  <div class="card-header-row">
-    <h2>תחנות</h2>
-    <button class="card-collapse-btn" onclick="toggleCard(this)" aria-label="כיווץ/הרחבה" title="כיווץ/הרחבה">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
-    </button>
-  </div>
-  <div class="card-body">
-    <p class="card-hint">ביצוע תחנות</p>
-    <div style="max-height:520px; overflow-y:auto;">
-      <table id="stopsTable">
-        <thead>
-          <tr><th>תחנה</th><th>מקטע</th><th>ביצוע</th><th></th></tr>
-        </thead>
-        <tbody id="stopsTableBody"></tbody>
-      </table>
-    </div>
-  </div>
-</div>
-
 <div class="backdrop" id="backdrop">
   <div class="panel" role="dialog" aria-modal="true" id="panel"></div>
 </div>
 
-<script src="progress_data.js?v=20260716-1"></script>
+<script src="progress_data.js?v=20260719-1"></script>
 <script>
   function toggleCard(btn) {
     const card = btn.closest(".summary-card, .side-card, .map-card");

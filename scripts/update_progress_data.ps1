@@ -270,12 +270,22 @@ function Get-StopsData($ws) {
     $loc = if ($loc -is [string]) { $loc.Trim() } else { "" }
     if ($loc -notmatch '^\d{1,2}A$') { continue }
 
+    $secondary = Get-StopPct $ws $r $cols "secondary"
+    $cslm      = Get-StopPct $ws $r $cols "cslm"
+    $sig       = Get-StopPct $ws $r $cols "sig"
+    $com       = Get-StopPct $ws $r $cols "com"
+
+    # Flat, equally-weighted average across the 4 discipline percentages (each
+    # weighted 1/4) - per Omri's request, replacing Excel's own "Stops -
+    # General" column (a differently-weighted formula) as this station's
+    # headline %, so it matches the average of the 4 rows shown in the detail
+    # panel.
     $entry = @{
-      overall   = Get-StopPct $ws $r $cols "general"
-      secondary = Get-StopPct $ws $r $cols "secondary"
-      cslm      = Get-StopPct $ws $r $cols "cslm"
-      sig       = Get-StopPct $ws $r $cols "sig"
-      com       = Get-StopPct $ws $r $cols "com"
+      overall   = [math]::Round((($secondary + $cslm + $sig + $com) / 4.0), 1)
+      secondary = $secondary
+      cslm      = $cslm
+      sig       = $sig
+      com       = $com
     }
     $rawByNorm[(Normalize-StopName $name.Trim())] = $entry
   }

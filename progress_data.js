@@ -24423,7 +24423,7 @@ const STOPS_DATA = {
                            "en":  "Moshe Dayan",
                            "he":  "משה דיין",
                            "section":  "4A",
-                           "pct":  0,
+                           "pct":  50,
                            "details":  {
                                            "secondary":  100,
                                            "cslm":  100,
@@ -25169,7 +25169,7 @@ const STOPS_DATA = {
                            "en":  "Moshe Dayan",
                            "he":  "משה דיין",
                            "section":  "4A",
-                           "pct":  0,
+                           "pct":  50,
                            "details":  {
                                            "secondary":  100,
                                            "cslm":  100,
@@ -25915,7 +25915,7 @@ const STOPS_DATA = {
                            "en":  "Moshe Dayan",
                            "he":  "משה דיין",
                            "section":  "4A",
-                           "pct":  0,
+                           "pct":  50,
                            "details":  {
                                            "secondary":  100,
                                            "cslm":  100,
@@ -26661,7 +26661,7 @@ const STOPS_DATA = {
                            "en":  "Moshe Dayan",
                            "he":  "משה דיין",
                            "section":  "4A",
-                           "pct":  0,
+                           "pct":  50,
                            "details":  {
                                            "secondary":  100,
                                            "cslm":  100,
@@ -27407,7 +27407,7 @@ const STOPS_DATA = {
                            "en":  "Moshe Dayan",
                            "he":  "משה דיין",
                            "section":  "4A",
-                           "pct":  0,
+                           "pct":  50,
                            "details":  {
                                            "secondary":  100,
                                            "cslm":  100,
@@ -28153,7 +28153,7 @@ const STOPS_DATA = {
                            "en":  "Moshe Dayan",
                            "he":  "משה דיין",
                            "section":  "4A",
-                           "pct":  0,
+                           "pct":  50,
                            "details":  {
                                            "secondary":  100,
                                            "cslm":  100,
@@ -28707,7 +28707,7 @@ const STOPS_DATA = {
                            "en":  "Holon East",
                            "he":  "חולון מזרח",
                            "section":  "1A",
-                           "pct":  1,
+                           "pct":  3.8,
                            "details":  {
                                            "secondary":  15,
                                            "cslm":  0,
@@ -28719,7 +28719,7 @@ const STOPS_DATA = {
                            "en":  "Agricultural Center",
                            "he":  "הקריה החקלאית",
                            "section":  "1A",
-                           "pct":  6.2,
+                           "pct":  25,
                            "details":  {
                                            "secondary":  100,
                                            "cslm":  0,
@@ -28743,7 +28743,7 @@ const STOPS_DATA = {
                            "en":  "HaMerkava",
                            "he":  "המרכבה",
                            "section":  "2A",
-                           "pct":  1.1,
+                           "pct":  3.8,
                            "details":  {
                                            "secondary":  15,
                                            "cslm":  0,
@@ -28815,7 +28815,7 @@ const STOPS_DATA = {
                            "en":  "Ge\u0027ulim",
                            "he":  "גאולים",
                            "section":  "3A",
-                           "pct":  1,
+                           "pct":  3.8,
                            "details":  {
                                            "secondary":  15,
                                            "cslm":  0,
@@ -28839,7 +28839,7 @@ const STOPS_DATA = {
                            "en":  "HaMelakha",
                            "he":  "המלאכה",
                            "section":  "3A",
-                           "pct":  1,
+                           "pct":  3.8,
                            "details":  {
                                            "secondary":  15,
                                            "cslm":  0,
@@ -28899,7 +28899,7 @@ const STOPS_DATA = {
                            "en":  "Moshe Dayan",
                            "he":  "משה דיין",
                            "section":  "4A",
-                           "pct":  55.9,
+                           "pct":  50,
                            "details":  {
                                            "secondary":  100,
                                            "cslm":  100,
@@ -28947,7 +28947,7 @@ const STOPS_DATA = {
                            "en":  "Begin",
                            "he":  "בגין",
                            "section":  "5A",
-                           "pct":  0.6,
+                           "pct":  2.5,
                            "details":  {
                                            "secondary":  10,
                                            "cslm":  0,
@@ -29439,7 +29439,7 @@ const STOPS_DATA = {
                            "en":  "Zohara Leviatov",
                            "he":  "זהרה לביטוב",
                            "section":  "12A",
-                           "pct":  0.6,
+                           "pct":  2.5,
                            "details":  {
                                            "secondary":  10,
                                            "cslm":  0,
@@ -29453,7 +29453,7 @@ const STOPS_DATA = {
                            "en":  "Holon East",
                            "he":  "חולון מזרח",
                            "section":  "1A",
-                           "pct":  1,
+                           "pct":  3.8,
                            "details":  {
                                            "secondary":  15,
                                            "cslm":  0,
@@ -29465,7 +29465,7 @@ const STOPS_DATA = {
                            "en":  "Agricultural Center",
                            "he":  "הקריה החקלאית",
                            "section":  "1A",
-                           "pct":  6.2,
+                           "pct":  25,
                            "details":  {
                                            "secondary":  100,
                                            "cslm":  0,
@@ -29489,7 +29489,7 @@ const STOPS_DATA = {
                            "en":  "HaMerkava",
                            "he":  "המרכבה",
                            "section":  "2A",
-                           "pct":  1.1,
+                           "pct":  3.8,
                            "details":  {
                                            "secondary":  15,
                                            "cslm":  0,
@@ -29561,7 +29561,7 @@ const STOPS_DATA = {
                            "en":  "Ge\u0027ulim",
                            "he":  "גאולים",
                            "section":  "3A",
-                           "pct":  1,
+                           "pct":  3.8,
                            "details":  {
                                            "secondary":  15,
                                            "cslm":  0,
@@ -29585,7 +29585,7 @@ const STOPS_DATA = {
                            "en":  "HaMelakha",
                            "he":  "המלאכה",
                            "section":  "3A",
-                           "pct":  1,
+                           "pct":  3.8,
                            "details":  {
                                            "secondary":  15,
                                            "cslm":  0,
@@ -29645,7 +29645,7 @@ const STOPS_DATA = {
                            "en":  "Moshe Dayan",
                            "he":  "משה דיין",
                            "section":  "4A",
-                           "pct":  55.9,
+                           "pct":  50,
                            "details":  {
                                            "secondary":  100,
                                            "cslm":  100,
@@ -29693,7 +29693,7 @@ const STOPS_DATA = {
                            "en":  "Begin",
                            "he":  "בגין",
                            "section":  "5A",
-                           "pct":  0.6,
+                           "pct":  2.5,
                            "details":  {
                                            "secondary":  10,
                                            "cslm":  0,
@@ -30185,7 +30185,7 @@ const STOPS_DATA = {
                            "en":  "Zohara Leviatov",
                            "he":  "זהרה לביטוב",
                            "section":  "12A",
-                           "pct":  0.6,
+                           "pct":  2.5,
                            "details":  {
                                            "secondary":  10,
                                            "cslm":  0,
@@ -30199,7 +30199,7 @@ const STOPS_DATA = {
                            "en":  "Holon East",
                            "he":  "חולון מזרח",
                            "section":  "1A",
-                           "pct":  1.3,
+                           "pct":  5,
                            "details":  {
                                            "secondary":  20,
                                            "cslm":  0,
@@ -30211,7 +30211,7 @@ const STOPS_DATA = {
                            "en":  "Agricultural Center",
                            "he":  "הקריה החקלאית",
                            "section":  "1A",
-                           "pct":  6.2,
+                           "pct":  25,
                            "details":  {
                                            "secondary":  100,
                                            "cslm":  0,
@@ -30235,7 +30235,7 @@ const STOPS_DATA = {
                            "en":  "HaMerkava",
                            "he":  "המרכבה",
                            "section":  "2A",
-                           "pct":  1.5,
+                           "pct":  5,
                            "details":  {
                                            "secondary":  20,
                                            "cslm":  0,
@@ -30307,7 +30307,7 @@ const STOPS_DATA = {
                            "en":  "Ge\u0027ulim",
                            "he":  "גאולים",
                            "section":  "3A",
-                           "pct":  1.3,
+                           "pct":  5,
                            "details":  {
                                            "secondary":  20,
                                            "cslm":  0,
@@ -30331,7 +30331,7 @@ const STOPS_DATA = {
                            "en":  "HaMelakha",
                            "he":  "המלאכה",
                            "section":  "3A",
-                           "pct":  1.4,
+                           "pct":  5,
                            "details":  {
                                            "secondary":  20,
                                            "cslm":  0,
@@ -30391,7 +30391,7 @@ const STOPS_DATA = {
                            "en":  "Moshe Dayan",
                            "he":  "משה דיין",
                            "section":  "4A",
-                           "pct":  55.9,
+                           "pct":  50,
                            "details":  {
                                            "secondary":  100,
                                            "cslm":  100,
@@ -30439,7 +30439,7 @@ const STOPS_DATA = {
                            "en":  "Begin",
                            "he":  "בגין",
                            "section":  "5A",
-                           "pct":  0.9,
+                           "pct":  3.8,
                            "details":  {
                                            "secondary":  15,
                                            "cslm":  0,
@@ -30931,7 +30931,7 @@ const STOPS_DATA = {
                            "en":  "Zohara Leviatov",
                            "he":  "זהרה לביטוב",
                            "section":  "12A",
-                           "pct":  0.9,
+                           "pct":  3.8,
                            "details":  {
                                            "secondary":  15,
                                            "cslm":  0,
@@ -30945,7 +30945,7 @@ const STOPS_DATA = {
                            "en":  "Holon East",
                            "he":  "חולון מזרח",
                            "section":  "1A",
-                           "pct":  1.3,
+                           "pct":  5,
                            "details":  {
                                            "secondary":  20,
                                            "cslm":  0,
@@ -30957,7 +30957,7 @@ const STOPS_DATA = {
                            "en":  "Agricultural Center",
                            "he":  "הקריה החקלאית",
                            "section":  "1A",
-                           "pct":  6.2,
+                           "pct":  25,
                            "details":  {
                                            "secondary":  100,
                                            "cslm":  0,
@@ -30981,7 +30981,7 @@ const STOPS_DATA = {
                            "en":  "HaMerkava",
                            "he":  "המרכבה",
                            "section":  "2A",
-                           "pct":  1.5,
+                           "pct":  5,
                            "details":  {
                                            "secondary":  20,
                                            "cslm":  0,
@@ -31053,7 +31053,7 @@ const STOPS_DATA = {
                            "en":  "Ge\u0027ulim",
                            "he":  "גאולים",
                            "section":  "3A",
-                           "pct":  1.3,
+                           "pct":  5,
                            "details":  {
                                            "secondary":  20,
                                            "cslm":  0,
@@ -31077,7 +31077,7 @@ const STOPS_DATA = {
                            "en":  "HaMelakha",
                            "he":  "המלאכה",
                            "section":  "3A",
-                           "pct":  1.4,
+                           "pct":  5,
                            "details":  {
                                            "secondary":  20,
                                            "cslm":  0,
@@ -31137,7 +31137,7 @@ const STOPS_DATA = {
                            "en":  "Moshe Dayan",
                            "he":  "משה דיין",
                            "section":  "4A",
-                           "pct":  55.9,
+                           "pct":  50,
                            "details":  {
                                            "secondary":  100,
                                            "cslm":  100,
@@ -31185,7 +31185,7 @@ const STOPS_DATA = {
                            "en":  "Begin",
                            "he":  "בגין",
                            "section":  "5A",
-                           "pct":  0.9,
+                           "pct":  3.8,
                            "details":  {
                                            "secondary":  15,
                                            "cslm":  0,
@@ -31677,7 +31677,7 @@ const STOPS_DATA = {
                            "en":  "Zohara Leviatov",
                            "he":  "זהרה לביטוב",
                            "section":  "12A",
-                           "pct":  0.9,
+                           "pct":  3.8,
                            "details":  {
                                            "secondary":  15,
                                            "cslm":  0,
@@ -31691,7 +31691,7 @@ const STOPS_DATA = {
                            "en":  "Holon East",
                            "he":  "חולון מזרח",
                            "section":  "1A",
-                           "pct":  1.3,
+                           "pct":  5,
                            "details":  {
                                            "secondary":  20,
                                            "cslm":  0,
@@ -31703,7 +31703,7 @@ const STOPS_DATA = {
                            "en":  "Agricultural Center",
                            "he":  "הקריה החקלאית",
                            "section":  "1A",
-                           "pct":  6.2,
+                           "pct":  25,
                            "details":  {
                                            "secondary":  100,
                                            "cslm":  0,
@@ -31727,7 +31727,7 @@ const STOPS_DATA = {
                            "en":  "HaMerkava",
                            "he":  "המרכבה",
                            "section":  "2A",
-                           "pct":  1.5,
+                           "pct":  5,
                            "details":  {
                                            "secondary":  20,
                                            "cslm":  0,
@@ -31799,7 +31799,7 @@ const STOPS_DATA = {
                            "en":  "Ge\u0027ulim",
                            "he":  "גאולים",
                            "section":  "3A",
-                           "pct":  1.3,
+                           "pct":  5,
                            "details":  {
                                            "secondary":  20,
                                            "cslm":  0,
@@ -31823,7 +31823,7 @@ const STOPS_DATA = {
                            "en":  "HaMelakha",
                            "he":  "המלאכה",
                            "section":  "3A",
-                           "pct":  1.4,
+                           "pct":  5,
                            "details":  {
                                            "secondary":  20,
                                            "cslm":  0,
@@ -31883,7 +31883,7 @@ const STOPS_DATA = {
                            "en":  "Moshe Dayan",
                            "he":  "משה דיין",
                            "section":  "4A",
-                           "pct":  55.9,
+                           "pct":  50,
                            "details":  {
                                            "secondary":  100,
                                            "cslm":  100,
@@ -31931,7 +31931,7 @@ const STOPS_DATA = {
                            "en":  "Begin",
                            "he":  "בגין",
                            "section":  "5A",
-                           "pct":  0.9,
+                           "pct":  3.8,
                            "details":  {
                                            "secondary":  15,
                                            "cslm":  0,
@@ -32423,7 +32423,7 @@ const STOPS_DATA = {
                            "en":  "Zohara Leviatov",
                            "he":  "זהרה לביטוב",
                            "section":  "12A",
-                           "pct":  0.9,
+                           "pct":  3.8,
                            "details":  {
                                            "secondary":  15,
                                            "cslm":  0,
@@ -32437,7 +32437,7 @@ const STOPS_DATA = {
                            "en":  "Holon East",
                            "he":  "חולון מזרח",
                            "section":  "1A",
-                           "pct":  1.3,
+                           "pct":  5,
                            "details":  {
                                            "secondary":  20,
                                            "cslm":  0,
@@ -32449,7 +32449,7 @@ const STOPS_DATA = {
                            "en":  "Agricultural Center",
                            "he":  "הקריה החקלאית",
                            "section":  "1A",
-                           "pct":  6.2,
+                           "pct":  25,
                            "details":  {
                                            "secondary":  100,
                                            "cslm":  0,
@@ -32473,7 +32473,7 @@ const STOPS_DATA = {
                            "en":  "HaMerkava",
                            "he":  "המרכבה",
                            "section":  "2A",
-                           "pct":  1.5,
+                           "pct":  5,
                            "details":  {
                                            "secondary":  20,
                                            "cslm":  0,
@@ -32545,7 +32545,7 @@ const STOPS_DATA = {
                            "en":  "Ge\u0027ulim",
                            "he":  "גאולים",
                            "section":  "3A",
-                           "pct":  1.3,
+                           "pct":  5,
                            "details":  {
                                            "secondary":  20,
                                            "cslm":  0,
@@ -32569,7 +32569,7 @@ const STOPS_DATA = {
                            "en":  "HaMelakha",
                            "he":  "המלאכה",
                            "section":  "3A",
-                           "pct":  1.4,
+                           "pct":  5,
                            "details":  {
                                            "secondary":  20,
                                            "cslm":  0,
@@ -32629,7 +32629,7 @@ const STOPS_DATA = {
                            "en":  "Moshe Dayan",
                            "he":  "משה דיין",
                            "section":  "4A",
-                           "pct":  55.9,
+                           "pct":  50,
                            "details":  {
                                            "secondary":  100,
                                            "cslm":  100,
@@ -32677,7 +32677,7 @@ const STOPS_DATA = {
                            "en":  "Begin",
                            "he":  "בגין",
                            "section":  "5A",
-                           "pct":  0.9,
+                           "pct":  3.8,
                            "details":  {
                                            "secondary":  15,
                                            "cslm":  0,
@@ -33169,7 +33169,7 @@ const STOPS_DATA = {
                            "en":  "Zohara Leviatov",
                            "he":  "זהרה לביטוב",
                            "section":  "12A",
-                           "pct":  0.9,
+                           "pct":  3.8,
                            "details":  {
                                            "secondary":  15,
                                            "cslm":  0,
