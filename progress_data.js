@@ -54,7 +54,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  1630,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  1630,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  5,
@@ -121,7 +127,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  2703,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  2703,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  9,
@@ -188,7 +200,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  8034,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  8034,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  28,
@@ -278,7 +296,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  160,
                                                                                  "planned":  1360,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1360,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  2,
@@ -352,7 +376,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1480,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1480,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  4,
@@ -419,7 +449,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  5080,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  5080,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  17,
@@ -493,7 +529,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2916,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2916,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -567,7 +609,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  3717,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  3717,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  10,
@@ -645,7 +693,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2000,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2000,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -720,7 +774,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2684,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2684,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -775,7 +835,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1210,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1210,
+                                                                         "unit":  "m"
+                                                                     }
                                                   }
                               }
                    },
@@ -833,7 +899,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  1630,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  1630,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  5,
@@ -900,7 +972,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  2703,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  2703,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  9,
@@ -967,7 +1045,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  8034,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  8034,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  28,
@@ -1057,7 +1141,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  160,
                                                                                  "planned":  1120,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1120,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  2,
@@ -1131,7 +1221,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1026,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1026,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  4,
@@ -1198,7 +1294,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2609,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2609,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  17,
@@ -1272,7 +1374,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2220,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2220,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -1346,7 +1454,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2553,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2553,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  10,
@@ -1424,7 +1538,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1414,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1414,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -1499,7 +1619,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2684,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2684,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -1554,7 +1680,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1210,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1210,
+                                                                         "unit":  "m"
+                                                                     }
                                                   }
                               }
                    },
@@ -1618,7 +1750,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  1030,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  1030,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  5,
@@ -1691,7 +1829,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  1503.3,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  1503.3,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  9,
@@ -1764,7 +1908,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  4674,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  4674,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  28,
@@ -1860,7 +2010,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  160,
                                                                                  "planned":  1240,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1240,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  2,
@@ -1934,7 +2090,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1000,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1000,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  4,
@@ -2007,7 +2169,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  3040,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  3040,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  17,
@@ -2091,7 +2259,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2196,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2196,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -2171,7 +2345,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2517,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2517,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  10,
@@ -2255,7 +2435,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1280,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1280,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -2336,7 +2522,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1964,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1964,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -2391,7 +2583,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1210,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1210,
+                                                                         "unit":  "m"
+                                                                     }
                                                   }
                               }
                    },
@@ -2455,7 +2653,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  1030,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  1030,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  5,
@@ -2528,7 +2732,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  1503.3,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  1503.3,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  9,
@@ -2601,7 +2811,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  4674,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  4674,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  28,
@@ -2697,7 +2913,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  160,
                                                                                  "planned":  1240,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1240,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  2,
@@ -2771,7 +2993,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1000,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1000,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  4,
@@ -2844,7 +3072,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  3040,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  3040,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  17,
@@ -2928,7 +3162,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2196,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2196,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -3008,7 +3248,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2517,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2517,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  10,
@@ -3092,7 +3338,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1280,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1280,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -3173,7 +3425,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1964,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1964,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -3228,7 +3486,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1210,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1210,
+                                                                         "unit":  "m"
+                                                                     }
                                                   }
                               }
                    },
@@ -3292,7 +3556,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  1030,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  1440,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  5,
@@ -3365,7 +3635,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  1503.3,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  2053,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  9,
@@ -3438,7 +3714,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  4674,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  7274,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  28,
@@ -3534,7 +3816,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  160,
                                                                                  "planned":  1240,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1295,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  2,
@@ -3608,7 +3896,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1000,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1072,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  4,
@@ -3681,7 +3975,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  3040,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  4555,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  17,
@@ -3765,7 +4065,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2196,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2714,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -3845,7 +4151,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2517,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  3416,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  10,
@@ -3929,7 +4241,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1280,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1780,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -4010,7 +4328,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1964,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2334,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -4065,7 +4389,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1210,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1210,
+                                                                         "unit":  "m"
+                                                                     }
                                                   }
                               }
                    },
@@ -4129,7 +4459,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  1454,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  1440,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  5,
@@ -4205,7 +4541,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  2053,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  2053,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  9,
@@ -4278,7 +4620,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  7274,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  7274,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  28,
@@ -4374,7 +4722,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  160,
                                                                                  "planned":  1295,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1295,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  2,
@@ -4447,7 +4801,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1072,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1072,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  4,
@@ -4520,7 +4880,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  4555,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  4555,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  17,
@@ -4604,7 +4970,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2714,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2714,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -4683,7 +5055,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  3416,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  3416,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  10,
@@ -4767,7 +5145,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1780,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1780,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -4865,7 +5249,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2334,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2334,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -4920,7 +5310,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1210,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1210,
+                                                                         "unit":  "m"
+                                                                     }
                                                   }
                               }
                    },
@@ -4984,7 +5380,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  1454,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  1440,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  5,
@@ -5060,7 +5462,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  2053,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  2053,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  9,
@@ -5133,7 +5541,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  7274,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  7274,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  28,
@@ -5229,7 +5643,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  160,
                                                                                  "planned":  1295,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1295,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  2,
@@ -5302,7 +5722,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1072,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1072,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  4,
@@ -5375,7 +5801,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  4555,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  4555,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  17,
@@ -5459,7 +5891,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2714,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2714,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -5538,7 +5976,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  3416,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  3416,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  10,
@@ -5622,7 +6066,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1780,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1780,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -5720,7 +6170,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2334,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2334,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -5775,7 +6231,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1210,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1210,
+                                                                         "unit":  "m"
+                                                                     }
                                                   }
                               }
                    },
@@ -5839,7 +6301,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  1454,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  1440,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  5,
@@ -5919,7 +6387,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  2053,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  2053,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  9,
@@ -5992,7 +6466,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  7274,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  7274,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  28,
@@ -6108,7 +6588,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  160,
                                                                                  "planned":  1295,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1295,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  2,
@@ -6181,7 +6667,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1072,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1072,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  4,
@@ -6254,7 +6746,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  4555,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  4555,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  17,
@@ -6338,7 +6836,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2714,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2714,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -6417,7 +6921,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  3416,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  3416,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  10,
@@ -6501,7 +7011,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1780,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1780,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -6602,7 +7118,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2334,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2334,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -6657,7 +7179,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1210,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1210,
+                                                                         "unit":  "m"
+                                                                     }
                                                   }
                               }
                    },
@@ -6721,7 +7249,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  1454,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  1440,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  5,
@@ -6801,7 +7335,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  2053,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  2053,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  9,
@@ -6874,7 +7414,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  7274,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  7274,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  28,
@@ -6990,7 +7536,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  160,
                                                                                  "planned":  1295,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1295,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  2,
@@ -7063,7 +7615,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1072,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1072,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  4,
@@ -7136,7 +7694,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  4555,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  4555,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  17,
@@ -7220,7 +7784,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2714,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2714,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -7299,7 +7869,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  3416,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  3416,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  10,
@@ -7383,7 +7959,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1780,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1780,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -7484,7 +8066,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2334,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2334,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -7539,7 +8127,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1210,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1210,
+                                                                         "unit":  "m"
+                                                                     }
                                                   }
                               }
                    },
@@ -7603,7 +8197,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  1454,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  1440,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  5,
@@ -7683,7 +8283,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  2053,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  2053,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  9,
@@ -7756,7 +8362,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  7274,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  7274,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  28,
@@ -7871,7 +8483,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  160,
                                                                                  "planned":  1295,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1295,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  2,
@@ -7944,7 +8562,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1072,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1072,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  4,
@@ -8024,7 +8648,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  4555,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  4555,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  17,
@@ -8108,7 +8738,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2714,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2714,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -8191,7 +8827,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  3416,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  3416,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  10,
@@ -8279,7 +8921,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1780,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1780,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -8384,7 +9032,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2334,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2334,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -8439,7 +9093,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1210,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1210,
+                                                                         "unit":  "m"
+                                                                     }
                                                   }
                               }
                    },
@@ -8503,7 +9163,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  1454,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  1440,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  5,
@@ -8583,7 +9249,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  2053,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  2053,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  9,
@@ -8656,7 +9328,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  7274,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  7274,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  28,
@@ -8771,7 +9449,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  160,
                                                                                  "planned":  1295,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1295,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  2,
@@ -8844,7 +9528,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1072,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1072,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  4,
@@ -8924,7 +9614,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  4555,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  4555,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  17,
@@ -9012,7 +9708,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2714,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2714,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -9095,7 +9797,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  3416,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  3416,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  10,
@@ -9183,7 +9891,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1780,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1780,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -9288,7 +10002,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2334,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2334,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -9343,7 +10063,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1210,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1210,
+                                                                         "unit":  "m"
+                                                                     }
                                                   }
                               }
                    },
@@ -9407,7 +10133,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  1454,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  1440,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  5,
@@ -9487,7 +10219,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  2053,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  2053,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  9,
@@ -9560,7 +10298,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  7274,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  7274,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  28,
@@ -9675,7 +10419,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  160,
                                                                                  "planned":  1295,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1295,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  2,
@@ -9748,7 +10498,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1072,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1072,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  4,
@@ -9828,7 +10584,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  4555,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  4555,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  17,
@@ -9916,7 +10678,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2714,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2714,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -9999,7 +10767,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  3416,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  3416,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  10,
@@ -10087,7 +10861,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1780,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1780,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -10192,7 +10972,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2334,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2334,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -10247,7 +11033,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1210,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1210,
+                                                                         "unit":  "m"
+                                                                     }
                                                   }
                               }
                    },
@@ -10311,7 +11103,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  1454,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  1440,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  5,
@@ -10391,7 +11189,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  2053,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  2053,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  9,
@@ -10464,7 +11268,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  7274,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  7274,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  28,
@@ -10579,7 +11389,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  160,
                                                                                  "planned":  1295,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1295,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  2,
@@ -10652,7 +11468,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1072,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1072,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  4,
@@ -10732,7 +11554,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  4555,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  4555,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  17,
@@ -10820,7 +11648,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2714,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2714,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -10903,7 +11737,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  3416,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  3416,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  10,
@@ -10991,7 +11831,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1780,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1780,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -11096,7 +11942,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2334,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2334,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -11154,7 +12006,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1210,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1210,
+                                                                         "unit":  "m"
+                                                                     }
                                                   }
                               }
                    },
@@ -11218,7 +12076,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  1454,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  1440,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  5,
@@ -11298,7 +12162,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  2053,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  2053,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  9,
@@ -11371,7 +12241,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  7274,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  7274,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  28,
@@ -11490,7 +12366,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  160,
                                                                                  "planned":  1295,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1295,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  2,
@@ -11563,7 +12445,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1072,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1072,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  4,
@@ -11643,7 +12531,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  4555,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  4555,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  17,
@@ -11731,7 +12625,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2714,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2714,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -11814,7 +12714,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  3416,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  3416,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  10,
@@ -11905,7 +12811,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1780,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1780,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -12016,7 +12928,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2334,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2334,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -12080,7 +12998,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1210,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1210,
+                                                                         "unit":  "m"
+                                                                     }
                                                   }
                               }
                    },
@@ -12144,7 +13068,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  1454,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  1440,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  5,
@@ -12228,7 +13158,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  2053,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  2053,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  9,
@@ -12301,7 +13237,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  7274,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  7274,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  28,
@@ -12432,7 +13374,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  160,
                                                                                  "planned":  1295,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1295,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  2,
@@ -12505,7 +13453,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1072,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1072,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  4,
@@ -12585,7 +13539,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  4555,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  4555,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  17,
@@ -12672,7 +13632,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2714,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2714,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -12755,7 +13721,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  3416,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  3416,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  10,
@@ -12846,7 +13818,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1780,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1780,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -12957,7 +13935,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2334,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2334,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -13021,7 +14005,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1210,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1210,
+                                                                         "unit":  "m"
+                                                                     }
                                                   }
                               }
                    },
@@ -13085,7 +14075,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  1454,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  1440,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  5,
@@ -13169,7 +14165,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  2053,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  2053,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  9,
@@ -13242,7 +14244,13 @@ const PROGRESS_DATA = {
                                                                                   "actual":  0,
                                                                                   "planned":  7274,
                                                                                   "unit":  "m"
-                                                                              }
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  7274,
+                                                                          "unit":  "m"
+                                                                      }
                                                    },
                                    "junctions":  {
                                                      "total":  28,
@@ -13373,7 +14381,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  160,
                                                                                  "planned":  1295,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1295,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  2,
@@ -13446,7 +14460,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1072,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1072,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  4,
@@ -13526,7 +14546,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  4555,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  4555,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  17,
@@ -13613,7 +14639,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2714,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2714,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -13696,7 +14728,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  3416,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  3416,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  10,
@@ -13787,7 +14825,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1780,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1780,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -13898,7 +14942,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  2334,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2334,
+                                                                         "unit":  "m"
+                                                                     }
                                                   },
                                   "junctions":  {
                                                     "total":  6,
@@ -13962,7 +15012,13 @@ const PROGRESS_DATA = {
                                                                                  "actual":  0,
                                                                                  "planned":  1210,
                                                                                  "unit":  "m"
-                                                                             }
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1210,
+                                                                         "unit":  "m"
+                                                                     }
                                                   }
                               }
                    }

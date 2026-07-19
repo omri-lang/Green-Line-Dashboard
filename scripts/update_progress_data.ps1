@@ -26,13 +26,18 @@ $TARGET_DISCIPLINES = @(
   "OHLE Poles Installation"
 )
 
-# "CW Track surfacing" (ריצוף) - same block layout as the 8 above (found via the
-# same "Execution from Cumulative (%)" header match), but per Omri's request
-# (2026-07-19) it's shown only as an extra row in each section's detail panel,
-# not folded into the section's own headline % (map color / table "ביצוע"
-# column), so it's kept in its own list rather than added to $TARGET_DISCIPLINES.
+# "CW Track surfacing" (ריצוף) and "OHLE cable" pulling/adjustment (כבלי חשמל) -
+# same block layout as the 8 above (found via the same "Execution from
+# Cumulative (%)" header match), but per Omri's request (2026-07-19) these are
+# shown only as extra rows in each section's detail panel, not folded into the
+# section's own headline % (map color / table "ביצוע" column), so they're kept
+# in their own list rather than added to $TARGET_DISCIPLINES.
+# "OHLE cable" is the raw row-3 label text (trimmed) for the "OHLE cable
+# pulling and adjustment (5)" block (row 4 sub-header) - Find-DisciplineBlocks
+# matches on the row-3 label, not row 4.
 $EXTRA_DISCIPLINES = @(
-  "CW Track surfacing"
+  "CW Track surfacing",
+  "OHLE cable"
 )
 
 # Section 7A is a bored tunnel, reported on its own "Tunnels 7A" sheet with a
