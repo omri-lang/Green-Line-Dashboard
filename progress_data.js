@@ -27014,6 +27014,891 @@ const PROGRESS_DATA = {
                                                                      }
                                                   }
                               }
+                   },
+    "2026-11-22":  {
+                       "10A":  {
+                                   "overall":  {
+                                                   "pct":  80.7,
+                                                   "len":  1454
+                                               },
+                                   "disciplines":  {
+                                                       "Excavation to foundation":  {
+                                                                                        "pct":  96.6,
+                                                                                        "actual":  1404.3,
+                                                                                        "planned":  1454,
+                                                                                        "unit":  "m"
+                                                                                    },
+                                                       "Bedding Refill":  {
+                                                                              "pct":  93.1,
+                                                                              "actual":  1354.3,
+                                                                              "planned":  1454,
+                                                                              "unit":  "m"
+                                                                          },
+                                                       "OHLE piles":  {
+                                                                          "pct":  66.7,
+                                                                          "actual":  38,
+                                                                          "planned":  57,
+                                                                          "unit":  "Units"
+                                                                      },
+                                                       "Multitubular":  {
+                                                                            "pct":  87.8,
+                                                                            "actual":  2721.4,
+                                                                            "planned":  3098,
+                                                                            "unit":  "m"
+                                                                        },
+                                                       "Foundations slab":  {
+                                                                                "pct":  88.8,
+                                                                                "actual":  2751.6,
+                                                                                "planned":  3098,
+                                                                                "unit":  "m"
+                                                                            },
+                                                       "Track Installation on line":  {
+                                                                                          "pct":  54,
+                                                                                          "actual":  1673,
+                                                                                          "planned":  3098,
+                                                                                          "unit":  "m"
+                                                                                      },
+                                                       "TRK Turnout Installation":  {
+                                                                                        "pct":  0,
+                                                                                        "actual":  0,
+                                                                                        "planned":  8,
+                                                                                        "unit":  "com"
+                                                                                    },
+                                                       "OHLE Poles Installation":  {
+                                                                                       "pct":  0,
+                                                                                       "actual":  0,
+                                                                                       "planned":  57,
+                                                                                       "unit":  ""
+                                                                                   },
+                                                       "CW Track surfacing":  {
+                                                                                  "pct":  4.1,
+                                                                                  "actual":  60,
+                                                                                  "planned":  1454,
+                                                                                  "unit":  "m"
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  1440,
+                                                                          "unit":  "m"
+                                                                      }
+                                                   },
+                                   "junctions":  {
+                                                     "total":  5,
+                                                     "completed":  5,
+                                                     "inProgress":  0,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+
+                                                                         ]
+                                                 }
+                               },
+                       "11A":  {
+                                   "overall":  {
+                                                   "pct":  22.8,
+                                                   "len":  2053
+                                               },
+                                   "disciplines":  {
+                                                       "Excavation to foundation":  {
+                                                                                        "pct":  55.6,
+                                                                                        "actual":  1142.4,
+                                                                                        "planned":  2053,
+                                                                                        "unit":  "m"
+                                                                                    },
+                                                       "Bedding Refill":  {
+                                                                              "pct":  38.2,
+                                                                              "actual":  784.8,
+                                                                              "planned":  2053,
+                                                                              "unit":  "m"
+                                                                          },
+                                                       "OHLE piles":  {
+                                                                          "pct":  7.3,
+                                                                          "actual":  7,
+                                                                          "planned":  96,
+                                                                          "unit":  "Units"
+                                                                      },
+                                                       "Multitubular":  {
+                                                                            "pct":  28.5,
+                                                                            "actual":  1364,
+                                                                            "planned":  4789,
+                                                                            "unit":  "m"
+                                                                        },
+                                                       "Foundations slab":  {
+                                                                                "pct":  17.1,
+                                                                                "actual":  820,
+                                                                                "planned":  4789,
+                                                                                "unit":  "m"
+                                                                            },
+                                                       "Track Installation on line":  {
+                                                                                          "pct":  2.9,
+                                                                                          "actual":  140,
+                                                                                          "planned":  4789,
+                                                                                          "unit":  "m"
+                                                                                      },
+                                                       "TRK Turnout Installation":  {
+                                                                                        "pct":  0,
+                                                                                        "actual":  0,
+                                                                                        "planned":  10,
+                                                                                        "unit":  "com"
+                                                                                    },
+                                                       "OHLE Poles Installation":  {
+                                                                                       "pct":  0,
+                                                                                       "actual":  0,
+                                                                                       "planned":  96,
+                                                                                       "unit":  ""
+                                                                                   },
+                                                       "CW Track surfacing":  {
+                                                                                  "pct":  0,
+                                                                                  "actual":  0,
+                                                                                  "planned":  2053,
+                                                                                  "unit":  "m"
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  2053,
+                                                                          "unit":  "m"
+                                                                      }
+                                                   },
+                                   "junctions":  {
+                                                     "total":  9,
+                                                     "completed":  9,
+                                                     "inProgress":  0,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+
+                                                                         ]
+                                                 }
+                               },
+                       "12A":  {
+                                   "overall":  {
+                                                   "pct":  57.9,
+                                                   "len":  7274
+                                               },
+                                   "disciplines":  {
+                                                       "Excavation to foundation":  {
+                                                                                        "pct":  81.6,
+                                                                                        "actual":  5986.7,
+                                                                                        "planned":  7335.8,
+                                                                                        "unit":  "m"
+                                                                                    },
+                                                       "Bedding Refill":  {
+                                                                              "pct":  78.8,
+                                                                              "actual":  5781.8,
+                                                                              "planned":  7335.8,
+                                                                              "unit":  "m"
+                                                                          },
+                                                       "OHLE piles":  {
+                                                                          "pct":  27.6,
+                                                                          "actual":  68,
+                                                                          "planned":  246,
+                                                                          "unit":  "Units"
+                                                                      },
+                                                       "Multitubular":  {
+                                                                            "pct":  70.5,
+                                                                            "actual":  9587.6,
+                                                                            "planned":  13595,
+                                                                            "unit":  "m"
+                                                                        },
+                                                       "Foundations slab":  {
+                                                                                "pct":  55.3,
+                                                                                "actual":  7514,
+                                                                                "planned":  13595,
+                                                                                "unit":  "m"
+                                                                            },
+                                                       "Track Installation on line":  {
+                                                                                          "pct":  25.7,
+                                                                                          "actual":  3491,
+                                                                                          "planned":  13595,
+                                                                                          "unit":  "m"
+                                                                                      },
+                                                       "TRK Turnout Installation":  {
+                                                                                        "pct":  0,
+                                                                                        "actual":  0,
+                                                                                        "planned":  38,
+                                                                                        "unit":  "com"
+                                                                                    },
+                                                       "OHLE Poles Installation":  {
+                                                                                       "pct":  0,
+                                                                                       "actual":  0,
+                                                                                       "planned":  246,
+                                                                                       "unit":  ""
+                                                                                   },
+                                                       "CW Track surfacing":  {
+                                                                                  "pct":  4.1,
+                                                                                  "actual":  300,
+                                                                                  "planned":  7336,
+                                                                                  "unit":  "m"
+                                                                              },
+                                                       "OHLE cable":  {
+                                                                          "pct":  0,
+                                                                          "actual":  0,
+                                                                          "planned":  7336,
+                                                                          "unit":  "m"
+                                                                      }
+                                                   },
+                                   "junctions":  {
+                                                     "total":  29,
+                                                     "completed":  29,
+                                                     "inProgress":  0,
+                                                     "completedNames":  [
+
+                                                                        ],
+                                                     "inProgressNames":  [
+
+                                                                         ]
+                                                 }
+                               },
+                       "1A":  {
+                                  "overall":  {
+                                                  "pct":  97.7,
+                                                  "len":  1295
+                                              },
+                                  "disciplines":  {
+                                                      "Excavation to foundation":  {
+                                                                                       "pct":  100,
+                                                                                       "actual":  1294.8,
+                                                                                       "planned":  1295,
+                                                                                       "unit":  "m"
+                                                                                   },
+                                                      "Bedding Refill":  {
+                                                                             "pct":  100,
+                                                                             "actual":  1294.8,
+                                                                             "planned":  1295,
+                                                                             "unit":  "m"
+                                                                         },
+                                                      "OHLE piles":  {
+                                                                         "pct":  91.7,
+                                                                         "actual":  66,
+                                                                         "planned":  72,
+                                                                         "unit":  "Units"
+                                                                     },
+                                                      "Multitubular":  {
+                                                                           "pct":  100,
+                                                                           "actual":  2854,
+                                                                           "planned":  2854,
+                                                                           "unit":  "m"
+                                                                       },
+                                                      "Foundations slab":  {
+                                                                               "pct":  100,
+                                                                               "actual":  2854,
+                                                                               "planned":  2854,
+                                                                               "unit":  "m"
+                                                                           },
+                                                      "Track Installation on line":  {
+                                                                                         "pct":  93.6,
+                                                                                         "actual":  2670,
+                                                                                         "planned":  2854,
+                                                                                         "unit":  "m"
+                                                                                     },
+                                                      "TRK Turnout Installation":  {
+                                                                                       "pct":  80,
+                                                                                       "actual":  8,
+                                                                                       "planned":  10,
+                                                                                       "unit":  "com"
+                                                                                   },
+                                                      "OHLE Poles Installation":  {
+                                                                                      "pct":  0,
+                                                                                      "actual":  0,
+                                                                                      "planned":  72,
+                                                                                      "unit":  ""
+                                                                                  },
+                                                      "CW Track surfacing":  {
+                                                                                 "pct":  16.2,
+                                                                                 "actual":  210,
+                                                                                 "planned":  1295,
+                                                                                 "unit":  "m"
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1295,
+                                                                         "unit":  "m"
+                                                                     }
+                                                  },
+                                  "junctions":  {
+                                                    "total":  2,
+                                                    "completed":  2,
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
+                                                }
+                              },
+                       "2A":  {
+                                  "overall":  {
+                                                  "pct":  87.2,
+                                                  "len":  1072
+                                              },
+                                  "disciplines":  {
+                                                      "Excavation to foundation":  {
+                                                                                       "pct":  99.8,
+                                                                                       "actual":  1069.8,
+                                                                                       "planned":  1072,
+                                                                                       "unit":  "m"
+                                                                                   },
+                                                      "Bedding Refill":  {
+                                                                             "pct":  99.8,
+                                                                             "actual":  1069.9,
+                                                                             "planned":  1072,
+                                                                             "unit":  "m"
+                                                                         },
+                                                      "OHLE piles":  {
+                                                                         "pct":  53.8,
+                                                                         "actual":  21,
+                                                                         "planned":  39,
+                                                                         "unit":  "Units"
+                                                                     },
+                                                      "Multitubular":  {
+                                                                           "pct":  100,
+                                                                           "actual":  2083,
+                                                                           "planned":  2083,
+                                                                           "unit":  "m"
+                                                                       },
+                                                      "Foundations slab":  {
+                                                                               "pct":  100,
+                                                                               "actual":  2083,
+                                                                               "planned":  2083,
+                                                                               "unit":  "m"
+                                                                           },
+                                                      "Track Installation on line":  {
+                                                                                         "pct":  50.6,
+                                                                                         "actual":  1054,
+                                                                                         "planned":  2083,
+                                                                                         "unit":  "m"
+                                                                                     },
+                                                      "OHLE Poles Installation":  {
+                                                                                      "pct":  5.1,
+                                                                                      "actual":  2,
+                                                                                      "planned":  39,
+                                                                                      "unit":  ""
+                                                                                  },
+                                                      "CW Track surfacing":  {
+                                                                                 "pct":  20.5,
+                                                                                 "actual":  220,
+                                                                                 "planned":  1072,
+                                                                                 "unit":  "m"
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1072,
+                                                                         "unit":  "m"
+                                                                     }
+                                                  },
+                                  "junctions":  {
+                                                    "total":  4,
+                                                    "completed":  4,
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
+                                                }
+                              },
+                       "3A":  {
+                                  "overall":  {
+                                                  "pct":  59.7,
+                                                  "len":  4556
+                                              },
+                                  "disciplines":  {
+                                                      "Excavation to foundation":  {
+                                                                                       "pct":  97.3,
+                                                                                       "actual":  4431.2,
+                                                                                       "planned":  4555.5,
+                                                                                       "unit":  "m"
+                                                                                   },
+                                                      "Bedding Refill":  {
+                                                                             "pct":  97.3,
+                                                                             "actual":  4431.1,
+                                                                             "planned":  4555.5,
+                                                                             "unit":  "m"
+                                                                         },
+                                                      "OHLE piles":  {
+                                                                         "pct":  40.2,
+                                                                         "actual":  66,
+                                                                         "planned":  164,
+                                                                         "unit":  "Units"
+                                                                     },
+                                                      "Multitubular":  {
+                                                                           "pct":  68.3,
+                                                                           "actual":  6225.6,
+                                                                           "planned":  9111,
+                                                                           "unit":  "m"
+                                                                       },
+                                                      "Foundations slab":  {
+                                                                               "pct":  60.3,
+                                                                               "actual":  5497,
+                                                                               "planned":  9111,
+                                                                               "unit":  "m"
+                                                                           },
+                                                      "Track Installation on line":  {
+                                                                                         "pct":  14.3,
+                                                                                         "actual":  1301,
+                                                                                         "planned":  9111,
+                                                                                         "unit":  "m"
+                                                                                     },
+                                                      "TRK Turnout Installation":  {
+                                                                                       "pct":  0,
+                                                                                       "actual":  0,
+                                                                                       "planned":  10,
+                                                                                       "unit":  "com"
+                                                                                   },
+                                                      "OHLE Poles Installation":  {
+                                                                                      "pct":  0,
+                                                                                      "actual":  0,
+                                                                                      "planned":  164,
+                                                                                      "unit":  ""
+                                                                                  },
+                                                      "CW Track surfacing":  {
+                                                                                 "pct":  5.3,
+                                                                                 "actual":  240,
+                                                                                 "planned":  4555.5,
+                                                                                 "unit":  "m"
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  4555.5,
+                                                                         "unit":  "m"
+                                                                     }
+                                                  },
+                                  "junctions":  {
+                                                    "total":  17,
+                                                    "completed":  17,
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
+                                                }
+                              },
+                       "4A":  {
+                                  "overall":  {
+                                                  "pct":  84.7,
+                                                  "len":  2719
+                                              },
+                                  "disciplines":  {
+                                                      "Excavation to foundation":  {
+                                                                                       "pct":  100,
+                                                                                       "actual":  2719.1,
+                                                                                       "planned":  2719,
+                                                                                       "unit":  "m"
+                                                                                   },
+                                                      "Bedding Refill":  {
+                                                                             "pct":  100,
+                                                                             "actual":  2718.6,
+                                                                             "planned":  2719,
+                                                                             "unit":  "m"
+                                                                         },
+                                                      "OHLE piles":  {
+                                                                         "pct":  88.7,
+                                                                         "actual":  86,
+                                                                         "planned":  97,
+                                                                         "unit":  "Units"
+                                                                     },
+                                                      "Multitubular":  {
+                                                                           "pct":  100,
+                                                                           "actual":  5721,
+                                                                           "planned":  5721,
+                                                                           "unit":  "m"
+                                                                       },
+                                                      "Foundations slab":  {
+                                                                               "pct":  91.1,
+                                                                               "actual":  5212.8,
+                                                                               "planned":  5721,
+                                                                               "unit":  "m"
+                                                                           },
+                                                      "Track Installation on line":  {
+                                                                                         "pct":  49.9,
+                                                                                         "actual":  2854,
+                                                                                         "planned":  5721,
+                                                                                         "unit":  "m"
+                                                                                     },
+                                                      "TRK Turnout Installation":  {
+                                                                                       "pct":  0,
+                                                                                       "actual":  0,
+                                                                                       "planned":  11,
+                                                                                       "unit":  "com"
+                                                                                   },
+                                                      "OHLE Poles Installation":  {
+                                                                                      "pct":  2.1,
+                                                                                      "actual":  2,
+                                                                                      "planned":  97,
+                                                                                      "unit":  ""
+                                                                                  },
+                                                      "CW Track surfacing":  {
+                                                                                 "pct":  19.2,
+                                                                                 "actual":  520,
+                                                                                 "planned":  2714,
+                                                                                 "unit":  "m"
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2714,
+                                                                         "unit":  "m"
+                                                                     }
+                                                  },
+                                  "junctions":  {
+                                                    "total":  6,
+                                                    "completed":  6,
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
+                                                }
+                              },
+                       "5A":  {
+                                  "overall":  {
+                                                  "pct":  72.4,
+                                                  "len":  3416
+                                              },
+                                  "disciplines":  {
+                                                      "Excavation to foundation":  {
+                                                                                       "pct":  100,
+                                                                                       "actual":  3415.6,
+                                                                                       "planned":  3416,
+                                                                                       "unit":  "m"
+                                                                                   },
+                                                      "Bedding Refill":  {
+                                                                             "pct":  100,
+                                                                             "actual":  3415.6,
+                                                                             "planned":  3416,
+                                                                             "unit":  "m"
+                                                                         },
+                                                      "OHLE piles":  {
+                                                                         "pct":  84.6,
+                                                                         "actual":  110,
+                                                                         "planned":  130,
+                                                                         "unit":  "Units"
+                                                                     },
+                                                      "Multitubular":  {
+                                                                           "pct":  96.3,
+                                                                           "actual":  6579.4,
+                                                                           "planned":  6831,
+                                                                           "unit":  "m"
+                                                                       },
+                                                      "Foundations slab":  {
+                                                                               "pct":  78.2,
+                                                                               "actual":  5342.4,
+                                                                               "planned":  6831,
+                                                                               "unit":  "m"
+                                                                           },
+                                                      "Track Installation on line":  {
+                                                                                         "pct":  16.4,
+                                                                                         "actual":  1120,
+                                                                                         "planned":  6831,
+                                                                                         "unit":  "m"
+                                                                                     },
+                                                      "TRK Turnout Installation":  {
+                                                                                       "pct":  0,
+                                                                                       "actual":  0,
+                                                                                       "planned":  11,
+                                                                                       "unit":  "com"
+                                                                                   },
+                                                      "OHLE Poles Installation":  {
+                                                                                      "pct":  0,
+                                                                                      "actual":  0,
+                                                                                      "planned":  130,
+                                                                                      "unit":  ""
+                                                                                  },
+                                                      "CW Track surfacing":  {
+                                                                                 "pct":  7,
+                                                                                 "actual":  240,
+                                                                                 "planned":  3416,
+                                                                                 "unit":  "m"
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  3416,
+                                                                         "unit":  "m"
+                                                                     }
+                                                  },
+                                  "junctions":  {
+                                                    "total":  10,
+                                                    "completed":  10,
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
+                                                }
+                              },
+                       "6A":  {
+                                  "overall":  {
+                                                  "pct":  66.2,
+                                                  "len":  1780
+                                              },
+                                  "disciplines":  {
+                                                      "Excavation to foundation":  {
+                                                                                       "pct":  98.5,
+                                                                                       "actual":  1753.6,
+                                                                                       "planned":  1780,
+                                                                                       "unit":  "m"
+                                                                                   },
+                                                      "Bedding Refill":  {
+                                                                             "pct":  98.5,
+                                                                             "actual":  1753.6,
+                                                                             "planned":  1780,
+                                                                             "unit":  "m"
+                                                                         },
+                                                      "OHLE piles":  {
+                                                                         "pct":  50.8,
+                                                                         "actual":  30,
+                                                                         "planned":  59,
+                                                                         "unit":  "Units"
+                                                                     },
+                                                      "Multitubular":  {
+                                                                           "pct":  63.2,
+                                                                           "actual":  2247.6,
+                                                                           "planned":  3558.5,
+                                                                           "unit":  "m"
+                                                                       },
+                                                      "Foundations slab":  {
+                                                                               "pct":  59.8,
+                                                                               "actual":  2126.6,
+                                                                               "planned":  3558.5,
+                                                                               "unit":  "m"
+                                                                           },
+                                                      "Track Installation on line":  {
+                                                                                         "pct":  44.7,
+                                                                                         "actual":  1590,
+                                                                                         "planned":  3558.5,
+                                                                                         "unit":  "m"
+                                                                                     },
+                                                      "TRK Turnout Installation":  {
+                                                                                       "pct":  0,
+                                                                                       "actual":  0,
+                                                                                       "planned":  4,
+                                                                                       "unit":  "com"
+                                                                                   },
+                                                      "OHLE Poles Installation":  {
+                                                                                      "pct":  0,
+                                                                                      "actual":  0,
+                                                                                      "planned":  59,
+                                                                                      "unit":  ""
+                                                                                  },
+                                                      "CW Track surfacing":  {
+                                                                                 "pct":  0,
+                                                                                 "actual":  0,
+                                                                                 "planned":  1780,
+                                                                                 "unit":  "m"
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1780,
+                                                                         "unit":  "m"
+                                                                     }
+                                                  },
+                                  "junctions":  {
+                                                    "total":  5,
+                                                    "completed":  5,
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
+                                                }
+                              },
+                       "7A":  {
+                                  "overall":  {
+                                                  "pct":  37.7,
+                                                  "len":  4860
+                                              },
+                                  "disciplines":  {
+                                                      "Multitubular":  {
+                                                                           "pct":  74.4,
+                                                                           "actual":  1056,
+                                                                           "planned":  1420,
+                                                                           "unit":  "m"
+                                                                       },
+                                                      "Foundations slab":  {
+                                                                               "pct":  68.2,
+                                                                               "actual":  5660.8,
+                                                                               "planned":  8300,
+                                                                               "unit":  "m"
+                                                                           },
+                                                      "Track Installation on line":  {
+                                                                                         "pct":  0,
+                                                                                         "actual":  0,
+                                                                                         "planned":  8100,
+                                                                                         "unit":  "m"
+                                                                                     }
+                                                  },
+                                  "junctions":  {
+                                                    "total":  3,
+                                                    "completed":  3,
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
+                                                }
+                              },
+                       "8A":  {
+                                  "overall":  {
+                                                  "pct":  2.7,
+                                                  "len":  2334
+                                              },
+                                  "disciplines":  {
+                                                      "Excavation to foundation":  {
+                                                                                       "pct":  10.6,
+                                                                                       "actual":  247,
+                                                                                       "planned":  2334,
+                                                                                       "unit":  "m"
+                                                                                   },
+                                                      "Bedding Refill":  {
+                                                                             "pct":  4.6,
+                                                                             "actual":  107,
+                                                                             "planned":  2334,
+                                                                             "unit":  "m"
+                                                                         },
+                                                      "OHLE piles":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  87,
+                                                                         "unit":  "Units"
+                                                                     },
+                                                      "Multitubular":  {
+                                                                           "pct":  2.4,
+                                                                           "actual":  120,
+                                                                           "planned":  4904,
+                                                                           "unit":  "m"
+                                                                       },
+                                                      "Foundations slab":  {
+                                                                               "pct":  1.2,
+                                                                               "actual":  60,
+                                                                               "planned":  4904,
+                                                                               "unit":  "m"
+                                                                           },
+                                                      "Track Installation on line":  {
+                                                                                         "pct":  0,
+                                                                                         "actual":  0,
+                                                                                         "planned":  4904,
+                                                                                         "unit":  "m"
+                                                                                     },
+                                                      "TRK Turnout Installation":  {
+                                                                                       "pct":  0,
+                                                                                       "actual":  0,
+                                                                                       "planned":  2,
+                                                                                       "unit":  "com"
+                                                                                   },
+                                                      "OHLE Poles Installation":  {
+                                                                                      "pct":  0,
+                                                                                      "actual":  0,
+                                                                                      "planned":  87,
+                                                                                      "unit":  ""
+                                                                                  },
+                                                      "CW Track surfacing":  {
+                                                                                 "pct":  0,
+                                                                                 "actual":  0,
+                                                                                 "planned":  2334,
+                                                                                 "unit":  "m"
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  2334,
+                                                                         "unit":  "m"
+                                                                     }
+                                                  },
+                                  "junctions":  {
+                                                    "total":  6,
+                                                    "completed":  6,
+                                                    "inProgress":  0,
+                                                    "completedNames":  [
+
+                                                                       ],
+                                                    "inProgressNames":  [
+
+                                                                        ]
+                                                }
+                              },
+                       "9A":  {
+                                  "overall":  {
+                                                  "pct":  0,
+                                                  "len":  1210
+                                              },
+                                  "disciplines":  {
+                                                      "Excavation to foundation":  {
+                                                                                       "pct":  0,
+                                                                                       "actual":  0,
+                                                                                       "planned":  1210,
+                                                                                       "unit":  "m"
+                                                                                   },
+                                                      "Bedding Refill":  {
+                                                                             "pct":  0,
+                                                                             "actual":  0,
+                                                                             "planned":  1210,
+                                                                             "unit":  "m"
+                                                                         },
+                                                      "OHLE piles":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  49,
+                                                                         "unit":  "Units"
+                                                                     },
+                                                      "Multitubular":  {
+                                                                           "pct":  0,
+                                                                           "actual":  0,
+                                                                           "planned":  1210,
+                                                                           "unit":  "m"
+                                                                       },
+                                                      "Foundations slab":  {
+                                                                               "pct":  0,
+                                                                               "actual":  0,
+                                                                               "planned":  1210,
+                                                                               "unit":  "m"
+                                                                           },
+                                                      "Track Installation on line":  {
+                                                                                         "pct":  0,
+                                                                                         "actual":  0,
+                                                                                         "planned":  1210,
+                                                                                         "unit":  "m"
+                                                                                     },
+                                                      "OHLE Poles Installation":  {
+                                                                                      "pct":  0,
+                                                                                      "actual":  0,
+                                                                                      "planned":  49,
+                                                                                      "unit":  ""
+                                                                                  },
+                                                      "CW Track surfacing":  {
+                                                                                 "pct":  0,
+                                                                                 "actual":  0,
+                                                                                 "planned":  1210,
+                                                                                 "unit":  "m"
+                                                                             },
+                                                      "OHLE cable":  {
+                                                                         "pct":  0,
+                                                                         "actual":  0,
+                                                                         "planned":  1210,
+                                                                         "unit":  "m"
+                                                                     }
+                                                  }
+                              }
                    }
 };
 const DEPOT_DATA = {
@@ -36696,6 +37581,306 @@ const DEPOT_DATA = {
 
                                              }
                                 }
+                   },
+    "2026-11-22":  {
+                       "Holon":  {
+                                     "buildings":  {
+                                                       "Excavation and Foundation":  {
+                                                                                         "pct":  100,
+                                                                                         "buildingList":  [
+                                                                                                              {
+                                                                                                                  "name":  "מבנה הנהלה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה תחזוקה יומי",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה נהגים",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה תחזוקה כבדה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "מבנה כניסה",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "TTR-01",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "בור ניקוז 1",
+                                                                                                                  "pct":  100
+                                                                                                              },
+                                                                                                              {
+                                                                                                                  "name":  "בור ניקוז 2",
+                                                                                                                  "pct":  100
+                                                                                                              }
+                                                                                                          ]
+                                                                                     },
+                                                       "Shell":  {
+                                                                     "pct":  100,
+                                                                     "buildingList":  [
+                                                                                          {
+                                                                                              "name":  "מבנה הנהלה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה תחזוקה יומי",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה נהגים",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה תחזוקה כבדה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "מבנה כניסה",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "TTR-01",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "בור ניקוז 1",
+                                                                                              "pct":  100
+                                                                                          },
+                                                                                          {
+                                                                                              "name":  "בור ניקוז 2",
+                                                                                              "pct":  100
+                                                                                          }
+                                                                                      ]
+                                                                 },
+                                                       "Arch and MEP Works":  {
+                                                                                  "pct":  42.2,
+                                                                                  "buildingList":  [
+                                                                                                       {
+                                                                                                           "name":  "מבנה הנהלה",
+                                                                                                           "pct":  76.8
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה תחזוקה יומי",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה נהגים",
+                                                                                                           "pct":  42.5
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה תחזוקה כבדה",
+                                                                                                           "pct":  79.5
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "מבנה כניסה",
+                                                                                                           "pct":  39.5
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "TTR-01",
+                                                                                                           "pct":  99.5
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "בור ניקוז 1",
+                                                                                                           "pct":  0
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "name":  "בור ניקוז 2",
+                                                                                                           "pct":  0
+                                                                                                       }
+                                                                                                   ]
+                                                                              },
+                                                       "RSY - General":  {
+                                                                             "pct":  15.6,
+                                                                             "buildingList":  [
+                                                                                                  {
+                                                                                                      "name":  "מבנה הנהלה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה תחזוקה יומי",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה נהגים",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה תחזוקה כבדה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "מבנה כניסה",
+                                                                                                      "pct":  0
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "name":  "TTR-01",
+                                                                                                      "pct":  93.7
+                                                                                                  }
+                                                                                              ]
+                                                                         }
+                                                   },
+                                     "yard":  {
+
+                                              }
+                                 },
+                       "Herz":  {
+                                    "buildings":  {
+                                                      "Excavation and Foundation":  {
+                                                                                        "pct":  100,
+                                                                                        "buildingList":  [
+                                                                                                             {
+                                                                                                                 "name":  "מבנה הנהלה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה יומי",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה ניקיון",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה קלה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה תחזוקה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "מבנה כניסה",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "TTR-15",
+                                                                                                                 "pct":  100
+                                                                                                             },
+                                                                                                             {
+                                                                                                                 "name":  "בור ניקוז",
+                                                                                                                 "pct":  100
+                                                                                                             }
+                                                                                                         ]
+                                                                                    },
+                                                      "Shell":  {
+                                                                    "pct":  98.8,
+                                                                    "buildingList":  [
+                                                                                         {
+                                                                                             "name":  "מבנה הנהלה",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה יומי",
+                                                                                             "pct":  99
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה ניקיון",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה קלה",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה תחזוקה",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "מבנה כניסה",
+                                                                                             "pct":  91
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "TTR-15",
+                                                                                             "pct":  100
+                                                                                         },
+                                                                                         {
+                                                                                             "name":  "בור ניקוז",
+                                                                                             "pct":  100
+                                                                                         }
+                                                                                     ]
+                                                                },
+                                                      "Arch and MEP Works":  {
+                                                                                 "pct":  39.9,
+                                                                                 "buildingList":  [
+                                                                                                      {
+                                                                                                          "name":  "מבנה הנהלה",
+                                                                                                          "pct":  73
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה יומי",
+                                                                                                          "pct":  32
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה ניקיון",
+                                                                                                          "pct":  41
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה קלה",
+                                                                                                          "pct":  60.5
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה תחזוקה",
+                                                                                                          "pct":  41
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "מבנה כניסה",
+                                                                                                          "pct":  42.5
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "TTR-15",
+                                                                                                          "pct":  29.5
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "בור ניקוז",
+                                                                                                          "pct":  0
+                                                                                                      }
+                                                                                                  ]
+                                                                             },
+                                                      "RSY - General":  {
+                                                                            "pct":  0,
+                                                                            "buildingList":  [
+                                                                                                 {
+                                                                                                     "name":  "מבנה הנהלה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה יומי",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה ניקיון",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה קלה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה תחזוקה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "מבנה כניסה",
+                                                                                                     "pct":  0
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "TTR-15",
+                                                                                                     "pct":  0
+                                                                                                 }
+                                                                                             ]
+                                                                        }
+                                                  },
+                                    "yard":  {
+
+                                             }
+                                }
                    }
 };
 const TTR_DATA = {
@@ -42129,6 +43314,195 @@ const TTR_DATA = {
                            "pct":  13.4,
                            "details":  {
                                            "Building Foundation":  67,
+                                           "Shell":  0,
+                                           "MEP and Architectural Works":  0,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR22",
+                           "pct":  0,
+                           "details":  {
+                                           "Building Foundation":  0,
+                                           "Shell":  0,
+                                           "MEP and Architectural Works":  0,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR24",
+                           "pct":  0,
+                           "details":  {
+                                           "Building Foundation":  0,
+                                           "Shell":  0,
+                                           "MEP and Architectural Works":  0,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR25",
+                           "pct":  0,
+                           "details":  {
+                                           "Building Foundation":  0,
+                                           "Shell":  0,
+                                           "MEP and Architectural Works":  0,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR26",
+                           "pct":  0,
+                           "details":  {
+                                           "Building Foundation":  0,
+                                           "Shell":  0,
+                                           "MEP and Architectural Works":  0,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       }
+                   ],
+    "2026-11-22":  [
+                       {
+                           "name":  "TTR2",
+                           "pct":  20,
+                           "details":  {
+                                           "Building Foundation":  100,
+                                           "Shell":  0,
+                                           "MEP and Architectural Works":  0,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR3",
+                           "pct":  58.7,
+                           "details":  {
+                                           "Building Foundation":  100,
+                                           "Shell":  100,
+                                           "MEP and Architectural Works":  93.5,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR4",
+                           "pct":  30.2,
+                           "details":  {
+                                           "Building Foundation":  100,
+                                           "Shell":  51.2,
+                                           "MEP and Architectural Works":  0,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR6",
+                           "pct":  65.7,
+                           "details":  {
+                                           "Building Foundation":  100,
+                                           "Shell":  100,
+                                           "MEP and Architectural Works":  100,
+                                           "Rail Systems":  28.5,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR7",
+                           "pct":  65.7,
+                           "details":  {
+                                           "Building Foundation":  100,
+                                           "Shell":  100,
+                                           "MEP and Architectural Works":  100,
+                                           "Rail Systems":  28.5,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR8",
+                           "pct":  58.7,
+                           "details":  {
+                                           "Building Foundation":  100,
+                                           "Shell":  100,
+                                           "MEP and Architectural Works":  93.5,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR13",
+                           "pct":  65.7,
+                           "details":  {
+                                           "Building Foundation":  100,
+                                           "Shell":  100,
+                                           "MEP and Architectural Works":  100,
+                                           "Rail Systems":  28.5,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR14",
+                           "pct":  0,
+                           "details":  {
+                                           "Building Foundation":  0,
+                                           "Shell":  0,
+                                           "MEP and Architectural Works":  0,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR16",
+                           "pct":  38.7,
+                           "details":  {
+                                           "Building Foundation":  100,
+                                           "Shell":  93.5,
+                                           "MEP and Architectural Works":  0,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR17",
+                           "pct":  21.4,
+                           "details":  {
+                                           "Building Foundation":  100,
+                                           "Shell":  7,
+                                           "MEP and Architectural Works":  0,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR18",
+                           "pct":  0,
+                           "details":  {
+                                           "Building Foundation":  0,
+                                           "Shell":  0,
+                                           "MEP and Architectural Works":  0,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR20",
+                           "pct":  0,
+                           "details":  {
+                                           "Building Foundation":  0,
+                                           "Shell":  0,
+                                           "MEP and Architectural Works":  0,
+                                           "Rail Systems":  0,
+                                           "Landscaping and Completion":  0
+                                       }
+                       },
+                       {
+                           "name":  "TTR21",
+                           "pct":  16,
+                           "details":  {
+                                           "Building Foundation":  80,
                                            "Shell":  0,
                                            "MEP and Architectural Works":  0,
                                            "Rail Systems":  0,
@@ -65607,6 +66981,814 @@ const STOPS_DATA = {
                            "pct":  0,
                            "details":  {
                                            "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       }
+                   ],
+    "2026-11-22":  [
+                       {
+                           "en":  "Holon East",
+                           "he":  "חולון מזרח",
+                           "section":  "1A",
+                           "pct":  11.7,
+                           "details":  {
+                                           "secondary":  46.7,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Agricultural Center",
+                           "he":  "הקריה החקלאית",
+                           "section":  "1A",
+                           "pct":  50,
+                           "details":  {
+                                           "secondary":  100,
+                                           "cslm":  100,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Peres Park",
+                           "he":  "פארק פרס",
+                           "section":  "2A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  null
+                                       }
+                       },
+                       {
+                           "en":  "HaMerkava",
+                           "he":  "המרכבה",
+                           "section":  "2A",
+                           "pct":  23.3,
+                           "details":  {
+                                           "secondary":  93.3,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Junction",
+                           "he":  "צומת חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Theater",
+                           "he":  "תיאטרון חולון",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  null
+                                       }
+                       },
+                       {
+                           "en":  "Kugel",
+                           "he":  "קוגל",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  null
+                                       }
+                       },
+                       {
+                           "en":  "Krauze",
+                           "he":  "קראוזה",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Sokolov East",
+                           "he":  "סוקולוב מזרח",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  null
+                                       }
+                       },
+                       {
+                           "en":  "Ge\u0027ulim",
+                           "he":  "גאולים",
+                           "section":  "3A",
+                           "pct":  23.3,
+                           "details":  {
+                                           "secondary":  93.3,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Cactus Garden",
+                           "he":  "גן הקקטוסים",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  null
+                                       }
+                       },
+                       {
+                           "en":  "HaMelakha",
+                           "he":  "המלאכה",
+                           "section":  "3A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nahalat Yehuda",
+                           "he":  "נחלת יהודה",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  null
+                                       }
+                       },
+                       {
+                           "en":  "Sakharov",
+                           "he":  "סחרוב",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  null
+                                       }
+                       },
+                       {
+                           "en":  "Yalde Tehran",
+                           "he":  "ילדי טהרן",
+                           "section":  "4A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  null
+                                       }
+                       },
+                       {
+                           "en":  "Lishansky",
+                           "he":  "לישנסקי",
+                           "section":  "4A",
+                           "pct":  23.2,
+                           "details":  {
+                                           "secondary":  92.9,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Moshe Dayan",
+                           "he":  "משה דיין",
+                           "section":  "4A",
+                           "pct":  50,
+                           "details":  {
+                                           "secondary":  100,
+                                           "cslm":  100,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  100
+                                       }
+                       },
+                       {
+                           "en":  "HaHistadrut",
+                           "he":  "ההסתדרות",
+                           "section":  "5A",
+                           "pct":  11.7,
+                           "details":  {
+                                           "secondary":  46.7,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Holon Institute of Technology",
+                           "he":  "המכון הטכנולוגי חולון",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  null
+                                       }
+                       },
+                       {
+                           "en":  "Lavon",
+                           "he":  "לבון",
+                           "section":  "5A",
+                           "pct":  50,
+                           "details":  {
+                                           "secondary":  100,
+                                           "cslm":  100,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Begin",
+                           "he":  "בגין",
+                           "section":  "5A",
+                           "pct":  50,
+                           "details":  {
+                                           "secondary":  100,
+                                           "cslm":  100,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Bar-Lev",
+                           "he":  "בר-לב",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  null
+                                       }
+                       },
+                       {
+                           "en":  "Laskov",
+                           "he":  "לסקוב",
+                           "section":  "5A",
+                           "pct":  19,
+                           "details":  {
+                                           "secondary":  76,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaBonim Park",
+                           "he":  "פארק הבונים",
+                           "section":  "5A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  null
+                                       }
+                       },
+                       {
+                           "en":  "Shapira",
+                           "he":  "שפירא",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  null
+                                       }
+                       },
+                       {
+                           "en":  "Kibbuts Galuyot",
+                           "he":  "קיבוץ גלויות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHurshot Park",
+                           "he":  "פארק החורשות",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  null
+                                       }
+                       },
+                       {
+                           "en":  "Kiryat Shalom",
+                           "he":  "קריית שלום",
+                           "section":  "6A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  null
+                                       }
+                       },
+                       {
+                           "en":  "Yehuda HaMakkabbi",
+                           "he":  "יהודה המכבי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Ibn Gabirol Arlosoroff",
+                           "he":  "אבן גבירול ארלוזורוב",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  null
+                                       }
+                       },
+                       {
+                           "en":  "Rabin Square",
+                           "he":  "כיכר רבין",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  null
+                                       }
+                       },
+                       {
+                           "en":  "Kaplan",
+                           "he":  "קפלן",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  null
+                                       }
+                       },
+                       {
+                           "en":  "Carlebach",
+                           "he":  "קרליבך",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  null
+                                       }
+                       },
+                       {
+                           "en":  "Levinski Garden",
+                           "he":  "גינת לוינסקי",
+                           "section":  "7A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  null
+                                       }
+                       },
+                       {
+                           "en":  "Namir",
+                           "he":  "נמיר",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  null
+                                       }
+                       },
+                       {
+                           "en":  "Brodetsky",
+                           "he":  "ברודצקי",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Tel Aviv University",
+                           "he":  "אוניברסיטת תל אביב",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Broshim",
+                           "he":  "ברושים",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  null
+                                       }
+                       },
+                       {
+                           "en":  "Reading",
+                           "he":  "רדינג",
+                           "section":  "8A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  null
+                                       }
+                       },
+                       {
+                           "en":  "HaYeridim",
+                           "he":  "הירידים",
+                           "section":  "9A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  null
+                                       }
+                       },
+                       {
+                           "en":  "Ganne Yehoshua",
+                           "he":  "גני יהושע",
+                           "section":  "10A",
+                           "pct":  25,
+                           "details":  {
+                                           "secondary":  100,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hadar Yosef",
+                           "he":  "הדר יוסף",
+                           "section":  "10A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Pinhas Rosen Bridge",
+                           "he":  "גשר פנחס רוזן",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  null
+                                       }
+                       },
+                       {
+                           "en":  "HaBarzel",
+                           "he":  "הברזל",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaNehoshet",
+                           "he":  "הנחושת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Dvora HaNevi\u0027a",
+                           "he":  "דבורה הנביאה",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Neve Sharet",
+                           "he":  "נווה שרת",
+                           "section":  "11A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Abba Eban",
+                           "he":  "אבא אבן",
+                           "section":  "12A",
+                           "pct":  11.7,
+                           "details":  {
+                                           "secondary":  46.7,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "HaHoshlim",
+                           "he":  "החושלים",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Altneuland",
+                           "he":  "אלטנוילנד",
+                           "section":  "12A",
+                           "pct":  23.3,
+                           "details":  {
+                                           "secondary":  93.3,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet North",
+                           "he":  "חוף התכלת צפון",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Hof HaTkhelet South",
+                           "he":  "חוף התכלת דרום",
+                           "section":  "12A",
+                           "pct":  23.3,
+                           "details":  {
+                                           "secondary":  93.3,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Unichman",
+                           "he":  "יוניצ\u0027מן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Yalan-Shteklis",
+                           "he":  "מרים ילן שטקליס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Miryam Ben-Porat",
+                           "he":  "מרים בן פורת",
+                           "section":  "12A",
+                           "pct":  25,
+                           "details":  {
+                                           "secondary":  100,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Shoshanna Persitz",
+                           "he":  "שושנה פרסיץ",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Azorey Hen",
+                           "he":  "אזורי חן",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Propes",
+                           "he":  "פרופס",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Nofe Yam",
+                           "he":  "נופי ים",
+                           "section":  "12A",
+                           "pct":  25,
+                           "details":  {
+                                           "secondary":  100,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Einstein",
+                           "he":  "איינשטיין",
+                           "section":  "12A",
+                           "pct":  25,
+                           "details":  {
+                                           "secondary":  100,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Levi Eshkol",
+                           "he":  "לוי אשכול",
+                           "section":  "12A",
+                           "pct":  0,
+                           "details":  {
+                                           "secondary":  0,
+                                           "cslm":  0,
+                                           "sig":  0,
+                                           "com":  0,
+                                           "surfacing":  0
+                                       }
+                       },
+                       {
+                           "en":  "Zohara Leviatov",
+                           "he":  "זהרה לביטוב",
+                           "section":  "12A",
+                           "pct":  25,
+                           "details":  {
+                                           "secondary":  100,
                                            "cslm":  0,
                                            "sig":  0,
                                            "com":  0,

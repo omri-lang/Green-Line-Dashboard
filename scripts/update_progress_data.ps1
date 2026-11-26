@@ -50,6 +50,15 @@ $TUNNEL_DISCIPLINE_MAP = @{
   "Track Installation on line"  = "Track Installation on line"
 }
 
+# "7A Tunnels & Portals" sheet (22.11.2026 report onward) activity labels ->
+# the same 3 canonical disciplines 7A has always shown.
+$PORTAL_DISCIPLINE_MAP = @{
+  "Multitubular"       = "Multitubular"
+  "Foundation Slab"    = "Foundations slab"
+  "Track Installation" = "Track Installation on line"
+}
+$TUNNEL_7A_LENGTH = 4860
+
 function Find-DisciplineBlocks($ws, $maxCol, $nameLookup) {
   # nameLookup: hashtable of rawName -> canonicalName to match against row 3
   # (case-insensitive, trimmed). Returns canonicalName -> {unitsCol, actCol, planCol}.
@@ -592,6 +601,46 @@ foreach ($f in $files) {
         }
       }
       Add-SheetData $wsT $tunnelBlocks $lotLength $lotDiscAgg "max"
+    }
+    else {
+      # From the 22.11.2026 report onward the "Tunnels 7A" sheet was replaced by
+      # "7A Tunnels & Portals": a flat activity list grouped by area (G3-2.1
+      # Levinsky portal, G3-2.2 T1, G3-2.2 T2, G3-2.1 Nordau portal). Column D =
+      # activity, E = Act. Cumulative, F = Total (Planned). Sum each mapped
+      # activity across all areas; rows with non-numeric planned are skipped
+      # (area headers, "-" placeholders, the summary row at the bottom).
+      $portalSheet = $null
+      foreach ($s in $wb.Worksheets) { if ($s.Name -eq "7A Tunnels & Portals") { $portalSheet = $s.Name } }
+      if ($portalSheet) {
+        $wsP = $wb.Worksheets.Item($portalSheet)
+        $maxRowP = $wsP.UsedRange.Row + $wsP.UsedRange.Rows.Count - 1
+        if (-not $lotDiscAgg.ContainsKey("7A")) { $lotDiscAgg["7A"] = @{} }
+        $found = @{}
+        for ($r = 4; $r -le $maxRowP; $r++) {
+          $label = $wsP.Cells.Item($r, 4).Value2
+          if (-not ($label -is [string])) { continue }
+          $label = $label.Trim()
+          $canonical = $null
+          foreach ($raw in $PORTAL_DISCIPLINE_MAP.Keys) { if ($label -ieq $raw) { $canonical = $PORTAL_DISCIPLINE_MAP[$raw] } }
+          if (-not $canonical) { continue }
+          $act  = $wsP.Cells.Item($r, 5).Value2
+          $plan = $wsP.Cells.Item($r, 6).Value2
+          if (-not ($plan -is [double]) -or $plan -le 0) { continue }
+          $actVal = if ($act -is [double]) { $act } else { 0.0 }
+          if (-not $lotDiscAgg["7A"].ContainsKey($canonical)) {
+            $lotDiscAgg["7A"][$canonical] = @{ sumActual = 0.0; sumPlanned = 0.0; unit = "m" }
+          }
+          $lotDiscAgg["7A"][$canonical].sumActual += $actVal
+          $lotDiscAgg["7A"][$canonical].sumPlanned += $plan
+          $found[$canonical] = $true
+        }
+        foreach ($c in $PORTAL_DISCIPLINE_MAP.Values) {
+          if (-not $found.ContainsKey($c)) { Write-Output "WARN $($f.Name): 7A discipline not found on sheet '7A Tunnels & Portals': $c" }
+        }
+        # The new sheet has no section-length column; 7A's route length is unchanged.
+        if (-not $lotLength.ContainsKey("7A")) { $lotLength["7A"] = $TUNNEL_7A_LENGTH }
+        $tunnelBlocks = $found
+      }
     }
 
     # Junctions: one completed/in-progress count per section, from its own sheet.
